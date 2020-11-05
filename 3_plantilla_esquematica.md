@@ -19,7 +19,19 @@
 * Bluetooth más vulnerable a ataques
 
 
-## 3.3 Entorno tecnológico actual
+
+## 3.2 MODELO DE PROCESOS DE NEGOCIO ACTUALES
+
+**DESCRIPCIÓN ACTORES NEGOCIO ACTUALES**
+* Secretaría de Estado de Digitalización e Inteligencia Artificial del Gobierno de España
+* Sanitarios de todas las CCAA // Sacyl
+* Ministerio de Sanidad
+* Gobierno de España
+* Comunidad europea (?)
+
+
+## 3.3 ENTORNO TECNOLÓGICO ACTUAL
+
 **HARDWARE**
 * Smartphones para la ejecución de la aplicación, servidores para soportarla, PC para gestionar los códigos en caso de positivo (coordinado con servicios médicos), PC para la administración de la aplicación. 
 
