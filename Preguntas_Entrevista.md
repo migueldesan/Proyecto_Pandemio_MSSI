@@ -1,5 +1,5 @@
 * Privacidad y ley de protección de datos
-* Personas mayores sin smartphone, ¿qué pasa con ellos?
+* Personas mayores sin smartphone, ¿qué pasa con ellos? ¿Y con los menores y personas sin acceso a smartphone?
 
 * ¿Obligatoria?
 * Ahora mismo se usa Bluetooth -> usar otro mecanismo (como GPS,Wifi/datos móviles,red telefónica)
@@ -9,6 +9,7 @@
 * ¿Combinación de todos pero también uso individual?
 
 * ¿Plataforma a utilizar? Usar la que ya existe o a partir de una nueva
+* ¿Cómo se gestionará la comunicación entre comunidades? ¿Y entre países?
 
 
 
