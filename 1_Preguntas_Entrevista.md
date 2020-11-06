@@ -30,4 +30,4 @@
 
 * ¿Se requerirá actualizaciones de la aplicación en el futuro?
 
-
+*¿Cuales son los tipos de usuario dentro de la aplicación?(Tema de protección de datos, para tener en cuenta a quienes se le puede entregar la información)
