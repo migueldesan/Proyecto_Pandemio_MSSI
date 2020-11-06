@@ -12,6 +12,8 @@ la gente que ha estado en contacto con una persona que ha dado positivo.
 - La aplicación está basada en el uso del Bluetooth, este problema  se debe a que 
 normalmente  el  mismo suele estar apagado u ocupado por otros dispositivos.
 - Desconocimiento de uso de la aplicación y/o desconociento de uso de los dispositivos móviles. 
+- Uso de los datos del usuario debido a la Ley de protección de datos
+
 
 2.2 	Glosario de Términos
 * Bluetooth es una especificación industrial para redes inalámbricas de área personal (WPAN) creado por Bluetooth Special Interest Group, Inc. que posibilita la transmisión de voz y datos entre diferentes dispositivos mediante un enlace por radiofrecuencia en la banda ISM de los 2.4 GHz. Los principales objetivos que se pretenden conseguir con esta norma son:
