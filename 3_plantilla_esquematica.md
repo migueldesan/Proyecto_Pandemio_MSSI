@@ -8,6 +8,7 @@
 * Friendly interfaz
 * Tiene sección de preguntas y enlaces de interes
 * Posibilidad de usar la app en varios idiomas
+* Gratuita y fácilmente descargable
 
 **CONTRAS**
 * No es obligatorio 
