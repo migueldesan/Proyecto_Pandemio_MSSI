@@ -1,7 +1,13 @@
 2 	INFORMACIÓN DEL DOMINIO DEL PROBLEMA
-
+  Desde comienzos del año 2020 el mundo se encuntra sumergido en una pandemia global  debido al virus COVID-19.  Actualmente, como modo de rastreo del virus y como ayuda a los ciudadanos se ha creado sistemas software para intentar reducir los daños que está rovocando la pandemia. Sin embargo  existe varios problemas con ellas y es que el uso y la instalación de la aplicación no es obligatorio,lo cual dificulta  el rastreo del virus y el poder avisar a la gente que ha estado en contacto con una persona que ha dado positivo. El otro problema existente  es que al basarse la aplicación  en el uso del Bluetooth, este problema  se debe a que normalmente  el  mismo
+  
 
 2.1 	Introducción al Dominio del Problema
 
 
 2.2 	Glosario de Términos
+* Bluetooth es una especificación industrial para redes inalámbricas de área personal (WPAN) creado por Bluetooth Special Interest Group, Inc. que posibilita la transmisión de voz y datos entre diferentes dispositivos mediante un enlace por radiofrecuencia en la banda ISM de los 2.4 GHz. Los principales objetivos que se pretenden conseguir con esta norma son:
+
+-Facilitar las comunicaciones entre equipos móviles
+-Eliminar los cables y conectores entre estos. 
+-Ofrecer la posibilidad de crear pequeñas redes inalámbricas y facilitar la sincronización de datos entre equipos personales.
