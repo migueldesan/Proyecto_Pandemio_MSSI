@@ -19,7 +19,7 @@ Por otra parte surgieron otros problemas en la gestión de la pandemia y quiere 
 
 El comité de expertos ha apuntado la posibilidad de usar los datos de localización de los dispositivosmóviles que poseen las diferente operadoras, e incluso de los fabricantes de teléfonos y sistemasoperativos (google, apple..), aunque en la actualidad haya problemas legales.
 
-El señor ministro hace incapié en que se harán los cambios legales que sean necesarios, se plantea crearun estado de *alerta sanitaria* o *pandemia* que sirva de paraguas para estos menesteres. Eso sí, lepreocupa mucho el cumplimiento de la ley de protección de datos: que sólo acceda a estos quienesdeban hacerlo y tengan el derecho a hacerlo, que la información sea anonimizada cuando sea posible, yque sea destruida una vez sea inservible.
+El señor ministro hace incapié en que se harán los cambios legales que sean necesarios, se plantea crear un estado de *alerta sanitaria* o *pandemia* que sirva de paraguas para estos menesteres. Eso sí, lepreocupa mucho el cumplimiento de la ley de protección de datos: que sólo acceda a estos quienesdeban hacerlo y tengan el derecho a hacerlo, que la información sea anonimizada cuando sea posible, yque sea destruida una vez sea inservible.
 
 Las fuerzas del orden (policía local, nacional, guardia civil y el ejército) serán capaces, según su ámbito,de comprobar el cumplimiento de las cuarentenas y las obligaciones impuestas a los ciudadanos.
 
