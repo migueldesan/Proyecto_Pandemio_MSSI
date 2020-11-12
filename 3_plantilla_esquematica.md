@@ -19,6 +19,10 @@
 * Gasto bateria excesivo (no solucionable)
 * Bluetooth más vulnerable a ataques
 
+* El uso y la instalación de la aplicación no es obligatorio, lo cual dificulta el rastreo del virus y el poder avisar a la gente que ha estado en contacto con una persona que ha dado positivo.
+* La aplicación está basada en el uso del Bluetooth y generalmente suele estar apagado u ocupado por otros dispositivos por lo que no funciona correctamente.
+* Desconocimiento del uso de la aplicación y/o desconociento de uso de los dispositivos móviles.
+
 
 
 ## 3.2 MODELO DE PROCESOS DE NEGOCIO ACTUALES
