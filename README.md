@@ -23,9 +23,9 @@ El señor ministro hace incapié en que se harán los cambios legales que sean n
 
 Las fuerzas del orden (policía local, nacional, guardia civil y el ejército) serán capaces, según su ámbito,de comprobar el cumplimiento de las cuarentenas y las obligaciones impuestas a los ciudadanos.
 
-Los ambulatorios recibirán los listados de personas que deben hacerse las pruebas, y estos podránnotificar a la autoridad el inclumplimiento.
+Los ambulatorios recibirán los listados de personas que deben hacerse las pruebas, y estos podrán notificar a la autoridad el inclumplimiento.
 
-Debe tener en cuenta también la transferencia de las competencias de las que *disfrutamos*, cadaautonomía tiene sus sistemas de información y la implentación del sistema tendrá que hablar con cadauno de ellos.
+Debe tener en cuenta también la transferencia de las competencias de las que *disfrutamos*, cada autonomía tiene sus sistemas de información y la implentación del sistema tendrá que hablar con cada uno de ellos.
 
 # Entrega:
 ## Calendario
