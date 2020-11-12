@@ -1,19 +1,22 @@
 # PRACTICA DE MODELADO
 ## 2 INFORMACIÓN DEL DOMINIO DEL PROBLEMA
 
-Desde comienzos del año 2020 el mundo se encuntra sumergido en una pandemia global debido al virus COVID-19.  Actualmente, en España, como modo de rastreo del virus y como ayuda a los ciudadanos, se ha creado sistemas software para intentar 
-reducir los daños que está rovocando la pandemia.
+Desde comienzos del año 2020 el mundo se encuntra sumergido en una pandemia global debido al virus COVID-19. Actualmente, en España, como modo de rastreo del virus y como ayuda a los ciudadanos, se ha creado sistemas software para intentar reducir los daños que está provocando la pandemia.
 
 ## 2.1 Introducción al Dominio del Problema
 
-A pesar del uso de las aplicaciones de rastreo ya existentes no encontramos con distintos problemas:
-* El uso y la instalación de la aplicación no es obligatorio,lo cual dificulta  el rastreo del virus y el poder avisar a la gente que ha estado en contacto con una persona que ha dado positivo.
-* La aplicación está basada en el uso del Bluetooth, este problema  se debe a que normalmente  el  mismo suele estar apagado u ocupado por otros dispositivos.
-* Desconocimiento de uso de la aplicación y/o desconociento de uso de los dispositivos móviles. 
-* Uso de los datos del usuario debido a la Ley de protección de datos
+A pesar del uso de las aplicaciones de rastreo ya existentes nos encontramos con distintos problemas:
+* El uso y la instalación de la aplicación no es obligatorio, lo cual dificulta el rastreo del virus y el poder avisar a la gente que ha estado en contacto con una persona que ha dado positivo.
+* La aplicación está basada en el uso del Bluetooth, este problema se debe a que normalmente el mismo suele estar apagado u ocupado por otros dispositivos.
+* Desconocimiento del uso de la aplicación y/o desconociento de uso de los dispositivos móviles. 
+* Uso y almacenado de los datos del usuario debido a la Ley de protección de datos.
+* Incumplimiento de la cuarentena obligatoria y de realizarse la prueba PCR siendo contacto estrecho o presentando síntomas por parte de algunos ciudadanos.
 
 
 ## 2.2 Glosario de Términos
+
+A continuación se presenta una lista ordenada alfabétcamente con los principales términos, acrónimos y abreviaturas específicos del dominio del problema.
+
 * **Aislamiento sanitario:** Lo llevan a cabo personas que están en su domicilio porque poseen confirmación médica de haber contraído COVID-19 o porque están esperando diagnóstico definitivo (caso sospechoso).
 
 * **Aplanar la curva:** El objetivo para luchar contra el coronavirus es reducir el número de contagiados. La curva de la gráfica de contagio se aplana cuando deja de crecer el número de contagiados y se dibuja algo así como una 'meseta'. Es la forma gráfica de ver que durante un periodo de tiempo, el número de contagios se mantiene y no se incrementa, lo que significa que la velocidad de los contagios es menor y, por tanto, que se ha frenado la tendencia al alza.
@@ -44,6 +47,7 @@ A pesar del uso de las aplicaciones de rastreo ya existentes no encontramos con 
 * **Pandemia:** Tal y como establece la OMS, se llama pandemia a la propagación a gran velocidad y a escala mundial de una nueva enfermedad. Lo que la diferencia de la epidemia es el grado en que aumentan los casos y su alcance internacional. La OMS declaró la pandemia cuando el coronavirus se extendió por los seis continentes y se certificaron contagios en más de 100 países de todo el planeta.
 
 * **PCR:** La reacción en cadena de la polimerasa, conocida como PCR por sus siglas en inglés (polymerase chain reaction) o como RCP, es una técnica de la biología molecular desarrollada en 1986 por Kary Mullis.Su objetivo es obtener un gran número de copias de un fragmento de ADN particular, partiendo de un mínimo; en teoría basta partir de una sola copia de ese fragmento original, o molde.
+![](./Imágenes/PCR7.jpg)
 
 * **Test rápido:** Este nuevo test rápido de antígeno es una nueva prueba de la que disponemos que nos permite detectar el virus desde el mismo inicio del contacto con una altísima fiabilidad, muy similar a la que nos ofrecerá una PCR, pero con obtención de resultados en apenas 15 minutos.
 
