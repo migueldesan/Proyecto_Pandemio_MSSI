@@ -44,6 +44,10 @@ Si
 Con la ubicación de su teléfono.
 * ¿Se podrán generar citas para hacerse la PCR automaticamente tras haber estado con un positivo?
   
+A pesar del uso de las aplicaciones de rastreo ya existentes nos encontramos con distintos problemas:
+ 
+* El uso y almacenado de los datos del usuario debido a la Ley de protección de datos es complicado de manejar.
+* Algunos ciudadanos incumplen la cuarentena obligatoria y no acuden a realizarse la prueba PCR o los test rápidos siendo contactos estrechos o presentando síntomas.
 
   
 ## Objetivos
