@@ -19,13 +19,17 @@ A pesar del uso de las aplicaciones de rastreo ya existentes no encontramos con 
 * **Aplanar la curva:** El objetivo para luchar contra el coronavirus es reducir el número de contagiados. La curva de la gráfica de contagio se aplana cuando deja de crecer el número de contagiados y se dibuja algo así como una 'meseta'. Es la forma gráfica de ver que durante un periodo de tiempo, el número de contagios se mantiene y no se incrementa, lo que significa que la velocidad de los contagios es menor y, por tanto, que se ha frenado la tendencia al alza.
 
 * **Bluetooth:** Especificación industrial para redes inalámbricas de área personal (WPAN) creado por Bluetooth Special Interest Group, Inc. que posibilita la transmisión de voz y datos entre diferentes dispositivos mediante un enlace por radiofrecuencia en la banda ISM de los 2.4 GHz. Los principales objetivos que se pretenden conseguir con esta norma son:
--Facilitar las comunicaciones entre equipos móviles.
--Eliminar los cables y conectores entre estos. 
--Ofrecer la posibilidad de crear pequeñas redes inalámbricas y facilitar la sincronización de datos entre equipos personales.
+  - Facilitar las comunicaciones entre equipos móviles.
+  - Eliminar los cables y conectores entre estos. 
+  - Ofrecer la posibilidad de crear pequeñas redes inalámbricas y facilitar la sincronización de datos entre equipos personales.
+  
+* **Caso sospechoso:** Cuadro clínico de infección respiratoria aguda de aparición súbita de cualquier gravedad que cursa, entre otros, con fiebre, tos o sensación de falta de aire. Otros síntomas atípicos como la odinofagia (dolor de garganta al ingerir), anosmia (pérdida de olfato), ageusia (pérdida de gusto), dolores musculares, diarreas, dolor torácico o cefaleas, entre otros, pueden ser también considerados como síntomas de sospecha de infección.
+
+* **Cotacto (estrecho):** Persona que haya coincidido con un caso diagnosticado como COVID positivo, permaneciendo a menos de 2 metros, durante más de 15 minutos, sin mascarilla y durante las 48 horas previas a la fecha del diagnóstico. Si se usaron mascarillas en todo momento, por parte tanto de estudiantes como profesores, se mantuvo la distancia de seguridad y las aulas estaban ventiladas, no se considerarían contactos estrechos.
 
 * **Contagio:** Es la transmisión de una enfermedad por contacto con el agente patógeno que la causa. El coronavirus tiene un alcance de reproducción de 2,68 según la revista científica Lancet. Es decir, cada persona contagiada llega a contagiar a 2,68 personas, un índice relativamente alto, lo que ha facilitado su expansión por el mundo.
 
-* **Coronavirus:** Son una gran familia de virus que pueden provocar enfermedades tanto a animales como a humanos. Se sabe que en los humanos, todos los virus de esta familia pueden causar infecciones respiratorias, que pueden ir desde un resfriado normal a una enfermedad grave, como son la SRAS, la MERS o el Covid-19. La primera vez que se habló de este tipo de virus fue en la revista Nature el 16 de noviembre de 1968. Los investigadores lo llamaron 'coronavirus' porque la forma del virus al microscopio era como similar al de la corona solar.
+* **Coronavirus:** Son una gran familia de virus que pueden provocar enfermedades tanto a animales como a humanos. Se sabe que, en los humanos, todos los virus de esta familia pueden causar infecciones respiratorias, que pueden ir desde un resfriado normal a una enfermedad grave, como son la SRAS, la MERS o el Covid-19. La primera vez que se habló de este tipo de virus fue en la revista Nature el 16 de noviembre de 1968. Los investigadores lo llamaron 'coronavirus' porque la forma del virus al microscopio era como similar al de la corona solar.
 
 * **COVID-19:** Enfermedad infecciosa causada por el coronavirus SARS-CoV-2 que se ha descubierto más recientemente. El origen léxico del Covid-19 proviene de 'co', en alusión la forma de corona solar del virus, 'vi' corresponde a la palabra virus y 'd' hace referencia a enfermedad ("disease" en inglés). Finalmente se le puso el número 19 por el año en que se detectó en seres humanos.
 
