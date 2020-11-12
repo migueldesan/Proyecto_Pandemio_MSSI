@@ -28,7 +28,7 @@ A continuación se presenta una lista ordenada alfabétcamente con los principal
   
 * **Caso sospechoso:** Cuadro clínico de infección respiratoria aguda de aparición súbita de cualquier gravedad que cursa, entre otros, con fiebre, tos o sensación de falta de aire. Otros síntomas atípicos como la odinofagia (dolor de garganta al ingerir), anosmia (pérdida de olfato), ageusia (pérdida de gusto), dolores musculares, diarreas, dolor torácico o cefaleas, entre otros, pueden ser también considerados como síntomas de sospecha de infección.
 
-* **Cotacto (estrecho):** Persona que haya coincidido con un caso diagnosticado como COVID positivo, permaneciendo a menos de 2 metros, durante más de 15 minutos, sin mascarilla y durante las 48 horas previas a la fecha del diagnóstico. Si se usaron mascarillas en todo momento, por parte tanto de estudiantes como profesores, se mantuvo la distancia de seguridad y las aulas estaban ventiladas, no se considerarían contactos estrechos.
+* **Contacto (estrecho):** Persona que haya coincidido con un caso diagnosticado como COVID positivo, permaneciendo a menos de 2 metros, durante más de 15 minutos, sin mascarilla y durante las 48 horas previas a la fecha del diagnóstico. Si se usaron mascarillas en todo momento, por parte tanto de estudiantes como profesores, se mantuvo la distancia de seguridad y las aulas estaban ventiladas, no se considerarían contactos estrechos.
 
 * **Contagio:** Es la transmisión de una enfermedad por contacto con el agente patógeno que la causa. El coronavirus tiene un alcance de reproducción de 2,68 según la revista científica Lancet. Es decir, cada persona contagiada llega a contagiar a 2,68 personas, un índice relativamente alto, lo que ha facilitado su expansión por el mundo.
 
@@ -46,8 +46,9 @@ A continuación se presenta una lista ordenada alfabétcamente con los principal
 
 * **Pandemia:** Tal y como establece la OMS, se llama pandemia a la propagación a gran velocidad y a escala mundial de una nueva enfermedad. Lo que la diferencia de la epidemia es el grado en que aumentan los casos y su alcance internacional. La OMS declaró la pandemia cuando el coronavirus se extendió por los seis continentes y se certificaron contagios en más de 100 países de todo el planeta.
 
-* **PCR:** La reacción en cadena de la polimerasa, conocida como PCR por sus siglas en inglés (polymerase chain reaction) o como RCP, es una técnica de la biología molecular desarrollada en 1986 por Kary Mullis.Su objetivo es obtener un gran número de copias de un fragmento de ADN particular, partiendo de un mínimo; en teoría basta partir de una sola copia de ese fragmento original, o molde.
-![](./Imágenes/PCR7.jpg)
+<img align="right" width=50% src="./Imágenes/PCR7.jpg">
+
+* **PCR:** La reacción en cadena de la polimerasa, conocida como PCR por sus siglas en inglés (polymerase chain reaction) o como RCP, es una técnica de la biología molecular desarrollada en 1986 por Kary Mullis.Su objetivo es obtener un gran número de copias de un fragmento de ADN particular, partiendo de un mínimo; en teoría basta partir de una sola copia de ese fragmento original, o molde. 
 
 * **Test rápido:** Este nuevo test rápido de antígeno es una nueva prueba de la que disponemos que nos permite detectar el virus desde el mismo inicio del contacto con una altísima fiabilidad, muy similar a la que nos ofrecerá una PCR, pero con obtención de resultados en apenas 15 minutos.
 
