@@ -5,12 +5,7 @@ Desde comienzos del año 2020 el mundo se encuntra sumergido en una pandemia glo
 
 ## 2.1 Introducción al Dominio del Problema
 
-A pesar del uso de las aplicaciones de rastreo ya existentes nos encontramos con distintos problemas:
-* El uso y la instalación de la aplicación no es obligatorio, lo cual dificulta el rastreo del virus y el poder avisar a la gente que ha estado en contacto con una persona que ha dado positivo.
-* La aplicación está basada en el uso del Bluetooth y generalmente suele estar apagado u ocupado por otros dispositivos por lo que no funciona correctamente.
-* Desconocimiento del uso de la aplicación y/o desconociento de uso de los dispositivos móviles. 
-* El uso y almacenado de los datos del usuario debido a la Ley de protección de datos es complicado de manejar.
-* Algunos ciudadanos incumplen la cuarentena obligatoria y no acuden a realizarse la prueba PCR o los test rápidos siendo contactos estrechos o presentando síntomas.
+
 
 
 ## 2.2 Glosario de Términos
