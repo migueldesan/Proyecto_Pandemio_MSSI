@@ -20,6 +20,9 @@ Algunas de las fortalezas de la situación actual encontradas son las siguientes
 | **Comentarios** | 
 
 **CONTRAS**
+
+Algunas de las fortalezas de la situación actual encontradas son las siguientes:
+
 * No es obligatorio 
 * No todo el personal sanitario esta familiarizado con el funcionamiento de la app
 * Mucha gente no conoce la aplicacion
@@ -40,10 +43,16 @@ Algunas de las fortalezas de la situación actual encontradas son las siguientes
 ## 3.2 MODELO DE PROCESOS DE NEGOCIO ACTUALES
 
 **DESCRIPCIÓN ACTORES NEGOCIO ACTUALES**
-* Secretaría de Estado de Digitalización e Inteligencia Artificial del Gobierno de España
-* Sanitarios de todas las CCAA // Sacyl
-* Ministerio de Sanidad
-* Gobierno de España
+Los actores de negocio son los siguientes: 
+
+* Secretaría de Estado de Digitalización e Inteligencia Artificial del Gobierno de España: Son competencias de esta Secretaría de Estado las relativas a la política de impulso a la digitalización de la sociedad y economía, a través del fomento y regulación de los servicios digitales y de la economía y sociedad digitales, la interlocución con los sectores profesionales, industriales y académicos, así como el impulso de la digitalización del sector público.
+
+* Sanitarios: Persona que trabaja en la sanidad tanto en todas las comunidades autónomas.
+
+* Ministerio de Sanidad: Es el Departamento de la Administración General del Estado que asume la propuesta y ejecución de la política del Gobierno de la Nación en materia de salud, de planificación y asistencia sanitaria, así como el ejercicio de las competencias de la Administración General del Estado para asegurar a los ciudadanos el derecho a la protección de la salud.
+
+* Gobierno de España: Es el órgano constitucional que encabeza el poder ejecutivo del Reino de España y dirige la Administración General del Estado. Según la Constitución española, sus funciones son dirigir la política interior y exterior, la administración civil y militar y la defensa del Estado; así como de ejercer la función ejecutiva y la potestad reglamentaria de acuerdo con la Constitución y las leyes.
+
 * Comunidad europea (?)
 
 | **info_003** | **Actores de negocio**
