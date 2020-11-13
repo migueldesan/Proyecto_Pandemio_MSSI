@@ -5,32 +5,32 @@
 
 Algunas de las fortalezas de la situación actual encontradas son las siguientes:
 
-| **ID** | **Pros**
+| **ID** | **Nombre** |**Descripción**
 --- | --- 
-| **F-01** | La privacidad de los datos y contagio
-| **F-02** | Conocimiento de positivos en casos cercanos sin dar datos
-| **F-03** | Rapido el aviso de un positivo
-| **F-04** | Fácil uso de la interfaz
-| **F-05** | Tiene sección de preguntas y enlaces de interes
-| **F-06** | Posibilidad de usar la app en varios idiomas
-| **F-07** | Gratuita y fácilmente descargable
+| **F-01** | | La privacidad de los datos y contagio
+| **F-02** | | Conocimiento de positivos en casos cercanos sin dar datos
+| **F-03** | | Rapido el aviso de un positivo
+| **F-04** | | Fácil uso de la interfaz
+| **F-05** | | Tiene sección de preguntas y enlaces de interes
+| **F-06** | | Posibilidad de usar la app en varios idiomas
+| **F-07** | | Gratuita y fácilmente descargable
+
 
 **DEBILIDADES**
 
 Algunas de las debilidades de la situación actual encontradas son las siguientes:
 
-| **ID** | **Contras**
+| **ID** | **Nombre** |**Descripción
 --- | --- 
-| **D-01** | No es obligatorio 
-| **D-02** | No todo el personal sanitario esta familiarizado con el funcionamiento de la app
-| **D-03** | Mucha gente no conoce la aplicacion
-| **D-04** | Gente mayor no conoce Bluetooth
-| **D-05** | Puede dar problemas de compatibilidad si se esta usando otro dispositivo por Bluetooth
-| **D-06** | Debido al Bluetooth es más vulnerable a ataques
-| **D-07** | El uso y la instalación de la aplicación no es obligatorio, lo cual dificulta el rastreo del virus y el poder avisar a la gente que ha estado en contacto con una persona que ha dado positivo.
-| **D-08** | La aplicación está basada en el uso del Bluetooth y generalmente suele estar apagado u ocupado por otros dispositivos por lo que no funciona correctamente.
-| **D-09** | Desconocimiento del uso de la aplicación y/o desconociento de uso de los dispositivos móviles.
-
+| **D-01** | | No es obligatorio 
+| **D-02** | | No todo el personal sanitario esta familiarizado con el funcionamiento de la app
+| **D-03** | | Mucha gente no conoce la aplicacion
+| **D-04** | | Gente mayor no conoce Bluetooth
+| **D-05** | | Puede dar problemas de compatibilidad si se esta usando otro dispositivo por Bluetooth
+| **D-06** | | Debido al Bluetooth es más vulnerable a ataques
+| **D-07** | | El uso y la instalación de la aplicación no es obligatorio, lo cual dificulta el rastreo del virus y el poder avisar a la gente que ha estado en contacto con una persona que ha dado positivo.
+| **D-08** | | La aplicación está basada en el uso del Bluetooth y generalmente suele estar apagado u ocupado por otros dispositivos por lo que no funciona correctamente.
+| **D-09** | | Desconocimiento del uso de la aplicación y/o desconociento de uso de los dispositivos móviles.
 
 ## 3.2 MODELO DE PROCESOS DE NEGOCIO ACTUALES
 
