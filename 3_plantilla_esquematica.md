@@ -20,7 +20,7 @@ Algunas de las fortalezas de la situación actual encontradas son las siguientes
 
 Algunas de las debilidades de la situación actual encontradas son las siguientes:
 
-| **ID** | **Nombre** | ** Descripción **
+| **ID** | **Nombre** | **Descripción**
 --- | --- | --- 
 | **D-01** | Obligatoriedad | No es obligatorio 
 | **D-02** | | No todo el personal sanitario esta familiarizado con el funcionamiento de la app
