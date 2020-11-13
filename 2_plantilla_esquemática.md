@@ -10,7 +10,7 @@ Desde comienzos del año 2020 el mundo se encuntra sumergido en una pandemia glo
 
 ## 2.2 Glosario de Términos
 
-A continuación se presenta una lista ordenada alfabétcamente con los principales términos, acrónimos y abreviaturas específicos del dominio del problema.
+A continuación se presenta una lista ordenada alfabéticamente con los principales términos, acrónimos y abreviaturas específicos del dominio del problema.
 
 * **Aislamiento sanitario:** Lo llevan a cabo personas que están en su domicilio porque poseen confirmación médica de haber contraído COVID-19 o porque están esperando un diagnóstico definitivo (a la espera de PCR/test rápido por ser un caso sospechoso o ser un contacto estrecho).
 
