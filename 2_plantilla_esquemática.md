@@ -15,7 +15,7 @@ A continuación se presenta una lista ordenada alfabéticamente con los principa
 
 * **Aislamiento sanitario:** Lo llevan a cabo personas que están en su domicilio porque poseen confirmación médica de haber contraído una enfermedad o porque están esperando un diagnóstico definitivo (en el caso del Covid-19, a la espera de PCR/test rápido por ser un caso sospechoso o ser un contacto estrecho).
 
-<img align="right" width=47% src="./Imágenes/aplaneamiento-de-cuerva.png">
+<img align="right" width=43% src="./Imágenes/aplaneamiento-de-cuerva.png">
 
 * **Aplanar la curva de incidencia:** El objetivo para luchar contra una enfermedad es reducir el número de contagiados. La curva de la gráfica de contagio se aplana cuando deja de crecer el número de contagiados y se dibuja algo así como una 'meseta'. Es la forma gráfica de ver que durante un periodo de tiempo, el número de contagios se mantiene y no se incrementa, lo que significa que la velocidad de los contagios es menor y, por tanto, que se ha frenado la tendencia al alza. El aislamiento sanitario, las pruebas sanitarias y las medidas sanitarias que se toman tienen como intención aplanar la curva de contagios.
 
