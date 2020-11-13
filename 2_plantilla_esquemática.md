@@ -1,21 +1,23 @@
 # PRÁCTICA DE MODELADO
 ## 2 INFORMACIÓN DEL DOMINIO DEL PROBLEMA
+Desde comienzos del año 2020 el mundo se encuentra sumergido en una pandemia global debido al coronavirus COVID-19. Actualmente, en España, como modo de rastreo del virus y como ayuda a los ciudadanos, se han creado diferentes sistemas software para intentar reducir el impacto que está provocando esta pandemia, pero sin los resultados que se esperaban.
+Pandemio tratará de mejorar los sistemas existentes para que en una futura pandemia estemos más preparados para combatirla, para que el alcance de reproducción de la enfermedad disminuya (y con ello el número de contagios y muertes provocadas por la pandemia) y no sea necesario tomar medidas extremas como el confinamiento domiciliario de todo el país lo que supondría un desastre económico y el empobrecimiento de la población.
 
 
-Desde comienzos del año 2020 el mundo se encuntra sumergido en una pandemia global debido al virus COVID-19. Actualmente, en España, como modo de rastreo del virus y como ayuda a los ciudadanos, se ha creado sistemas software para intentar reducir los daños que está provocando la pandemia.
-
-## 2.1 Introducción al Dominio del Problema
-
-
+### 2.1 Introducción al Dominio del Problema
+Para la pandemia en la que nos encontramos, cuando una persona comienza a presentar síntomas de la enfermedad o ha estado en contacto con una persona positiva, debe estar en cuarentena y acudir al centro de salud para realizarse pruebas médicas. Estas pruebas consisten en realizarse un test rápido, que en caso de dar positivo se confirma que la persona presenta el coronavirus, y en caso negativo se deberán realizar una PCR para confirmar el resultado negativo del test rápido. Además, aunque se obtenga una PCR negativa, es necesario realizar una cuarentena de unos 10 días para evitar posibles falsos negativos. A los 10 días se realiza una nueva PCR para poder dar el alta médica a esa persona.
+En la actualidad todo este proceso de citación y rastreo de personas se realiza de forma manual y con Pandemio se tratará de automatizar todo el proceso. Además, el cumplimiento de la cuarentena no se puede verificar por ningún medio efectivo o que conlleve un gran gasto de tiempo por parte del personal sanitario o de los cuerpos de policía, por lo que Pandemio se intentará automatizar en los casos que sea posible (con huella dactilar o reconocimiento facial con el dispositivo móvil, enviando ubicación a horas aleatorias, etc.).
 
 
-## 2.2 Glosario de Términos
+
+
+### 2.2 Glosario de Términos
 
 A continuación se presenta una lista ordenada alfabéticamente con los principales términos, acrónimos y abreviaturas específicos del dominio del problema.
 
 * **Aislamiento sanitario:** Lo llevan a cabo personas que están en su domicilio porque poseen confirmación médica de haber contraído una enfermedad o porque están esperando un diagnóstico definitivo (en el caso del Covid-19, a la espera de PCR/test rápido por ser un caso sospechoso o ser un contacto estrecho).
 
-<img align="right" width=38% src="./Imágenes/aplaneamiento-de-cuerva.png">
+<img align="right" width=37% src="./Imágenes/aplaneamiento-de-cuerva.png">
 
 * **Aplanar la curva de incidencia:** El objetivo para luchar contra una enfermedad es reducir el número de contagiados. La curva de la gráfica de contagio se aplana cuando deja de crecer el número de contagiados y se dibuja algo así como una 'meseta'. Es la forma gráfica de ver que durante un periodo de tiempo, el número de contagios se mantiene y no se incrementa, lo que significa que la velocidad de los contagios es menor y, por tanto, que se ha frenado la tendencia al alza. El aislamiento sanitario, las pruebas sanitarias y las medidas sanitarias que se toman tienen como intención aplanar la curva de contagios.
 
@@ -72,12 +74,14 @@ A continuación se presenta una lista ordenada alfabéticamente con los principa
 
 * **Test rápido:** Este nuevo test rápido de antígenos es una nueva prueba de la que disponemos que nos permite detectar el Covid-19 desde el mismo inicio del contacto con una altísima fiabilidad, muy similar a la que nos ofrecerá una PCR, pero con obtención de resultados en apenas 15 minutos. Los test rápidos se realizan con muestras de exudados de la nariz y del fondo de la garganta –que se toman con un bastoncillo o hisopo– y en ellos se detectan la posible presencia de antígenos, es decir, permiten detectar si hay presencia del virus SARS-CoV-2 em el paciente por medio de alguno de sus componentes, como por ejemplo, por sus proteínas.
 
+<br>
+
 > En la siguiente imagen podemos ver las principales diferencias entre la técnica de la PCR y los test rápidos.
 
-<br/><br/>
+<br><br>
 <p align="center">
   <img width=70% src="./Imágenes/diferencia_PCR7_test_rapido.jpg">
 </p>
-<br/><br/>
+<br><br>
 
 * **Vacuna:** Se trata de una sustancia compuesta por microorganismos atenuados o muertos que se introduce para estimular la formación de anticuerpos y conseguir inmunidad frente a ciertas enfermedades. Hasta la fecha no existe ninguna vacuna ni medicamento antiviral específico para prevenir o tratar el COVID-19.
