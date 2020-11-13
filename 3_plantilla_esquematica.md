@@ -22,15 +22,14 @@ Algunas de las debilidades de la situación actual encontradas son las siguiente
 
 | **ID** | **Nombre** | **Descripción**
 --- | --- | --- 
-| **D-01** | Obligatoriedad | No es obligatorio 
-| **D-02** | | No todo el personal sanitario esta familiarizado con el funcionamiento de la app
-| **D-03** | | Mucha gente no conoce la aplicacion
-| **D-04** | | Gente mayor no conoce Bluetooth
-| **D-05** | | Puede dar problemas de compatibilidad si se esta usando otro dispositivo por Bluetooth
-| **D-06** | | Debido al Bluetooth es más vulnerable a ataques
-| **D-07** | | El uso y la instalación de la aplicación no es obligatorio, lo cual dificulta el rastreo del virus y el poder avisar a la gente que ha estado en contacto con una persona que ha dado positivo.
-| **D-08** | | La aplicación está basada en el uso del Bluetooth y generalmente suele estar apagado u ocupado por otros dispositivos por lo que no funciona correctamente.
-| **D-09** | | Desconocimiento del uso de la aplicación y/o desconociento de uso de los dispositivos móviles.
+| **D-01** | Obligatoriedad |El uso y la instalación de la aplicación no es obligatorio, lo cual dificulta el rastreo del virus y el poder avisar a la gente que ha estado en contacto con una persona que ha dado positivo. 
+| **D-02** | Familiarización con la App | No todo el personal sanitario esta familiarizado con el funcionamiento de la app
+| **D-03** | Desconocimiento de la App | Mucha gente no conoce la aplicacion
+| **D-04** | Desconocimiento del Bluetooth | Gente mayor no conoce Bluetooth.
+| **D-05** | Compatibilidad | Puede dar problemas de compatibilidad si se esta usando otro dispositivo por Bluetooth
+| **D-06** | Vulnerabilidad a ataques | Debido al Bluetooth es más vulnerable a ataques
+| **D-07** | Activación de Bluetooth | La aplicación está basada en el uso del Bluetooth y generalmente suele estar apagado u ocupado por otros dispositivos por lo que no funciona correctamente.
+| **D-08** | | Desconocimiento del uso de la aplicación y/o desconociento de uso de los dispositivos móviles.
 
 ## 3.2 MODELO DE PROCESOS DE NEGOCIO ACTUALES
 
