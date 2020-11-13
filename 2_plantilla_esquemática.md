@@ -14,7 +14,11 @@ A continuación se presenta una lista ordenada alfabéticamente con los principa
 
 * **Aislamiento sanitario:** Lo llevan a cabo personas que están en su domicilio porque poseen confirmación médica de haber contraído una enfermedad o porque están esperando un diagnóstico definitivo (en el caso del Covid-19, a la espera de PCR/test rápido por ser un caso sospechoso o ser un contacto estrecho).
 
+<img align="right" width=65% src="./Imágenes/aplaneamiento-de-cuerva.png">
+
 * **Aplanar la curva de incidencia:** El objetivo para luchar contra el coronavirus o una enfermedad es reducir el número de contagiados. La curva de la gráfica de contagio se aplana cuando deja de crecer el número de contagiados y se dibuja algo así como una 'meseta'. Es la forma gráfica de ver que durante un periodo de tiempo, el número de contagios se mantiene y no se incrementa, lo que significa que la velocidad de los contagios es menor y, por tanto, que se ha frenado la tendencia al alza. El aislamiento sanitario, las pruebas sanitarias y las medidas sanitarias que se toman tienen como intención aplanar la curva de contagios.
+
+<img align="right" width=20% src="./Imágenes/bluetooth.png">
 
 * **Bluetooth:** Especificación industrial para redes inalámbricas de área personal (WPAN) creado por Bluetooth Special Interest Group, Inc. que posibilita la transmisión de voz y datos entre diferentes dispositivos mediante un enlace por radiofrecuencia en la banda ISM de los 2.4 GHz. Los principales objetivos que se pretenden conseguir con esta norma son:
   - Facilitar las comunicaciones entre equipos móviles.
@@ -26,6 +30,8 @@ A continuación se presenta una lista ordenada alfabéticamente con los principa
 * **Contacto (estrecho):** Persona que haya coincidido con un caso diagnosticado como COVID positivo, permaneciendo a menos de 2 metros, durante más de 15 minutos, sin mascarilla y durante las 48 horas previas a la fecha del diagnóstico. Si todas las personas usaron mascarillas en todo momento, se mantuvo la distancia de seguridad y el espacio estuvo ventilado no se considerarían contactos estrechos. Para futuras pandemias está definición podrá variar en función de que se considere haber estado en contacto cercano con un caso positivo o sospechoso.
 
 * **Contagio:** Transmisión de una enfermedad por contacto con el agente patógeno que la causa. El coronavirus tiene un alcance de reproducción de 2,68 según la revista científica Lancet. Es decir, cada persona contagiada llega a contagiar a 2,68 personas, un índice relativamente alto, lo que ha facilitado su expansión por el mundo.
+
+<img align="right" width=50% src="./Imágenes/covid19.jpeg">
 
 * **Coronavirus:** Gran familia de virus que pueden provocar enfermedades tanto a animales como a humanos. Se sabe que, en los humanos, todos los virus de esta familia pueden causar infecciones respiratorias, que pueden ir desde un resfriado normal a una enfermedad grave, como son la SRAS, la MERS o el Covid-19. La primera vez que se habló de este tipo de virus fue en la revista Nature el 16 de noviembre de 1968. Los investigadores lo llamaron 'coronavirus' porque la forma del virus al microscopio era como similar al de la corona solar.
 
@@ -49,8 +55,16 @@ A continuación se presenta una lista ordenada alfabéticamente con los principa
   
   En el siguiente enlace se puede ver cómo se debe realizar una PCR: [Link](https://www.youtube.com/watch?v=Yf-HDkJGW08 "¿Cómo se realiza una prueba PCR?").
 
+<img align="right" width=50% src="./Imágenes/test-rapido.png">
+
 * **Test rápido:** Este nuevo test rápido de antígenos es una nueva prueba de la que disponemos que nos permite detectar el Covid-19 desde el mismo inicio del contacto con una altísima fiabilidad, muy similar a la que nos ofrecerá una PCR, pero con obtención de resultados en apenas 15 minutos. Los test rápidos se realizan con muestras de exudados de la nariz y del fondo de la garganta –que se toman con un bastoncillo o hisopo– y en ellos se detectan la posible presencia de antígenos, es decir, permiten detectar si hay presencia del virus SARS-CoV-2 em el paciente por medio de alguno de sus componentes, como por ejemplo, por sus proteínas.
 
 > En la siguiente imagen podemos ver las principales diferencias entre la técnica de la PCR y los test rápidos.
+
+
+
+
+
+
 
 * **Vacuna:** Se trata de una sustancia compuesta por microorganismos atenuados o muertos que se introduce para estimular la formación de anticuerpos y conseguir inmunidad frente a ciertas enfermedades. Hasta la fecha no existe ninguna vacuna ni medicamento antiviral específico para prevenir o tratar el COVID-19.
