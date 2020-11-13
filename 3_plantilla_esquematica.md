@@ -2,14 +2,22 @@
 ## 3.1 PROS Y CONTRAS DE LA SITUACIÓN ACTUAL
 
 **FORTALEZAS**
-* Privacidad de los datos y contagio
+
+Algunas de las fortalezas de la situación actual encontradas son las siguientes:
+
+* La privacidad de los datos y contagio
 * Conocimiento de positivos en casos cercanos sin dar datos
 * Rapido el aviso de un positivo
-* Friendly interfaz
+* Fácil uso de la interfaz
 * Tiene sección de preguntas y enlaces de interes
 * Posibilidad de usar la app en varios idiomas
 * Gratuita y fácilmente descargable
 
+| **info_001** | **Fortalezas y debilidades**
+--- | --- 
+| **Versión** | 1.0 (13-11-2020) 
+| **Descripción** | Esta sección contiene información sobre las fortalezas de la situación actual
+| **Comentarios** | 
 **CONTRAS**
 * No es obligatorio 
 * No todo el personal sanitario esta familiarizado con el funcionamiento de la app
@@ -22,10 +30,10 @@
 * La aplicación está basada en el uso del Bluetooth y generalmente suele estar apagado u ocupado por otros dispositivos por lo que no funciona correctamente.
 * Desconocimiento del uso de la aplicación y/o desconociento de uso de los dispositivos móviles.
 
-| **info_001** | **Fortalezas y debilidades**
+| **info_001** | **Debilidades**
 --- | --- 
 | **Versión** | 1.0 (13-11-2020) 
-| **Descripción** | Esta sección contiene información sobre las fortalezas y debilidades de la situación actual
+| **Descripción** | Esta sección contiene información sobre las debilidades de la situación actual
 | **Comentarios** | 
 
 ## 3.2 MODELO DE PROCESOS DE NEGOCIO ACTUALES
@@ -41,8 +49,7 @@
 --- | --- 
 | **Versión** | 1.0 (13-11-2020) 
 | **Dependencías** |  * 
-		      * 
-| **Descripción** | Esta sección contiene información sobre los actores de negocio de los modelos de los procesos de negocio
+| **Descripción** | Esta sección contiene información sobre los actores de negocio de los modelos de los procesos de negocio.
 | **Comentarios** | 
 
 ## 3.3 ENTORNO TECNOLÓGICO ACTUAL
