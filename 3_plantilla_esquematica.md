@@ -48,10 +48,10 @@ Los actores de negocio son los siguientes:
 
 * Comunidad europea: es una comunidad política de derecho constituida en régimen sui géneris de organización internacional nacida para propiciar y acoger la integración y gobernanza en común de los Estados y los pueblos de Europa. Está compuesta por veintisiete paises europeos.
 
-| **info_003** | **Actores de negocio**
+| **info_01** | **Actores de negocio**
 --- | --- 
 | **Versión** | 1.0 (13-11-2020) 
-| **Dependencías** |  * 
+| **Dependencías** |  * La comunidad europea deberá tener un acuerdo con los paises 
 | **Descripción** | Esta sección contiene información sobre los actores de negocio de los modelos de los procesos de negocio.
 | **Comentarios** | 
 
