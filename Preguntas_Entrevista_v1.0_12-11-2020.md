@@ -49,8 +49,4 @@ A pesar del uso de las aplicaciones de rastreo ya existentes nos encontramos con
 * El uso y almacenado de los datos del usuario debido a la Ley de protección de datos es complicado de manejar.
 * Algunos ciudadanos incumplen la cuarentena obligatoria y no acuden a realizarse la prueba PCR o los test rápidos siendo contactos estrechos o presentando síntomas.
 
-  
-## Objetivos
-* Alcanzar al mayor número de población para que la aplicación sea efectiva en la lucha contra el coronavirus.
-* Mejorar la antigua aplicación de Radar Covid.
-* ¿Otros objetivos que se quieran conseguir con la aplicación?
+ 
