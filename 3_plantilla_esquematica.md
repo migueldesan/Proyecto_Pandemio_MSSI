@@ -18,6 +18,7 @@ Algunas de las fortalezas de la situación actual encontradas son las siguientes
 | **Versión** | 1.0 (13-11-2020) 
 | **Descripción** | Esta sección contiene información sobre las fortalezas de la situación actual
 | **Comentarios** | 
+
 **CONTRAS**
 * No es obligatorio 
 * No todo el personal sanitario esta familiarizado con el funcionamiento de la app
@@ -30,7 +31,7 @@ Algunas de las fortalezas de la situación actual encontradas son las siguientes
 * La aplicación está basada en el uso del Bluetooth y generalmente suele estar apagado u ocupado por otros dispositivos por lo que no funciona correctamente.
 * Desconocimiento del uso de la aplicación y/o desconociento de uso de los dispositivos móviles.
 
-| **info_001** | **Debilidades**
+| **info_002** | **Debilidades**
 --- | --- 
 | **Versión** | 1.0 (13-11-2020) 
 | **Descripción** | Esta sección contiene información sobre las debilidades de la situación actual
@@ -45,7 +46,7 @@ Algunas de las fortalezas de la situación actual encontradas son las siguientes
 * Gobierno de España
 * Comunidad europea (?)
 
-| **info_002** | **Actores de negocio**
+| **info_003** | **Actores de negocio**
 --- | --- 
 | **Versión** | 1.0 (13-11-2020) 
 | **Dependencías** |  * 
