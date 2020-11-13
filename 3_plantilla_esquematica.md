@@ -22,10 +22,11 @@
 * La aplicación está basada en el uso del Bluetooth y generalmente suele estar apagado u ocupado por otros dispositivos por lo que no funciona correctamente.
 * Desconocimiento del uso de la aplicación y/o desconociento de uso de los dispositivos móviles.
 
-| info_001 | Pros y Contras
+| **info_001** | **Pros y Contras**
+--- | --- 
 | **Versión** | 1.0 (13-11-2020) 
 | **Descripción** |Esta sección contiene información sobre las fortalezas y debilidades de la situación actual
-| **Comentarios** | 
+| **Comentarios** |  
 
 ## 3.2 MODELO DE PROCESOS DE NEGOCIO ACTUALES
 
