@@ -37,6 +37,13 @@
 * Gobierno de España
 * Comunidad europea (?)
 
+| **info_002** | **Actores de negocio**
+--- | --- 
+| **Versión** | 1.0 (13-11-2020) 
+| **Dependencías** |  * 
+		      * 
+| **Descripción** | Esta sección contiene información sobre los actores de negocio de los modelos de los procesos de negocio
+| **Comentarios** | 
 
 ## 3.3 ENTORNO TECNOLÓGICO ACTUAL
 
