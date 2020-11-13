@@ -7,13 +7,13 @@ Algunas de las fortalezas de la situación actual encontradas son las siguientes
 
 | **ID** | **Nombre** |**Descripción**
 --- | --- | --- 
-| **F-01** | | La privacidad de los datos y contagio
-| **F-02** | | Conocimiento de positivos en casos cercanos sin dar datos
-| **F-03** | | Rapido el aviso de un positivo
-| **F-04** | | Fácil uso de la interfaz
-| **F-05** | | Tiene sección de preguntas y enlaces de interes
-| **F-06** | | Posibilidad de usar la app en varios idiomas
-| **F-07** | | Gratuita y fácilmente descargable
+| **F-01** | Privacidad| La privacidad de los datos y contagio
+| **F-02** | Conocimiento positivos | Conocimiento de positivos en casos cercanos sin dar datos
+| **F-03** | Avisos rápidos | Rapido aviso de un positivo cercano
+| **F-04** | Interfaz amigable | Fácil uso de la interfaz
+| **F-05** | Obtención de  ayuda | Tiene sección de preguntas y enlaces de interes
+| **F-06** | Poliglota (no me sale el sinónimo) | Posibilidad de usar la app en varios idiomas
+| **F-07** | Gratuita | Es gratuita y fácilmente instalable
 
 
 **DEBILIDADES**
@@ -22,7 +22,7 @@ Algunas de las debilidades de la situación actual encontradas son las siguiente
 
 | **ID** | **Nombre** | ** Descripción **
 --- | --- | --- 
-| **D-01** | | No es obligatorio 
+| **D-01** | Obligatoriedad | No es obligatorio 
 | **D-02** | | No todo el personal sanitario esta familiarizado con el funcionamiento de la app
 | **D-03** | | Mucha gente no conoce la aplicacion
 | **D-04** | | Gente mayor no conoce Bluetooth
