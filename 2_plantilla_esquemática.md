@@ -15,7 +15,7 @@ A continuación se presenta una lista ordenada alfabéticamente con los principa
 
 * **Aislamiento sanitario:** Lo llevan a cabo personas que están en su domicilio porque poseen confirmación médica de haber contraído una enfermedad o porque están esperando un diagnóstico definitivo (en el caso del Covid-19, a la espera de PCR/test rápido por ser un caso sospechoso o ser un contacto estrecho).
 
-<img align="right" width=40% src="./Imágenes/aplaneamiento-de-cuerva.png">
+<img align="right" width=38% src="./Imágenes/aplaneamiento-de-cuerva.png">
 
 * **Aplanar la curva de incidencia:** El objetivo para luchar contra una enfermedad es reducir el número de contagiados. La curva de la gráfica de contagio se aplana cuando deja de crecer el número de contagiados y se dibuja algo así como una 'meseta'. Es la forma gráfica de ver que durante un periodo de tiempo, el número de contagios se mantiene y no se incrementa, lo que significa que la velocidad de los contagios es menor y, por tanto, que se ha frenado la tendencia al alza. El aislamiento sanitario, las pruebas sanitarias y las medidas sanitarias que se toman tienen como intención aplanar la curva de contagios.
 
@@ -38,7 +38,7 @@ A continuación se presenta una lista ordenada alfabéticamente con los principa
 
 * **Contagio:** Transmisión de una enfermedad por contacto con el agente patógeno que la causa. (El coronavirus tiene un alcance de reproducción de 2,68 según la revista científica Lancet. Es decir, cada persona contagiada llega a contagiar a 2,68 personas, un índice relativamente alto, lo que ha facilitado su expansión por el mundo.)
 
-<img align="right" width=50% src="./Imágenes/covid19.jpeg">
+<img align="right" width=54% src="./Imágenes/covid19.jpeg">
 
 * **Coronavirus:** Gran familia de virus que pueden provocar enfermedades tanto a animales como a humanos. Se sabe que, en los humanos, todos los virus de esta familia pueden causar infecciones respiratorias, que pueden ir desde un resfriado normal a una enfermedad grave, como son la SRAS, la MERS o el Covid-19. La primera vez que se habló de este tipo de virus fue en la revista Nature el 16 de noviembre de 1968. Los investigadores lo llamaron 'coronavirus' porque la forma del virus al microscopio era como similar al de la corona solar.
 
