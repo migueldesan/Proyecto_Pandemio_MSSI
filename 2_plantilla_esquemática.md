@@ -14,9 +14,11 @@ A continuación se presenta una lista ordenada alfabéticamente con los principa
 
 * **Aislamiento sanitario:** Lo llevan a cabo personas que están en su domicilio porque poseen confirmación médica de haber contraído una enfermedad o porque están esperando un diagnóstico definitivo (en el caso del Covid-19, a la espera de PCR/test rápido por ser un caso sospechoso o ser un contacto estrecho).
 
-<img align="right" width=65% src="./Imágenes/aplaneamiento-de-cuerva.png">
+<img align="right" width=50% src="./Imágenes/aplaneamiento-de-cuerva.png">
 
 * **Aplanar la curva de incidencia:** El objetivo para luchar contra el coronavirus o una enfermedad es reducir el número de contagiados. La curva de la gráfica de contagio se aplana cuando deja de crecer el número de contagiados y se dibuja algo así como una 'meseta'. Es la forma gráfica de ver que durante un periodo de tiempo, el número de contagios se mantiene y no se incrementa, lo que significa que la velocidad de los contagios es menor y, por tanto, que se ha frenado la tendencia al alza. El aislamiento sanitario, las pruebas sanitarias y las medidas sanitarias que se toman tienen como intención aplanar la curva de contagios.
+
+<br/><br/>
 
 <img align="right" width=20% src="./Imágenes/bluetooth.png">
 
@@ -42,6 +44,12 @@ A continuación se presenta una lista ordenada alfabéticamente con los principa
 * **Estado de alarma:** En España se declara en todo el país (o en parte de este) mediante un decreto del consejo de ministros en el caso de calamidades, desgracias públicas como inundaciones, terremotos o crisis sanitarias como la que vivimos por culpa del coronavirus. Esta disposición permite limitar la libre circulación de las personas, intervenir industrias, requisar temporalmente bienes, y limitar o racionar los servicios o el consumo de artículos de primera necesidad. Además, permitiría realizar los cambios legales que fueran necesarios para poder obtener los datos de localización de los dispositivos móviles que poseen las diferente operadoras, e incluso de los fabricantes de teléfonos y sistemas operativos (google, apple..).
 
 * **Incubación:** Se trata del tiempo comprendido entre la exposición a un organismo patogénico y el momento en que los síntomas aparecen por primera vez. En el caso del coronavirus, el tiempo de incubación es de 5,4 días de media, aunque se han observado casos en que el periodo de incubación es de hasta 14 días.
+
+
+<img align="right" width=20% src="./Imágenes/OMS_logo.png">
+
+
+* **Organización Mundial de la Salud (OMS):** Organismo especializado de las Naciones Unidas creado en 1946 con el propósito fundamental de alcanzar para todos los pueblos el grado más alto posible de salud, que coordina programas encaminados a solucionar problemas sanitarios y se ocupa de la inmunización, la educación sanitaria y el suministro de medicamentos esenciales
 
 * **Pandemia:** Tal y como establece la OMS, se llama pandemia a la propagación a gran velocidad y a escala mundial de una nueva enfermedad. Lo que la diferencia de la epidemia es el grado en que aumentan los casos y su alcance internacional. La OMS declaró al Covid-19 como pandemia el 11 de marzo de 2020 cuando se extendió por los seis continentes y se certificaron contagios en más de 100 países de todo el planeta.
 
