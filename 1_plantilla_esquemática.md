@@ -4,7 +4,7 @@ A finales de diciembre de 2019 se identificaron en Wuhan, en la provincia china 
 
 Cuando se detectaron los primeros casos, nadie podía imaginar que, unos meses más tarde, concretamente el 11 de marzo de 2020, la Organización Mundial de la Salud (OMS) declarará que el nuevo brote de coronavirus constituía una pandemia debido a que esta nueva enfermedad ya estaba presente en los seis continentes del planeta.
 
-Actualmente hay 52 millones de casos confirmados en todo el planeta (y más de un millón de muertos relacionados con esta enfermedad) por lo que los países han tenido que tomar diferentes medidas para intentar aplanar la curva de incidencia del virus y evitar su rápida propagación como los cierres de fronteras o el confinamiento de la población. 
+Actualmente hay más de 50 millones de casos confirmados en todo el planeta (y más de un millón de muertos relacionados con esta enfermedad) por lo que los países han tenido que tomar diferentes medidas para intentar aplanar la curva de incidencia del virus y evitar su rápida propagación como los cierres de fronteras o el confinamiento de la población. 
 
 Además, ahora que se van conociendo más detalles de esta nueva enfermedad: cómo se propaga, cómo podemos reducir el número de contagios, síntomas relacionados, etc., están surgiendo diferentes sistemas software, como Radar Covid, para rastrear y gestionar la información de los ciudadanos con el fin de aplanar la curva de incidencia e intentar erradicar esta pandemia o posibles pandemias que surjan en el futuro. 
 
