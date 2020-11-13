@@ -43,6 +43,7 @@ Algunas de las fortalezas de la situación actual encontradas son las siguientes
 ## 3.2 MODELO DE PROCESOS DE NEGOCIO ACTUALES
 
 **DESCRIPCIÓN ACTORES NEGOCIO ACTUALES**
+
 Los actores de negocio son los siguientes: 
 
 * Secretaría de Estado de Digitalización e Inteligencia Artificial del Gobierno de España: Son competencias de esta Secretaría de Estado las relativas a la política de impulso a la digitalización de la sociedad y economía, a través del fomento y regulación de los servicios digitales y de la economía y sociedad digitales, la interlocución con los sectores profesionales, industriales y académicos, así como el impulso de la digitalización del sector público.
@@ -53,7 +54,7 @@ Los actores de negocio son los siguientes:
 
 * Gobierno de España: Es el órgano constitucional que encabeza el poder ejecutivo del Reino de España y dirige la Administración General del Estado. Según la Constitución española, sus funciones son dirigir la política interior y exterior, la administración civil y militar y la defensa del Estado; así como de ejercer la función ejecutiva y la potestad reglamentaria de acuerdo con la Constitución y las leyes.
 
-* Comunidad europea (?)
+* Comunidad europea: es una comunidad política de derecho constituida en régimen sui géneris de organización internacional nacida para propiciar y acoger la integración y gobernanza en común de los Estados y los pueblos de Europa. Está compuesta por veintisiete paises europeos.
 
 | **info_003** | **Actores de negocio**
 --- | --- 
