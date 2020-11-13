@@ -18,12 +18,14 @@
 * Puede dar problemas de compatibilidad si se esta usando otro dispositivo por Bluetooth
 * Gasto bateria excesivo (no solucionable)
 * Bluetooth más vulnerable a ataques
-
 * El uso y la instalación de la aplicación no es obligatorio, lo cual dificulta el rastreo del virus y el poder avisar a la gente que ha estado en contacto con una persona que ha dado positivo.
 * La aplicación está basada en el uso del Bluetooth y generalmente suele estar apagado u ocupado por otros dispositivos por lo que no funciona correctamente.
 * Desconocimiento del uso de la aplicación y/o desconociento de uso de los dispositivos móviles.
 
-
+| info_001 | Pros y Contras
+| **Versión** | 1.0 (13-11-2020) 
+| **Descripción** |Esta sección contiene información sobre las fortalezas y debilidades de la situación actual
+| **Comentarios** | 
 
 ## 3.2 MODELO DE PROCESOS DE NEGOCIO ACTUALES
 
