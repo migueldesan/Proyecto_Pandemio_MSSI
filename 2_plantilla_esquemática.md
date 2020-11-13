@@ -1,6 +1,7 @@
 # PRÁCTICA DE MODELADO
 ## 2 INFORMACIÓN DEL DOMINIO DEL PROBLEMA
 
+
 Desde comienzos del año 2020 el mundo se encuntra sumergido en una pandemia global debido al virus COVID-19. Actualmente, en España, como modo de rastreo del virus y como ayuda a los ciudadanos, se ha creado sistemas software para intentar reducir los daños que está provocando la pandemia.
 
 ## 2.1 Introducción al Dominio del Problema
@@ -27,7 +28,7 @@ A continuación se presenta una lista ordenada alfabéticamente con los principa
   - Eliminar los cables y conectores entre estos. 
   - Ofrecer la posibilidad de crear pequeñas redes inalámbricas y facilitar la sincronización de datos entre equipos personales.
   
-* **Caso sospechoso:** Cuadro clínico de infección respiratoria aguda de aparición súbita de cualquier gravedad que cursa, entre otros, con fiebre, tos o sensación de falta de aire, y que pueden estar asociados o no a síntomas graves como dificultad respiratoria o neumonía. Otros síntomas atípicos como la odinofagia (dolor de garganta al ingerir), anosmia (pérdida de olfato), ageusia (pérdida de gusto), dolores musculares, diarreas, dolor torácico o cefaleas, entre otros, pueden ser también considerados como síntomas de sospecha de infección de Covid-19. Para futuras pandemias está definición podrá variar en función de los síntomas asociados a la enfermedad en cuestión
+* **Caso sospechoso:** Cuadro clínico de infección respiratoria aguda de aparición súbita de cualquier gravedad que cursa, entre otros, con fiebre, tos o sensación de falta de aire, y que pueden estar asociados o no a síntomas graves como dificultad respiratoria o neumonía. Otros síntomas atípicos como la odinofagia (dolor de garganta al ingerir), anosmia (pérdida de olfato), ageusia (pérdida de gusto), dolores musculares, diarreas, dolor torácico o cefaleas, entre otros, pueden ser también considerados como síntomas de sospecha de infección de Covid-19. Para futuras pandemias está definición podrá variar en función de los síntomas asociados a la enfermedad en cuestión.
 
 * **Contacto (estrecho):** Persona que haya coincidido con un caso diagnosticado como COVID positivo, permaneciendo a menos de 2 metros, durante más de 15 minutos, sin mascarilla y durante las 48 horas previas a la fecha del diagnóstico. Si todas las personas usaron mascarillas en todo momento, se mantuvo la distancia de seguridad y el espacio estuvo ventilado no se considerarían contactos estrechos. Para futuras pandemias está definición podrá variar en función de que se considere haber estado en contacto cercano con un caso positivo o sospechoso.
 
@@ -46,7 +47,7 @@ A continuación se presenta una lista ordenada alfabéticamente con los principa
 * **Incubación:** Se trata del tiempo comprendido entre la exposición a un organismo patogénico y el momento en que los síntomas aparecen por primera vez. En el caso del coronavirus, el tiempo de incubación es de 5,4 días de media, aunque se han observado casos en que el periodo de incubación es de hasta 14 días.
 
 
-<img align="right" width=20% src="./Imágenes/OMS_logo.png">
+<img align="right" width=10% src="./Imágenes/OMS_logo.png">
 
 
 * **Organización Mundial de la Salud (OMS):** Organismo especializado de las Naciones Unidas creado en 1946 con el propósito fundamental de alcanzar para todos los pueblos el grado más alto posible de salud, que coordina programas encaminados a solucionar problemas sanitarios y se ocupa de la inmunización, la educación sanitaria y el suministro de medicamentos esenciales
