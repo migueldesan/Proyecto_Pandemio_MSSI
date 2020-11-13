@@ -3,7 +3,7 @@
 
 [Plataforma de rastreo para tiempos de pandemia]
 
-El Ministro de Sanidad se ha puesto en contacto con usted para realizar una plataforma que permita rastrear y gestionar la infomación de los ciudadanos de la próxima pandemia. 
+El Ministro de Sanidad se ha puesto en contacto con usted para realizar una plataforma que permita rastrear y gestionar la información de los ciudadanos de la próxima pandemia. 
 
 Según le confiesa el señor ministro la aplicación móvil que han desarrollado para la actual pandemia, llamada **Radar Covid** ha sido un bluff con resultados muy decepcionantes, aunque negará haberdicho nada esto ante cualquier alcachofa.
 
