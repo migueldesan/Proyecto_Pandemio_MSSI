@@ -6,7 +6,7 @@
 Algunas de las fortalezas de la situación actual encontradas son las siguientes:
 
 | **ID** | **Nombre** |**Descripción**
---- | --- 
+--- | --- | --- 
 | **F-01** | | La privacidad de los datos y contagio
 | **F-02** | | Conocimiento de positivos en casos cercanos sin dar datos
 | **F-03** | | Rapido el aviso de un positivo
@@ -21,7 +21,7 @@ Algunas de las fortalezas de la situación actual encontradas son las siguientes
 Algunas de las debilidades de la situación actual encontradas son las siguientes:
 
 | **ID** | **Nombre** |**Descripción
---- | --- 
+--- | --- | --- 
 | **D-01** | | No es obligatorio 
 | **D-02** | | No todo el personal sanitario esta familiarizado con el funcionamiento de la app
 | **D-03** | | Mucha gente no conoce la aplicacion
