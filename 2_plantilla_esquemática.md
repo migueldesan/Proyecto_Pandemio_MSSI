@@ -55,16 +55,16 @@ A continuación se presenta una lista ordenada alfabéticamente con los principa
   
   En el siguiente enlace se puede ver cómo se debe realizar una PCR: [Link](https://www.youtube.com/watch?v=Yf-HDkJGW08 "¿Cómo se realiza una prueba PCR?").
 
-<img align="right" width=50% src="./Imágenes/test-rapido.png">
+<img align="right" width=30% src="./Imágenes/test-rapido.png">
 
 * **Test rápido:** Este nuevo test rápido de antígenos es una nueva prueba de la que disponemos que nos permite detectar el Covid-19 desde el mismo inicio del contacto con una altísima fiabilidad, muy similar a la que nos ofrecerá una PCR, pero con obtención de resultados en apenas 15 minutos. Los test rápidos se realizan con muestras de exudados de la nariz y del fondo de la garganta –que se toman con un bastoncillo o hisopo– y en ellos se detectan la posible presencia de antígenos, es decir, permiten detectar si hay presencia del virus SARS-CoV-2 em el paciente por medio de alguno de sus componentes, como por ejemplo, por sus proteínas.
 
 > En la siguiente imagen podemos ver las principales diferencias entre la técnica de la PCR y los test rápidos.
 
-
-
-
-
-
+<br/><br/>
+<p align="center">
+  <img width=70% src="./Imágenes/diferencia_PCR7_test_rapido.jpg">
+</p>
+<br/><br/>
 
 * **Vacuna:** Se trata de una sustancia compuesta por microorganismos atenuados o muertos que se introduce para estimular la formación de anticuerpos y conseguir inmunidad frente a ciertas enfermedades. Hasta la fecha no existe ninguna vacuna ni medicamento antiviral específico para prevenir o tratar el COVID-19.
