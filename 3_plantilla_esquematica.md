@@ -3,21 +3,15 @@
 
 **FORTALEZAS**
 
-Algunas de las fortalezas de la situación actual encontradas son las siguientes:
-
-* La privacidad de los datos y contagio
-* Conocimiento de positivos en casos cercanos sin dar datos
-* Rapido el aviso de un positivo
-* Fácil uso de la interfaz
-* Tiene sección de preguntas y enlaces de interes
-* Posibilidad de usar la app en varios idiomas
-* Gratuita y fácilmente descargable
-
-| **info_001** | **Fortalezas y debilidades**
+| **ID** | **Descripción**
 --- | --- 
-| **Versión** | 1.0 (13-11-2020) 
-| **Descripción** | Esta sección contiene información sobre las fortalezas de la situación actual
-| **Comentarios** | 
+| **F-01** | La privacidad de los datos y contagio
+| **F-02** | Conocimiento de positivos en casos cercanos sin dar datos
+| **F-03** | Rapido el aviso de un positivo
+| **F-04** | Fácil uso de la interfaz
+| **F-05** | Tiene sección de preguntas y enlaces de interes
+| **F-06** | Posibilidad de usar la app en varios idiomas
+| **F-07** | Gratuita y fácilmente descargable
 
 **CONTRAS**
 
