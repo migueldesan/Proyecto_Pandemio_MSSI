@@ -32,6 +32,9 @@ Algunos de los aspectos positivos de Radar Covid que convendría que se mantuvie
 | **FO-08** | Varios idiomas | Posibilidad de usar la app en varios idiomas. |
 | **FO-09** | Gratuita | Es gratuita y fácilmente instalable. |
 | **FO-10** | Anonimato | Es posible comunicar de forma anónima el diagnostico positivo de una prueba PCR. |
+| **FO-11** | Consumo de datos nulo | No consume ningún dato de las tarifas telefónicas. |
+| **FO-12** | Código abierto | El código fuente de la aplicación de rastreo está publicado en Github para que cualquier desarrollador externo pueda notificar errores y colaborar. |
+ 
 
 
 ### 3.1.2 Debilidades de la Situación Actual
@@ -80,13 +83,20 @@ Los actores de negocio son los siguientes:
 
 ## 3.3 ENTORNO TECNOLÓGICO ACTUAL
 
-**HARDWARE**
-* Smartphones para la ejecución de la aplicación, servidores para soportarla, PC para gestionar los códigos en caso de positivo (coordinado con servicios médicos), PC para la administración de la aplicación. 
+Al ser una aplicación de código abierto, podemos encontrarlo en el siguiente link: [https://github.com/RadarCOVID](https://github.com/RadarCOVID)
+'El rastreo de proximidad descentralizado para preservar la privacidad' (DP-3T, estilizado como dp3t) es un protocolo abierto desarrollado en respuesta a la pandemia Covid-19 para facilitar el rastreo de contactos digitales de los participantes infectados.
+
+
+
+### 3.3.1 Descripción del Entorno de Hardware Actual
+
+El entorno hardware de Radar Covid consiste en los dispositivos móviles de cada usuario, en los servidores de Amazon Web Services y en los ordenadores de los servicios de salud 
+Smartphones para la ejecución de la aplicación, servidores para soportarla, PC para gestionar los códigos en caso de positivo (coordinado con servicios médicos), PC para la administración de la aplicación. 
 
 ### 3.3.2 Descripción del Entorno de Software Actual
 
 El entorno software de Radar Covid es bastante simple a nivel de usuario final ya que se trata de una aplicación movil disponible en Android e iOs y para su correcto funcionamiento solo es necesario el uso del Bluetooth y del GPS. 
 
-La gestión de los datos está basada en el modelo descentralizado ya que los datos de cada ciudadano se guardan en cada dispositivo móvil y la conexión con el servidor es privada para garantizar el anonimato y la confidencialidad de los ciudadanos.
+La gestión de los datos está basada en el modelo descentralizado ya que los datos de cada ciudadano se guardan en cada dispositivo móvil. Los pocos datos que se comparten con la aplicación están alojados en los servidores de Amazon Web Services y la subida de datos al servidor se hace con un software de la compañía estadounidense de forma cifrada y anónima para guardar la confidencialidad y el anonimato de los usuarios de la aplicación.
 
 Finalmente también es necesario un programa generador de códigos que utiliza el personal sanitario cuando un ciudadano obtiene un resultado positivo en un test rápido o en una PCR. Este código generado es el que se le da al ciudadano para que lo registre voluntariamente en su aplicación de Radar Covid y se avise a todas las personas que hayan estado más de 15 minutos con él.
