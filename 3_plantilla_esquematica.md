@@ -1,41 +1,42 @@
 # PRACTICA DE MODELADO
 # 3 DESCRIPCIÓN DE LA SITUACIÓN ACTUAL 
-Aunque la aplicación Radar Covid no nace en España, el Gobierno de España decide comenzar a usar esta aplicación a nivel nacional como parte de las soluciones inmediatas para frenar la pandemia ya que en otros países de la Unión Europea ha tenido bastante éxito. Para usar Radar Covid en cada comunidad autónoma, cada una debía comunicar al Ministerio de Sanidad su uso, que tras comprobar que todo estaba en orden, pidía a la Secretaría de Estado de Inteligencia Artificial (dependiente de Ministerio de Asuntos Económicos) que comienzara la integración técnica. Para la integración técnica, cada comunidad autónoma debía generar un protocolo propio dentro de sus sistemas sanitarios para enviar los códigos a los contagiados -que identifican anónimamente a los positivos y a sus contactos estrechos- y formar a los rastreadores para que puedieran utilizar de mejor manera la información que reciben de la app. Sin embargo, todo este proceso es bastante lento ya que intervienen gran cantidad de actores. 
+Aunque la aplicación Radar Covid no nació en España, el Gobierno de España decidió comenzar a usar esta aplicación a nivel nacional como parte de las principales soluciones para frenar la pandemia ya que en otros países de la Unión Europea había tenido bastante éxito. Para usar Radar Covid en cada comunidad autónoma, cada una debía comunicar al Ministerio de Sanidad su uso, que tras comprobar que todo estaba en orden, pidía a la Secretaría de Estado de Inteligencia Artificial (dependiente de Ministerio de Asuntos Económicos) que comienzara la integración técnica. Para la integración técnica, cada comunidad autónoma debía generar un protocolo propio dentro de sus sistemas sanitarios para enviar los códigos a los contagiados -que identifican anónimamente a los positivos y a sus contactos estrechos- y formar a los rastreadores para que puedieran utilizar de mejor manera la información que reciben de la app. Sin embargo, todo este proceso es bastante lento ya que intervienen gran cantidad de actores. 
 
 A día de hoy, Radar Covid ya se está usando a nivel nacional pero no se están conseguido los resultados que se esperaban por diversos motivos como son:
-  * El número de descargas de la aplicación es muy bajo ya que es una aplicación de uso voluntario y además se le ha dado poca publicidad en los medios nacionales
+  * El número de descargas de la aplicación es muy bajo ya que es una aplicación de uso voluntario y además se le ha dado poca publicidad en los medios nacionales.
   * El conocimiento de la tecnología médica en España es insuficiente.
-  * La dificultad para comunicar un positivo. Esto se debe a que los sanitarios deben proporcionar un código para insertar en la aplicación en caso de ser diagnosticado como positivo, y sin embargo muchos sanitarios desconocen la existencia de estos códigos. Además, la colaboración por parte de las Comunidades Autónomas no está siendo la adecuada, y surgen continuamente problemas en la generación de códigos ya que la gestión de los datos entre las diferentes comunidades no está estandarizada.
-  * Está basada en el uso de bluetooth. lo que la hace inservible si el bluetooth está apagado o bien, ocupado con los auriculares.
+  * La dificultad para comunicar un positivo. Esto se debe a que los sanitarios deben proporcionar a los ciudadanos diagnosticados como positivos un código para insertar en la aplicación, y sin embargo muchos sanitarios desconocen la existencia de estos códigos. Además, la colaboración por parte de las Comunidades Autónomas no está siendo la adecuada, y surgen continuamente problemas en la generación de códigos ya que la gestión de los datos entre las diferentes comunidades no está estandarizada.
+  * Está basada en el uso de bluetooth. Lo que la hace inservible si el bluetooth está apagado o bien, ocupado con los auriculares u otra aplicación.
   
-Por todo ello y más, nace Pandemio, que tratará de permitirá rastrear y gestionar la información de los ciudadanos de la próxima pandemia de una forma más eficaz.
-Para ello es necesario conocer en detalle la situación actual para evitar cometer los mismos errores en Pandemio y mejorar lo que ya existe.
+Por todo ello y más, nace Pandemio, que tratará de rastrear y gestionar la información de los ciudadanos de la próxima pandemia de una forma más eficaz.
+Para ello es necesario conocer en detalle la situación actual para evitar cometer los mismos errores de Radar Covid en Pandemio y mejorar lo que ya existe.
 
 <br>
 
 ## 3.1 Pros y contras de la Situación Actual
-En esta sección señalaremos los principales aspectos positivos y negativos de Radar Covid con el fin de conservar aquellos que puedan mejorar Pandemio, y corregir aquellos que han llevado al fracaso a Radar Covid para que no suceda lo mismo con Pandemio.
+En esta sección señalaremos los principales aspectos positivos y negativos de Radar Covid con el fin de conservar aquellos que puedan mejorar Pandemio, y corregir aquellos que han llevado a fracasar a Radar Covid para que no suceda lo mismo con Pandemio.
 
 ### 3.1.1 Fortalezas de la Situación Actual
 
 Algunos de los aspectos positivos de Radar Covid que convendría que se mantuvieran en Pandemio son los siguientes:
 
 | ID | NOMBRE | DESCRIPCIÓN |
-| :---: | :----- | :----- |
+| :-----: | :----- | :----- |
 | **FO-01** | Anonimato | La aplicación funciona sin revelar la identidad del ciudadano ni la del dispositivo móvil. Además no registra datos personales ni de geolocalización. |
 | **FO-02** | Alertas rápidas | Rápido aviso al ciudadano de que ha estado en contacto con un positivo cercano para que comience la cuarentena cuanto antes y disminuya sus contactos sociales. |
 | **FO-03** | Discrección | Las alertas de exposición se envían sin indicar el lugar ni momento concreto donde se produjo la exposición. |
-| **FO-04** | Encriptación de los datos | Los datos se guardan en cada dispositivo móvil y la conexión con el servidor es privada. |
-| **FO-05** | Interfaz amigable | Fácil uso de la interfaz. |
-| **FO-06** | Sección de ayuda | Tiene sección de preguntas y enlaces de interés acerca de la enfermedad. |
-| **FO-07** | Varios idiomas | Posibilidad de usar la app en varios idiomas. |
-| **FO-08** | Gratuita | Es gratuita y fácilmente instalable. |
-| **FO-09** | Anonimato | Es posible comunicar de forma anónima el diagnostico positivo de una prueba PCR. |
+| **FO-04** | Descentralización de los datos | Los datos de cada ciudadano solo se guardan en su dispositivo móvil. |
+| **FO-05** | Encriptación de los datos | La conexión entre los dispositivos móviles y el servidor es privada. |
+| **FO-06** | Interfaz amigable | Fácil uso de la interfaz. |
+| **FO-07** | Sección de ayuda | Tiene sección de preguntas y enlaces de interés acerca de la enfermedad. |
+| **FO-08** | Varios idiomas | Posibilidad de usar la app en varios idiomas. |
+| **FO-09** | Gratuita | Es gratuita y fácilmente instalable. |
+| **FO-10** | Anonimato | Es posible comunicar de forma anónima el diagnostico positivo de una prueba PCR. |
 
 
 ### 3.1.2 Debilidades de la Situación Actual
 
-Por el contrario, también hay destacar los principales aspectos negativos de Radar Covid que consideramos que no deben repetirse en Pandemio:
+Por el contrario, también hay que destacar los principales aspectos negativos de Radar Covid que consideramos que no deben repetirse en Pandemio:
 
 | ID | NOMBRE | DESCRIPCIÓN |
 | :---: | :----- | :----- |
@@ -43,7 +44,7 @@ Por el contrario, también hay destacar los principales aspectos negativos de Ra
 | **DE-02** | Sanitarios poco familiarizados con la App | No todo el personal sanitario está familiarizado con el funcionamiento de la app y pocos hacen uso de ella. |
 | **DE-03** | Desconocimiento de la App | Gran parte de la población no conoce la existencia de la aplicación. |
 | **DE-04** | Vulnerabilidad a ataques | El uso del Bluetooth provoca que los dispositivos móviles sean más vulnerables a ataques informáticos. |
-| **DE-05** | Funcionamiento basado en Bluetooth | La aplicación hace uso del Bluetooth para su correcto funcionamiento y generalmente suele estar apagado u ocupado por otros dispositivos. Esto provoca que las aplicaciones actuales no funcionen correctamente y que el rastreo del virus sea aún más complicado. |
+| **DE-05** | Funcionamiento basado en Bluetooth y GPS | La aplicación hace uso del Bluetooth para su correcto funcionamiento y generalmente suele estar apagado u ocupado por otros dispositivos. Esto provoca que las aplicaciones actuales no funcionen correctamente y que el rastreo del virus sea aún más complicado. Además, hay dispositivos móviles que aún no tienen buenos servicios de GPS incorporados. |
 | **DE-06** | Incompatibilidad entre Apps | El uso del Bluetooth en varias aplicaciones puede generar problemas de incompatibilidad entre ellas y que los sistemas software no funcionen correctamente. |
 | **DE-07** | Desconocimiento del Bluetooth | Mucha gente mayor no conoce como funciona el Bluetooth por lo que las aplicaciones que se basan en Bluetooth pierden su potencial. 
 | **DE-08** | Desconocimiento del propio dispositivo móvil| Mucha gente de avanzada edad desconoce como descargar aplicaciones en su móvil y su uso. |
@@ -84,10 +85,8 @@ Los actores de negocio son los siguientes:
 
 ### 3.3.2 Descripción del Entorno de Software Actual
 
-El entorno software de Radar Covid es bastante simple: se trata de una aplicación movil disponible en Android e iOs y para su correcto funcionamiento es necesario el uso del Bluetooth. 
+El entorno software de Radar Covid es bastante simple a nivel de usuario final ya que se trata de una aplicación movil disponible en Android e iOs y para su correcto funcionamiento solo es necesario el uso del Bluetooth y del GPS. 
+
 La gestión de los datos está basada en el modelo descentralizado ya que los datos de cada ciudadano se guardan en cada dispositivo móvil y la conexión con el servidor es privada para garantizar el anonimato y la confidencialidad de los ciudadanos.
 
-
-* Necesidad de que el smartphone del cliente cuente con Bluetooth y servicio GPS. 
-* Aplicación móvil disponible en Android e iOS. 
-* Programa generador de código destinado a uso sanitario.
+Finalmente también es necesario un programa generador de códigos que utiliza el personal sanitario cuando un ciudadano obtiene un resultado positivo en un test rápido o en una PCR. Este código generado es el que se le da al ciudadano para que lo registre voluntariamente en su aplicación de Radar Covid y se avise a todas las personas que hayan estado más de 15 minutos con él.
