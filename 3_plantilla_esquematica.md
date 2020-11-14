@@ -3,33 +3,35 @@
 
 **FORTALEZAS**
 
-Algunas de las fortalezas de la situación actual encontradas son las siguientes:
+Algunos de los aspectos positivos de los sistemas software actuales que tratan de reducir el impacto de la pandemia sobre la población y que convendría que se mantuvieran en Pandemio son los siguientes:
 
-| **ID** | **Nombre** |**Descripción**
---- | --- | --- 
-| **F-01** | Privacidad| La privacidad de los datos y contagio
-| **F-02** | Conocimiento positivos | Conocimiento de positivos en casos cercanos sin dar datos
-| **F-03** | Avisos rápidos | Rapido aviso de un positivo cercano
-| **F-04** | Interfaz amigable | Fácil uso de la interfaz
-| **F-05** | Obtención de  ayuda | Tiene sección de preguntas y enlaces de interes
-| **F-06** | Poliglota (no me sale el sinónimo) | Posibilidad de usar la app en varios idiomas
-| **F-07** | Gratuita | Es gratuita y fácilmente instalable
+| ID | NOMBRE | DESCRIPCIÓN |
+| :---: | :----- | :----- |
+| **ID-01** | Anonimato | La aplicación funciona sin revelar la identidad del ciudadano ni la del dispositivo móvil. Además no registra datos personales ni de geolocalización.
+| **ID-02** | Alertas rápidas | Rápido aviso al ciudadano de que ha estado en contacto con un positivo cercano para que comience la cuarentena cuanto antes y disminuya sus contactos sociales.
+| **ID-03** | Discrección | Las alertas de exposición se envían sin indicar el lugar ni momento concreto donde se produjo la exposición.
+| **ID-04** | Encriptación de los datos | Los datos se guardan en cada dispositivo movil y la conexión con el servidor es privada.
+| **ID-05** | Interfaz amigable | Fácil uso de la interfaz.
+| **ID-06** | Sección de ayuda | Tiene sección de preguntas y enlaces de interes acerca de la enfermedad.
+| **ID-07** | Varios idiomas | Posibilidad de usar la app en varios idiomas.
+| **ID-08** | Gratuita | Es gratuita y fácilmente instalable.
+| **ID-09** | Anonimato | Es posible comunicar de forma anónima el diagnostico positivo de una prueba PCR.
 
 
 **DEBILIDADES**
 
-A continuación detallamos los principales aspectos negativos de los sistemas software actuales que consideramos que no deben repetirse en Pandemio:
+Por el contrario, también hay destacar los principales aspectos negativos de los sistemas software actuales que consideramos que no deben repetirse en Pandemio:
 
-| **ID** | **Nombre** | **Descripción**
---- | --- | --- 
-| **D-01** | Descarga y uso voluntario | La instalación y el uso de la aplicación no son obligatorios lo que dificulta el rastreo del virus en la población ya que solo un pequeño porcentaje de la población la usa diariamente. 
-| **D-02** | Sanitarios poco familiarizados con la App | No todo el personal sanitario está familiarizado con el funcionamiento de la app y pocos hacen uso de ella.
-| **D-03** | Desconocimiento de la App | Gran parte de la población no conoce la existencia de la aplicación.
-| **D-04** | Desconocimiento del Bluetooth | Mucha gente mayor no conoce como funciona el Bluetooth por lo que las aplicaciones que se basan en Bluetooth.
-| **D-05** | Incompatibilidad entre Apps | El uso del Bluetooth en varias aplicaciones puede generar problemas de incompatibilidad entre ellas y que los sistemas software no funcionen correctamente.
-| **D-06** | Vulnerabilidad a ataques | El uso del Bluetooth provoca que los dispositivos móviles sean más vulnerables a ataques informáticos.
-| **D-07** | Funcionamiento basado en Bluetooth | La aplicación hace uso del Bluetooth para su correcto funcionamiento y generalmente suele estar apagado u ocupado por otros dispositivos. Esto provoca que las aplicaciones actuales no funcionen correctamente y que el rastreo del virus sea aún más complicado.
-| **D-08** | | Desconocimiento del uso de la aplicación y/o desconociento de uso de los dispositivos móviles.
+| ID | NOMBRE | DESCRIPCIÓN |
+| :---: | :----- | :----- |
+| **ID-01** | Descarga y uso voluntario | La instalación y el uso de la aplicación no son obligatorios lo que dificulta el rastreo del virus en la población ya que solo un pequeño porcentaje de la población la usa diariamente. 
+| **ID-02** | Sanitarios poco familiarizados con la App | No todo el personal sanitario está familiarizado con el funcionamiento de la app y pocos hacen uso de ella.
+| **ID-03** | Desconocimiento de la App | Gran parte de la población no conoce la existencia de la aplicación.
+| **ID-04** | Vulnerabilidad a ataques | El uso del Bluetooth provoca que los dispositivos móviles sean más vulnerables a ataques informáticos.
+| **ID-05** | Funcionamiento basado en Bluetooth | La aplicación hace uso del Bluetooth para su correcto funcionamiento y generalmente suele estar apagado u ocupado por otros dispositivos. Esto provoca que las aplicaciones actuales no funcionen correctamente y que el rastreo del virus sea aún más complicado.
+| **ID-06** | Incompatibilidad entre Apps | El uso del Bluetooth en varias aplicaciones puede generar problemas de incompatibilidad entre ellas y que los sistemas software no funcionen correctamente.
+| **ID-07** | Desconocimiento del Bluetooth | Mucha gente mayor no conoce como funciona el Bluetooth por lo que las aplicaciones que se basan en Bluetooth pierden su potencial.
+| **ID-08** | Desconocimiento del propio dispositivo móvil| Mucha gente de avanzada edad desconoce como descargar aplicaciones en su móvil y su uso.
 
 ## 3.2 MODELO DE PROCESOS DE NEGOCIO ACTUALES
 
