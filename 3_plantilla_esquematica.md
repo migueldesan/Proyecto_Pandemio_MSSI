@@ -18,17 +18,17 @@ Algunas de las fortalezas de la situación actual encontradas son las siguientes
 
 **DEBILIDADES**
 
-Algunas de las debilidades de la situación actual encontradas son las siguientes:
+A continuación detallamos los principales aspectos negativos de los sistemas software actuales que consideramos que no deben repetirse en Pandemio:
 
 | **ID** | **Nombre** | **Descripción**
 --- | --- | --- 
-| **D-01** | Obligatoriedad |El uso y la instalación de la aplicación no es obligatorio, lo cual dificulta el rastreo del virus y el poder avisar a la gente que ha estado en contacto con una persona que ha dado positivo. 
-| **D-02** | Familiarización con la App | No todo el personal sanitario esta familiarizado con el funcionamiento de la app
-| **D-03** | Desconocimiento de la App | Mucha gente no conoce la aplicacion
-| **D-04** | Desconocimiento del Bluetooth | Gente mayor no conoce Bluetooth.
-| **D-05** | Compatibilidad | Puede dar problemas de compatibilidad si se esta usando otro dispositivo por Bluetooth
-| **D-06** | Vulnerabilidad a ataques | Debido al Bluetooth es más vulnerable a ataques
-| **D-07** | Activación de Bluetooth | La aplicación está basada en el uso del Bluetooth y generalmente suele estar apagado u ocupado por otros dispositivos por lo que no funciona correctamente.
+| **D-01** | Descarga y uso voluntario | La instalación y el uso de la aplicación no son obligatorios lo que dificulta el rastreo del virus en la población ya que solo un pequeño porcentaje de la población la usa diariamente. 
+| **D-02** | Sanitarios poco familiarizados con la App | No todo el personal sanitario está familiarizado con el funcionamiento de la app y pocos hacen uso de ella.
+| **D-03** | Desconocimiento de la App | Gran parte de la población no conoce la existencia de la aplicación.
+| **D-04** | Desconocimiento del Bluetooth | Mucha gente mayor no conoce como funciona el Bluetooth por lo que las aplicaciones que se basan en Bluetooth.
+| **D-05** | Incompatibilidad entre Apps | El uso del Bluetooth en varias aplicaciones puede generar problemas de incompatibilidad entre ellas y que los sistemas software no funcionen correctamente.
+| **D-06** | Vulnerabilidad a ataques | El uso del Bluetooth provoca que los dispositivos móviles sean más vulnerables a ataques informáticos.
+| **D-07** | Funcionamiento basado en Bluetooth | La aplicación hace uso del Bluetooth para su correcto funcionamiento y generalmente suele estar apagado u ocupado por otros dispositivos. Esto provoca que las aplicaciones actuales no funcionen correctamente y que el rastreo del virus sea aún más complicado.
 | **D-08** | | Desconocimiento del uso de la aplicación y/o desconociento de uso de los dispositivos móviles.
 
 ## 3.2 MODELO DE PROCESOS DE NEGOCIO ACTUALES
