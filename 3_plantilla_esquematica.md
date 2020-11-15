@@ -62,17 +62,20 @@ En esta sección trataremos de señalar los principales modelos de negocio que e
 
 ### 3.2.1 Descripción de los Actores de Negocio Actuales
 
-Los actores de negocio son los siguientes: 
+Los actores de negocio que intervienen en la actualidad en Radar Covid son los siguientes: 
 
-* Secretaría de Estado de Digitalización e Inteligencia Artificial del Gobierno de España: Son competencias de esta Secretaría de Estado las relativas a la política de impulso a la digitalización de la sociedad y economía, a través del fomento y regulación de los servicios digitales y de la economía y sociedad digitales, la interlocución con los sectores profesionales, industriales y académicos, así como el impulso de la digitalización del sector público.
+| **ID01** | **Nombre** | **Descripción** |
+| :---: | :--- | :--- |
+| **AC-01** | Gobierno de España | Es el órgano constitucional que encabeza el poder ejecutivo del Reino de España y dirige la Administración General del Estado. Según la Constitución española, sus funciones son dirigir la política interior y exterior, la administración civil y militar y la defensa del Estado; así como de ejercer la función ejecutiva y la potestad reglamentaria de acuerdo con la Constitución y las leyes. |
 
-* Sanitarios: Persona que trabaja en la sanidad tanto en todas las comunidades autónomas.
+| **AC-01** | Secretaría de Estado de Digitalización e Inteligencia Artificial del Gobierno de España | Son competencias de esta Secretaría de Estado las relativas a la política de impulso a la digitalización de la sociedad y economía, a través del fomento y regulación de los servicios digitales y de la economía y sociedad digitales, la interlocución con los sectores profesionales, industriales y académicos, así como el impulso de la digitalización del sector público. |
 
-* Ministerio de Sanidad: Es el Departamento de la Administración General del Estado que asume la propuesta y ejecución de la política del Gobierno de la Nación en materia de salud, de planificación y asistencia sanitaria, así como el ejercicio de las competencias de la Administración General del Estado para asegurar a los ciudadanos el derecho a la protección de la salud.
+| **AC-01** | Ministerio de Sanidad | Es el Departamento de la Administración General del Estado que asume la propuesta y ejecución de la política del Gobierno de la Nación en materia de salud, de planificación y asistencia sanitaria, así como el ejercicio de las competencias de la Administración General del Estado para asegurar a los ciudadanos el derecho a la protección de la salud. |
 
-* Gobierno de España: Es el órgano constitucional que encabeza el poder ejecutivo del Reino de España y dirige la Administración General del Estado. Según la Constitución española, sus funciones son dirigir la política interior y exterior, la administración civil y militar y la defensa del Estado; así como de ejercer la función ejecutiva y la potestad reglamentaria de acuerdo con la Constitución y las leyes.
+| **AC-01** | Comunidad europea | Persona que trabaja en la sanidad tanto en todas las comunidades autónomas. |
 
-* Comunidad europea: es una comunidad política de derecho constituida en régimen sui géneris de organización internacional nacida para propiciar y acoger la integración y gobernanza en común de los Estados y los pueblos de Europa. Está compuesta por veintisiete paises europeos.
+| **AC-01** | Sanitarios| Es el órgano constitucional que encabeza el poder ejecutivo del Reino de España y dirige la Administración General del Estado. Según la Constitución española, sus funciones son dirigir la política interior y exterior, la administración civil y militar y la defensa del Estado; así como de ejercer la función ejecutiva y la potestad reglamentaria de acuerdo con la Constitución y las leyes. |
+
 
 | **info_01** | **Actores de negocio**
 --- | --- 
