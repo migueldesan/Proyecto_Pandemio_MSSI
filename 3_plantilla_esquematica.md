@@ -58,31 +58,21 @@ Por el contrario, también hay que destacar los principales aspectos negativos d
 
 ## 3.2	Modelos de Procesos de Negocio Actuales
 
-En esta sección trataremos de señalar los principales modelos de negocio que existen en la actualidad.
+En Radar Covid intervienen numerosos 
 
 ### 3.2.1 Descripción de los Actores de Negocio Actuales
+Aunque la aplicación Radar Covid no nació en España, el Gobierno de España decidió comenzar a usar esta aplicación a nivel nacional como parte de las principales soluciones para frenar la pandemia ya que en otros países de la Unión Europea había tenido bastante éxito. Para usar Radar Covid en cada comunidad autónoma, cada una de ellas debía comunicar al Ministerio de Sanidad su uso, que tras comprobar que todo estaba en orden, pedía a la Secretaría de Estado de Inteligencia Artificial (dependiente de Ministerio de Asuntos Económicos y Transformación Digital) que comenzara la integración técnica. Para esta integración técnica, cada comunidad autónoma debía crear un protocolo propio dentro de sus sistemas sanitarios para enviar los códigos a los contagiados (que identifican anónimamente a los positivos y a sus contactos estrechos) y formar a los rastreadores para que puedieran utilizar de la mejor manera posible la información que reciben de la aplicación. Sin embargo, todo este proceso es bastante lento ya que intervienen gran cantidad de factores. 
 
-Los actores de negocio que intervienen en la actualidad en Radar Covid son los siguientes: 
+Los principales actores de negocio que intervienen en la actualidad en Radar Covid son los siguientes: 
 
-| **ID01** | **Nombre** | **Descripción** |
+| **ID** | **Nombre** | **Descripción** |
 | :---: | :--- | :--- |
-| **AC-01** | Gobierno de España | Es el órgano constitucional que encabeza el poder ejecutivo del Reino de España y dirige la Administración General del Estado. Según la Constitución española, sus funciones son dirigir la política interior y exterior, la administración civil y militar y la defensa del Estado; así como de ejercer la función ejecutiva y la potestad reglamentaria de acuerdo con la Constitución y las leyes. |
+| **AC-01** | Gobierno de España | Es el órgano que decidió que Radar Covid se comenzará a utilizar en España y el encargado de permitir e impulsar su uso. |
+| **AC-02** | Secretaría de Estado de Digitalización e Inteligencia Artificial del Gobierno de España | Esta secretaría dependiente del Ministerio de Asuntos Económicos y Transformación Digital es la encargada de personalizar la aplicación de Radar Covid para España (recordemos que es una aplicación que se usa en toda Europa) e integrarla en los servicios sanitarios de cada comunidad autónoma. Además es la encargada de impulsar la aplicación en España y subsanar cualquier brecha de seguridad que pudiera surgir. |
+| **AC-03** | Sanidad en CCAA | Actualmente la Sanidad de España está trasladada, por lo que cada comunidad autónoma debe . Se encarga de crear los protocolos de Radar Covid dentro de la comunidad autónoma, de formar a los sanitarios y a los rastreadores, y comunicarse con otras comunidades autónomas cuando existen casos que se mueven entre distintas comunidades autónomas. |
+| **AC-04** | Sanitarios y rastreadores | Son los encargados de generar los códigos para los usuarios que hayan obtenido un resultado positivo ya que los usuarios finales no pueden generar los códigos. Además son los encargados de rastrear el virus y los posibles contactos estrechos que hayan mantenido los ciudadanos con un diagnóstico positivo. |
+| **AC-05** | Usuario final | Debido a que Radar Covid es una aplicación de uso voluntario, es necesario que los ciudadanos se descarguen esta aplicación y la usen correctamente. Deben usar el Bluetooth y el GPS, y son los encargados de comunicar su positivo a través de la aplicación cuando han obtenido un diagnóstico médico positivo. |
 
-| **AC-01** | Secretaría de Estado de Digitalización e Inteligencia Artificial del Gobierno de España | Son competencias de esta Secretaría de Estado las relativas a la política de impulso a la digitalización de la sociedad y economía, a través del fomento y regulación de los servicios digitales y de la economía y sociedad digitales, la interlocución con los sectores profesionales, industriales y académicos, así como el impulso de la digitalización del sector público. |
-
-| **AC-01** | Ministerio de Sanidad | Es el Departamento de la Administración General del Estado que asume la propuesta y ejecución de la política del Gobierno de la Nación en materia de salud, de planificación y asistencia sanitaria, así como el ejercicio de las competencias de la Administración General del Estado para asegurar a los ciudadanos el derecho a la protección de la salud. |
-
-| **AC-01** | Comunidad europea | Persona que trabaja en la sanidad tanto en todas las comunidades autónomas. |
-
-| **AC-01** | Sanitarios| Es el órgano constitucional que encabeza el poder ejecutivo del Reino de España y dirige la Administración General del Estado. Según la Constitución española, sus funciones son dirigir la política interior y exterior, la administración civil y militar y la defensa del Estado; así como de ejercer la función ejecutiva y la potestad reglamentaria de acuerdo con la Constitución y las leyes. |
-
-
-| **info_01** | **Actores de negocio**
---- | --- 
-| **Versión** | 1.0 (13-11-2020) 
-| **Dependencías** |  * La comunidad europea deberá tener un acuerdo con los paises 
-| **Descripción** | Esta sección contiene información sobre los actores de negocio de los modelos de los procesos de negocio.
-| **Comentarios** | 
 
 ## 3.3 ENTORNO TECNOLÓGICO ACTUAL
 
