@@ -116,9 +116,7 @@ En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 ## 3.3 ENTORNO TECNOLÓGICO ACTUAL
 
-Al ser una aplicación de código abierto, podemos encontrarlo en el siguiente link: [https://github.com/RadarCOVID](https://github.com/RadarCOVID)
-
-Radar Covid utiliza en su servidor el protocolo abierto 'Decentralized Privacy-Preserving Proximity Tracing' (DP-3T, estilizado como dp3t) que fue desarrollado en respuesta a la pandemia Covid-19 para facilitar el rastreo de contactos digitales de los participantes infectados. 
+Radar Covid es una aplicación de código abierto que podemos encontrar en el siguiente link: [https://github.com/RadarCOVID](https://github.com/RadarCOVID) y utiliza el protocolo abierto 'Decentralized Privacy-Preserving Proximity Tracing' (DP-3T, estilizado como dp3t), que fue desarrollado en respuesta a la pandemia Covid-19 para facilitar el rastreo de contactos digitales de los participantes infectados. 
 
 Cuando dos usuarios que tienen Radar Covid activado se encuentran, si permanecen juntos durante un tiempo superior a 15 minuto,s sus dispositivos móviles intercambian los números identificadores de la aplicación y los almacenan localmente en su registro de contactos. 
 
