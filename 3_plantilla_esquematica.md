@@ -20,7 +20,7 @@ En esta sección señalaremos los principales aspectos positivos y negativos de 
 
 Algunos de los aspectos positivos de Radar Covid que convendría que se mantuvieran en Pandemio son los siguientes:
 
-| ID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | NOMBRE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | DESCRIPCIÓN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
+| ID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | NOMBRE | DESCRIPCIÓN |
 | :-----: | :----- | :----- |
 | **FO-01** | Anonimato | La aplicación funciona sin revelar la identidad del ciudadano ni la del dispositivo móvil. Además no registra datos personales ni de geolocalización. |
 | **FO-02** | Alertas rápidas | Rápido aviso al ciudadano de que ha estado en contacto con un positivo cercano para que comience la cuarentena cuanto antes y disminuya sus contactos sociales. |
@@ -84,14 +84,20 @@ Los actores de negocio son los siguientes:
 ## 3.3 ENTORNO TECNOLÓGICO ACTUAL
 
 Al ser una aplicación de código abierto, podemos encontrarlo en el siguiente link: [https://github.com/RadarCOVID](https://github.com/RadarCOVID)
-'El rastreo de proximidad descentralizado para preservar la privacidad' (DP-3T, estilizado como dp3t) es un protocolo abierto desarrollado en respuesta a la pandemia Covid-19 para facilitar el rastreo de contactos digitales de los participantes infectados.
+Radar Covid utiliza en su servidor el protocolo abierto 'Decentralized Privacy-Preserving Proximity Tracing' (DP-3T, estilizado como dp3t) que fue desarrollado en respuesta a la pandemia Covid-19 para facilitar el rastreo de contactos digitales de los participantes infectados. 
 
+Cuando dos usuarios que tienen Radar Covid se encuentran, intercambian sus números ientificadores y los almacenan localmente en su registro de contactos. Cuando uno de ellos obtiene un resultado positivo en un análisis médico, se envía un informe a un servidor central. 
+Continuamente la aplición recopila los informes del servidor de forma automática y comprueba si algún identificador contenido en el informe del servidor se encuentra entre sus registros de contacto locales. Si encuentra alguna coincidencia, entonces el usuario ha estado en contacto cercano con un paciente infectado, y es advertido por la aplicación. Puesto que cada dispositivo verifica localmente los registros de contacto, y por lo tanto los registros de contacto nunca se transmiten a terceros, el servidor de informes central no puede por sí mismo determinar la identidad o el registro de contacto de cualquier usuario de la aplicación.
 
+El protocolo de enlace del dispositivo utiliza Bluetooth Low Energy para encontrar e intercambiar detalles entre los usuarios de la aplicación que se encuentren en un rango cercano, y la fase de notificación de infecciones utiliza HTTPS para cargar el informe en un servidor central de Amazon Web Services.
+
+Además, el código fuente de la aplicación está escrito en su mayoría en Kotlin (lenguaje de programación con tipo estático desarrollado por JetBrains y que se utiliza con mayor frecuencia para complementar o reemplazar Java en aplicaciones empresariales y de usuario final) para la parte de cliente y Java para la parte de servidor, utiliza SQL para comunicarse con la base de datos, y XML para el diseño de la aplicación. 
 
 ### 3.3.1 Descripción del Entorno de Hardware Actual
 
-El entorno hardware de Radar Covid consiste en los dispositivos móviles de cada usuario, en los servidores de Amazon Web Services y en los ordenadores de los servicios de salud 
-Smartphones para la ejecución de la aplicación, servidores para soportarla, PC para gestionar los códigos en caso de positivo (coordinado con servicios médicos), PC para la administración de la aplicación. 
+El entorno hardware de Radar Covid consiste en los dispositivos móviles de cada usuario, en los servidores de Amazon Web Services y en los ordenadores de los centros de salud  y hospitales que generan los códigos que los contactos positivos puedn introducir voluntariamente en la aplicación.
+
+Además también podemos destacar los ordenadores del Gobierno de España, concretamente los de la Secretaría de Estado de Inteligencia Artificial, encargados del mantenimiento y buen funcionamiento de la aplicación en todo momento. 
 
 ### 3.3.2 Descripción del Entorno de Software Actual
 
