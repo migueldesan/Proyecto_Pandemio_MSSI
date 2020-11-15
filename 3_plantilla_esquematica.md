@@ -83,7 +83,9 @@ La aplicación Radar Covid es muy sencilla y los procesos que lleva a cabo se pu
 
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
-<img align="middle" width=40% src="./Imágenes/Almacenar_identificador.jpg">
+<p align="center">
+<img width=40% src="./Imágenes/Almacenar_identificador.jpg">
+</p>
 
 <br>
 
@@ -93,7 +95,9 @@ En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
-<img align="middle" width=40% src="./Imágenes/Generar_codigos.jpg">
+<p align="center">
+<img width=40% src="./Imágenes/Generar_codigos.jpg">
+</p>
 
 <br>
 
@@ -103,7 +107,9 @@ En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
-<img align="middle" width=40% src="./Imágenes/Mostrar_notificacion.jpg">
+<p align="center">
+<img width=40% src="./Imágenes/Mostrar_notificacion.jpg">
+</p>
 
 <br>
 <br>
