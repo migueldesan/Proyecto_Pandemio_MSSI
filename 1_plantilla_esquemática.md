@@ -39,15 +39,15 @@ En cuanto al mantenimiento y actualizaciones de la aplicación, el objetivo inic
 En la siguiente tabla se describen los principales objetivos que se esperan alcanzar de Pandemio cuando se termine de implementar:
  | ID | OBJETIVO |
  | :--: | :----- |
- | **OB-01** | Mejorar las aplicaciones existentes en la lucha contra enfermedades. |
- | **OB-02** | Alcanzar el 100% de la población que disponga de dispositivos móviles. |
- | **OB-03** | Alcanzar el mayor número de población posible. |
- | **OB-04** | Rastrear y gestionar la información de los ciudadanos de forma anónima. |
- | **OB-05** | Preservar la privacidad de los ciudadanos. |
- | **OB-06** | Reducir el impacto de futuras pandemias en la sociedad. |
- | **OB-07** | Automatizar el proceso de citaciones para realizar pruebas médicas. |
- | **OB-08** | Informar a los ciudadanos que deben acudir a realizarse pruebas médicas. |
- | **OB-09** | Coordinar los diferentes servicios sanitarios y autoritarios de las distintas comunidades autónomas. |
- | **OB-10** | Verificar que los ciudadanos cumplan las cuarentenas que deban hacer. |
- | **OB-11** | Rastrear a los contactos estrechos de los ciudadanos. |
- | **OB-12** | Mostrar mapa de calor con zonas de movilidad de los casos positivos. |
+ | **OB_01** | Mejorar las aplicaciones existentes en la lucha contra enfermedades. |
+ | **OB_02** | Alcanzar el 100% de la población que disponga de dispositivos móviles. |
+ | **OB_03** | Alcanzar el mayor número de población posible. |
+ | **OB_04** | Rastrear y gestionar la información de los ciudadanos de forma anónima. |
+ | **OB_05** | Preservar la privacidad de los ciudadanos. |
+ | **OB_06** | Reducir el impacto de futuras pandemias en la sociedad. |
+ | **OB_07** | Automatizar el proceso de citaciones para realizar pruebas médicas. |
+ | **OB_08** | Informar a los ciudadanos que deben acudir a realizarse pruebas médicas. |
+ | **OB_09** | Coordinar los diferentes servicios sanitarios y autoritarios de las distintas comunidades autónomas. |
+ | **OB_10** | Verificar que los ciudadanos cumplan las cuarentenas que deban hacer. |
+ | **OB_11** | Rastrear a los contactos estrechos de los ciudadanos. |
+ | **OB_12** | Mostrar mapa de calor con zonas de movilidad de los casos positivos. |
