@@ -58,20 +58,51 @@ Por el contrario, también hay que destacar los principales aspectos negativos d
 
 ## 3.2	Modelos de Procesos de Negocio Actuales
 
-En Radar Covid intervienen numerosos 
+En Radar Covid intervienen gran cantidad de actores ya que es importante un correcto funcionamiento de la aplicación para poder combatir al Covid de forma efectiva. Aunque el número de actores es elevado, los procesos que lleva a cabo la aplicación se pueden resumir en tres.
+
 
 ### 3.2.1 Descripción de los Actores de Negocio Actuales
-Aunque la aplicación Radar Covid no nació en España, el Gobierno de España decidió comenzar a usar esta aplicación a nivel nacional como parte de las principales soluciones para frenar la pandemia ya que en otros países de la Unión Europea había tenido bastante éxito. Para usar Radar Covid en cada comunidad autónoma, cada una de ellas debía comunicar al Ministerio de Sanidad su uso, que tras comprobar que todo estaba en orden, pedía a la Secretaría de Estado de Inteligencia Artificial (dependiente de Ministerio de Asuntos Económicos y Transformación Digital) que comenzara la integración técnica. Para esta integración técnica, cada comunidad autónoma debía crear un protocolo propio dentro de sus sistemas sanitarios para enviar los códigos a los contagiados (que identifican anónimamente a los positivos y a sus contactos estrechos) y formar a los rastreadores para que puedieran utilizar de la mejor manera posible la información que reciben de la aplicación. Sin embargo, todo este proceso es bastante lento ya que intervienen gran cantidad de factores. 
 
 Los principales actores de negocio que intervienen en la actualidad en Radar Covid son los siguientes: 
 
 | **ID** | **Nombre** | **Descripción** |
 | :---: | :--- | :--- |
 | **AC-01** | Gobierno de España | Es el órgano que decidió que Radar Covid se comenzará a utilizar en España y el encargado de permitir e impulsar su uso. |
-| **AC-02** | Secretaría de Estado de Digitalización e Inteligencia Artificial del Gobierno de España | Esta secretaría dependiente del Ministerio de Asuntos Económicos y Transformación Digital es la encargada de personalizar la aplicación de Radar Covid para España (recordemos que es una aplicación que se usa en toda Europa) e integrarla en los servicios sanitarios de cada comunidad autónoma. Además es la encargada de impulsar la aplicación en España y subsanar cualquier brecha de seguridad que pudiera surgir. |
-| **AC-03** | Sanidad en CCAA | Actualmente la Sanidad de España está trasladada, por lo que cada comunidad autónoma debe . Se encarga de crear los protocolos de Radar Covid dentro de la comunidad autónoma, de formar a los sanitarios y a los rastreadores, y comunicarse con otras comunidades autónomas cuando existen casos que se mueven entre distintas comunidades autónomas. |
-| **AC-04** | Sanitarios y rastreadores | Son los encargados de generar los códigos para los usuarios que hayan obtenido un resultado positivo ya que los usuarios finales no pueden generar los códigos. Además son los encargados de rastrear el virus y los posibles contactos estrechos que hayan mantenido los ciudadanos con un diagnóstico positivo. |
+| **AC-02** | Secretaría de Estado de Digitalización e Inteligencia Artificial del Gobierno de España | Esta secretaría, dependiente del Ministerio de Asuntos Económicos y Transformación Digital, es la encargada de personalizar la aplicación de Radar Covid para España (recordemos que es una aplicación que se usa en toda Europa) e integrarla en los servicios sanitarios de cada comunidad autónoma. Además es la encargada de impulsar la aplicación en España y subsanar cualquier brecha de seguridad que pudiera surgir. |
+| **AC-03** | Sanidad en CCAA | Actualmente la Sanidad de España está transferida, por lo que cada comunidad autónoma debe decidir sus protocolos a seguir. Se encarga de crear los protocolos de Radar Covid dentro de cada comunidad autónoma, de formar a los sanitarios y a los rastreadores, y comunicarse con otras comunidades autónomas cuando existen casos que se mueven entre distintas comunidades autónomas. |
+| **AC-04** | Sanitarios y rastreadores | Son los encargados de generar los códigos para los usuarios que hayan obtenido un resultado positivo ya que los usuarios que usan la aplicación no los pueden generar. Además son los encargados de rastrear el virus y los posibles contactos estrechos que hayan mantenido los ciudadanos con un diagnóstico positivo. |
 | **AC-05** | Usuario final | Debido a que Radar Covid es una aplicación de uso voluntario, es necesario que los ciudadanos se descarguen esta aplicación y la usen correctamente. Deben usar el Bluetooth y el GPS, y son los encargados de comunicar su positivo a través de la aplicación cuando han obtenido un diagnóstico médico positivo. |
+
+
+### 3.2.2 Descripción de Procesos de Negocio Actuales
+
+La aplicación Radar Covid es muy sencilla y los procesos que lleva a cabo se pueden resumir en los siguientes:
+
+| **PR-01** | **Almacenar identificadores** |
+| :---: | :--- |
+| **Descripción** | Cuando dos usuarios que tienen Radar Covid activado se encuentran, si permanecen durante un tiempo juntos (más de 15 minutos), sus dispositivos móviles intercambian los números identificadores de la aplicación y los almacenan localmente en su registro de contactos para tener un registro de las personas que han estado cerca de los usuarios en los últimos días. |
+
+En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
+
+<img align="center" width=30% src="./Imágenes/Almacenar_identificador.jpg">
+
+
+| **PR-02** | **Generar código** |
+| :---: | :--- |
+| **Descripción** | Después de que un usuario haya acudido a realizarse una prueba médica, los sanitarios comprueban los resultados. Si el resultado de la prueba es positiva, tienen que solicitar al sistema un código que el usuario podrá introducir voluntariamente en la aplicación. |
+
+En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
+
+<img align="right" width=30% src="./Imágenes/Generar_codigos.jpg">
+
+| **PR-03** | **Generar notificación** |
+| :---: | :--- |
+| **Descripción** | Continuamente la aplicación recopila automáticamente informes del servidor que contienen números que identifican de forma anónima a los casos positivos. Cuando la aplicación descarga estos informes, comprueba si algún identificador se encuentra entre sus registros de contacto locales. Si encuentra alguna coincidencia, entonces el usuario ha estado en contacto cercano con un paciente positivo, y la aplicación muestra una notificación. |
+
+En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
+
+<img align="right" width=30% src="./Imágenes/Mostrar_notificacion.jpg">
+
 
 
 ## 3.3 ENTORNO TECNOLÓGICO ACTUAL
@@ -80,8 +111,11 @@ Al ser una aplicación de código abierto, podemos encontrarlo en el siguiente l
 
 Radar Covid utiliza en su servidor el protocolo abierto 'Decentralized Privacy-Preserving Proximity Tracing' (DP-3T, estilizado como dp3t) que fue desarrollado en respuesta a la pandemia Covid-19 para facilitar el rastreo de contactos digitales de los participantes infectados. 
 
-Cuando dos usuarios que tienen Radar Covid se encuentran, intercambian sus números ientificadores y los almacenan localmente en su registro de contactos. Cuando uno de ellos obtiene un resultado positivo en un análisis médico, se envía un informe a un servidor central. 
-Continuamente la aplición recopila los informes del servidor de forma automática y comprueba si algún identificador contenido en el informe del servidor se encuentra entre sus registros de contacto locales. Si encuentra alguna coincidencia, entonces el usuario ha estado en contacto cercano con un paciente infectado, y es advertido por la aplicación. Puesto que cada dispositivo verifica localmente los registros de contacto, y por lo tanto los registros de contacto nunca se transmiten a terceros, el servidor de informes central no puede por sí mismo determinar la identidad o el registro de contacto de cualquier usuario de la aplicación.
+Cuando dos usuarios que tienen Radar Covid activado se encuentran, si permanecen juntos durante un tiempo superior a 15 minuto,s sus dispositivos móviles intercambian los números identificadores de la aplicación y los almacenan localmente en su registro de contactos. 
+
+Cuando uno de ellos obtiene un resultado positivo en un análisis médico, si introduce un código en la aplicación, se envía un informe a un servidor central informando de su caso de manera anónima. 
+
+Continuamente la aplicación recopila los informes del servidor de forma automática y comprueba si algún identificador contenido en el informe del servidor se encuentra entre sus registros de contacto locales. Si encuentra alguna coincidencia, entonces el usuario ha estado en contacto cercano con un paciente infectado, y es advertido por la aplicación. Puesto que cada dispositivo verifica localmente los registros de contacto, y por lo tanto los registros de contacto nunca se transmiten a terceros, el servidor de informes central no puede por sí mismo determinar la identidad o el registro de contacto de cualquier usuario de la aplicación.
 
 El protocolo de enlace del dispositivo utiliza Bluetooth Low Energy para encontrar e intercambiar detalles entre los usuarios de la aplicación que se encuentren en un rango cercano, y la fase de notificación de infecciones utiliza HTTPS para cargar el informe en un servidor central de Amazon Web Services.
 
