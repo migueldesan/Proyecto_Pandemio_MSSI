@@ -84,6 +84,7 @@ Los actores de negocio son los siguientes:
 ## 3.3 ENTORNO TECNOLÓGICO ACTUAL
 
 Al ser una aplicación de código abierto, podemos encontrarlo en el siguiente link: [https://github.com/RadarCOVID](https://github.com/RadarCOVID)
+
 Radar Covid utiliza en su servidor el protocolo abierto 'Decentralized Privacy-Preserving Proximity Tracing' (DP-3T, estilizado como dp3t) que fue desarrollado en respuesta a la pandemia Covid-19 para facilitar el rastreo de contactos digitales de los participantes infectados. 
 
 Cuando dos usuarios que tienen Radar Covid se encuentran, intercambian sus números ientificadores y los almacenan localmente en su registro de contactos. Cuando uno de ellos obtiene un resultado positivo en un análisis médico, se envía un informe a un servidor central. 
