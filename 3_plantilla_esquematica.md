@@ -53,7 +53,6 @@ Por el contrario, también hay que destacar los principales aspectos negativos d
 | **DE-08** | Desconocimiento del propio dispositivo móvil| Mucha gente de avanzada edad desconoce como descargar aplicaciones en su móvil y su uso. |
 | **DE-09** | Nula estandarización | Las bases de datos de las diferentes administraciones no estan estandarizadas lo que provoca que muchos usuarios no puedan informar de su resultado positivo si se mueven entre distintas comunidades. |
 
-<br>
 
 
 ## 3.2	Modelos de Procesos de Negocio Actuales
@@ -84,8 +83,9 @@ La aplicación Radar Covid es muy sencilla y los procesos que lleva a cabo se pu
 
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
-<img align="center" width=30% src="./Imágenes/Almacenar_identificador.jpg">
+<img align="middle" width=40% src="./Imágenes/Almacenar_identificador.jpg">
 
+<br>
 
 | **PR-02** | **Generar código** |
 | :---: | :--- |
@@ -93,7 +93,9 @@ En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
-<img align="right" width=30% src="./Imágenes/Generar_codigos.jpg">
+<img align="middle" width=40% src="./Imágenes/Generar_codigos.jpg">
+
+<br>
 
 | **PR-03** | **Generar notificación** |
 | :---: | :--- |
@@ -101,9 +103,10 @@ En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
-<img align="right" width=30% src="./Imágenes/Mostrar_notificacion.jpg">
+<img align="middle" width=40% src="./Imágenes/Mostrar_notificacion.jpg">
 
-
+<br>
+<br>
 
 ## 3.3 ENTORNO TECNOLÓGICO ACTUAL
 
