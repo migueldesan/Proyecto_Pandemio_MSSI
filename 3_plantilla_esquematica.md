@@ -53,7 +53,7 @@ Por el contrario, también hay que destacar los principales aspectos negativos d
 | **DE-08** | Desconocimiento del propio dispositivo móvil| Mucha gente de avanzada edad desconoce como descargar aplicaciones en su móvil y su uso. |
 | **DE-09** | Nula estandarización | Las bases de datos de las diferentes administraciones no estan estandarizadas lo que provoca que muchos usuarios no puedan informar de su resultado positivo si se mueven entre distintas comunidades. |
 
-
+<br>
 
 ## 3.2	Modelos de Procesos de Negocio Actuales
 
