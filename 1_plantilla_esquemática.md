@@ -17,19 +17,21 @@ En este documento se especifican los aspectos más destacados de Pandemio, confi
 <br>
 
 ### 1.1 Alcance
-Dado que lo que se busca con esta aplicación es el control total sobre el contagio y expansión de la pandemia, se buscará alcanzar al máximo de la población posible, en este caso el 100% de las personas que utilizan smartphones.
+Dado que lo que se busca con esta aplicación es el control total sobre el contagio y expansión de la pandemia, se buscará alcanzar al máximo de la población posible, en este caso el 100% de las personas que utilizan dispositivos móviles.
 
-Deberemos para ello llevar un proceso judicial con el objetivo de que Pandemio sea instalada en todos los smartphones de forma obligatoria, ya sea a través de Google en los Android o Apple en dispositivos iOS.
+Deberemos para ello crear una nueva aplicación móvil que llamaremos Pandemio y llevar un proceso judicial con el objetivo de que Pandemio sea instalada en todos los dispositivos móviles de forma obligatoria, ya sea a través de Google en los Android, o de Apple en dispositivos iOS.
 
-Una vez tengamos la certeza de que la aplicación está instalada en todos los smarthpones, el objetivo es controlar los contactos de las personas positivas en COVID-19 y los posibles contagios a través de la ubicación del teléfono o, en su defecto, por medio de una triangulación a través de las antenas de telefonía móvil. 
+Una vez tengamos la certeza de que la aplicación está instalada en todos los dispositivos móviles, el objetivo es controlar a las personas diagnosticadas como positivas en la próxima pandemia y a las personas que hayan podido contagiar usando para ello la ubicación del teléfono o, en su defecto, por medio de una triangulación a través de las antenas de telefonía móvil siempre que se pueda obtener un margen de error pequeño a la hora de ubicar a las personas. En cualquier caso, se descarta el uso del Bluetooth por todos los inconvenientes que genera en otras aplicaciones móviles.
 
-Por otro lado, habrá que considerar la posibilidad de que un positivo en COVID-19 o un contacto estrecho se desplace entre comunidades autónomas o incluso a otros países. La aplicación tendrá bases de datos independientes para cada comunidad autónoma, por lo que en caso de que se produzca un desplazamiento de este tipo se deberá advertir a los sistemas sanitarios de aquellos lugares en los que se les haya ubicado. En caso de permanecer en España podremos seguirles a través de Pandemio, pero de salir a otro país se daría aviso a sus autoridades sanitarias y pasaría a ser su responsabilidad.
+Por otro lado, habrá que considerar la posibilidad de que un positivo en la próxima pandemia o un contacto estrecho se desplace entre comunidades autónomas o incluso a otros países. La aplicación tendrá bases de datos independientes para cada comunidad autónoma ya que la gestión de la sanidad en cada una es diferente, por lo que en caso de que se produzca un desplazamiento de este tipo se deberá advertir a los sistemas sanitarios de aquellos lugares en los que se les haya ubicado. En caso de permanecer en España podremos seguirles a través de Pandemio, pero de salir a otro país se daría aviso a sus autoridades sanitarias y pasaría a ser su responsabilidad.
 
-Surge también el problema en cuanto al rastreo de personas que no utilizan smartphone. Tenemos que aceptar este hecho, intentando tener cierto seguimiento a través de sus familiares o personas cercanas y con ayuda del cuerpo sanitario, que deberá tener mayor control sobre este nicho de la población.
+Desde Pandemio se crearán citas médicas automáticas para que los contactos estrechos de un caso positivo acudan a realizarse las oportunas pruebas médicas, y en caso de que no acudan, se informará a las autoridades para que puedan acudir a ver que sucede. Además, desde Pandemio se tratará de controlar si un caso positivo está cumpliendo o no la cuarentena.
 
-Siendo conscientes de que el rastreo de la ubicación y los movimientos de la población puede verse como una invasión a su intimidad, nos comprometemos a respetar en todo momento la Ley de Protección de Datos.
+Surge también el problema en cuanto al rastreo de personas que no utilizan dispositivos móviles. Tenemos que aceptar este hecho, intentando tener cierto seguimiento a través de sus familiares o personas cercanas y con ayuda del cuerpo sanitario, que deberá tener mayor control sobre este nicho de la población. Para ello se incluirá la posibilidad de informar de un caso positivo por si un usuario está al cuidado de alguien que no dispone de dispositivo móvil.
 
-En cuanto al mantenimiento y actualizaciones de la aplicación, el objetivo inicial es obtener un producto final, aunque estaría abierto a versiones y actualizaciones en caso de necesidad.
+Siendo conscientes de que el rastreo de la ubicación y los movimientos de la población puede verse como una invasión a su intimidad, nos comprometemos a respetar en todo momento la Ley de Protección de Datos. Además, los datos de cada usuario solo se guardarán el tiempo que sean útiles para el rastreo de la enfermedad y los usuarios finales solo podrán ver un mapa de calor con las zonas por las que se ha movido una persona con diagnóstico positivo, pero siempre respetando el anonimato y la confidencialidad.
+
+En cuanto al mantenimiento y actualizaciones de la aplicación, el objetivo inicial es obtener un producto final por lo que no serían necesarias, aunque estaría abierto a versiones y actualizaciones en caso de necesidad.
 
 <br>
 
