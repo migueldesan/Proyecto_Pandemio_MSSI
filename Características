@@ -1,11 +1,28 @@
 1. Fácil de utilizar
 	1.1 Instalación
-	1.2 Aviso de positivo
-	1.3 Aviso de síntomas
-2. Instalación obligatoria
-	2.1 Compañias SW moviles deberan instalarlas como aplicación predeterminada
+2. Registro en la aplicación
+	2.1 Abrir formulario
+	2.2 Rellenar formulario
+	2.3 Enviar formulario
 3. Privacidad
 	3.1 Avisar positivo cercano de manera anónima
 	3.2 Cumplimiento de la Ley de protección de datos
 4. Rastreo del virus
-	
+	4.1 Mapa de calor
+		4.1.1 Dibujar
+		4.1.2 Visualizar
+	4.2 Aviso de positivo
+		4.2.1 Abrir formulario
+		4.2.2 Rellenar formulario
+		4.2.3 Enviar formulario
+	4.3 Aviso de síntomas
+		4.3.1 Abrir formulario
+		4.3.2 Rellenar formulario
+		4.3.3 Enviar formulario
+5. Localización GPS 
+	5.1 Activación 
+	5.2 Ubicar usuario
+	5.3 Lanzar aviso emergencias
+
+2. Instalación obligatoria
+	2.1 Compañias SW moviles deberan instalarlas como aplicación predeterminada
