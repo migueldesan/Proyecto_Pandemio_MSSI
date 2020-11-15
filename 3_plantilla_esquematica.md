@@ -1,15 +1,15 @@
 # PRACTICA DE MODELADO
 # 3 DESCRIPCIÓN DE LA SITUACIÓN ACTUAL 
-Aunque la aplicación Radar Covid no nació en España, el Gobierno de España decidió comenzar a usar esta aplicación a nivel nacional como parte de las principales soluciones para frenar la pandemia ya que en otros países de la Unión Europea había tenido bastante éxito. Para usar Radar Covid en cada comunidad autónoma, cada una debía comunicar al Ministerio de Sanidad su uso, que tras comprobar que todo estaba en orden, pidía a la Secretaría de Estado de Inteligencia Artificial (dependiente de Ministerio de Asuntos Económicos) que comienzara la integración técnica. Para la integración técnica, cada comunidad autónoma debía generar un protocolo propio dentro de sus sistemas sanitarios para enviar los códigos a los contagiados -que identifican anónimamente a los positivos y a sus contactos estrechos- y formar a los rastreadores para que puedieran utilizar de mejor manera la información que reciben de la app. Sin embargo, todo este proceso es bastante lento ya que intervienen gran cantidad de actores. 
+Aunque la aplicación Radar Covid no nació en España, el Gobierno de España decidió comenzar a usar esta aplicación a nivel nacional como parte de las principales soluciones para frenar la pandemia ya que en otros países de la Unión Europea había tenido bastante éxito. Para usar Radar Covid en cada comunidad autónoma, cada una de ellas debía comunicar al Ministerio de Sanidad su uso, que tras comprobar que todo estaba en orden, pedía a la Secretaría de Estado de Inteligencia Artificial (dependiente de Ministerio de Asuntos Económicos) que comenzara la integración técnica. Para esta integración técnica, cada comunidad autónoma debía crear un protocolo propio dentro de sus sistemas sanitarios para enviar los códigos a los contagiados (que identifican anónimamente a los positivos y a sus contactos estrechos) y formar a los rastreadores para que puedieran utilizar de la mejor manera posible la información que reciben de la aplicación. Sin embargo, todo este proceso es bastante lento ya que intervienen gran cantidad de factores. 
 
-A día de hoy, Radar Covid ya se está usando a nivel nacional pero no se están conseguido los resultados que se esperaban por diversos motivos como son:
+A día de hoy, Radar Covid ya se está usando a nivel nacional pero no se están conseguiendo los resultados que se esperaban por diversos motivos como son:
   * El número de descargas de la aplicación es muy bajo ya que es una aplicación de uso voluntario y además se le ha dado poca publicidad en los medios nacionales.
-  * El conocimiento de la tecnología médica en España es insuficiente.
+  * El conocimiento de la tecnología médica en España es insuficiente a nivel de la población.
   * La dificultad para comunicar un positivo. Esto se debe a que los sanitarios deben proporcionar a los ciudadanos diagnosticados como positivos un código para insertar en la aplicación, y sin embargo muchos sanitarios desconocen la existencia de estos códigos. Además, la colaboración por parte de las Comunidades Autónomas no está siendo la adecuada, y surgen continuamente problemas en la generación de códigos ya que la gestión de los datos entre las diferentes comunidades no está estandarizada.
-  * Está basada en el uso de bluetooth. Lo que la hace inservible si el bluetooth está apagado o bien, ocupado con los auriculares u otra aplicación.
+  * Está basada en el uso de Bluetooth, lo que la hace inservible si el Bluetooth está apagado o bien, ocupado con los auriculares u otra aplicación.
   
 Por todo ello y más, nace Pandemio, que tratará de rastrear y gestionar la información de los ciudadanos de la próxima pandemia de una forma más eficaz.
-Para ello es necesario conocer en detalle la situación actual para evitar cometer los mismos errores de Radar Covid en Pandemio y mejorar lo que ya existe.
+Para ello es necesario conocer en detalle la situación actual para evitar cometer los mismos errores de Radar Covid en Pandemio y mejorar lo que ya es positivo.
 
 <br>
 
@@ -29,7 +29,7 @@ Algunos de los aspectos positivos de Radar Covid que convendría que se mantuvie
 | **FO-05** | Encriptación de los datos | La conexión entre los dispositivos móviles y el servidor es privada. |
 | **FO-06** | Interfaz amigable | Fácil uso de la interfaz. |
 | **FO-07** | Sección de ayuda | Tiene sección de preguntas y enlaces de interés acerca de la enfermedad. |
-| **FO-08** | Varios idiomas | Posibilidad de usar la app en varios idiomas. |
+| **FO-08** | Varios idiomas | Posibilidad de usar la app en varios dialectos (catalán, euskera, gallego y valenciano) e idiomas (español e inglés). |
 | **FO-09** | Gratuita | Es gratuita y fácilmente instalable. |
 | **FO-10** | Anonimato | Es posible comunicar de forma anónima el diagnostico positivo de una prueba PCR. |
 | **FO-11** | Consumo de datos nulo | No consume ningún dato de las tarifas telefónicas. |
@@ -44,14 +44,14 @@ Por el contrario, también hay que destacar los principales aspectos negativos d
 | ID | NOMBRE | DESCRIPCIÓN |
 | :---: | :----- | :----- |
 | **DE-01** | Descarga y uso voluntario | La instalación y el uso de la aplicación no son obligatorios lo que dificulta el rastreo del virus en la población ya que solo un pequeño porcentaje de la población la usa diariamente. |
-| **DE-02** | Sanitarios poco familiarizados con la App | No todo el personal sanitario está familiarizado con el funcionamiento de la app y pocos hacen uso de ella. |
+| **DE-02** | Sanitarios poco familiarizados con la App | No todo el personal sanitario está familiarizado con el funcionamiento de la app y muy pocos hacen uso de ella. |
 | **DE-03** | Desconocimiento de la App | Gran parte de la población no conoce la existencia de la aplicación. |
 | **DE-04** | Vulnerabilidad a ataques | El uso del Bluetooth provoca que los dispositivos móviles sean más vulnerables a ataques informáticos. |
 | **DE-05** | Funcionamiento basado en Bluetooth y GPS | La aplicación hace uso del Bluetooth para su correcto funcionamiento y generalmente suele estar apagado u ocupado por otros dispositivos. Esto provoca que las aplicaciones actuales no funcionen correctamente y que el rastreo del virus sea aún más complicado. Además, hay dispositivos móviles que aún no tienen buenos servicios de GPS incorporados. |
 | **DE-06** | Incompatibilidad entre Apps | El uso del Bluetooth en varias aplicaciones puede generar problemas de incompatibilidad entre ellas y que los sistemas software no funcionen correctamente. |
 | **DE-07** | Desconocimiento del Bluetooth | Mucha gente mayor no conoce como funciona el Bluetooth por lo que las aplicaciones que se basan en Bluetooth pierden su potencial. 
 | **DE-08** | Desconocimiento del propio dispositivo móvil| Mucha gente de avanzada edad desconoce como descargar aplicaciones en su móvil y su uso. |
-| **DE-09** | Nula estandarización | Las bases de datos de las diferentes administraciones no estan estandarizadas lo que provoca que muchos usuarios no puedan informar de sus positivos si se mueven entre distintas comunidades. |
+| **DE-09** | Nula estandarización | Las bases de datos de las diferentes administraciones no estan estandarizadas lo que provoca que muchos usuarios no puedan informar de su resultado positivo si se mueven entre distintas comunidades. |
 
 <br>
 
@@ -95,7 +95,7 @@ Continuamente la aplición recopila los informes del servidor de forma automáti
 
 El protocolo de enlace del dispositivo utiliza Bluetooth Low Energy para encontrar e intercambiar detalles entre los usuarios de la aplicación que se encuentren en un rango cercano, y la fase de notificación de infecciones utiliza HTTPS para cargar el informe en un servidor central de Amazon Web Services.
 
-Además, el código fuente de la aplicación está escrito en su mayoría en Kotlin (lenguaje de programación con tipo estático desarrollado por JetBrains y que se utiliza con mayor frecuencia para complementar o reemplazar Java en aplicaciones empresariales y de usuario final) para la parte de cliente y Java para la parte de servidor, utiliza SQL para comunicarse con la base de datos, y XML para el diseño de la aplicación. 
+Finalmente, el código fuente de la aplicación está escrito en su mayoría en Kotlin (lenguaje de programación con tipo estático desarrollado por JetBrains y que se utiliza con mayor frecuencia para complementar o reemplazar Java en aplicaciones empresariales y de usuario final) para la parte de cliente y Java para la parte de servidor, utiliza SQL para comunicarse con la base de datos, y XML para el diseño de la aplicación. 
 
 ### 3.3.1 Descripción del Entorno de Hardware Actual
 
