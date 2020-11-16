@@ -1,4 +1,4 @@
-# PRACTICA DE MODELADO
+# PRÁCTICA DE MODELADO
 ## Pandemio
 
 [Plataforma de rastreo para tiempos de pandemia]
