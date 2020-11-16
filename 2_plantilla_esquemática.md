@@ -72,7 +72,7 @@ A continuación, se presenta una lista ordenada alfabéticamente con los princip
 
 <br>
 
-> En la siguiente imagen podemos ver las principales diferencias entre la técnica de la PCR y los test rápidos.
+> En la siguiente imagen podemos ver las principales diferencias entre la técnica de la PCR y los test rápidos en el diagnóstico del Covid-19:
 
 <br><br>
 <p align="center">
