@@ -90,7 +90,7 @@ A continuación mostramos el árbol de características con las primeras funcion
 En la siguiente tabla se describen los principales objetivos que se esperan alcanzar de Pandemio cuando se termine de implementar:
  | ID | OBJETIVO |
  | :--: | :----- |
- | **OB_01** | Mejorar las aplicaciones existentes en la lucha contra enfermedades. |
+ | **OB_01** | Mejorar las aplicaciones existentes en la lucha contra una futura pandemia. |
  | **OB_02** | Alcanzar el 100% de la población que disponga de dispositivos móviles. |
  | **OB_03** | Alcanzar el mayor número de población posible. |
  | **OB_04** | Rastrear y gestionar la información de los ciudadanos de forma anónima. |
