@@ -33,7 +33,7 @@ Siendo conscientes de que el rastreo de la ubicación y los movimientos de la po
 
 En cuanto al mantenimiento y actualizaciones de la aplicación, el objetivo inicial es obtener un producto final por lo que no serían necesarias, aunque Pandemio estaría abierto a versiones y actualizaciones en caso de necesidad.
 
-A continuación mostramos el árbol de características con las primeras funcionalidades obtenidas en la primera entrevista y que iremos completando a medida que avance el proyecto.
+A continuación mostramos el árbol de características con las primeras funcionalidades que se esperan de Pandemio tras la primera entrevista y que iremos completando a medida que avance el proyecto.
 
 1. Localización
 	1.1. Localizacion GPS
@@ -93,12 +93,14 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  | **OB_01** | Mejorar las aplicaciones existentes en la lucha contra una futura pandemia. |
  | **OB_02** | Alcanzar el 100% de la población que disponga de dispositivos móviles. |
  | **OB_03** | Alcanzar el mayor número de población posible. |
- | **OB_04** | Rastrear y gestionar la información de los ciudadanos de forma anónima. |
- | **OB_05** | Preservar la privacidad de los ciudadanos. |
+ | **OB_04** | Rastrear y gestionar la información de los usuarios de forma anónima. |
+ | **OB_05** | Preservar la privacidad de los usuarios. |
  | **OB_06** | Reducir el impacto de futuras pandemias en la sociedad. |
  | **OB_07** | Automatizar el proceso de citaciones para realizar pruebas médicas. |
- | **OB_08** | Informar a los ciudadanos que deben acudir a realizarse pruebas médicas. |
- | **OB_09** | Coordinar los diferentes servicios sanitarios y autoritarios de las distintas comunidades autónomas. |
- | **OB_10** | Verificar que los ciudadanos cumplan las cuarentenas que deban hacer. |
- | **OB_11** | Rastrear a los contactos estrechos de los ciudadanos. |
- | **OB_12** | Mostrar mapa de calor con zonas de movilidad de los casos positivos. |
+ | **OB_08** | Informar a los usuarios que deben acudir a realizarse pruebas médicas. |
+ | **OB_09** | Avisar a las fuerzas del orden si un usuario no acude a realizarse las pruebas médicas. |
+ | **OB_10** | Avisar a las fuerzas del orden si un usuario no cumple con la cuarentena que se le ha impuesto. |
+ | **OB_11** | Coordinar los diferentes servicios sanitarios y autoritarios de las distintas comunidades autónomas. |
+ | **OB_12** | Verificar que los usuarios cumplen las cuarentenas que deban hacer. |
+ | **OB_13** | Rastrear a los contactos estrechos de los usuarios. |
+ | **OB_14** | Mostrar un mapa de calor con las zonas de movilidad de los casos positivos. |
