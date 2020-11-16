@@ -33,6 +33,57 @@ Siendo conscientes de que el rastreo de la ubicación y los movimientos de la po
 
 En cuanto al mantenimiento y actualizaciones de la aplicación, el objetivo inicial es obtener un producto final por lo que no serían necesarias, aunque Pandemio estaría abierto a versiones y actualizaciones en caso de necesidad.
 
+A continuación mostramos el árbol de características con las primeras funcionalidades obtenidas en la primera entrevista y que iremos completando a medida que avance el proyecto.
+
+1. Localización
+	1.1. Localizacion GPS
+		1.1.1. Activar
+		1.1.2. Desactivar
+		1.1.3. Guardar historial
+		1.1.4. Enviar datos mapa calor
+	1.2 Triangulación antenas moviles
+		1.2.1. Comprobar intensidad señal
+		1.2.2. Guardar historial
+		1.2.3. Enviar datos mapa calor
+	
+2. Notificación
+	2.1. Cita médica
+		2.1.1. Mostrar aviso
+		2.1.2. Avisar fuerzas del orden
+		2.1.3. Confirmar positivo
+		2.1.4. Establecer cuarentena
+	2.2. Cuarentena
+		2.2.1. Mostrar aviso
+		2.2.2. Comprobar cuarentena
+		2.2.3. Avisar fuerzas del orden 
+		
+3. Formulario
+	3.1. Caso positivo
+		3.1.1. Solicitar formulario
+		3.1.2. Verificar formulario
+		3.1.3. Enviar formulario
+	3.2. Caso sospechoso
+		3.2.1. Solicitar cita médica
+		3.2.2. Verificar cita médica
+	
+4. Mapa de calor
+	4.1. Dibujar
+	4.2. Visualizar
+	4.3. Actualizar
+		
+5. Info adicional y ajustes
+	5.1. Cambiar idioma/dialecto
+		5.1.1. Seleccionar español
+		5.1.2. Seleccionar inglés
+		5.1.3. Seleccionar catalán
+		5.1.4. Seleccionar gallego
+		5.1.5. Seleccionar valenciano
+		5.1.6. Seleccionar euskera
+	
+	5.2. Compartir casos positivos 
+		5.2.1. Entre CCAA
+		5.2.2. A países
+
 <br>
 
 ### 1.2 Objetivos
