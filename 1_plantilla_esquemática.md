@@ -16,7 +16,7 @@ En este documento se especifican los aspectos más destacados de Pandemio, confi
 
 <br>
 
-### 1.1 Alcance
+## 1.1 Alcance
 Dado que lo que se busca con esta aplicación es el control total sobre el contagio y expansión de la pandemia, se buscará alcanzar al máximo de la población posible, en este caso el 100% de las personas que utilizan dispositivos móviles.
 
 Deberemos para ello crear una nueva aplicación móvil que llamaremos Pandemio y llevar a cabo un proceso judicial con el objetivo de que Pandemio sea instalada en todos los dispositivos móviles de forma obligatoria, ya sea a través de Google en los Android, o de Apple en dispositivos iOS.
@@ -41,7 +41,7 @@ A continuación mostramos el árbol de características con las primeras funcion
 
 <br>
 
-### 1.2 Objetivos
+## 1.2 Objetivos
 En la siguiente tabla se describen los principales objetivos que se esperan alcanzar de Pandemio cuando se termine de implementar:
  | ID | OBJETIVO |
  | :--: | :----- |
