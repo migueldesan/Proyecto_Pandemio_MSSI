@@ -77,9 +77,9 @@ Los principales actores de negocio que intervienen en la actualidad en Radar Cov
 
 La aplicación Radar Covid es muy sencilla y los procesos que lleva a cabo se pueden resumir en los siguientes:
 
-| **PR_01** | **Almacenar identificadores** |
+| **PR_01** | **Realizar pruebas médicas** |
 | :---: | :--- |
-| **Descripción** | Cuando dos usuarios que tienen Radar Covid activado se encuentran, si permanecen durante un tiempo juntos (más de 15 minutos), sus dispositivos móviles intercambian los números identificadores de la aplicación y los almacenan localmente en sus registros de contacto para tener un registro de las personas que hayan estado cerca de los usuarios en los últimos días. |
+| **Descripción** | Cuando una persona sea considerada contacto estrecho se le asignará una cita médica, si cuando acude presenta síntomas se le realizará una prueba PCR, si no presenta síntomas se le realizará un test rápido, si el resultado de este es positivo se confirma que la persona tiene COVID-19, en caso de resultado negativo se realizará una prueba PCR para confirmarlo. |
 
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
@@ -89,7 +89,7 @@ En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 <br>
 
-| **PR_02** | **Generar código** |
+| **PR_02** | **Asignar código** |
 | :---: | :--- |
 | **Descripción** | Después de que un usuario haya acudido a realizarse una prueba médica, los sanitarios comprueban el resultado. Si el resultado de la prueba es positivo, tienen que solicitar al sistema un código que el usuario podrá introducir voluntariamente en la aplicación. |
 
@@ -101,9 +101,9 @@ En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 <br>
 
-| **PR_03** | **Generar notificación** |
+| **PR_03** | **Establecer cuarentena** |
 | :---: | :--- |
-| **Descripción** | Continuamente la aplicación recopila automáticamente informes del servidor que contienen números que identifican de forma anónima a los casos positivos (estos informes se generan cuando un usuario comunica su positivo en la aplicación por medio del código que le proporciona un sanitario). Cuando la aplicación descarga estos informes, comprueba si algún identificador se encuentra entre sus registros de contacto locales. Si encuentra alguna coincidencia, entonces el usuario ha estado en contacto cercano con un paciente positivo, y la aplicación muestra una notificación. |
+| **Descripción** | Tras realizarse las pruebas médicas, independientemente de que el resultado sea positivo o negativo, la persona deberá cumplir un periodo de cuarentena de aproximadamente 10 días, tras esto se realizará una nueva prueba PCR que determinará, en caso de positivo, una amplicación de la cuarentena y, en caso de negativo, la persona podrá hacer vida normal. Actualmente los cuerpos de seguridad y sanitarios no tienen implementado ningún procedimiento de seguimiento de la cuarentena a nivel individual. |
 
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
@@ -112,6 +112,32 @@ En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 </p>
 
 <br>
+
+| **PR_04** | **Comunicar positivos a otras CCAA** |
+| :---: | :--- |
+| **Descripción** | En caso de que un caso confirmado positivo se desplace o haya estado en otra comunidad autónoma, se avisará al cuerpo sanitario de dicha comunidad para que realicen el rastreo y las pruebas médicas oportunas. |
+
+En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
+
+<br>
+
+| **PR_05** | **Rastrear contactos** |
+| :---: | :--- |
+| **Descripción** | Cuando una persona da positivo los sanitarios deben rastrear los contactos estrechos de esta persona, para ello preguntarán al paciente con quien ha estado los últimos dos días y, una vez recogidos estos datos, llamar de forma individual a cada uno de estos contactos y concertar citas para realizarse las pruebas médicas pertinentes. En caso de contactos con personas de otras comunidades, se seguirá el procedimiento indicado en el PR_04. (y si no acuden?) |
+
+En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
+
+<br>
+
+| **PR_05** | **Comprobar medidas sanitarias** |
+| :---: | :--- |
+| **Descripción** | Semanalmente el gobierno junto a las autoridades sanitarias revisa la incidencia de la pandemia en la sociedad, en función de los datos obtenidos se toman diferentes medidas como pueden ser el cierre perimetral, cierre de la hostelería, limitación de movimiento entre provincias/CCAA, confinamiento domiciliario. |
+
+En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
+
+<br>
+
+
 <br>
 
 ## 3.3 ENTORNO TECNOLÓGICO ACTUAL
