@@ -55,7 +55,7 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  | **OB_08** | Informar a los usuarios que deben acudir a realizarse pruebas médicas. |
  | **OB_09** | Avisar a las fuerzas del orden si un usuario no acude a realizarse las pruebas médicas. |
  | **OB_10** | Avisar a las fuerzas del orden si un usuario no cumple con la cuarentena que se le ha impuesto. |
- | **OB_11** | Coordinar los diferentes servicios sanitarios y autoritarios de las distintas comunidades autónomas. |
- | **OB_12** | Verificar que los usuarios cumplen las cuarentenas que deban hacer. |
+ | **OB_11** | Coordinar los diferentes servicios sanitarios y fuerzas del orden de las distintas comunidades autónomas. |
+ | **OB_12** | Verificar que los usuarios cumplen las cuarentenas que deban hacer de forma automática. |
  | **OB_13** | Rastrear a los contactos estrechos de los usuarios. |
  | **OB_14** | Mostrar un mapa de calor con las zonas de movilidad de los casos positivos. |
