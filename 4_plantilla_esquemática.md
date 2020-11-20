@@ -3,10 +3,18 @@
 ## 4.1 Objetivos de negocio
 
 En la siguiente tabla se describen los principales objetivos que se esperan alcanzar de Pandemio cuando se termine de implementar:
-
- Importancia - Prioridad - Subobjetivos
-
- | ID | OBJETIVO | 
+ 
+ | **OB_01** | Mejorar las aplicaciones existentes en la lucha contra una futura pandemia. | 
+ | :--: | :----- |
+ | **Descripción** | [Añadir una descripción que tenga que ver con el problema] |
+  | **Subobjetivos** | - Automatizar los procesos de negocio actuales (Ver 3.2.2) |
+  | **Importancia** | Alta |
+  | **Prioridad** | Media |
+ 
+ 
+ > Dentro de cada objetivo el orden es Descripcion - Importancia - Prioridad - Subobjetivos
+ 
+  | ID | OBJETIVO | 
  | :--: | :----- |
  | **OB_01** | Mejorar las aplicaciones existentes en la lucha contra una futura pandemia. Alta - Media - Automatizar los procesos de negocio actuales (Ver 3.2.2) |
  | **OB_02** | Alcanzar el 100% de la población que disponga de dispositivos móviles. Alta - Alta - Lograr la instalación obligatoria de la app |
