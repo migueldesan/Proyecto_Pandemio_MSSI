@@ -22,11 +22,11 @@ Algunos de los aspectos positivos de Radar Covid que convendría que se mantuvie
 
 | ID | NOMBRE | DESCRIPCIÓN |
 | :----- | :----- | :----- |
-| **FO_01** | Anonimato | La aplicación funciona sin revelar la identidad del usuario ni la del dispositivo móvil. Además, no registra datos personales ni de geolocalización. |
+| **FO_01** | Anonimato | La aplicación funciona sin revelar la identidad del usuario ni la del teléfono móvil. Además, no registra datos personales ni de geolocalización. |
 | **FO_02** | Alertas rápidas | Rápido aviso al usuario de que ha estado en contacto con un positivo cercano para que comience la cuarentena cuanto antes y disminuya sus contactos sociales. |
 | **FO_03** | Discreción | Las alertas de exposición se envían sin indicar el lugar ni momento concreto donde se produjo la exposición. |
-| **FO_04** | Descentralización de los datos | Los datos de cada usuario solo se guardan en su dispositivo móvil. |
-| **FO_05** | Encriptación de los datos | La conexión entre los dispositivos móviles y el servidor es privada. |
+| **FO_04** | Descentralización de los datos | Los datos de cada usuario solo se guardan en su teléfono móvil. |
+| **FO_05** | Encriptación de los datos | La conexión entre los teléfonos móviles y el servidor es privada. |
 | **FO_06** | Interfaz amigable | Fácil uso de la interfaz. |
 | **FO_07** | Sección de ayuda | Tiene sección de preguntas y enlaces de interés acerca de la enfermedad. |
 | **FO_08** | Varios idiomas | Posibilidad de usar la aplicación en varios dialectos (catalán, euskera, gallego y valenciano) e idiomas (español e inglés). |
@@ -46,18 +46,18 @@ Por el contrario, también hay que destacar los principales aspectos negativos d
 | **DE_01** | Descarga y uso voluntario | La instalación y el uso de la aplicación no son obligatorios lo que dificulta el rastreo del virus en la población ya que solo un pequeño porcentaje de la población la usa diariamente. |
 | **DE_02** | Sanitarios poco familiarizados con la App | No todo el personal sanitario está familiarizado con el funcionamiento de la aplicación y muy pocos hacen uso de ella. |
 | **DE_03** | Desconocimiento de la App | Gran parte de la población no conoce la existencia de la aplicación. |
-| **DE_04** | Vulnerabilidad a ataques | El uso del Bluetooth provoca que los dispositivos móviles sean más vulnerables a ataques informáticos. |
-| **DE_05** | Funcionamiento basado en Bluetooth y GPS | La aplicación hace uso del Bluetooth para su correcto funcionamiento y generalmente suele estar apagado u ocupado por otros dispositivos. Esto provoca que las aplicaciones actuales no funcionen correctamente y que el rastreo del virus sea aún más complicado. Además, hay dispositivos móviles que aún no tienen buenos servicios de GPS incorporados. |
+| **DE_04** | Vulnerabilidad a ataques | El uso del Bluetooth provoca que los teléfonos móviles sean más vulnerables a ataques informáticos. |
+| **DE_05** | Funcionamiento basado en Bluetooth y GPS | La aplicación hace uso del Bluetooth para su correcto funcionamiento y generalmente suele estar apagado u ocupado por otros dispositivos. Esto provoca que las aplicaciones actuales no funcionen correctamente y que el rastreo del virus sea aún más complicado. Además, hay teléfonos móviles que aún no tienen buenos servicios de GPS incorporados. |
 | **DE_06** | Incompatibilidad entre Apps | El uso del Bluetooth en varias aplicaciones puede generar problemas de incompatibilidad entre ellas y que los sistemas software no funcionen correctamente. |
 | **DE_07** | Desconocimiento del Bluetooth | Mucha gente mayor no conoce cómo funciona el Bluetooth por lo que las aplicaciones que se basan en Bluetooth pierden su potencial. |
-| **DE_08** | Desconocimiento del propio dispositivo móvil | Mucha gente de avanzada edad desconoce como usar los dispositivos móviles y como descargar aplicaciones. |
+| **DE_08** | Desconocimiento del propio teléfono móvil | Mucha gente de avanzada edad desconoce como usar los teléfonos móviles y como descargar aplicaciones. |
 | **DE_09** | Nula estandarización | Las bases de datos de las diferentes administraciones no están estandarizadas lo que provoca que muchos usuarios no puedan informar de su resultado positivo si se mueven entre distintas comunidades. |
 
 <br>
 
 ## 3.2	Modelos de Procesos de Negocio Actuales
 
-En Radar Covid intervienen gran cantidad de actores que provocaron que su puesta en marcha fuera bastante lenta, pero que son necesarios para un correcto funcionamiento de la aplicación y que esta pueda combatir al Covid de forma efectiva. Aunque el número de actores es elevado, los procesos que lleva a cabo la aplicación se pueden resumir en tres.
+En Radar Covid intervienen gran cantidad de actores que provocaron que su puesta en marcha fuera bastante lenta, pero que son necesarios para un correcto funcionamiento de la aplicación y que esta pueda combatir al Covid de forma efectiva. También se llevan a cabo varios procesos como son la realización de pruebas médicas o el rastreo de contactos estrechos que se detallan más adelante.
 
 
 ### 3.2.1 Descripción de los Actores de Negocio Actuales
@@ -75,67 +75,66 @@ Los principales actores de negocio que intervienen en la actualidad en Radar Cov
 
 ### 3.2.2 Descripción de Procesos de Negocio Actuales
 
-La aplicación Radar Covid es muy sencilla y los procesos que lleva a cabo se pueden resumir en los siguientes:
+Para el rastreo y gestión de la pandemia Covid se llevan a cabo los siguientes procesos:
 
 | **PR_01** | **Realizar pruebas médicas** |
 | :---: | :--- |
-| **Descripción** | Cuando una persona sea considerada contacto estrecho se le asignará una cita médica, si cuando acude presenta síntomas se le realizará una prueba PCR, si no presenta síntomas se le realizará un test rápido, si el resultado de este es positivo se confirma que la persona tiene COVID-19, en caso de resultado negativo se realizará una prueba PCR para confirmarlo. |
+| **Descripción** | Cuando una persona es considerada contacto estrecho se le asignará una cita médica. Cuando acude a la cita médica, si presenta síntomas se le realiza un test rápido y si el resultado es positivo se confirma que la persona tiene COVID-19, en caso de resultado negativo se realizará una prueba PCR para confirmarlo. Si no tiene síntomas se le realiza directamente una prueba PCR. A continuación se seguirán los procesos oportunos dependiendo si los resultados de las pruebas médicas han sido negativos o positivos.|
 
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 <p align="center">
-<img width=40% src="./Imágenes/Almacenar_identificador.jpg">
+<img width=40% src="./Imágenes/Realizar_pruebas_medicas.jpg">
 </p>
 
 <br>
 
 | **PR_02** | **Asignar código** |
 | :---: | :--- |
-| **Descripción** | Después de que un usuario haya acudido a realizarse una prueba médica, los sanitarios comprueban el resultado. Si el resultado de la prueba es positivo, tienen que solicitar al sistema un código que el usuario podrá introducir voluntariamente en la aplicación. |
+| **Descripción** | Después de que un paciente haya acudido a realizarse una prueba médica, los sanitarios comprueban el resultado. Si el resultado de la prueba es positivo, tienen que solicitar al sistema un código que el paciente podrá introducir voluntariamente en la aplicación Radar Covid. |
 
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 <p align="center">
-<img width=40% src="./Imágenes/Generar_codigos.jpg">
+<img width=40% src="./Imágenes/Asignar_codigo.jpg">
 </p>
 
 <br>
 
-| **PR_03** | **Establecer cuarentena** |
+| **PR_03** | **Establecer cuarentena y seguimiento** |
 | :---: | :--- |
-| **Descripción** | Tras realizarse las pruebas médicas, independientemente de que el resultado sea positivo o negativo, la persona deberá cumplir un periodo de cuarentena de aproximadamente 10 días, tras esto se realizará una nueva prueba PCR que determinará, en caso de positivo, una amplicación de la cuarentena y, en caso de negativo, la persona podrá hacer vida normal. Actualmente los cuerpos de seguridad y sanitarios no tienen implementado ningún procedimiento de seguimiento de la cuarentena a nivel individual. |
+| **Descripción** | Tras realizarse las pruebas médicas, independientemente de que el resultado sea positivo o negativo, la persona deberá cumplir un periodo de cuarentena de aproximadamente 10 días. Entre el séptimo y el décimo se realizará una segunda prueba PCR que determinará, en caso de positivo, una amplicación de la cuarentena y, en caso de negativo, se dará el alta médica y la persona podrá hacer vida normal. Actualmente los sanitarios llevan el seguimiento de la cuarentena de los casos positivos por teléfono cada 2-3 días, aunque no pueden confirmar la ubicación de la persona. |
 
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 <p align="center">
-<img width=40% src="./Imágenes/Mostrar_notificacion.jpg">
+<img width=40% src="./Imágenes/Establecer_cuarentena_y_seguimiento.jpg">
 </p>
 
 <br>
 
-| **PR_04** | **Comunicar positivos a otras CCAA** |
+| **PR_04** | **Rastrear contactos** |
 | :---: | :--- |
-| **Descripción** | En caso de que un caso confirmado positivo se desplace o haya estado en otra comunidad autónoma, se avisará al cuerpo sanitario de dicha comunidad para que realicen el rastreo y las pruebas médicas oportunas. |
+| **Descripción** | Cuando una persona da positivo los sanitarios deben rastrear los contactos estrechos de esta persona, para ello preguntarán al paciente con quién ha estado los dos días antes de tener síntomas Covid. Una vez recogidos estos datos, los sanitarios llaman de forma individual a cada uno de estos contactos y concertan citas para realizar las pruebas médicas siguiendo el procedimiento PR_01. En caso de que un caso confirmado positivo se haya desplazado o haya estado en otra comunidad autónoma dos días antes de conocer que ha sido positivo, se avisará al cuerpo sanitario de dicha comunidad para que realicen el rastreo y las pruebas médicas oportunas.  |
 
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
-<br>
-
-| **PR_05** | **Rastrear contactos** |
-| :---: | :--- |
-| **Descripción** | Cuando una persona da positivo los sanitarios deben rastrear los contactos estrechos de esta persona, para ello preguntarán al paciente con quien ha estado los últimos dos días y, una vez recogidos estos datos, llamar de forma individual a cada uno de estos contactos y concertar citas para realizarse las pruebas médicas pertinentes. En caso de contactos con personas de otras comunidades, se seguirá el procedimiento indicado en el PR_04. (y si no acuden?) |
-
-En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
+<p align="center">
+<img width=40% src="./Imágenes/Rastrear_contactos.jpg">
+</p>
 
 <br>
+
 
 | **PR_05** | **Comprobar medidas sanitarias** |
 | :---: | :--- |
-| **Descripción** | Semanalmente el gobierno junto a las autoridades sanitarias revisa la incidencia de la pandemia en la sociedad, en función de los datos obtenidos se toman diferentes medidas como pueden ser el cierre perimetral, cierre de la hostelería, limitación de movimiento entre provincias/CCAA, confinamiento domiciliario. |
+| **Descripción** | Diariamente las autoridades sanitarias de cada CCAA revisan la incidencia de la pandemia en la población, y en función de los datos obtenidos se toman diferentes medidas como pueden ser el cierre perimetral de la localidad, cierre de la hostelería, limitación de movimiento entre provincias/CCAA, confinamiento domiciliario. |
 
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
-<br>
+<p align="center">
+<img width=40% src="./Imágenes/Comprobar_medidas_sanitarias.jpg">
+</p>
 
 
 <br>
@@ -144,11 +143,11 @@ En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 Radar Covid es una aplicación de código abierto que podemos encontrar en el siguiente link: [https://github.com/RadarCOVID](https://github.com/RadarCOVID) y utiliza el protocolo abierto 'Decentralized Privacy-Preserving Proximity Tracing' (DP-3T, estilizado como dp3t), que fue desarrollado en respuesta a la pandemia Covid-19 para facilitar el rastreo de contactos digitales de los participantes infectados. 
 
-Cuando dos usuarios que tienen Radar Covid activado se encuentran, si permanecen juntos durante un tiempo superior a 15 minutos, sus dispositivos móviles intercambian los números identificadores de la aplicación y los almacenan localmente en sus registros de contacto. 
+Cuando dos usuarios que tienen Radar Covid activado se encuentran, si permanecen juntos durante un tiempo superior a 15 minutos, sus teléfonos móviles intercambian los números identificadores de la aplicación y los almacenan localmente en sus registros de contacto. 
 
 Cuando uno de ellos obtiene un resultado positivo en un análisis médico, si introduce un código en la aplicación (este código se lo proporcionan los sanitarios), se envía un informe a un servidor central informando de su caso de manera anónima. 
 
-Continuamente la aplicación recopila los informes del servidor de forma automática y comprueba si algún identificador contenido en el informe del servidor se encuentra entre sus registros de contacto locales. Si encuentra alguna coincidencia, entonces el usuario ha estado en contacto cercano con un paciente diagnosticadp como positivo, y es advertido por la aplicación. Puesto que cada dispositivo verifica localmente los registros de contacto, y por lo tanto los registros de contacto nunca se transmiten a terceros, el servidor de informes central no puede por sí mismo determinar la identidad o el registro de contacto de cualquier usuario de la aplicación.
+Continuamente la aplicación recopila los informes del servidor de forma automática y comprueba si algún identificador contenido en el informe del servidor se encuentra entre sus registros de contacto locales. Si encuentra alguna coincidencia, entonces el usuario ha estado en contacto cercano con un paciente diagnosticado como positivo, y es advertido por la aplicación. Puesto que cada dispositivo verifica localmente los registros de contacto, y por lo tanto los registros de contacto nunca se transmiten a terceros, el servidor de informes central no puede por sí mismo determinar la identidad o el registro de contacto de cualquier usuario de la aplicación.
 
 El protocolo de enlace del dispositivo utiliza Bluetooth Low Energy para encontrar e intercambiar detalles entre los usuarios de la aplicación que se encuentren en un rango cercano, y la fase de notificación de infecciones utiliza HTTPS para cargar el informe en un servidor central de Amazon Web Services.
 
@@ -156,7 +155,7 @@ Finalmente, el código fuente de la aplicación está escrito en su mayoría en 
 
 ### 3.3.1 Descripción del Entorno de Hardware Actual
 
-El entorno hardware de Radar Covid consiste en los dispositivos móviles de cada usuario, en los servidores de Amazon Web Services y en los ordenadores de los centros de salud y hospitales que generan los códigos que los contactos positivos pueden introducir voluntariamente en la aplicación.
+El entorno hardware de Radar Covid consiste en los teléfonos móviles de cada usuario, en los servidores de Amazon Web Services y en los ordenadores de los centros de salud y hospitales que generan los códigos que los contactos positivos pueden introducir voluntariamente en la aplicación.
 
 Además, también podemos destacar los ordenadores del Gobierno de España, concretamente los de la Secretaría de Estado de Inteligencia Artificial, encargados del mantenimiento y buen funcionamiento de la aplicación en todo momento. 
 
@@ -164,6 +163,6 @@ Además, también podemos destacar los ordenadores del Gobierno de España, conc
 
 El entorno software de Radar Covid es bastante simple a nivel de usuario final ya que se trata de una aplicación móvil disponible en Android e iOS y para su correcto funcionamiento solo es necesario el uso del Bluetooth y del GPS. 
 
-La gestión de los datos está basada en el modelo descentralizado ya que los datos de cada usuario se guardan en cada dispositivo móvil. Los pocos datos que se comparten con la aplicación están alojados en los servidores de Amazon Web Services y la subida de datos al servidor se hace con un software de la compañía estadounidense de forma cifrada y anónima para guardar la confidencialidad y el anonimato de los usuarios de la aplicación.
+La gestión de los datos está basada en el modelo descentralizado ya que los datos de cada usuario se guardan en cada teléfono móvil. Los pocos datos que se comparten con la aplicación están alojados en los servidores de Amazon Web Services y la subida de datos al servidor se hace con un software de la compañía estadounidense de forma cifrada y anónima para guardar la confidencialidad y el anonimato de los usuarios de la aplicación.
 
 Finalmente también es necesario un programa generador de códigos que utiliza el personal sanitario cuando un ciudadano obtiene un resultado positivo en un test rápido o en una PCR. Este código generado es el que se le da al ciudadano para que lo registre voluntariamente en su aplicación de Radar Covid y se avise a todas las personas que hayan estado más de 15 minutos con él.
