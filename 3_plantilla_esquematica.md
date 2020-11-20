@@ -84,7 +84,7 @@ Para el rastreo y gestión de la pandemia Covid se llevan a cabo los siguientes 
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 <p align="center">
-<img width=40% src="./Imágenes/Realizar_pruebas_medicas.jpg">
+<img width=40% src="./Imágenes/Realizar_pruebas_médicas.jpg">
 </p>
 
 <br>
@@ -108,7 +108,7 @@ En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 <p align="center">
-<img width=40% src="./Imágenes/Establecer_cuarentena_y_seguimiento.jpg">
+<img width=50% src="./Imágenes/Establecer_cuarentena_y_seguimiento.jpg">
 </p>
 
 <br>
@@ -120,7 +120,7 @@ En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 <p align="center">
-<img width=40% src="./Imágenes/Rastrear_contactos.jpg">
+<img width=60% src="./Imágenes/Rastrear_contactos.jpg">
 </p>
 
 <br>
@@ -133,7 +133,7 @@ En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 <p align="center">
-<img width=40% src="./Imágenes/Comprobar_medidas_sanitarias.jpg">
+<img width=20% src="./Imágenes/Comprobar_medidas_sanitarias.jpg">
 </p>
 
 
