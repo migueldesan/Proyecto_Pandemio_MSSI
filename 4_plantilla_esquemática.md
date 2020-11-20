@@ -17,8 +17,8 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
   | ID | OBJETIVO | 
  | :--: | :----- |
  | **OB_01** | Mejorar las aplicaciones existentes en la lucha contra una futura pandemia. Alta - Media - Automatizar los procesos de negocio actuales (Ver 3.2.2) |
- | **OB_02** | Alcanzar el 100% de la población que disponga de dispositivos móviles. Alta - Alta - Lograr la instalación obligatoria de la app |
- | **OB_03** | Alcanzar el mayor número de población posible. Alta - Media - Crear campañas publicitarias para fomentar el aviso de positivos de personas sin acceso a dispositivos móviles|
+ | **OB_02** | Alcanzar el 100% de la población que disponga de teléfonos móviles. Alta - Alta - Lograr la instalación obligatoria de la app |
+ | **OB_03** | Alcanzar el mayor número de población posible. Alta - Media - Crear campañas publicitarias para fomentar el aviso de positivos de personas sin acceso a teléfonos móviles|
  | **OB_04** | Rastrear y gestionar la información de los usuarios de forma anónima. Alta - Media - Gestionar las sesiones de usuario para restringir el acceso a los datos/Almacenar los datos de ubicación en la base de datos solo durante el tiempo de vida útil|
  | **OB_05** | Preservar la privacidad de los usuarios. Media - Media - Restringir el acceso a los datos|
  | **OB_06** | Reducir el impacto de futuras pandemias en la sociedad. Alta - Media - Reducir la mortalidad / Reducir el número de contagios |
