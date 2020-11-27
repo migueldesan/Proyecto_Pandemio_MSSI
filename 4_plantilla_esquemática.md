@@ -9,14 +9,41 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  | **OB_01** | Mejorar las aplicaciones existentes en la lucha contra una futura pandemia. | 
  | :--: | :----- |
  | **Descripción** | [Añadir una descripción que tenga que ver con el problema] |
-  | **Subobjetivos** | - Automatizar los procesos de negocio actuales (Ver 3.2.2) |
-  | **Importancia** | Alta |
-  | **Prioridad** | Media |
+ | **Subobjetivos** | - Automatizar los procesos de negocio actuales (Ver 3.2.2) |
+ | **Importancia** | Alta |
+ | **Prioridad** | Media |
  
+ | **OB_02** | Alcanzar el 100% de la población que disponga de teléfonos móviles. | 
+ | :--: | :----- |
+ | **Descripción** | [Añadir una descripción que tenga que ver con el problema] |
+ | **Subobjetivos** | - Lograr la instalación obligatoria de la app. |
+ | **Importancia** | Alta |
+ | **Prioridad** | Alta |
+ 
+ | **OB_03** | Alcanzar el mayor número de población posible. | 
+ | :--: | :----- |
+ | **Descripción** | [Añadir una descripción que tenga que ver con el problema] |
+ | **Subobjetivos** | - Crear campañas publicitarias para fomentar el aviso de positivos de personas sin acceso a teléfonos móviles |
+ | **Importancia** | Alta |
+ | **Prioridad** | Media |
+ 
+ | **OB_04** | Rastrear y gestionar la información de los usuarios de forma anónima. | 
+ | :--: | :----- |
+ | **Descripción** | [Añadir una descripción que tenga que ver con el problema] |
+ | **Subobjetivos** | - Crear campañas publicitarias para fomentar el aviso de positivos de personas sin acceso a teléfonos móviles. |
+ | **Importancia** | Alta |
+ | **Prioridad** | Media |
+ 
+ | **OB_05** | Preservar la privacidad de los usuarios. | 
+ | :--: | :----- |
+ | **Descripción** | [Añadir una descripción que tenga que ver con el problema] |
+ | **Subobjetivos** | - Restringir el acceso a los datos. |
+ | **Importancia** | Media |
+ | **Prioridad** | Media |
  
  > Dentro de cada objetivo el orden es Descripcion - Importancia - Prioridad - Subobjetivos
  
-  | ID | OBJETIVO | 
+ | ID | OBJETIVO | 
  | :--: | :----- |
  | **OB_01** | Mejorar las aplicaciones existentes en la lucha contra una futura pandemia. Alta - Media - Automatizar los procesos de negocio actuales (Ver 3.2.2) |
  | **OB_02** | Alcanzar el 100% de la población que disponga de teléfonos móviles. Alta - Alta - Lograr la instalación obligatoria de la app |
