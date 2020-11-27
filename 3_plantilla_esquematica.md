@@ -22,12 +22,20 @@ Para ello es necesario conocer en detalle la situación actual para evitar comet
 <br>
 
 ## 3.1 Pros y contras de la Situación Actual
-En esta sección señalaremos los principales aspectos positivos y negativos de Radar Covid con el fin de conservar sus fortalezas, pero corrigiendo las debilidades que la han llevado a fracasar para que no suceda lo mismo con Pandemio. De esta forma se podrá automatizar la mayoría de los procesos, y conseguir una mejor gestión de una futura pandemia y un menor impacto en la población:
+En esta sección señalaremos los principales aspectos positivos y negativos de la situación actual para que no sucedan en el futuro, y aquellos relacionados con Radar Covid con el fin de conservar sus fortalezas, pero corrigiendo las debilidades que la han llevado a fracasar para que no suceda lo mismo con Pandemio. De esta forma se podrá automatizar la mayoría de los procesos, y conseguir una mejor gestión de una futura pandemia y un menor impacto en la población:
 
 ### 3.1.1 Fortalezas de la Situación Actual
+Los principales aspectos positivos que podemos destacar en la situación actual son las siguientes:
 
-Algunos de los aspectos positivos de Radar Covid que convendría que se mantuvieran en Pandemio son los siguientes:
 
+| ID | NOMBRE | DESCRIPCIÓN |
+| :----- | :----- | :----- |
+| **FO_01** | Conocimiento del virus | Cada día que pasa se van conociendo más cosas del Covid-19 y de como combatirlo. |
+| **FO_01** | Conciencia social | La mayor parte de la gente está concienciada de la situación actual y trata de cumplir las medidas sanitarias que se imponen para reducir el impacto del virus en la población. |
+| **FO_01** | Aplicaciones software | Han aparecido numerosas aplicaciones que tratan de combatir la expansión del Covid-19 como Radar Covid. En concreto, esta aplicación tiene numerosos aspectos buenos a destacar como el anonimato o la descentralización de los datos aunque no haya tenido gran impacto en la sociedad española. |
+
+
+Algunos de los aspectos positivos que posee Radar Covid y que convendría mantenerlos en Pandemio para una mejor gestión de una futura pandemia son:
 | ID | NOMBRE | DESCRIPCIÓN |
 | :----- | :----- | :----- |
 | **FO_01** | Anonimato | La aplicación funciona sin revelar la identidad del usuario ni la del teléfono móvil. Además, no registra datos personales ni de geolocalización. |
@@ -47,7 +55,20 @@ Algunos de los aspectos positivos de Radar Covid que convendría que se mantuvie
 
 ### 3.1.2 Debilidades de la Situación Actual
 
-Por el contrario, también hay que destacar los principales aspectos negativos de Radar Covid que consideramos que no deben repetirse en Pandemio:
+Por el contrario, las principales debilidades de la situación actual son las siguientes:
+
+| ID | NOMBRE | DESCRIPCIÓN |
+| :---: | :----- | :----- |
+| **DE_11** | Incumplimiento de las normas | Hay parte de la población que incumple o trata de cumplir las normas siempre que puede. |
+| **DE_10** | Comprobación cuarentena | Actualmente los sanitarios llevan solo el seguimiento de la cuarentena de los casos positivos y negativos por teléfono cada 2-3 días, aunque no pueden confirmar la ubicación de la persona de ninguna manera. |
+| **DE_11** | Asistencia "voluntaria" | En caso de que una persona no acuda a realizarse las oportunas pruebas médicas, los sanitarios solo pueden tratar de ponerse en contacto por teléfono con la persona y en numerosas ocasiones no responden. En ningún momento se pide ayuda a las fuerzas del orden. |
+| **DE_11** | Presencia de asintomáticos | Hay muchas personas que son asintomáticas. Estas personas son contagiadoras a pesar de no presentar síntomas y son muy dificiles de detectar por esa misma razón. |
+| **DE_11** | Cierre de negocios | La mala gestión de esta pandemia ha provocado el cierre de numerosos negocios y un desplome de la economía. |
+| **DE_11** | Medidas por CCAA | Cada CCAA adopta sus propias medidas en la lucha contra la pandemia lo que dificulta que las personas sepan realmente las que se adoptan en su CCAA o en las CCAA a las que se desplazan. |
+| **DE_11** | Aplicación software | La aplicación Radar Covid que se está utilizando a nivel nacional para la gestión de la pandemia tiene muchos inconvenientes (los detallaremos a continuación) y apenas ayuda al rastreo del virus. |
+
+
+Algunos aspectos negativos que tiene la aplicación de Radar Covid y que provocan que no sea efectiva en la lucha contra esta pandemia son los que se detallan a continuación. Si todos estos aspectos negativos se mejoraran en Pandemio, se podría lograr un mejor rastreo del virus y gestión de la información:
 
 | ID | NOMBRE | DESCRIPCIÓN |
 | :---: | :----- | :----- |
@@ -62,12 +83,7 @@ Por el contrario, también hay que destacar los principales aspectos negativos d
 | **DE_09** | Nula estandarización | Las bases de datos de las diferentes administraciones no están estandarizadas lo que provoca que muchos usuarios no puedan informar de su resultado positivo si se mueven entre distintas comunidades. |
 
 
-Además, debemos destacar otros aspectos negativos de la situación actual que Radar Covid no se encarga de manejar y que convendría que lo hiciera Pandemio:
 
-| ID | NOMBRE | DESCRIPCIÓN |
-| :---: | :----- | :----- |
-| **DE_10** | Comprobación cuarentena | Actualmente los sanitarios llevan solo el seguimiento de la cuarentena de los casos positivos y negativos por teléfono cada 2-3 días, aunque no pueden confirmar la ubicación de la persona de ninguna manera. |
-| **DE_11** | Asistencia "voluntaria" | En caso de que una persona no acuda a realizarse las oportunas pruebas médicas, los sanitarios solo pueden tratar de ponerse en contacto por teléfono con la persona y en numerosas ocasiones no responden. En ningún momento se pide ayuda a las fuerzas del orden. |
 <br>
 
 ## 3.2	Modelos de Procesos de Negocio Actuales
