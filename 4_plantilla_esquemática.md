@@ -55,6 +55,55 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  | **Importancia** | Media |
  | **Prioridad** | Baja |
  
+ | **OB_08** | Informar a los usuarios que deben acudir a realizarse pruebas médicas. | 
+ | :--: | :----- |
+ | **Descripción** | [Añadir una descripción que tenga que ver con el problema] |
+ | **Subobjetivos** |  |
+ | **Importancia** | Media |
+ | **Prioridad** | Media |
+ 
+ | **OB_09** | Avisar a las fuerzas del orden si un usuario no acude a realizarse las pruebas médicas. | 
+ | :--: | :----- |
+ | **Descripción** | [Añadir una descripción que tenga que ver con el problema] |
+ | **Subobjetivos** | - Automatizar el proceso de notificación a las autoridades |
+ | **Importancia** | Baja |
+ | **Prioridad** | Baja |
+ 
+ | **OB_10** | Avisar a las fuerzas del orden si un usuario no cumple con la cuarentena que se le ha impuesto. | 
+ | :--: | :----- |
+ | **Descripción** | [Añadir una descripción que tenga que ver con el problema] |
+ | **Subobjetivos** | - Automatizar el proceso de notificación a las autoridades |
+ | **Importancia** | Media |
+ | **Prioridad** | Baja |
+ 
+ | **OB_11** | Avisar a las fuerzas del orden si un usuario no cumple con la cuarentena que se le ha impuesto. | 
+ | :--: | :----- |
+ | **Descripción** | [Añadir una descripción que tenga que ver con el problema] |
+ | **Subobjetivos** |  |
+ | **Importancia** | Media |
+ | **Prioridad** | Baja |
+ 
+ | **OB_12** | Verificar que los usuarios cumplen las cuarentenas que deban hacer de forma automática. | 
+ | :--: | :----- |
+ | **Descripción** | [Añadir una descripción que tenga que ver con el problema] |
+ | **Subobjetivos** | - Introducir la verificación por medio de huella dactilar ó facial <br>- Realizar llamadas aleatorias a casos positivos para confirmar su posición. |
+ | **Importancia** | Baja |
+ | **Prioridad** | Baja |
+ 
+ | **OB_13** | Rastrear a los contactos estrechos de los usuarios. | 
+ | :--: | :----- |
+ | **Descripción** | [Añadir una descripción que tenga que ver con el problema] |
+ | **Subobjetivos** |  |
+ | **Importancia** | Media |
+ | **Prioridad** | Media |
+ 
+ | **OB_14** | Mostrar un mapa de calor con las zonas de movilidad de los casos positivos. | 
+ | :--: | :----- |
+ | **Descripción** | [Añadir una descripción que tenga que ver con el problema] |
+ | **Subobjetivos** | -Almacenar historial de ubicación de usuarios positivos <br>- Gestionar el historial de información <br>- Utilizar mapas actualizados |
+ | **Importancia** | Baja |
+ | **Prioridad** | Baja |
+ 
  > Dentro de cada objetivo el orden es Descripcion - Importancia - Prioridad - Subobjetivos
  
  | ID | OBJETIVO | 
