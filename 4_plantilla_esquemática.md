@@ -41,6 +41,20 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  | **Importancia** | Media |
  | **Prioridad** | Media |
  
+ | **OB_06** | Reducir el impacto de futuras pandemias en la sociedad. | 
+ | :--: | :----- |
+ | **Descripción** | [Añadir una descripción que tenga que ver con el problema] |
+ | **Subobjetivos** | - Reducir la mortalidad <br>- Reducir el número de contagio |
+ | **Importancia** | Alta |
+ | **Prioridad** | Media |
+ 
+ | **OB_07** | Automatizar el proceso de citaciones para realizar pruebas médicas. | 
+ | :--: | :----- |
+ | **Descripción** | [Añadir una descripción que tenga que ver con el problema] |
+ | **Subobjetivos** | - Generar cita médica al validar los formularios recibidos |
+ | **Importancia** | Media |
+ | **Prioridad** | Baja |
+ 
  > Dentro de cada objetivo el orden es Descripcion - Importancia - Prioridad - Subobjetivos
  
  | ID | OBJETIVO | 
