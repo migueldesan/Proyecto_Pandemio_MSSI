@@ -72,14 +72,14 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  | **OB_10** | Avisar a las fuerzas del orden si un usuario no cumple con la cuarentena que se le ha impuesto. | 
  | :--: | :----- |
  | **Descripción** | Informar a las fuerzas del orden de que no se están cumpliendos las medidas establecidas |
- | **Subobjetivos** | - Automatizar el proceso de notificación a las autoridades |
+ | **Subobjetivos** | - Automatizar el proceso de notificación a las autoridades <br>- Usuario cumple la cuarentena impuesta.¿? |
  | **Importancia** | Media |
  | **Prioridad** | Baja |
  
  | **OB_11** | Avisar a las fuerzas del orden si un usuario no cumple con la cuarentena que se le ha impuesto. | 
  | :--: | :----- |
  | **Descripción** | Informar a las fuerzas del orden de que no se están cumpliendos las medidas establecidas |
- | **Subobjetivos** |  |
+ | **Subobjetivos** | - Usuario cumple la cuarentena impuesta. |
  | **Importancia** | Media |
  | **Prioridad** | Baja |
  
@@ -93,7 +93,7 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  | **OB_13** | Rastrear a los contactos estrechos de los usuarios. | 
  | :--: | :----- |
  | **Descripción** | Búsquedas de los contractos estrechos de un usuario que ha dado positivo |
- | **Subobjetivos** |  |
+ | **Subobjetivos** | - Notificar contactos estrechos |
  | **Importancia** | Media | 
  | **Prioridad** | Media |
  
