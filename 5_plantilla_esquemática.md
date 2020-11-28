@@ -10,7 +10,7 @@ El proyecto a desarrrollar, Pandemio, va a tener distintas funcionalidades que c
 |**Dependencias**|
 |**Descripción**| Subsistema encargado de localizar a los usuarios, ya sea por localización GPS o por triangulación por las antenas móviles
 |**Importancia**| Alta
-|**Prioridad**| ALta
+|**Prioridad**| Alta
 
 |**SUB_02**| Gestor de notificaciones
 | :---: | :--- |
