@@ -50,7 +50,7 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  
  | **OB_07** | Automatizar el proceso de citaciones para realizar pruebas médicas. | 
  | :--: | :----- |
- | **Descripción** | Mecanización del las citaciónes médicas. |
+ | **Descripción** | Mecanización del las citaciones médicas. |
  | **Subobjetivos** | - Generar cita médica al validar los formularios recibidos. |
  | **Importancia** | Media |
  | **Prioridad** | Baja |
@@ -64,7 +64,7 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  
  | **OB_09** | Avisar a las fuerzas del orden si un usuario no acude a realizarse las pruebas médicas. | 
  | :--: | :----- |
- | **Descripción** |  |
+ | **Descripción** | Notificar a las fuerzas del orden si incumple la orden realizar las pruebas médicas pertinentes. |
  | **Subobjetivos** | - Automatizar el proceso de notificación a las autoridades |
  | **Importancia** | Baja |
  | **Prioridad** | Baja |
