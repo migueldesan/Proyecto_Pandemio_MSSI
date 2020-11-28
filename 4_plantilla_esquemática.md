@@ -72,14 +72,14 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  | **OB_10** | Avisar a las fuerzas del orden si un usuario no cumple con la cuarentena que se le ha impuesto. | 
  | :--: | :----- |
  | **Descripción** | Informar a las fuerzas del orden de que no se están cumpliendos las medidas establecidas |
- | **Subobjetivos** | - Automatizar el proceso de notificación a las autoridades <br>- Usuario cumple la cuarentena impuesta.¿? |
+ | **Subobjetivos** | - Automatizar el proceso de notificación a las autoridades  |
  | **Importancia** | Media |
  | **Prioridad** | Baja |
  
  | **OB_11** | Avisar a las fuerzas del orden si un usuario no cumple con la cuarentena que se le ha impuesto. | 
  | :--: | :----- |
  | **Descripción** | Informar a las fuerzas del orden de que no se están cumpliendos las medidas establecidas |
- | **Subobjetivos** | - Usuario cumple la cuarentena impuesta. |
+ | **Subobjetivos** |  |
  | **Importancia** | Media |
  | **Prioridad** | Baja |
  
