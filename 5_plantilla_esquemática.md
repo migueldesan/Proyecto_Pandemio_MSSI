@@ -6,6 +6,7 @@ El proyecto a desarrrollar, Pandemio, va a tener distintas funcionalidades que c
 
 |**SUB_01**| Gestor de localizaciones 
 | :---: | :--- |
+|**Versión**| 1.0
 |**Dependencias**|
 |**Descripción**| Subsistema encargado de localizar a los usuarios, ya sea por localización GPS o por triangulación por las antenas móviles
 |**Importancia**| Alta
@@ -13,6 +14,7 @@ El proyecto a desarrrollar, Pandemio, va a tener distintas funcionalidades que c
 
 |**SUB_02**| Gestor de notificaciones
 | :---: | :--- |
+|**Versión**| 1.0
 |**Dependencias**| 
 |**Descripción**| Subsistema encargado de notificar a los usuarios de avisar a los usuarios de que deben cumplir cuarentena o tienen citas médicas
 |**Importancia**| Alta
@@ -20,6 +22,7 @@ El proyecto a desarrrollar, Pandemio, va a tener distintas funcionalidades que c
 
 |**SUB_03**| Gestor de estadísticas
 | :---: | :--- |
+|**Versión**| 1.0
 |**Dependencias**| 
 |**Descripción**| Subsistema encargado de realizar estadísticas ¿y compartirlas?
 |**Importancia**| Media
@@ -27,6 +30,7 @@ El proyecto a desarrrollar, Pandemio, va a tener distintas funcionalidades que c
 
 |**SUB_04**| Gestor general
 | :---: | :--- |
+|**Versión**| 1.0
 |**Dependencias**|
 |**Descripción**| Subsistema encargado de compartir los casos positivos entre comunidades y entre paises, y la gestión de idiomas
 |**Importancia**| Media
