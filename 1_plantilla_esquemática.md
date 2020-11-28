@@ -36,7 +36,7 @@ En cuanto al mantenimiento y actualizaciones de la aplicación, el objetivo inic
 A continuación, mostramos el árbol de características con las primeras funcionalidades que se esperan de Pandemio tras la primera entrevista y que iremos completando a medida que avance el proyecto.
 
 <p align="center">
-  <img src="./Imágenes/Arbol_caracteristicas_v.1.0.jpg">
+  <img src="./Imágenes/Arbol_de_caracteristicas_v2.0.jpg">
 </p>
 
 <br>
