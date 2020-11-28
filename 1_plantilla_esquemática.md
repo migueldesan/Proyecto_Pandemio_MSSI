@@ -60,5 +60,4 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  | **OB_13** | Rastrear a los contactos estrechos de los usuarios. |
  | **OB_14** | Mostrar un mapa de calor con las zonas de movilidad de los casos positivos. |
  
- Prueba
-# 1 INTRODUCCIÓN
+
