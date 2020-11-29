@@ -5,7 +5,7 @@ El proyecto a desarrrollar, Pandemio, va a tener distintas funcionalidades que c
 |**SUB_01**| Gestor de localizaciones 
 | :---: | :--- |
 |**Versión**| 1.0
-|**Dependencias**|  - Los procesos de negocio a implantar son:<br>+ PRI_03	Rastrear contactos <br>+Comprobar medidas sanitarias <br>-Los objetivos de negocio de los que depende son: <br>+OB_04	Rastrear y gestionar la información de los usuarios de forma anónima. <br>+ OB_06	Reducir el impacto de futuras pandemias en la sociedad. <br>+ OB_10	Avisar a las fuerzas del orden si un usuario no cumple con la cuarentena que se le ha impuesto. <br>+ OB_11	Verificar que los usuarios cumplen las cuarentenas que deban hacer de forma automática <br>+ OB_13	Mostrar un mapa de calor con las zonas de movilidad de los casos positivo
+|**Dependencias**|  - Los procesos de negocio a implantar son:<br>+ PRI_03	Rastrear contactos <br>+Comprobar medidas sanitarias <br>-Los objetivos de negocio de los que depende son: <br>+OB_04	Rastrear y gestionar la información de los usuarios de forma anónima. <br>+ OB_06	Reducir el impacto de futuras pandemias en la sociedad. <br>+ OB_10	Avisar a las fuerzas del orden si un usuario no cumple con la cuarentena que se le ha impuesto. <br>+ OB_11	Verificar que los usuarios cumplen las cuarentenas que deban hacer de forma automática <br>+ OB_13	Mostrar un mapa de calor con las zonas de movilidad de los casos positivos.
 |**Descripción**| Subsistema encargado de localizar a los usuarios, ya sea por localización GPS o por triangulación por las antenas móviles
 |**Importancia**| Alta
 |**Prioridad**| Alta
