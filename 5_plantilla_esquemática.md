@@ -13,7 +13,7 @@ El proyecto a desarrrollar, Pandemio, va a tener distintas funcionalidades que c
 |**SUB_02**| Gestor de notificaciones |
 | :---: | :--- |
 |**Dependencias**| Los objetivos de negocio de los que depende son: <br>+ OB_03 - Alcanzar el mayor número de población posible. <br> + OB_07 -	Automatizar el proceso de citaciones para realizar pruebas médicas. <br>+ OB_08	- Informar a los usuarios que deben acudir a realizarse pruebas médicas. <br>+ OB_09 - Avisar a las fuerzas del orden si un usuario no acude a realizarse las pruebas médicas. <br>+ OB_10 - Avisar a las fuerzas del orden si un usuario no cumple con la cuarentena que se le ha impuesto. <br>+ OB_11 - Verificar que los usuarios cumplen las cuarentenas que deban hacer de forma automática. <br><br> Los procesos de negocio a implantar de los que depende son: <br>+ PRI_01 -  Realizar pruebas médicas. <br>+ PRI_02 - Establecer cuarentena y seguimiento. |
-|**Descripción**| Este subsistema agrupa los requisitos relacionados con la notificación de avisos (cuarentena o cita médica) así como la gestión de formularios para avisar de casos positivos/sospechosos de personas.
+|**Descripción**| Este subsistema agrupa los requisitos relacionados con la notificación de avisos (cuarentena o cita médica) así como la gestión de formularios para avisar de casos positivos/sospechosos de personas cercanas que no dispongan de teléfono móvil. |
 |**Importancia**| Alta. | 
 |**Prioridad**| Alta. |
 |**Comentarios**| Este subsistema es fundamental para lograr automatizar la mayoría de procesos que existen en la actualidad y así lograr una mejor gestión de una futura pandemia. |
