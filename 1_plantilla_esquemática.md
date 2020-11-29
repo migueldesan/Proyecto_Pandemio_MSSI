@@ -36,10 +36,10 @@ En cuanto al mantenimiento y actualizaciones de la aplicación, el objetivo inic
 <br>
 
 ## 1.2 Objetivos
-En la siguiente tabla se describen los principales objetivos que se esperan alcanzar de Pandemio cuando se termine de implementar:
+En la siguiente tabla se describen los principales objetivos que se esperan alcanzar con Pandemio cuando se termine de implementar:
  | ID | OBJETIVO |
  | :--: | :----- |
- | **OB_01** | Mejorar las aplicaciones existentes en la lucha contra una futura pandemia. |
+ | **OB_01** | Mejorar las aplicaciones software existentes en la lucha contra una futura pandemia. |
  | **OB_02** | Alcanzar el 100% de la población que disponga de teléfonos móviles. |
  | **OB_03** | Alcanzar el mayor número de población posible. |
  | **OB_04** | Rastrear y gestionar la información de los usuarios de forma anónima. |
@@ -49,7 +49,7 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  | **OB_08** | Informar a los usuarios que deben acudir a realizarse pruebas médicas. |
  | **OB_09** | Avisar a las fuerzas del orden si un usuario no acude a realizarse las pruebas médicas. |
  | **OB_10** | Avisar a las fuerzas del orden si un usuario no cumple con la cuarentena que se le ha impuesto. |
- | **OB_11** | Verificar que los usuarios cumplen las cuarentenas que deban hacer de forma automática. |
+ | **OB_11** | Verificar de forma automática que los usuarios cumplen las cuarentenas impuestas. |
  | **OB_12** | Rastrear a los contactos estrechos de los usuarios. |
  | **OB_13** | Mostrar un mapa de calor con las zonas de movilidad de los casos positivos. |
  | **OB_14** | Coordinación entre CCAA y países. |
