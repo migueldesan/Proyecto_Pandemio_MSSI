@@ -161,7 +161,7 @@ En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 | **PRI_03** | **Rastrear contactos** |
 | :---: | :--- |
-| **Descripción** | En esta ocasión será la aplicación de Pandemio la que se encargue de forma automática del rastreo de los contactos. Para ello comprobará el historial de ubicaciones del usuario y si la aplicación detecta que el usuario ha estado cerca de una persona que ha dado positivo en las pruebas médicas oportunas, avisará al usuario y creará una cita médica automaticamente para que se realice las pruebas médicas oportunas. |
+| **Descripción** | En esta ocasión será la aplicación de Pandemio la que se encargue de forma automática del rastreo de los contactos. Para ello comprobará el historial de ubicaciones del usuario y si la aplicación detecta que el usuario ha estado cerca de una persona que ha dado positivo en las pruebas médicas oportunas, avisará al usuario y creará una cita médica automaticamente para que se realice las pruebas médicas oportunas. En caso de personas que se trasladen entre CCAA o países será el propio sistema el encargado de compartir sus datos y realizar el aviso.|
 
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
