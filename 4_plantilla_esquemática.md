@@ -106,7 +106,7 @@ Con el fin de cumplir todos los objetivos expuestos anteriormente, y sobre todo 
 
 ### 4.2.1 Descripción de los Actores de Negocio a Implantar
 
-Los principales actores de negocio que se cambiarán sus funciones una vez terminado el proyecto son los siguientes: 
+Los principales actores de negocio que se cambiarán sus funciones una vez terminado el proyecto son los siguientes:  
 
 | **ID** | **Nombre** | **Descripción** |
 | :---: | :--- | :--- |
