@@ -12,7 +12,7 @@ Además, en las siguientes tablas se trata de realizar una descripción detallad
 
 |**SUB_01**| Gestor de localizaciones |
 | :---: | :--- |
-|**Dependencias**| Los objetivos de negocio de los que depende son: <br>+ OB_04 - Rastrear y gestionar la información de los usuarios de forma anónima. <br>+ OB_06 - Reducir el impacto de futuras pandemias en la sociedad. <br>+ OB_11 - Verificar que los usuarios cumplen las cuarentenas que deban hacer de forma automática. <br>+ OB_12 - Rastrear a los contactos estrechos de los usuarios. <br><br> Los procesos de negocio a implantar de los que depende son: <br> + PRI_02 - Establecer cuarentena y seguimiento. <br>+ PRI_03 - Rastrear contactos. <br>+ PRI_04 - Comprobar medidas sanitarias. <br>|
+|**Dependencias**| Los objetivos de negocio de los que depende son: <br>+ OB_04 - Rastrear y gestionar la información de los usuarios de forma anónima. <br>+ OB_06 - Reducir el impacto de futuras pandemias en la sociedad. <br>+ OB_11 - Verificar que los usuarios cumplen las cuarentenas que deban hacer de forma automática. <br>+ OB_12 - Rastrear a los contactos estrechos de los usuarios. <br><br> Los procesos de negocio a implantar de los que depende son: <br> + PRI_02 - Establecer cuarentena y seguimiento. <br>+ PRI_03 - Rastrear contactos. <br>+ PRI_04 - Comprobar medidas sanitarias.|
 |**Descripción**| Este subsistema agrupa los requisitos relacionados con la localización de las personas, ya sea por localización GPS o por triangulación por las antenas móviles. |
 |**Importancia**| Alta. |
 |**Prioridad**| Alta. |
@@ -20,7 +20,7 @@ Además, en las siguientes tablas se trata de realizar una descripción detallad
 
 |**SUB_02**| Gestor de notificaciones |
 | :---: | :--- |
-|**Dependencias**| Los objetivos de negocio de los que depende son: <br>+ OB_03 - Alcanzar el mayor número de población posible. <br> + OB_07 -	Automatizar el proceso de citaciones para realizar pruebas médicas. <br>+ OB_08	- Informar a los usuarios que deben acudir a realizarse pruebas médicas. <br>+ OB_09 - Avisar a las fuerzas del orden si un usuario no acude a realizarse las pruebas médicas. <br>+ OB_10 - Avisar a las fuerzas del orden si un usuario no cumple con la cuarentena que se le ha impuesto. <br>+ OB_11 - Verificar que los usuarios cumplen las cuarentenas que deban hacer de forma automática. <br><br> Los procesos de negocio a implantar de los que depende son: <br>+ PRI_01 -  Realizar pruebas médicas. <br>+ PRI_02 - Establecer cuarentena y seguimiento. |
+|**Dependencias**| Los objetivos de negocio de los que depende son: <br>+OB_02 - Alcanzar el 100% de la población que disponga de teléfonos móviles.<br>+ OB_03 - Alcanzar el mayor número de población posible. <br> + OB_07 -	Automatizar el proceso de citaciones para realizar pruebas médicas. <br>+ OB_08	- Informar a los usuarios que deben acudir a realizarse pruebas médicas. <br>+ OB_09 - Avisar a las fuerzas del orden si un usuario no acude a realizarse las pruebas médicas. <br>+ OB_10 - Avisar a las fuerzas del orden si un usuario no cumple con la cuarentena que se le ha impuesto. <br>+ OB_11 - Verificar que los usuarios cumplen las cuarentenas que deban hacer de forma automática. <br><br> Los procesos de negocio a implantar de los que depende son: <br>+ PRI_01 -  Realizar pruebas médicas. <br>+ PRI_02 - Establecer cuarentena y seguimiento. |
 |**Descripción**| Este subsistema agrupa los requisitos relacionados con la notificación de avisos (cuarentena o cita médica) así como la gestión de formularios para avisar de casos positivos/sospechosos de personas cercanas que no dispongan de teléfono móvil. |
 |**Importancia**| Alta. | 
 |**Prioridad**| Alta. |
@@ -28,7 +28,7 @@ Además, en las siguientes tablas se trata de realizar una descripción detallad
 
 |**SUB_03**| Gestor de estadísticas |
 | :---: | :--- |
-|**Dependencias**| Los objetivos de negocio de los que depende son: <br> + OB_04 - Rastrear y gestionar la información de los usuarios de forma anónima. <br> + OB_05 - Preservar la privacidad de los usuarios. <br> + OB_13 - Mostrar un mapa de calor con las zonas de movilidad de los casos positivos. <br><br> Los procesos de negocio a implantar de los que depende son: <br>+ PRI_01 -  Realizar pruebas médicas. <br>|
+|**Dependencias**| Los objetivos de negocio de los que depende son: <br> + OB_04 - Rastrear y gestionar la información de los usuarios de forma anónima. <br> + OB_05 - Preservar la privacidad de los usuarios. <br> + OB_13 - Mostrar un mapa de calor con las zonas de movilidad de los casos positivos. <br><br> Los procesos de negocio a implantar de los que depende son: <br> PRI_03 - Rastrear contactos. <br>+ PRI_04 - Comprobar medidas sanitarias.|
 |**Descripción**| Subsistema encargado de realizar estadísticas ¿y compartirlas? |
 |**Importancia**| Media |
 |**Prioridad**| Media |
@@ -36,7 +36,7 @@ Además, en las siguientes tablas se trata de realizar una descripción detallad
 
 |**SUB_04**| Gestor general |
 | :---: | :--- |
-|**Dependencias**| Los objetivos de negocio de los que depende son: <br>+OB_03 - Alcanzar el mayor número de población posible. <br> +OB_14 - Coordinación entre CCAA y países.<br><br> Los procesos de negocio a implantar del que depende es: <br> PRI_03 - Rastrear contactos.|
+|**Dependencias**| Los objetivos de negocio de los que depende son: <br> +OB_02 - Alcanzar el 100% de la población que disponga de teléfonos móviles.<br>+OB_03 - Alcanzar el mayor número de población posible. <br> +OB_14 - Coordinación entre CCAA y países.<br><br> Los procesos de negocio a implantar de los que depende son: <br>+ PRI_01 -  Realizar pruebas médicas. <br>+ PRI_02 - Establecer cuarentena y seguimiento. <br> PRI_03 - Rastrear contactos.|
 |**Descripción**| Este subsistema agrupa los requisitos relacionados con la comunicación de los casos positivos entre CCAA (recordemos que la Sanidad está transferida a las CCAA y cada una de ellas tendrá su propia base de datos a las que no pueden acceder las demás) y a otros países; así como los cambios de dialecto y/o idioma (catalán, gallego, euskera, valenciano e inglés) dentro de la aplicación de Pandemio. |
 |**Importancia**| Media. |
 |**Prioridad**| Baja. |
