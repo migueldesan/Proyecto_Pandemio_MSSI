@@ -97,6 +97,13 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  | **Importancia** | Baja |
  | **Prioridad** | Baja |
  
+  | **OB_14** | Coordinación entre CCAA y países | 
+ | :--: | :----- |
+ | **Descripción** | Comunicación rápida del movimiento entre comunidades o países de personas positivas para la gestión y el rastreo. |
+ | **Subobjetivos** |  |
+ | **Importancia** | Media |
+ | **Prioridad** | Baja |
+ 
 <br>
  
  ## 4.2 Modelos de Procesos de Negocio a Implantar 
