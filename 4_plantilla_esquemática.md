@@ -8,101 +8,101 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  
  | **OB_01** | Mejorar las aplicaciones existentes en la lucha contra una futura pandemia. | 
  | :--: | :----- |
- | **Descripción** | La aplicación está basada en el sistema software existente en España que no ha funcionado como se esperaba. |
+ | **Descripción** | El sistema software existente en España no ha funcionado como se esperaba y se tratará de mejorar para reducir el impacto de una futura pandemia. |
  | **Subobjetivos** | - Automatizar los procesos de negocio actuales.|
- | **Importancia** | Alta |
- | **Prioridad** | Media |
+ | **Importancia** | Alta. |
+ | **Prioridad** | Media. |
  
  | **OB_02** | Alcanzar el 100% de la población que disponga de teléfonos móviles. | 
  | :--: | :----- |
  | **Descripción** | El sistema software intentará llegar al 100% de la población para tener control total sobre casos y contagios. |
- | **Subobjetivos** | - Lograr la instalación obligatoria de la app. |
- | **Importancia** | Alta |
- | **Prioridad** | Alta |
+ | **Subobjetivos** | - Lograr la instalación obligatoria de la app en todos los teléfonos móviles. <br> - Obligar y usar la aplicación a turistas que vengan a España. |
+ | **Importancia** | Alta. |
+ | **Prioridad** | Alta. |
  
  | **OB_03** | Alcanzar el mayor número de población posible. | 
  | :--: | :----- |
  | **Descripción** | Dado que una pequeña parte de la población vive en los pueblos y puede no tener acceso a un teléfono movil se deberá realizar un esfuerzo especial para tenerlos controlados. |
- | **Subobjetivos** | - Crear campañas publicitarias para fomentar el aviso de positivos de personas sin acceso a teléfonos móviles <br> - Permitir el uso de la aplicación en distintos dialectos/idiomas |
- | **Importancia** | Alta |
- | **Prioridad** | Media |
+ | **Subobjetivos** | - Crear campañas publicitarias para fomentar el aviso de positivos de personas sin acceso a teléfonos móviles <br> - Permitir el uso de la aplicación en distintos dialectos/idiomas (catalán, gallego, euskera, valenciano e inglés). |
+ | **Importancia** | Alta. |
+ | **Prioridad** | Media. |
  
  | **OB_04** | Rastrear y gestionar la información de los usuarios de forma anónima. | 
  | :--: | :----- |
  | **Descripción** | Gestión de la información de forma anónima respetando la ley de protección de datos. |
- | **Subobjetivos** | |
- | **Importancia** | Alta |
- | **Prioridad** | Media |
+ | **Subobjetivos** | - Almacenar los datos de los usuarios de forma anónima. <br> - Compartir solo los datos esenciales con el personal sanitario y/o fuerzas del orden. |
+ | **Importancia** | Alta. |
+ | **Prioridad** | Media. |
  
  | **OB_05** | Preservar la privacidad de los usuarios. | 
  | :--: | :----- |
  | **Descripción** | Aplicación de la ley de protección de datos. |
- | **Subobjetivos** | - Restringir el acceso a los datos. |
- | **Importancia** | Media |
- | **Prioridad** | Media |
+ | **Subobjetivos** | - Restringir el acceso a los datos a usuarios sin identificar. <br> - Obtener listado de los datos a los que ha accedido cada usuario. |
+ | **Importancia** | Media. |
+ | **Prioridad** | Media. |
  
  | **OB_06** | Reducir el impacto de futuras pandemias en la sociedad. | 
  | :--: | :----- |
- | **Descripción** | Reducción del impacto que está teniendo la pandemia actual, principalmente en términos de salud y economía, y estar preparados para futuras pandemias  |
- | **Subobjetivos** | - Reducir la mortalidad <br>- Reducir el número de contagio |
- | **Importancia** | Alta |
- | **Prioridad** | Media |
+ | **Descripción** | Reducción del impacto que está teniendo la pandemia actual, principalmente en términos de salud y economía, y estar preparados para futuras pandemias.  |
+ | **Subobjetivos** | - Reducir la mortalidad. <br> - Reducir el número de contagios. <br> - Reducir el impacto a la economía. |
+ | **Importancia** | Alta. |
+ | **Prioridad** | Media. |
  
  | **OB_07** | Automatizar el proceso de citaciones para realizar pruebas médicas. | 
  | :--: | :----- |
- | **Descripción** | Mecanización del las citaciones médicas. |
- | **Subobjetivos** | - Generar cita médica al validar los formularios recibidos. |
- | **Importancia** | Media |
- | **Prioridad** | Baja |
+ | **Descripción** | Automatización del las citaciones médicas. |
+ | **Subobjetivos** | - Generar cita médica al validar los formularios recibidos. <br> - Generar cita médica si un usuario ha estado cerca de un caso positivo.|
+ | **Importancia** | Media. |
+ | **Prioridad** | Baja. |
  
  | **OB_08** | Informar a los usuarios que deben acudir a realizarse pruebas médicas. | 
  | :--: | :----- |
  | **Descripción** | Notificar a un usuario que tiene que ir a realizarse una prueba médica por haber estado en contacto con un usuario que ha dado positivo o por informar de síntomas característicos de la enfermedad. |
- | **Subobjetivos** |  |
- | **Importancia** | Media |
- | **Prioridad** | Media |
+ | **Subobjetivos** | - Generar notificaciones automáticas. <br> - Generar notificaciones que no se puedan eliminar del menú de notificaciones de los teléfonos móviles. |
+ | **Importancia** | Media. |
+ | **Prioridad** | Media. |
  
  | **OB_09** | Avisar a las fuerzas del orden si un usuario no acude a realizarse las pruebas médicas. | 
  | :--: | :----- |
- | **Descripción** | Notificar a las fuerzas del orden si incumple la orden realizar las pruebas médicas pertinentes. |
- | **Subobjetivos** | - Automatizar el proceso de notificación a las autoridades |
- | **Importancia** | Baja |
- | **Prioridad** | Baja |
+ | **Descripción** | Notificar a las fuerzas del orden si un usuario no se realiza las pruebas médicas pertinentes cuando tenga una cita médica asignada. |
+ | **Subobjetivos** | - Automatizar el proceso de notificación a las autoridades para estos casos. |
+ | **Importancia** | Media. |
+ | **Prioridad** | Baja. |
  
  | **OB_10** | Avisar a las fuerzas del orden si un usuario no cumple con la cuarentena que se le ha impuesto. | 
  | :--: | :----- |
- | **Descripción** | Informar a las fuerzas del orden de que no se están cumpliendos las medidas establecidas |
- | **Subobjetivos** | - Automatizar el proceso de notificación a las autoridades  |
- | **Importancia** | Media |
- | **Prioridad** | Baja |
+ | **Descripción** | Informar a las fuerzas del orden de que no se están cumpliendos las medidas establecidas. |
+ | **Subobjetivos** | - Automatizar el proceso de notificación a las autoridades para estos casos.  |
+ | **Importancia** | Media. |
+ | **Prioridad** | Baja. |
  
  | **OB_11** | Verificar que los usuarios cumplen las cuarentenas que deban hacer de forma automática. | 
  | :--: | :----- |
  | **Descripción** | Comprobar que los usuarios cumplen la cuarentena obligatoria sin necesidad de hacerlo manualmente. |
  | **Subobjetivos** | - Introducir la verificación por medio de huella dactilar ó facial <br>- Realizar llamadas aleatorias a casos positivos para confirmar su posición. |
- | **Importancia** | Baja |
- | **Prioridad** | Baja |
+ | **Importancia** | Media. |
+ | **Prioridad** | Media. |
  
  | **OB_12** | Rastrear a los contactos estrechos de los usuarios. | 
  | :--: | :----- |
- | **Descripción** | Búsquedas de los contractos estrechos de un usuario que ha dado positivo |
- | **Subobjetivos** | - Notificar contactos estrechos |
- | **Importancia** | Media | 
- | **Prioridad** | Media |
+ | **Descripción** | Obtener los contactos estrechos de personas que hayan sido diagnosticas como positivas. |
+ | **Subobjetivos** | - Obtener listado de los contactos estrechos. <br> - Notificar a los contactos estrechos.   |
+ | **Importancia** | Media. | 
+ | **Prioridad** | Media. |
  
  | **OB_13** | Mostrar un mapa de calor con las zonas de movilidad de los casos positivos. | 
  | :--: | :----- |
- | **Descripción** | Muestreo de las zonas de movilidad de los casos positivos en un mapa de calor |
- | **Subobjetivos** | - Almacenar historial de ubicación de usuarios positivos <br>- Gestionar el historial de información <br>- Utilizar mapas actualizados |
- | **Importancia** | Baja |
- | **Prioridad** | Baja |
+ | **Descripción** | Muestreo de las zonas de movilidad de los casos positivos con un mapa de calor. |
+ | **Subobjetivos** | - Almacenar historial de ubicación de usuarios diagnosticados como positivos. <br>- Gestionar los historial de ubicación. <br>- Actualizar mapas cuando se detecten nuevos casos positivos. <br> - Eliminar historial de ubicación de un usuario cuando ya no se considere positivo. |
+ | **Importancia** | Baja. |
+ | **Prioridad** | Baja. |
  
   | **OB_14** | Coordinación entre CCAA y países | 
  | :--: | :----- |
- | **Descripción** | Comunicación rápida del movimiento entre comunidades o países de personas positivas para la gestión y el rastreo. |
- | **Subobjetivos** |  |
- | **Importancia** | Media |
- | **Prioridad** | Baja |
+ | **Descripción** | Comunicación rápida del movimiento entre comunidades o países de personas positivas para la gestión y el rastreo de la enfermedad. |
+ | **Subobjetivos** | - Sincronizar los datos de las personas que se desplacen en las diferentes bases de datos de cada CCAA. <br> - Avisar de posibles casos positivos al país correspondiente si una persona considerada contacto estrecho/caso positivo sale del país. |
+ | **Importancia** | Alta. |
+ | **Prioridad** | Baja. |
  
 <br>
  
