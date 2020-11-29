@@ -36,7 +36,7 @@ Además, en las siguientes tablas se trata de realizar una descripción detallad
 
 |**SUB_04**| **Gestor general** |
 | :---: | :--- |
-|**Dependencias**| Los objetivos de negocio de los que depende son: <br> +OB_02 - Alcanzar el 100% de la población que disponga de teléfonos móviles.<br>+OB_03 - Alcanzar el mayor número de población posible. <br> +OB_14 - Coordinación entre CCAA y países.<br><br> Los procesos de negocio a implantar de los que depende son: <br>+ PRI_01 -  Realizar pruebas médicas. <br>+ PRI_02 - Establecer cuarentena y seguimiento. <br>+ PRI_03 - Rastrear contactos.|
+|**Dependencias**| Los objetivos de negocio de los que depende son: <br> + OB_02 - Alcanzar el 100% de la población que disponga de teléfonos móviles.<br>+ OB_03 - Alcanzar el mayor número de población posible. <br> + OB_14 - Coordinación entre CCAA y países.<br><br> Los procesos de negocio a implantar de los que depende son: <br>+ PRI_01 -  Realizar pruebas médicas. <br>+ PRI_02 - Establecer cuarentena y seguimiento. <br>+ PRI_03 - Rastrear contactos.|
 |**Descripción**| Este subsistema agrupa los requisitos relacionados con la comunicación de los casos positivos entre CCAA (recordemos que la Sanidad está transferida a las CCAA y cada una de ellas tendrá su propia base de datos a las que no pueden acceder las demás) y a otros países; así como los cambios de dialecto y/o idioma (catalán, gallego, euskera, valenciano e inglés) dentro de la aplicación de Pandemio. |
 |**Importancia**| Media. |
 |**Prioridad**| Baja. |
