@@ -25,7 +25,7 @@ Para ello es necesario conocer en detalle la situación actual para evitar comet
 En esta sección señalaremos los principales aspectos positivos y negativos de la situación actual para que no sucedan en el futuro, y aquellos relacionados con Radar Covid con el fin de conservar sus fortalezas, pero corrigiendo las debilidades que la han llevado a fracasar para que no suceda lo mismo con Pandemio. De esta forma se podrá automatizar la mayoría de los procesos, y conseguir una mejor gestión de una futura pandemia y un menor impacto en la población:
 
 ### 3.1.1 Fortalezas de la Situación Actual
-Los principales aspectos positivos que podemos destacar en la situación actual son las siguientes:
+Los principales aspectos positivos que podemos destacar de la situación actual son las siguientes:
 
 
 | ID | NOMBRE | DESCRIPCIÓN |
@@ -71,10 +71,10 @@ Por el contrario, las principales debilidades de la situación actual son las si
 | **DE_05** | Presencia de asintomáticos | Hay muchas personas que son asintomáticas. Estas personas son contagiadoras a pesar de no presentar síntomas y son muy dificiles de detectar por esa misma razón. |
 | **DE_06** | Cierre de negocios | La mala gestión de esta pandemia ha provocado el cierre de numerosos negocios y un desplome de la economía. |
 | **DE_07** | Medidas por CCAA | Cada CCAA adopta sus propias medidas en la lucha contra la pandemia lo que dificulta que las personas sepan realmente las que se adoptan en su CCAA o en las CCAA a las que se desplazan. |
-| **DE_08** | Comunicación entre CCAA | El hecho de que la sanidad esté transferida hace que tengamos que hacer un esfuerzo especial para notificar de casos positivos desplazados y mantener una comunicación fluida entre comunidades. |
+| **DE_08** | Comunicación entre CCAA | El hecho de que la sanidad esté transferida hace que tengamos que hacer un esfuerzo especial para notificar los casos positivos desplazados y mantener una comunicación fluida entre comunidades. |
 | **DE_09** | Rastreo de personas sin móvil | No toda la población utiliza teléfonos móviles, por lo cual el rastreo a estas personas debe ser realizado a través de personas cercanas a ellos, lo cual puede conllevar cierto descontrol y pérdida de información. |
 | **DE_10** | Rastreo en zonas rurales | Debido a la dificultad de rastreo en zonas rurales a través de la triangulación de antenas móviles por la falta de éstas, se necesitará en estos casos que su GPS permanezca activado. |
-| **DE_11** | Falsos negativos en pruebas | Un resultado negativo en la primera prueba PCR puede llevar a la persona, si no está bien informada, a pensar que puede hacer vida normal, y en caso de ser un falso negativo esto podría producir nuevos contagios. |
+| **DE_11** | Falsos negativos en pruebas | Un resultado negativo en la primera prueba PCR puede llevar a la persona a no hacer cuarentena (a pesar de estar informada por los sanitarios), y en caso de ser un falso negativo esto podría producir nuevos contagios. |
 | **DE_12** | Aplicación software | La aplicación Radar Covid que se está utilizando a nivel nacional para la gestión de la pandemia tiene muchos inconvenientes (los detallaremos a continuación) y apenas ayuda al rastreo del virus. |
 
 
