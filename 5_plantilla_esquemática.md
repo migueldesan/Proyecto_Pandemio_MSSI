@@ -1,6 +1,14 @@
 # 5. DESCRIPCIÓN DE LOS SUBSISTEMAS DEL SISTEMA A DESARROLLAR 
 
-El proyecto a desarrrollar, Pandemio, va a tener distintas funcionalidades que completen los requisitos de la aplicación software, en esta sección se va a porceder a realizar una descripción detallada de los subsistemas a desarrollar dentro de la aplicación software.
+A continuación, mostramos el árbol de características con las primeras funcionalidades que se esperan de Pandemio tras la primera entrevista realizada al ministro y que iremos completando a medida que avance el proyecto:
+
+<p align="center">
+  <img src="./Imágenes/Arbol_de_caracteristicas_v2.0.jpg">
+</p>
+
+<br>
+
+Además, en las siguientes tablas se trata de realizar una descripción detallada de los diferentes subsistemas a desarrollar que se observan en el árbol de características de Pandemio. 
 
 |**SUB_01**| Gestor de localizaciones |
 | :---: | :--- |
@@ -20,7 +28,7 @@ El proyecto a desarrrollar, Pandemio, va a tener distintas funcionalidades que c
 
 |**SUB_03**| Gestor de estadísticas |
 | :---: | :--- |
-|**Dependencias**|  |
+|**Dependencias**| Los objetivos de negocio de los que depende son: <br> + OB_04 - Rastrear y gestionar la información de los usuarios de forma anónima. <br> + OB_05 - Preservar la privacidad de los usuarios. <br> + OB_13 - Mostrar un mapa de calor con las zonas de movilidad de los casos positivos. <br><br> Los procesos de negocio a implantar de los que depende son: <br>+ PRI_01 -  Realizar pruebas médicas. <br>|
 |**Descripción**| Subsistema encargado de realizar estadísticas ¿y compartirlas? |
 |**Importancia**| Media |
 |**Prioridad**| Media |
@@ -28,7 +36,7 @@ El proyecto a desarrrollar, Pandemio, va a tener distintas funcionalidades que c
 
 |**SUB_04**| Gestor general |
 | :---: | :--- |
-|**Dependencias**| Los objetivos de negocio de los que depende son: <br>+OB_03 - Alcanzar el mayor número de población posible. <br> +OB_14 - .<br><br> Los procesos de negocio a implantar del que depende es: <br> PRI_03 - Rastrear contactos.|
+|**Dependencias**| Los objetivos de negocio de los que depende son: <br>+OB_03 - Alcanzar el mayor número de población posible. <br> +OB_14 - Coordinación entre CCAA y países.<br><br> Los procesos de negocio a implantar del que depende es: <br> PRI_03 - Rastrear contactos.|
 |**Descripción**| Este subsistema agrupa los requisitos relacionados con la comunicación de los casos positivos entre CCAA (recordemos que la Sanidad está transferida a las CCAA y cada una de ellas tendrá su propia base de datos a las que no pueden acceder las demás) y a otros países; así como los cambios de dialecto y/o idioma (catalán, gallego, euskera, valenciano e inglés) dentro de la aplicación de Pandemio. |
 |**Importancia**| Media. |
 |**Prioridad**| Baja. |
