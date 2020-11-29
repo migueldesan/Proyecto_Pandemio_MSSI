@@ -16,7 +16,7 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  | **OB_02** | Alcanzar el 100% de la población que disponga de teléfonos móviles. | 
  | :--: | :----- |
  | **Descripción** | El sistema software intentará llegar al 100% de la población para tener control total sobre casos y contagios. |
- | **Subobjetivos** | - Lograr la instalación obligatoria de la app en todos los teléfonos móviles. <br> - Obligar y usar la aplicación a turistas que vengan a España. |
+ | **Subobjetivos** | - Lograr la instalación obligatoria de la app en todos los teléfonos móviles. <br> - Obligar a usar la aplicación a turistas que vengan a España. |
  | **Importancia** | Alta. |
  | **Prioridad** | Alta. |
  
