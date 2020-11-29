@@ -29,7 +29,7 @@ Los principales aspectos positivos que podemos destacar de la situación actual 
 
 
 | **ID** | **NOMBRE** | **DESCRIPCIÓN** |
-| :----- | :----- | :----- |
+| :-----: | :----- | :----- |
 | **FO_01** | Conocimiento del virus | Cada día que pasa se van conociendo más cosas del Covid-19 y de cómo combatirlo. |
 | **FO_02** | Conciencia social | La mayor parte de la gente está concienciada de la situación actual y trata de cumplir las medidas sanitarias que se imponen para reducir el impacto del virus en la población. |
 | **FO_03** | Acceso a móviles | Actualmente la mayoría de la población tiene teléfono móvil con GPS y acceso a internet, lo que facilita la implementación de estas aplicaciones software para controlar la pandemia. |
@@ -41,7 +41,7 @@ Los principales aspectos positivos que podemos destacar de la situación actual 
 
 Algunos de los aspectos positivos que posee Radar Covid y que convendría mantenerlos en Pandemio para una mejor gestión de una futura pandemia son:
 | **ID** | **NOMBRE** | **DESCRIPCIÓN** |
-| :----- | :----- | :----- |
+| :-----: | :----- | :----- |
 | **FO_06.1** | Anonimato | La aplicación funciona sin revelar la identidad del usuario ni la del teléfono móvil. Además, no registra datos personales ni de geolocalización. |
 | **FO_06.2** | Alertas rápidas | Rápido aviso al usuario de que ha estado en contacto con un positivo cercano para que comience la cuarentena cuanto antes y disminuya sus contactos sociales. |
 | **FO_06.3** | Discreción | Las alertas de exposición se envían sin indicar el lugar ni momento concreto donde se produjo la exposición. |
