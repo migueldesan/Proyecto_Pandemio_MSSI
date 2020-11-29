@@ -16,13 +16,13 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  | **OB_02** | Alcanzar el 100% de la población que disponga de teléfonos móviles. | 
  | :--: | :----- |
  | **Descripción** | El sistema software intentará llegar al 100% de la población para tener control total sobre los casos y los contagios. |
- | **Subobjetivos** | - Lograr la instalación obligatoria de la app en todos los teléfonos móviles. <br> - Obligar a usar la aplicación a turistas que vengan a España. |
+ | **Subobjetivos** | - Lograr la instalación obligatoria de la aplicación de Pandemio en todos los teléfonos móviles. <br> - Obligar a usar la aplicación a turistas que vengan a España. |
  | **Importancia** | Alta. |
  | **Prioridad** | Alta. |
  
  | **OB_03** | Alcanzar el mayor número de población posible. | 
  | :--: | :----- |
- | **Descripción** | Dado que una pequeña parte de la población vive en los pueblos y puede no tener acceso a un teléfono movil se deberá realizar un esfuerzo especial para tenerlos controlados. |
+ | **Descripción** | Dado que una pequeña parte de la población vive en los pueblos y puede no tener acceso a un teléfono móvil se deberá realizar un esfuerzo especial para tenerlos controlados. |
  | **Subobjetivos** | - Crear campañas publicitarias para fomentar el aviso de positivos de personas sin acceso a teléfonos móviles. <br> - Permitir el aviso de casos sospechosos/positivos de personas que no dispongan de teléfono móvil mediante un formulario desde el teléfono móvil de las personas que dependan. <br> - Permitir el uso de la aplicación en distintos dialectos/idiomas (catalán, gallego, euskera, valenciano e inglés).   |
  | **Importancia** | Alta. |
  | **Prioridad** | Media. |
@@ -50,7 +50,7 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  
  | **OB_07** | Automatizar el proceso de citaciones para realizar pruebas médicas. | 
  | :--: | :----- |
- | **Descripción** | Automatización del las citaciones médicas. |
+ | **Descripción** | Automatización de las citaciones médicas. |
  | **Subobjetivos** | - Generar una cita médica al validar los formularios recibidos. <br> - Generar una cita médica si un usuario ha estado cerca de un caso positivo.|
  | **Importancia** | Media. |
  | **Prioridad** | Baja. |
@@ -71,7 +71,7 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  
  | **OB_10** | Avisar a las fuerzas del orden si un usuario no cumple con la cuarentena que se le ha impuesto. | 
  | :--: | :----- |
- | **Descripción** | Informar a las fuerzas del orden de que no se están cumpliendos las medidas establecidas. |
+ | **Descripción** | Informar a las fuerzas del orden de que no se están cumpliendo las medidas de cuarentena establecidas. |
  | **Subobjetivos** | - Automatizar el proceso de notificación a las autoridades para estos casos.  |
  | **Importancia** | Media. |
  | **Prioridad** | Baja. |
@@ -79,7 +79,7 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  | **OB_11** | Verificar de forma automática que los usuarios cumplen las cuarentenas impuestas. | 
  | :--: | :----- |
  | **Descripción** | Comprobar que los usuarios cumplen la cuarentena obligatoria sin necesidad de hacerlo manualmente. |
- | **Subobjetivos** | - Introducir la verificación por medio de huella dactilar ó facial <br>- Realizar llamadas aleatorias a casos positivos para confirmar su posición. |
+ | **Subobjetivos** | - Introducir la verificación por medio de huella dactilar o facial <br>- Realizar llamadas aleatorias a casos positivos para confirmar su posición. |
  | **Importancia** | Media. |
  | **Prioridad** | Media. |
  
@@ -117,10 +117,10 @@ Los principales actores de negocio que cambiarán sus funciones una vez terminad
 
 | **ID** | **Nombre** | **Descripción** |
 | :---: | :--- | :--- |
-| **ACI_01** | Gobierno de España | Es el órgano que se encargará de tomar las decisiones que afecten a todo el país como es la implantación de Pandemio en todos los dispositivos móviles o el confinamiento domiciliario de una localidad o del país. También se encargará de impulsar las nuevas médidas que se tomen y de crear algunos de los protocolos que puedan utilizar las CCAA. |
+| **ACI_01** | Gobierno de España | Es el órgano que se encargará de tomar las decisiones que afecten a todo el país como es la implantación de Pandemio en todos los dispositivos móviles o el confinamiento domiciliario de una localidad o del país. También se encargará de impulsar las nuevas medidas que se tomen y de crear algunos de los protocolos que puedan utilizar las CCAA. |
 | **ACI_02** | Secretaría de Estado de Digitalización e Inteligencia Artificial del Gobierno de España | Esta secretaría, dependiente del Ministerio de Asuntos Económicos y Transformación Digital, será la encargada de gestionar todo lo que tenga que ver con la aplicación de Pandemio. Esto incluirá la gestión de la aplicación y la subsanación de cualquier brecha de seguridad que pudiera surgir. |
 | **ACI_03** | Sanidad de cada CCAA | Actualmente la Sanidad de España está transferida y en futuro cercano seguirá así, es por ello que se encargará de crear los protocolos sanitarios dentro de cada comunidad autónoma o de asumir aquellos impuestos por el Gobierno, de formar a los sanitarios y a los rastreadores en la lucha contra la nueva pandemia, y de comunicar a otras comunidades autónomas cuando existan casos que se muevan entre distintas comunidades autónomas. |
-| **ACI_04** | Sanitarios y rastreadores | Serán los encargados de realizar las pruebas médicas oportunas, y de avisar a las fuerzas del orden si alguien no acude a realizarse dichas pruebas estando citado para ellas. Además se encargarán de comprobar que aquellas personas que deben guardar cuarentena la están cumpliendo realmente. De no ser así, se encargarán de avisar a las fuerzas del orden para que acudan a ver que sucede. |
+| **ACI_04** | Sanitarios y rastreadores | Serán los encargados de realizar las pruebas médicas oportunas, y de avisar a las fuerzas del orden si alguien no acude a realizarse dichas pruebas estando citado para ellas. Además, se encargarán de comprobar que aquellas personas que deben guardar cuarentena la están cumpliendo realmente. De no ser así, se encargarán de avisar a las fuerzas del orden para que acudan a ver que sucede. |
 | **ACI_05** | Fuerzas del orden | Al igual que ahora, serán los encargados de que se cumplan las normas impuestas por cada CCAA o por el Gobierno y de multar a aquellos que las incumplan. También se encargarán de controlar la circulación de los ciudadanos cuando existan restricciones de movilidad. Finalmente, tendrán que investigar porque una persona no ha asistido a las pruebas médicas oportunas si reciben un aviso de los sanitarios y de comprobar el cumplimiento de la cuarentena de aquellas personas que no dispongan de teléfonos móviles. |
 | **ACI_06** | Usuarios de la app Pandemio | Serán los encargados de comunicar casos sospechosos o positivos de familiares que no dispongan de teléfonos móviles como pueden ser niños pequeños, ancianos dependientes, personas discapacitadas, etc. |
 
@@ -149,7 +149,7 @@ En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 | **PRI_02** | **Establecer cuarentena y seguimiento** |
 | :---: | :--- |
-| **Descripción** | Independientemente de que el resultado sea positivo o negativo, la persona deberá cumplir un periodo de cuarentena del número de días que se considere necesario. Durante esta cuarentena, se realizará el control de la cuarentena de forma remota en caso de que la persona disponga de teléfono móvil, y en caso de no tenerlo, las fuerzas del orden acudiran a ver si se está cumpliendo. Si al realizar el control de la cuarentena de forma remota se detecta que la persona no la está cumpliendo, se avisar a las fuerzas de orden para que vayan a ver el motivo y sancionar a la persona. |
+| **Descripción** | Independientemente de que el resultado sea positivo o negativo, la persona deberá cumplir un periodo de cuarentena del número de días que se considere necesario. Durante esta cuarentena, se realizará el control de la cuarentena de forma remota en caso de que la persona disponga de teléfono móvil, y en caso de no tenerlo, las fuerzas del orden acudirán a ver si se está cumpliendo. Si al realizar el control de la cuarentena de forma remota se detecta que la persona no la está cumpliendo, se avisar a las fuerzas de orden para que acudan a ver el motivo y sancionar a la persona. |
 
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
@@ -161,7 +161,7 @@ En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 | **PRI_03** | **Rastrear contactos** |
 | :---: | :--- |
-| **Descripción** | En esta ocasión será la aplicación de Pandemio la que se encargue de forma automática del rastreo de los contactos. Para ello comprobará el historial de ubicaciones del usuario y si la aplicación detecta que el usuario ha estado cerca de una persona que ha dado positivo en las pruebas médicas oportunas, avisará al usuario y creará una cita médica automaticamente para que se realice las pruebas médicas oportunas. En caso de personas que se trasladen entre CCAA o países será el propio sistema el encargado de compartir sus datos y realizar el aviso.|
+| **Descripción** | En esta ocasión será la aplicación de Pandemio la que se encargue de forma automática del rastreo de los contactos. Para ello comprobará el historial de ubicaciones del usuario y si la aplicación detecta que el usuario ha estado cerca de una persona que ha dado positivo en las pruebas médicas oportunas, avisará al usuario y creará una cita médica automáticamente para que se realice las pruebas médicas oportunas. En caso de personas que se trasladen entre CCAA o países será el propio sistema el encargado de compartir sus datos y realizar el aviso.|
 
 En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
