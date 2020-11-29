@@ -33,12 +33,6 @@ Siendo conscientes de que el rastreo de la ubicación y los movimientos de la po
 
 En cuanto al mantenimiento y actualizaciones de la aplicación, el objetivo inicial es obtener un producto final por lo que no serían necesarias, aunque Pandemio estaría abierto a versiones y actualizaciones en caso de necesidad.
 
-A continuación, mostramos el árbol de características con las primeras funcionalidades que se esperan de Pandemio tras la primera entrevista y que iremos completando a medida que avance el proyecto.
-
-<p align="center">
-  <img src="./Imágenes/Arbol_de_caracteristicas_v2.0.jpg">
-</p>
-
 <br>
 
 ## 1.2 Objetivos
