@@ -8,21 +8,21 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  
  | **OB_01** | Mejorar las aplicaciones existentes en la lucha contra una futura pandemia. | 
  | :--: | :----- |
- | **Descripción** | La aplicación está basada en el sistema software existente en España |
+ | **Descripción** | La aplicación está basada en el sistema software existente en España que no ha funcionado como se esperaba. |
  | **Subobjetivos** | - Automatizar los procesos de negocio actuales.|
  | **Importancia** | Alta |
  | **Prioridad** | Media |
  
  | **OB_02** | Alcanzar el 100% de la población que disponga de teléfonos móviles. | 
  | :--: | :----- |
- | **Descripción** | El sistema software intentará llegar al 100% de la población a modo de reducción los efectos de la pandemia. |
+ | **Descripción** | El sistema software intentará llegar al 100% de la población para tener control total sobre casos y contagios. |
  | **Subobjetivos** | - Lograr la instalación obligatoria de la app. |
  | **Importancia** | Alta |
  | **Prioridad** | Alta |
  
  | **OB_03** | Alcanzar el mayor número de población posible. | 
  | :--: | :----- |
- | **Descripción** | Dado que una pequeña parte de la población vive en los pueblos y puede no tener acceso a un teléfono movil se intentará alcanzar a ellos |
+ | **Descripción** | Dado que una pequeña parte de la población vive en los pueblos y puede no tener acceso a un teléfono movil se deberá realizar un esfuerzo especial para tenerlos controlados. |
  | **Subobjetivos** | - Crear campañas publicitarias para fomentar el aviso de positivos de personas sin acceso a teléfonos móviles |
  | **Importancia** | Alta |
  | **Prioridad** | Media |
@@ -30,7 +30,7 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  | **OB_04** | Rastrear y gestionar la información de los usuarios de forma anónima. | 
  | :--: | :----- |
  | **Descripción** | Gestión de la información de forma anónima respetando la ley de protección de datos. |
- | **Subobjetivos** | - Crear campañas publicitarias para fomentar el aviso de positivos de personas sin acceso a teléfonos móviles. |
+ | **Subobjetivos** | |
  | **Importancia** | Alta |
  | **Prioridad** | Media |
  
@@ -43,7 +43,7 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  
  | **OB_06** | Reducir el impacto de futuras pandemias en la sociedad. | 
  | :--: | :----- |
- | **Descripción** | Reducción del impacto que está teniendo la pandemia actual, principalmente en la economía global, en muertes y en contagios, en futuras pandemias  |
+ | **Descripción** | Reducción del impacto que está teniendo la pandemia actual, principalmente en términos de salud y economía, y estar preparados para futuras pandemias  |
  | **Subobjetivos** | - Reducir la mortalidad <br>- Reducir el número de contagio |
  | **Importancia** | Alta |
  | **Prioridad** | Media |
@@ -57,7 +57,7 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  
  | **OB_08** | Informar a los usuarios que deben acudir a realizarse pruebas médicas. | 
  | :--: | :----- |
- | **Descripción** | Notificar a un usuario que tiene que ir a realizarse una pruebamédica por haber estado en contacto con un usuario que ha dado positivo. |
+ | **Descripción** | Notificar a un usuario que tiene que ir a realizarse una prueba médica por haber estado en contacto con un usuario que ha dado positivo o por informar de síntomas característicos de la enfermedad. |
  | **Subobjetivos** |  |
  | **Importancia** | Media |
  | **Prioridad** | Media |
@@ -76,28 +76,21 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  | **Importancia** | Media |
  | **Prioridad** | Baja |
  
- | **OB_11** | Avisar a las fuerzas del orden si un usuario no cumple con la cuarentena que se le ha impuesto. | 
+ | **OB_11** | Verificar que los usuarios cumplen las cuarentenas que deban hacer de forma automática. | 
  | :--: | :----- |
- | **Descripción** | Informar a las fuerzas del orden de que no se están cumpliendos las medidas establecidas |
- | **Subobjetivos** |  |
- | **Importancia** | Media |
- | **Prioridad** | Baja |
- 
- | **OB_12** | Verificar que los usuarios cumplen las cuarentenas que deban hacer de forma automática. | 
- | :--: | :----- |
- | **Descripción** | Comprobar que los usuarios cumplen la cuarentena obligatoria tras dar positivo o haber estado en contacto con uno de ellos |
+ | **Descripción** | Comprobar que los usuarios cumplen la cuarentena obligatoria sin necesidad de hacerlo manualmente. |
  | **Subobjetivos** | - Introducir la verificación por medio de huella dactilar ó facial <br>- Realizar llamadas aleatorias a casos positivos para confirmar su posición. |
  | **Importancia** | Baja |
  | **Prioridad** | Baja |
  
- | **OB_13** | Rastrear a los contactos estrechos de los usuarios. | 
+ | **OB_12** | Rastrear a los contactos estrechos de los usuarios. | 
  | :--: | :----- |
  | **Descripción** | Búsquedas de los contractos estrechos de un usuario que ha dado positivo |
  | **Subobjetivos** | - Notificar contactos estrechos |
  | **Importancia** | Media | 
  | **Prioridad** | Media |
  
- | **OB_14** | Mostrar un mapa de calor con las zonas de movilidad de los casos positivos. | 
+ | **OB_13** | Mostrar un mapa de calor con las zonas de movilidad de los casos positivos. | 
  | :--: | :----- |
  | **Descripción** | Muestreo de las zonas de movilidad de los casos positivos en un mapa de calor |
  | **Subobjetivos** | - Almacenar historial de ubicación de usuarios positivos <br>- Gestionar el historial de información <br>- Utilizar mapas actualizados |
