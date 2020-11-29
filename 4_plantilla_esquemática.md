@@ -23,8 +23,7 @@ En la siguiente tabla se describen los principales objetivos que se esperan alca
  | **OB_03** | Alcanzar el mayor número de población posible. | 
  | :--: | :----- |
  | **Descripción** | Dado que una pequeña parte de la población vive en los pueblos y puede no tener acceso a un teléfono movil se deberá realizar un esfuerzo especial para tenerlos controlados. |
- | **Subobjetivos** | - Crear campañas publicitarias para fomentar el aviso de positivos de personas sin acceso a teléfonos móviles
-                      - Permitir el uso de la aplicación en distintos dialectos/idiomas |
+ | **Subobjetivos** | - Crear campañas publicitarias para fomentar el aviso de positivos de personas sin acceso a teléfonos móviles <br> - Permitir el uso de la aplicación en distintos dialectos/idiomas |
  | **Importancia** | Alta |
  | **Prioridad** | Media |
  
