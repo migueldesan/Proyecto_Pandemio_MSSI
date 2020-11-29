@@ -28,33 +28,32 @@ En esta sección señalaremos los principales aspectos positivos y negativos de 
 Los principales aspectos positivos que podemos destacar de la situación actual son las siguientes:
 
 
-| ID | NOMBRE | DESCRIPCIÓN |
+| **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :----- | :----- | :----- |
-| **FO_01** | Conocimiento del virus | Cada día que pasa se van conociendo más cosas del Covid-19 y de como combatirlo. |
+| **FO_01** | Conocimiento del virus | Cada día que pasa se van conociendo más cosas del Covid-19 y de cómo combatirlo. |
 | **FO_02** | Conciencia social | La mayor parte de la gente está concienciada de la situación actual y trata de cumplir las medidas sanitarias que se imponen para reducir el impacto del virus en la población. |
-| **FO_03** | Aplicaciones software | Han aparecido numerosas aplicaciones que tratan de combatir la expansión del Covid-19 como Radar Covid. En concreto, esta aplicación tiene numerosos aspectos buenos a destacar como el anonimato o la descentralización de los datos aunque no haya tenido gran impacto en la sociedad española. |
-| **FO_04** | Acceso a móviles | Actualmente la mayoría de la población tiene teléfono móvil con gps y acceso a internet, lo que facilita la implementación de estas aplicaciones software para controlar la pandemia. |
-| **FO_05** | Conocimiento de procedimientos | Tanto el personal sanitario como la mayoría de la población están familiarizados con los pasos a seguir en cualquier situación relacionada con la pandemia, casos sospechosos, contactos estrechos, casos positivos... |
-| **FO_06** | Sistema sanitario | En España contamos con cobertura sanitaria universal y un sistema de salud muy competente. |
-
+| **FO_03** | Acceso a móviles | Actualmente la mayoría de la población tiene teléfono móvil con GPS y acceso a internet, lo que facilita la implementación de estas aplicaciones software para controlar la pandemia. |
+| **FO_04** | Conocimiento de procedimientos | Tanto el personal sanitario como la mayoría de la población están familiarizados con los pasos a seguir en cualquier situación relacionada con la pandemia, casos sospechosos, contactos estrechos, casos positivos... |
+| **FO_05** | Sistema sanitario | En España contamos con cobertura sanitaria universal y un sistema de salud muy competente. |
+| **FO_06** | Aplicaciones software | Han aparecido numerosas aplicaciones que tratan de combatir la expansión del Covid-19 como Radar Covid. En concreto, esta aplicación tiene numerosos aspectos buenos a destacar como el anonimato o la descentralización de los datos (los detallaremos a continuación), aunque no haya tenido gran impacto en la sociedad española. |
 
 
 
 Algunos de los aspectos positivos que posee Radar Covid y que convendría mantenerlos en Pandemio para una mejor gestión de una futura pandemia son:
-| ID | NOMBRE | DESCRIPCIÓN |
+| **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :----- | :----- | :----- |
-| **FO_01** | Anonimato | La aplicación funciona sin revelar la identidad del usuario ni la del teléfono móvil. Además, no registra datos personales ni de geolocalización. |
-| **FO_02** | Alertas rápidas | Rápido aviso al usuario de que ha estado en contacto con un positivo cercano para que comience la cuarentena cuanto antes y disminuya sus contactos sociales. |
-| **FO_03** | Discreción | Las alertas de exposición se envían sin indicar el lugar ni momento concreto donde se produjo la exposición. |
-| **FO_04** | Descentralización de los datos | Los datos de cada usuario solo se guardan en su teléfono móvil. |
-| **FO_05** | Encriptación de los datos | La conexión entre los teléfonos móviles y el servidor es privada. |
-| **FO_06** | Interfaz amigable | Fácil uso de la interfaz. |
-| **FO_07** | Sección de ayuda | Tiene sección de preguntas y enlaces de interés acerca de la enfermedad. |
-| **FO_08** | Varios idiomas | Posibilidad de usar la aplicación en varios dialectos (catalán, euskera, gallego y valenciano) e idiomas (español e inglés). |
-| **FO_09** | Gratuita | Es gratuita y fácilmente instalable. |
-| **FO_10** | Anonimato | Es posible comunicar de forma anónima el diagnostico positivo de una prueba PCR o un test rápido. |
-| **FO_11** | Consumo de datos nulo | No consume ningún dato de las tarifas telefónicas. |
-| **FO_12** | Código abierto | El código fuente de la aplicación de rastreo está publicado en GitHub para que cualquier desarrollador externo pueda notificar errores y colaborar. |
+| **FO_06.1** | Anonimato | La aplicación funciona sin revelar la identidad del usuario ni la del teléfono móvil. Además, no registra datos personales ni de geolocalización. |
+| **FO_06.2** | Alertas rápidas | Rápido aviso al usuario de que ha estado en contacto con un positivo cercano para que comience la cuarentena cuanto antes y disminuya sus contactos sociales. |
+| **FO_06.3** | Discreción | Las alertas de exposición se envían sin indicar el lugar ni momento concreto donde se produjo la exposición. |
+| **FO_06.4** | Descentralización de los datos | Los datos de cada usuario solo se guardan en su teléfono móvil. |
+| **FO_06.5** | Encriptación de los datos | La conexión entre los teléfonos móviles y el servidor es privada. |
+| **FO_06.6** | Interfaz amigable | Fácil uso de la interfaz. |
+| **FO_06.7** | Sección de ayuda | Tiene sección de preguntas y enlaces de interés acerca de la enfermedad. |
+| **FO_06.8** | Varios idiomas | Posibilidad de usar la aplicación en varios dialectos (catalán, euskera, gallego y valenciano) e idiomas (español e inglés). |
+| **FO_06.9** | Gratuita | Es gratuita y fácilmente instalable. |
+| **FO_06.10** | Anonimato | Es posible comunicar de forma anónima el diagnostico positivo de una prueba PCR o un test rápido. |
+| **FO_06.11** | Consumo de datos nulo | No consume ningún dato de las tarifas telefónicas. |
+| **FO_06.12** | Código abierto | El código fuente de la aplicación de rastreo está publicado en GitHub para que cualquier desarrollador externo pueda notificar errores y colaborar. |
  
 
 
@@ -62,13 +61,13 @@ Algunos de los aspectos positivos que posee Radar Covid y que convendría manten
 
 Por el contrario, las principales debilidades de la situación actual son las siguientes:
 
-| ID | NOMBRE | DESCRIPCIÓN |
+| **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :---: | :----- | :----- |
 | **DE_01** | Negacionistas | Existencia de un grupo de población que niega la existencia del virus y por tanto se niega a acatar toda norma de conducta social para evitar/reducir contagios. |
 | **DE_02** | Incumplimiento de las normas | Hay parte de la población que incumple o trata de incumplir las normas siempre que puede por falta de concienciación o de responsabilidad individual. |
 | **DE_03** | Comprobación cuarentena | Actualmente los sanitarios llevan solo el seguimiento de la cuarentena de los casos positivos y negativos por teléfono cada 2-3 días, sin posibilidad de confirmar la ubicación de la persona de ninguna manera. |
 | **DE_04** | Asistencia "voluntaria" | En caso de que una persona no acuda a realizarse las oportunas pruebas médicas, los sanitarios solo pueden tratar de ponerse en contacto por teléfono con la persona y en numerosas ocasiones no responden. En ningún momento se pide ayuda a las fuerzas del orden. |
-| **DE_05** | Presencia de asintomáticos | Hay muchas personas que son asintomáticas. Estas personas son contagiadoras a pesar de no presentar síntomas y son muy dificiles de detectar por esa misma razón. |
+| **DE_05** | Presencia de asintomáticos | Hay muchas personas que son asintomáticas. Estas personas son contagiadoras a pesar de no presentar síntomas y son muy difíciles de detectar por esa misma razón. |
 | **DE_06** | Cierre de negocios | La mala gestión de esta pandemia ha provocado el cierre de numerosos negocios y un desplome de la economía. |
 | **DE_07** | Medidas por CCAA | Cada CCAA adopta sus propias medidas en la lucha contra la pandemia lo que dificulta que las personas sepan realmente las que se adoptan en su CCAA o en las CCAA a las que se desplazan. |
 | **DE_08** | Comunicación entre CCAA | El hecho de que la sanidad esté transferida hace que tengamos que hacer un esfuerzo especial para notificar los casos positivos desplazados y mantener una comunicación fluida entre comunidades. |
@@ -81,17 +80,17 @@ Por el contrario, las principales debilidades de la situación actual son las si
 
 Algunos aspectos negativos que tiene la aplicación de Radar Covid y que provocan que no sea efectiva en la lucha contra esta pandemia son los que se detallan a continuación. Si todos estos aspectos negativos se mejoraran en Pandemio, se podría lograr un mejor rastreo del virus y gestión de la información:
 
-| ID | NOMBRE | DESCRIPCIÓN |
+| **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :---: | :----- | :----- |
-| **DE_01** | Descarga y uso voluntario | La instalación y el uso de la aplicación no son obligatorios lo que dificulta el rastreo del virus en la población ya que solo un pequeño porcentaje de la población la usa diariamente. |
-| **DE_02** | Sanitarios poco familiarizados con la App | No todo el personal sanitario está familiarizado con el funcionamiento de la aplicación y muy pocos hacen uso de ella. |
-| **DE_03** | Desconocimiento de la App | Gran parte de la población no conoce la existencia de la aplicación. |
-| **DE_04** | Vulnerabilidad a ataques | El uso del Bluetooth provoca que los teléfonos móviles sean más vulnerables a ataques informáticos. |
-| **DE_05** | Funcionamiento basado en Bluetooth y GPS | La aplicación hace uso del Bluetooth para su correcto funcionamiento y generalmente suele estar apagado u ocupado por otros dispositivos. Esto provoca que las aplicaciones actuales no funcionen correctamente y que el rastreo del virus sea aún más complicado. Además, hay teléfonos móviles que aún no tienen buenos servicios de GPS incorporados. |
-| **DE_06** | Incompatibilidad entre Apps | El uso del Bluetooth en varias aplicaciones puede generar problemas de incompatibilidad entre ellas y que los sistemas software no funcionen correctamente. |
-| **DE_07** | Desconocimiento del Bluetooth | Mucha gente mayor no conoce cómo funciona el Bluetooth por lo que las aplicaciones que se basan en Bluetooth pierden su potencial. |
-| **DE_08** | Desconocimiento del propio teléfono móvil | Mucha gente de avanzada edad desconoce cómo usar los teléfonos móviles y como descargar aplicaciones. |
-| **DE_09** | Nula estandarización | Las bases de datos de las diferentes administraciones no están estandarizadas lo que provoca que muchos usuarios no puedan informar de su resultado positivo si se mueven entre distintas comunidades. |
+| **DE_12.1** | Descarga y uso voluntario | La instalación y el uso de la aplicación no son obligatorios lo que dificulta el rastreo del virus en la población ya que solo un pequeño porcentaje de la población la usa diariamente. |
+| **DE_12.2** | Sanitarios poco familiarizados con la App | No todo el personal sanitario está familiarizado con el funcionamiento de la aplicación y muy pocos hacen uso de ella. |
+| **DE_12.3** | Desconocimiento de la App | Gran parte de la población no conoce la existencia de la aplicación. |
+| **DE_12.4** | Vulnerabilidad a ataques | El uso del Bluetooth provoca que los teléfonos móviles sean más vulnerables a ataques informáticos. |
+| **DE_12.5** | Funcionamiento basado en Bluetooth y GPS | La aplicación hace uso del Bluetooth para su correcto funcionamiento y generalmente suele estar apagado u ocupado por otros dispositivos. Esto provoca que las aplicaciones actuales no funcionen correctamente y que el rastreo del virus sea aún más complicado. Además, hay teléfonos móviles que aún no tienen buenos servicios de GPS incorporados. |
+| **DE_12.6** | Incompatibilidad entre Apps | El uso del Bluetooth en varias aplicaciones puede generar problemas de incompatibilidad entre ellas y que los sistemas software no funcionen correctamente. |
+| **DE_12.7** | Desconocimiento del Bluetooth | Mucha gente mayor no conoce cómo funciona el Bluetooth por lo que las aplicaciones que se basan en Bluetooth pierden su potencial. |
+| **DE_12.8** | Desconocimiento del propio teléfono móvil | Mucha gente de avanzada edad desconoce cómo usar los teléfonos móviles y como descargar aplicaciones. |
+| **DE_12.9** | Nula estandarización | Las bases de datos de las diferentes administraciones no están estandarizadas lo que provoca que muchos usuarios no puedan informar de su resultado positivo si se mueven entre distintas comunidades. |
 
 
 
