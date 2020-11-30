@@ -1,3 +1,4 @@
+# PRÁCTICA DE MODELADO
 # 4 NECESIDADES DE NEGOCIO
 
 Dado que la actual pandemia provocada por el Covid-19 está dejando datos muy preocupantes: un gran número de contagiados y de muertes, las UCIs por encima de su capacidad máxima, un gran número de operaciones pospuestas por falta de espacios en los hospitales, etc. y las aplicaciones que existen actualmente como Radar Covid no terminan de ayudar en la lucha para frenar la expansión del Covid-19, es necesario crear una nueva aplicación software que mejore la anterior y que ayude a reducir el impacto de una futura pandemia en la sociedad, ya que una mala gestión en una pandemia más grave podría ser catastrófica. 
