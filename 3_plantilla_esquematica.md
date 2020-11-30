@@ -183,6 +183,10 @@ En el siguiente diagrama de actividad podemos ver un resumen de este proceso:
 
 ## 3.3 ENTORNO TECNOLÓGICO ACTUAL
 
+Cada CCAA utiliza una aplicación software propia donde los sanitarios y los rastreadores registran todos los datos médicos y las pruebas médicas que se realiza cada persona a lo largo de su vida. Por poner algún ejemplo de aplicación destacamos Medora que es la que se usa en Castilla y León.
+
+Por otro lado, para combatir la actual pandemia de Covid-19, se usan algunas aplicaciones móviles como CoronaMadrid (en Madrid) o COVID-19.eus (en el País Vasco). La mayoría usan un sistema similar a Radar Covid que es la aplicación que se usa a nivel nacional y que detallaremos a continuación.
+
 Radar Covid es una aplicación de código abierto que podemos encontrar en el siguiente link: [https://github.com/RadarCOVID](https://github.com/RadarCOVID) y utiliza el protocolo abierto 'Decentralized Privacy-Preserving Proximity Tracing' (DP-3T, estilizado como dp3t), que fue desarrollado en respuesta a la pandemia Covid-19 para facilitar el rastreo de contactos digitales de los participantes infectados. 
 
 Cuando dos usuarios que tienen Radar Covid activado se encuentran, si permanecen juntos durante un tiempo superior a 15 minutos, sus teléfonos móviles intercambian los números identificadores de la aplicación y los almacenan localmente en sus registros de contacto. 
@@ -195,16 +199,21 @@ El protocolo de enlace del dispositivo utiliza Bluetooth Low Energy para encontr
 
 Finalmente, el código fuente de la aplicación está escrito en su mayoría en Kotlin (lenguaje de programación con tipo estático desarrollado por JetBrains y que se utiliza con mayor frecuencia para complementar o reemplazar Java en aplicaciones empresariales y de usuario final) y XML para la parte de cliente, y Java para la parte de servidor, y utiliza SQL para realizar las búsquedas en las bases de datos. 
 
+
 ### 3.3.1 Descripción del Entorno de Hardware Actual
 
-El entorno hardware de Radar Covid consiste en los teléfonos móviles de cada usuario, en los servidores de Amazon Web Services y en los ordenadores de los centros de salud y hospitales que generan los códigos que los contactos positivos pueden introducir voluntariamente en la aplicación.
+Por un lado destacan los ordenadores de los centros de salud y hospitales con los que los sanitarios gestionan los historiales clínicos de cada persona. Además cada CCAA tiene sus propias bases de datos y se encargan de su gestión ya que la Sanidad está transferida.
 
-Además, también podemos destacar los ordenadores del Gobierno de España, concretamente los de la Secretaría de Estado de Inteligencia Artificial, encargados del mantenimiento y buen funcionamiento de la aplicación en todo momento. 
+Por otro lado se encuentra el entorno hardware de la aplicación Radar Covid que consiste en los teléfonos móviles de cada usuario, en los servidores de Amazon Web Services y en los ordenadores de los centros de salud y hospitales que generan los códigos que los contactos positivos pueden introducir voluntariamente en la aplicación. 
+
+Además, también podemos destacar los ordenadores del Gobierno de España, concretamente los de la Secretaría de Estado de Inteligencia Artificial, encargados del mantenimiento y buen funcionamiento de la aplicación de Radar Covid en todo momento. 
 
 ### 3.3.2 Descripción del Entorno de Software Actual
 
+Como ya se dijo antes, cada CCAA utiliza su propia aplicación software (como Medora en CyL) para gestionar las historias clínicas de cada persona. También se utilizan aplicaciones móviles en algunas comunidades autónomas como Madrid o País Vasco para combatir el Covid-19, pero la única aplicación que se usa a nivel nacional con este objetivo es Radar Covid.
+
 El entorno software de Radar Covid es bastante simple a nivel de usuario final ya que se trata de una aplicación móvil disponible en Android e iOS y para su correcto funcionamiento solo es necesario el uso del Bluetooth y del GPS. 
 
-La gestión de los datos está basada en el modelo descentralizado ya que los datos de cada usuario se guardan en cada teléfono móvil. Los pocos datos que se comparten con la aplicación están alojados en los servidores de Amazon Web Services y la subida de datos al servidor se hace con un software de la compañía estadounidense de forma cifrada y anónima para guardar la confidencialidad y el anonimato de los usuarios de la aplicación.
+La gestión de los datos de Radar Covid está basada en el modelo descentralizado ya que los datos de cada usuario se guardan en cada teléfono móvil. Los pocos datos que se comparten con la aplicación están alojados en los servidores de Amazon Web Services y la subida de datos al servidor se hace con un software de la compañía estadounidense de forma cifrada y anónima para guardar la confidencialidad y el anonimato de los usuarios de la aplicación.
 
 Finalmente también es necesario un programa generador de códigos que utiliza el personal sanitario cuando un ciudadano obtiene un resultado positivo en un test rápido o en una PCR. Este código generado es el que se le da al ciudadano para que lo registre voluntariamente en su aplicación de Radar Covid y se avise a todas las personas que hayan estado más de 15 minutos con él.
