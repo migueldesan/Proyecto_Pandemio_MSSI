@@ -30,11 +30,11 @@ Los principales aspectos positivos que podemos destacar de la situación actual 
 
 | **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :-----: | :----- | :----- |
-| **FO_01** | Conocimiento del virus | Cada día que pasa se van conociendo más cosas del Covid-19 y de cómo combatirlo. |
-| **FO_02** | Conciencia social | La mayor parte de la gente está concienciada de la situación actual y trata de cumplir las medidas sanitarias que se imponen para reducir el impacto del virus en la población. |
-| **FO_03** | Acceso a móviles | Actualmente la mayoría de la población tiene teléfono móvil con GPS y acceso a internet, lo que facilita la implementación de estas aplicaciones software para controlar la pandemia. |
+| **FO_01** | Acceso a móviles | Actualmente la mayoría de la población tiene teléfono móvil con GPS y acceso a internet, lo que facilita la implementación de estas aplicaciones software para controlar la pandemia. |
+| **FO_02** | Sistema sanitario | En España contamos con cobertura sanitaria universal y un sistema de salud muy competente. |
+| **FO_03** | Conciencia social | La mayor parte de la gente está concienciada de la situación actual y trata de cumplir las medidas sanitarias que se imponen para reducir el impacto del virus en la población. |
 | **FO_04** | Conocimiento de procedimientos | Tanto el personal sanitario como la mayoría de la población están familiarizados con los pasos a seguir en cualquier situación relacionada con la pandemia, casos sospechosos, contactos estrechos, casos positivos... |
-| **FO_05** | Sistema sanitario | En España contamos con cobertura sanitaria universal y un sistema de salud muy competente. |
+| **FO_05** | Conocimiento del virus | Nuestro conocimiento actual del virus es mayor que al comienzo de la pandemia. |
 | **FO_06** | Aplicaciones software | Han aparecido numerosas aplicaciones que tratan de combatir la expansión del Covid-19 como Radar Covid. En concreto, esta aplicación tiene numerosos aspectos buenos a destacar como el anonimato o la descentralización de los datos (los detallaremos a continuación), aunque no haya tenido gran impacto en la sociedad española. |
 
 
@@ -63,17 +63,17 @@ Por el contrario, las principales debilidades de la situación actual son las si
 
 | **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :---: | :----- | :----- |
-| **DE_01** | Negacionistas | Existencia de un grupo de población que niega la existencia del virus y por tanto se niega a acatar toda norma de conducta social para evitar/reducir contagios. |
-| **DE_02** | Incumplimiento de las normas | Hay parte de la población que incumple o trata de incumplir las normas siempre que puede por falta de concienciación o de responsabilidad individual. |
-| **DE_03** | Comprobación cuarentena | Actualmente los sanitarios llevan solo el seguimiento de la cuarentena de los casos positivos y negativos por teléfono cada 2-3 días, sin posibilidad de confirmar la ubicación de la persona de ninguna manera. |
-| **DE_04** | Asistencia "voluntaria" | En caso de que una persona no acuda a realizarse las oportunas pruebas médicas, los sanitarios solo pueden tratar de ponerse en contacto por teléfono con la persona y en numerosas ocasiones no responden. En ningún momento se pide ayuda a las fuerzas del orden. |
-| **DE_05** | Presencia de asintomáticos | Hay muchas personas que son asintomáticas. Estas personas son contagiadoras a pesar de no presentar síntomas y son muy difíciles de detectar por esa misma razón. |
-| **DE_06** | Cierre de negocios | La mala gestión de esta pandemia ha provocado el cierre de numerosos negocios y un desplome de la economía. |
-| **DE_07** | Medidas por CCAA | Cada CCAA adopta sus propias medidas en la lucha contra la pandemia lo que dificulta que las personas sepan realmente las que se adoptan en su CCAA o en las CCAA a las que se desplazan. |
-| **DE_08** | Comunicación entre CCAA | El hecho de que la sanidad esté transferida hace que tengamos que hacer un esfuerzo especial para notificar los casos positivos desplazados y mantener una comunicación fluida entre comunidades. |
-| **DE_09** | Rastreo de personas sin móvil | No toda la población utiliza teléfonos móviles, por lo cual el rastreo a estas personas debe ser realizado a través de personas cercanas a ellos, lo cual puede conllevar cierto descontrol y pérdida de información. |
-| **DE_10** | Rastreo en zonas rurales | Debido a la dificultad de rastreo en zonas rurales a través de la triangulación de antenas móviles por la falta de éstas, se necesitará en estos casos que su GPS permanezca activado. |
-| **DE_11** | Falsos negativos en pruebas | Un resultado negativo en la primera prueba PCR puede llevar a la persona a no hacer cuarentena (a pesar de estar informada por los sanitarios), y en caso de ser un falso negativo esto podría producir nuevos contagios. |
+| **DE_01** | Presencia de asintomáticos | Hay muchas personas que son asintomáticas. Estas personas son contagiadoras a pesar de no presentar síntomas y son muy difíciles de detectar por esa misma razón. |
+| **DE_02** | Negacionistas | Existencia de un grupo de población que niega la existencia del virus y por tanto se niega a acatar toda norma de conducta social para evitar/reducir contagios. |
+| **DE_03** | Incumplimiento de las normas | Hay parte de la población que incumple o trata de incumplir las normas siempre que puede por falta de concienciación o de responsabilidad individual. |
+| **DE_04** | Falsos negativos en pruebas | Un resultado negativo en la primera prueba PCR puede llevar a la persona a no hacer cuarentena (a pesar de estar informada por los sanitarios), y en caso de ser un falso negativo esto podría producir nuevos contagios. |
+| **DE_05** | Comprobación cuarentena | Actualmente los sanitarios llevan solo el seguimiento de la cuarentena de los casos positivos y negativos por teléfono cada 2-3 días, sin posibilidad de confirmar la ubicación de la persona de ninguna manera. |
+| **DE_06** | Asistencia "voluntaria" | En caso de que una persona no acuda a realizarse las oportunas pruebas médicas, los sanitarios solo pueden tratar de ponerse en contacto por teléfono con la persona y en numerosas ocasiones no responden. En ningún momento se pide ayuda a las fuerzas del orden. |
+| **DE_07** | Rastreo de personas sin móvil | No toda la población utiliza teléfonos móviles, por lo cual el rastreo a estas personas debe ser realizado a través de personas cercanas a ellos, lo cual puede conllevar cierto descontrol y pérdida de información. |
+| **DE_08** | Cierre de negocios | La mala gestión de esta pandemia ha provocado el cierre de numerosos negocios y un desplome de la economía. |
+| **DE_09** | Medidas por CCAA | Cada CCAA adopta sus propias medidas en la lucha contra la pandemia lo que dificulta que las personas sepan realmente las que se adoptan en su CCAA o en las CCAA a las que se desplazan. |
+| **DE_10** | Comunicación entre CCAA | El hecho de que la sanidad esté transferida hace que tengamos que hacer un esfuerzo especial para notificar los casos positivos desplazados y mantener una comunicación fluida entre comunidades. |
+| **DE_11** | Rastreo en zonas rurales | Debido a la dificultad de rastreo en zonas rurales a través de la triangulación de antenas móviles por la falta de éstas, se necesitará en estos casos que su GPS permanezca activado. |
 | **DE_12** | Aplicación software | La aplicación Radar Covid que se está utilizando a nivel nacional para la gestión de la pandemia tiene muchos inconvenientes (los detallaremos a continuación) y apenas ayuda al rastreo del virus. |
 
 
