@@ -29,7 +29,10 @@ Esta sección debe contener los requisitos funcionales del sistema que se hayan 
 ### 6.3.1 Requisitos de Información del Sistema
 Estos requisitos deben especificar qué información debe almacenar el sistema para poder ofrecer la funcionalidad descrita en los casos de uso del sistema o en otros requisitos.
   - El sistema almacenará el historial de ubicación de cada teléfono móvil durante 72h.
- 
+
+| ID | Nombre | Descripción |
+| :--: | :----- |:----- |
+|**RI-01**| | |
  
 ### 6.3.2 Requisitos de Reglas de Negocio del Sistema
 Estos requisitos deben especificar qué reglas de negocio debe respetar el sistema, evitando que se incumplan durante su funcionamiento.
