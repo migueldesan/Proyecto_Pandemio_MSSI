@@ -10,6 +10,29 @@ Esta sección debe contener la especificación de los requisitos generales del s
 
 ## 6.2 Casos de uso del Sistema 
 ### 6.2.1 Diagramas de Casos de Uso del Sistema
+
+> Casos de uso sanitarios y rastreadores
+<p align="center">
+  <img src="./Imágenes/Casos_de_uso_sanitarios.jpg">
+</p>
+
+> Casos de uso fuerzas del orden
+<p align="center">
+  <img src="./Imágenes/Casos_de_uso_fuerzas_del_orden.jpg">
+</p>
+
+> Casos de uso Gobierno de España
+<p align="center">
+  <img src="./Imágenes/Casos_de_uso_gobierno.jpg">
+</p>
+
+> Casos de uso usuarios anónimos
+<p align="center">
+  <img src="./Imágenes/Casos_de_uso_usuario_anonimo.jpg">
+</p>
+
+
+
 ### 6.2.2 Especificación de Actores del Sistema
 ### 6.2.3 Especificación de Casos de Uso del Sistema
 
