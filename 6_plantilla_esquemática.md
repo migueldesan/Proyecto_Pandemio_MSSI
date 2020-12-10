@@ -13,6 +13,15 @@ Esta sección debe contener la especificación de los requisitos generales del s
 ### 6.2.2 Especificación de Actores del Sistema
 ### 6.2.3 Especificación de Casos de Uso del Sistema
 
+| ID | Nombre |
+| :--: | :----- |
+|**Precondición**| |
+|**Descripción**| |
+|**Secuencia Normal**| |
+|**Postcondición**| |
+|**Excepciones**| |
+|**Importancia**| |
+|**Prioridad**| |
 
 ## 6.3 Requisitos Funcionales del Sistema
 Esta sección debe contener los requisitos funcionales del sistema que se hayan identificado a partir de los requisitos generales.
