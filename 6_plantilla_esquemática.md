@@ -126,6 +126,7 @@ Describen qué información debe almacenar el sistema para poder ofrecer los ser
   - El sistema almacenará el historial de ubicación de cada teléfono móvil el número de días que establezcan los criterios estrictamente epidemiológicos.
   - El sistema almacenará la ubicación obtenida por medio de la triangulación de antenas móviles si se puede conseguir un margen de error de menos de 5 metros, en cualquier oto caso almacenará la obtenida por medio del GPS.
    - Cuando el teléfono móvil esté en modo avión solo almacenará la ubicación obtenida por medio del GPS.
+   - Cada comunidad autónoma gestionará sus propias bases de datos
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
@@ -148,8 +149,14 @@ Describen restricciones, reglas o políticas del negocio que deben ser respetada
 - Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no acude a una cita médica.
 - Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no cumple la cuarentena asignada.
 - Los sanitarios y rastreadores deberán comprobar que los casos diagnosticados como positivos cumplen la cuarentena establecida.
-
-
+- El sistema deberá cumplir la ley de protección de datos
+- El cliente deberá notificar que ha dado positivo
+- El Gobierno de España deberá loguearse en la aplicación.
+- Los rastreadores deberán loguearse en la aplicación.
+- Las fuerzas del orden deberán loguearse en la aplicación.
+-	Los sanitarios deberán loguearse en la aplicación.
+-	El sistema utilizará localización por triangulación si puede garantizar una "cercanía" de distancia menor a 5 metros, si no utlilizará la localización GPS
+- La aplicación se instalará en todos los teléfono móviles de foma obligatoria, ya sea tanto en dispositivos Android como dispositivos IOS
 
 ### 6.3.3 Requisitos de Conducta del Sistema
 Estos requisitos deben especificar cualquier otro comportamiento deseado del sistema que no se haya especificado mediante los casos de uso del sistema, como generación de informes, funcionalidades transversales a varios casos de uso del sistema, etc.
@@ -167,7 +174,9 @@ Describen los servicios que debe ofrecer el sistema para que los usuarios u otro
 - El sistema notificará a las CCAA si un caso positivo se ha movido entre comunidades.
 - El sistema generará un informe con los casos positivos que hayan salido del país para comunicarselo lo antes posible.
 - El sistema generará un informe con los datos obtenidos por el mapa de calor y solo podrá acceder a él el Gobierno.
-
+- El sistema enviará una notificación al usuario para que acuda a realizarse pruebas médicas si ha estado en contacto con un caso positivo.
+- El sistema avisará a las fuerzas del orden del incumplimiento de la cuerentena
+-	El sistema avisará a las fuerzas del orden del incumplimiento de la orden de acudir cita médica
 <br>
 
 ## 6.4 Requisitos No Funcionales del Sistema
