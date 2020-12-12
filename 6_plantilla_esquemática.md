@@ -1,12 +1,10 @@
 # PRÁCTICA DE MODELADO
 # 6 CATÁLOGO DE REQUISITOS DEL SISTEMA A DESARROLLAR
 
-|**ID_01**| **Nombre** |
-| :---: | :--- |
-|**Descripción**|  |
-
 ## 6.1 Requisitos Generales del Sistema
 Esta sección debe contener la especificación de los requisitos generales del sistema, también denominados características del sistema (system features) u objetivos del sistema.
+
+<br>
 
 ## 6.2 Casos de uso del Sistema 
 ### 6.2.1 Diagramas de Casos de Uso del Sistema
@@ -39,6 +37,17 @@ Esta sección debe contener la especificación de los requisitos generales del s
 
 ### 6.2.2 Especificación de Actores del Sistema
 ### 6.2.3 Especificación de Casos de Uso del Sistema
+
+| CU_02 | Ver avisos fuerzas del orden |
+| :--: | :----- |
+|**Precondición**| El sanitario ha avisado previamente a las fuerzas del orden para informarles de un caso que no está cumpliendo la cuarentena o no ha asistido a una cita médica. Además, el sanitario debe estar logueado en la aplicación. |
+|**Descripción**| Un sanitario/rastreador puede ver los avisos que han emitido las fuerzas del orden sobre un caso que ha abierto el sanitario previamente. |
+|**Secuencia Normal**| 1. El sanitario abre la aplicación. <br> 2. El sanitario elige la opción “Ver avisos fuerzas del orden”. <br> 3. La aplicación muestra todos los avisos que hayan emitido las fuerzas del orden sobre casos abiertos previamente por el sanitario. <br> 4. El sanitario abre un aviso para ver los detalles y las nuevas noticias sobre el caso. |
+|**Postcondición**| Ninguna. |
+|**Excepciones**| 3a. Si el sanitario no tiene ningún caso abierto se muestra una lista vacía.  |
+|**Importancia**| Alta. |
+|**Prioridad**| Alta. |
+
 
 | CU_06 | Ver citas médicas propias |
 | :--: | :----- |
@@ -100,11 +109,12 @@ Esta sección debe contener la especificación de los requisitos generales del s
 |**Descripción**| Un usuario de la aplicación de Pandemio debe mandar la ubicación donde se encuentra para confirmar que está cumpliendo la cuarentena si un sanitario o rastreador se lo pide. |
 |**Secuencia Normal**| 1. El usuario abre la aplicación. <br> 2. El usuario elige la opción “Enviar ubicación”. <br> 3. El usuario coloca su huella en el sensor de huellas del teléfono móvil. <br> 4. La aplicación valida la huella colocada. <br> 5. La aplicación envía la ubicación del teléfono móvil al sanitario o rastreador correspondiente.  |
 |**Postcondición**| Ubicación enviada correctamente.  |
-|**Excepciones**| 3. El usuario utiliza el reconocimiento facial de su teléfono móvil. <br> &nbsp;&nbsp;&nbsp; 3.1. La aplicación valida la cara reconocida. <br> &nbsp;&nbsp;&nbsp; 3.2. La aplicación envía la ubicación del teléfono móvil al sanitario o rastreador correspondiente. <br> 4. La huella o la cara introducidas no se corresponden con el usuario que ha solicitado el sanitario. <br>&nbsp;&nbsp;&nbsp;4.1. La aplicación muestra un mensaje de error con el motivo del fallo. <br> &nbsp;&nbsp;&nbsp; 4.2. Volver al paso 3. |
+|**Excepciones**| 3. El usuario utiliza el reconocimiento facial de su teléfono móvil. <br> &nbsp;&nbsp;&nbsp; 3.1. La aplicación valida la cara reconocida. <br> &nbsp;&nbsp;&nbsp; 3.2. La aplicación envía la ubicación del teléfono móvil al sanitario o rastreador correspondiente. <br> 4. La huella o la cara introducidas no se corresponden con el usuario que ha solicitado el sanitario. <br> &nbsp;&nbsp;&nbsp; 4.1. La aplicación muestra un mensaje de error con el motivo del fallo. <br> &nbsp;&nbsp;&nbsp; 4.2. Volver al paso 3. |
 |**Importancia**| Alta. |
 |**Prioridad**| Alta. |
 
 
+<br>
 
 ## 6.3 Requisitos Funcionales del Sistema
 Esta sección debe contener los requisitos funcionales del sistema que se hayan identificado a partir de los requisitos generales.
@@ -117,9 +127,10 @@ Describen qué información debe almacenar el sistema para poder ofrecer los ser
   - El sistema almacenará la ubicación obtenida por medio de la triangulación de antenas móviles si se puede conseguir un margen de error de menos de 5 metros, en cualquier oto caso almacenará la obtenida por medio del GPS.
    - Cuando el teléfono móvil esté en modo avión solo almacenará la ubicación obtenida por medio del GPS.
 
-| ID | Nombre | Descripción |
+| **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
 |**RI-01**| | |
+
  
 ### 6.3.2 Requisitos de Reglas de Negocio del Sistema
 Estos requisitos deben especificar qué reglas de negocio debe respetar el sistema, evitando que se incumplan durante su funcionamiento.
@@ -157,7 +168,7 @@ Describen los servicios que debe ofrecer el sistema para que los usuarios u otro
 - El sistema generará un informe con los casos positivos que hayan salido del país para comunicarselo lo antes posible.
 - El sistema generará un informe con los datos obtenidos por el mapa de calor y solo podrá acceder a él el Gobierno.
 
-
+<br>
 
 ## 6.4 Requisitos No Funcionales del Sistema
 
@@ -215,7 +226,7 @@ Esta sección debe contener los requisitos no funcionales que se hayan identific
   - No será necesario tener la aplicación abierta para que funcione correctamente.
  - La aplicación debe contar con dos formularios, uno para informar de un caso positivo cercano de una persona dependiente, y otro para informar de síntomas compatibles. Estos formularios no se podrán enviar si contienen algún error y será el propio sistema el encargado de gestionarlos.
 
-  
+<br>
   
 ## 6.5 Restricciones Técnicas del Sistema
 Esta sección debe contener las restricciones técnicas que se imponen al sistema software a desarrollar (tecnología a usar, protocolos de comunicaciones, compatibilidad con navegadores, etc.)
@@ -226,6 +237,8 @@ Esta sección debe contener las restricciones técnicas que se imponen al sistem
   - Los servidores usados para almacenar datos serán MySQL server, PostgreSQL server y MongoDB server.
   - La aplicación será compatible en todos los SO de los teléfonos móviles y en cualquier navegador.
   - El software podrá ser utilizado en los sistemas operativos Windows, Linux, Android, iOS y HarmonyOS.
+  
+<br>  
   
 ## 6.6 Requisitos de Integración del Sistema
 Estos requisitos deben identificar aquellos servicios disponibles en el entorno tecnológico de producción o componentes software (por ejemplo, librerías enlazables) cuya funcionalidad sea relevante para el sistema a desarrollar y deban ser consumidos por el mismo.
