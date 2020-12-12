@@ -243,3 +243,25 @@ Esta sección debe contener las restricciones técnicas que se imponen al sistem
 ## 6.6 Requisitos de Integración del Sistema
 Estos requisitos deben identificar aquellos servicios disponibles en el entorno tecnológico de producción o componentes software (por ejemplo, librerías enlazables) cuya funcionalidad sea relevante para el sistema a desarrollar y deban ser consumidos por el mismo.
  - El sistema deberá utilizar el servicio @firma para todos los aspectos relacionados con validación y firma electrónica.
+ 
+<br>
+
+## 6.7 Información Sobre Trazabilidad
+Conjunto de matrices de trazabilidad que se considere oportuno para identificar las relaciones entre los requisitos identificados.
+
+> Matriz de trazabilidad de Requisitos Generales frente a Objetivos de Negocio.
+
+>	Matriz de trazabilidad de Casos de Uso frente a Requisitos Generales.
+
+>	Matriz de trazabilidad de Requisitos de Información frente a Requisitos Generales.
+
+>	Matriz de trazabilidad de Reglas de Negocio frente  a Requisitos Generales.
+
+>	Matriz de trazabilidad de Requisitos de Conducta frente a Requisitos Generales.
+
+>	Matriz de trazabilidad de Requisitos no Funcionales frente a Requisitos Generales.
+
+>	Matriz de trazabilidad de Restricciones Técnicas frente a Requisitos Generales.
+
+>	Matriz de trazabilidad de Requisitos de Integración frente a Requisitos Generales.
+
