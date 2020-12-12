@@ -31,10 +31,6 @@ Esta sección debe contener la especificación de los requisitos generales del s
 
 
 
-
-
-
-
 ### 6.2.2 Especificación de Actores del Sistema
 ### 6.2.3 Especificación de Casos de Uso del Sistema
 
@@ -45,6 +41,17 @@ Esta sección debe contener la especificación de los requisitos generales del s
 |**Secuencia Normal**| 1. El sanitario abre la aplicación. <br> 2. El sanitario elige la opción “Ver avisos fuerzas del orden”. <br> 3. La aplicación muestra todos los avisos que hayan emitido las fuerzas del orden sobre casos abiertos previamente por el sanitario. <br> 4. El sanitario abre un aviso para ver los detalles y las nuevas noticias sobre el caso. |
 |**Postcondición**| Ninguna. |
 |**Excepciones**| 3a. Si el sanitario no tiene ningún caso abierto se muestra una lista vacía.  |
+|**Importancia**| Alta. |
+|**Prioridad**| Alta. |
+
+
+| CU_05 | Revisar incidencia |
+| :--: | :----- |
+|**Precondición**| Es necesario estar logueado en la aplicación. |
+|**Descripción**| El Gobierno de España puede ver estadísticas generales y por zonas, además de un mapa de calor, para ver que zonas están más afectadas y tomar las medidas necesarias en función de esos datos. |
+|**Secuencia Normal**| 1. El Gobierno abre la aplicación. <br> 2. Elige la opción “Revisar incidencia”. <br> 3. La aplicación muestra estadísticas generales y de las zonas más afectadas.  |
+|**Postcondición**| En función de los datos obtenidos, se toman las medidas necesarias para reducir el impacto de la nueva pandemia en la población. |
+|**Excepciones**| Ninguna.  |
 |**Importancia**| Alta. |
 |**Prioridad**| Alta. |
 
@@ -71,7 +78,6 @@ Esta sección debe contener la especificación de los requisitos generales del s
 |**Prioridad**| Alta. |
 
 
-
 | CU_08 | Informar de caso cercano positivo sin móvil |
 | :--: | :----- |
 |**Precondición**| Un usuario tiene a su cargo a una persona que no dispone de teléfono móvil. |
@@ -82,6 +88,7 @@ Esta sección debe contener la especificación de los requisitos generales del s
 |**Importancia**| Media. |
 |**Prioridad**| Baja. |
 
+
 | CU_09 | Informar de síntomas compatibles |
 | :--: | :----- |
 |**Precondición**| Un usuario comienza a tener síntomas compatibles con la nueva pandemia. |
@@ -91,6 +98,7 @@ Esta sección debe contener la especificación de los requisitos generales del s
 |**Excepciones**| 6. El formulario está mal rellenado o contiene algún error. <br> &nbsp;&nbsp;&nbsp; 6.1. La aplicación muestra un mensaje de error con el motivo del fallo. <br>&nbsp;&nbsp;&nbsp; 6.2. Volver al paso 3. |
 |**Importancia**| Media. |
 |**Prioridad**| Baja. |
+
 
 | CU_10 | Ver mapa calor |
 | :--: | :----- |
