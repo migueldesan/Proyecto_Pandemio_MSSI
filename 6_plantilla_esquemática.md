@@ -51,7 +51,11 @@ Esta sección debe contener los requisitos funcionales del sistema que se hayan 
 
 ### 6.3.1 Requisitos de Información del Sistema
 Estos requisitos deben especificar qué información debe almacenar el sistema para poder ofrecer la funcionalidad descrita en los casos de uso del sistema o en otros requisitos.
-  - El sistema almacenará el historial de ubicación de cada teléfono móvil durante 72h.
+Describen qué información debe almacenar el sistema para poder ofrecer los servicios necesarios.
+
+  - El sistema almacenará el historial de ubicación de cada teléfono móvil el número de días que establezcan los criterios estrictamente epidemiológicos.
+  - El sistema almacenará la ubicación obtenida por medio de la triangulación de antenas móviles si se puede conseguir un margen de error de menos de 5 metros, en cualquier oto caso almacenará la obtenida por medio del GPS.
+   - Cuando el teléfono móvil esté en modo avión solo almacenará la ubicación obtenida por medio del GPS.
 
 | ID | Nombre | Descripción |
 | :--: | :----- |:----- |
@@ -59,6 +63,8 @@ Estos requisitos deben especificar qué información debe almacenar el sistema p
  
 ### 6.3.2 Requisitos de Reglas de Negocio del Sistema
 Estos requisitos deben especificar qué reglas de negocio debe respetar el sistema, evitando que se incumplan durante su funcionamiento.
+Describen restricciones, reglas o políticas del negocio que deben ser respetadas por el sistema a desarrollar.
+
 - El almacenamiento de datos deberá cumplir con la ley de protección de datos.
  - El sistema nuevo debe cumplir con las leyes y reglamentos establecidos por cada comunidad autónoma para la protección de datos (legislativo de seguridad y salud).
 - El sistema nuevo se acogerá a las leyes generales públicas.
@@ -72,15 +78,24 @@ Estos requisitos deben especificar qué reglas de negocio debe respetar el siste
 - Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no cumple la cuarentena asignada.
 - Los sanitarios y rastreadores deberán comprobar que los casos diagnosticados como positivos cumplen la cuarentena establecida.
 
+
+
 ### 6.3.3 Requisitos de Conducta del Sistema
 Estos requisitos deben especificar cualquier otro comportamiento deseado del sistema que no se haya especificado mediante los casos de uso del sistema, como generación de informes, funcionalidades transversales a varios casos de uso del sistema, etc.
+Describen los servicios que debe ofrecer el sistema para que los usuarios u otros sistemas puedan realizar sus tareas de negocio:
 
-- El sistema enviará una notificación al usuario para que acuda a realizarse pruebas médicas si ha estado en contacto con un caso positivo.
-- El sistema enviará una notificación al usuario si informa de un positivo de un caso cercano o si informa de síntomas compatibles.
+- El sistema generará citas médicas automáticas para el centro de salud más cercano cuando una persona haya estado en contacto con un positivo, o se informe de un positivo de un caso cercano sin teléfono móvil o se informe de síntomas compatibles.
+- El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si ha estado en contacto con un caso positivo.
+- El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si informa de un positivo de un caso cercano sin teléfono móvil o si informa de síntomas compatibles.
+- El sistema enviará una notificación PUSH a los usuarios que deban realizar la cuarentena informandoles del número de días de cuarentena que deben cumplir. 
 - El sistema generará un mapa de calor con los datos de usuarios que hayan sido diagnosticados como positivos.
 - El mapa de calor se actualizará cada hora.
+- El número mínimo de personas contagiadas que deben pasar por una zona para que está aparezca coloreada en el mapa de calor será de 5 personas.
+- El mapa de calor se coloreará con colores que vayan desde el amarillo hasta el rojo en función del número de casos positivos que haya en la zona.
 - El sistema validará automáticamente los formularios emitidos por el usuario cuando avise de casos positivos cercanos y no dejará enviarlos en caso de que exista algún error.
-
+- El sistema notificará a las CCAA si un caso positivo se ha movido entre comunidades.
+- El sistema generará un informe con los casos positivos que hayan salido del país para comunicarselo lo antes posible.
+- El sistema generará un informe con los datos obtenidos por el mapa de calor y solo podrá acceder a él el Gobierno.
 
 
 
@@ -89,7 +104,7 @@ Estos requisitos deben especificar cualquier otro comportamiento deseado del sis
 ### 6.4.1 Requisitos de Fiabilidad
 Estos requisitos deberán establecer, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como recuperabilidad y tolerancia a fallos.
   - Disponibilidad de al menos el 99,99% de las veces.
-  - El tiempo de inicio o reinicio del sistema debe ser inferior a un minuto.
+  - El tiempo de inicio o reinicio del sistema debe ser inferior a dos minutos.
   - La probabilidad de fallo será inferior al 3%.
   - El sistema guardará dos copias extras de todos los datos en dos servidores diferentes para evitar pérdidas en caso de caídas del sistema.
 
@@ -100,23 +115,28 @@ Estos requisitos deberán establecer, de la manera más objetiva y medible posib
 - El sistema debe contar con manuales de usuario y ayuda online.
 - El sistema proporcionará errores claros y concisos.
 - Los usuarios podrán cambiar el dialecto o el idioma de la aplicación.
+- El sistema deberá permitir en el 80% de las veces que con un máximo de 5 clicks sea suficiente para llegar a la información deseada.
 
 ### 6.4.3 Requisitos de Eficiencia
 Estos requisitos deberán establecer, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como tiempo de respuesta.
 
 - El sistema debe ser capaz de procesar 20 millones de transacciones por minuto.
-- Toda transacción debe responder al usuario en menos de 3 segundos.
+- Toda transacción debe responder al usuario en menos de 10 segundos.
 - El sistema debe soportar 5 millones de conexiones simultáneas.
+- El sistema deberá tener un tiempo máximo de respuesta de 5 segundos para cualquier operación de consulta.
 
 
 ### 6.4.4 Requisitos de Mantenibilidad
 Estos requisitos deberán establecer, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como estabilidad, facilidad de análisis, facilidad de cambio, facilidad de pruebas.
  - El código de la aplicación será publicado en GitHub y sin patentes para que cualquier usuario pueda buscar fallos en la aplicación y ayudar a su mejora.
+ - Se forzará la actualización de la aplicación si se identifica algún bug que pueda afectar al sistema.
+ - El código fuente que se implemente en JAVA deberá cumplir las recomendaciones de Code Conventions for the Java Programming Language
 
 ### 6.4.5 Requisitos de Portabilidad
 Estos requisitos deberán establecer, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos relacionados con la escalabilidad: capacidad de instalación, capacidad de sustitución, adaptabilidad, coexistencia, compatibilidad con hardware o software, etc.
   - La aplicación se instalará automaticamente en todos los dispositivos móviles.
   - El uso de está aplicación es compatible con el uso de cualquier otra aplicación.
+  - El sistema deberá evitar el uso de extensiones propietarias al estándar SQL-92 en el sistema de gestión de bases de datos que utilice.
 
 ### 6.4.6 Requisitos de Seguridad
 Estos requisitos deberán establecer, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como accesos al sistema, identificación y autenticación, protección de datos y privacidad.
@@ -124,18 +144,22 @@ Estos requisitos deberán establecer, de la manera más objetiva y medible posib
 - El sistema debe seguir patrones de seguridad que incrementen la seguridad.
 - El sistema debe hacer un backup cada 2h.
 - El sistema debe asegurar que los datos están protegidos de accesos no autorizados.
+- El sistema controlará el acceso y lo permitirá solamente a usuarios autorizados.
+- Los usuarios accederán al sistema con un nombre de usuario y contraseña.
+- El sistema enviará una alerta a los administradores del sistema cuando ocurra alguno de los siguientes eventos: entrada al sistema por parte de un usuario, 2 o más intentos fallidos al introducir la contraseña de usuario y cambio de contraseña de usuario.
+- El sistema deberá ser capaz de evitar ataques de inyección de SQL sistemáticos.
 
 
 ### 6.4.7 Otros Requisitos No Funcionales
 Esta sección debe contener los requisitos no funcionales que se hayan identificado y que no pertenezcan a ninguna de las categorías anteriores. 
-
-
+  - No será necesario tener la aplicación abierta para que funcione correctamente.
+ - La aplicación debe contar con dos formularios, uno para informar de un caso positivo cercano de una persona dependiente, y otro para informar de síntomas compatibles. Estos formularios no se podrán enviar si contienen algún error y será el propio sistema el encargado de gestionarlos.
 
   
   
 ## 6.5 Restricciones Técnicas del Sistema
 Esta sección debe contener las restricciones técnicas que se imponen al sistema software a desarrollar (tecnología a usar, protocolos de comunicaciones, compatibilidad con navegadores, etc.)
-  - La base de datos utilizada será implementada en MySQL.
+  - El motor de la base de datos donde se almacenará toda la información será MySQL.
   - El código de la aplicación estará escrito Kotlin y XML para la parte de cliente, y Java para la parte de servidor.
   - El sistema utilizará la ubicación por GPS y/o por triangulación de antenas móviles.
   - Cualquier intercambio de datos vía Internet que realice el software se realizará por medio del protocolo encriptado HTTPS.
@@ -145,4 +169,4 @@ Esta sección debe contener las restricciones técnicas que se imponen al sistem
   
 ## 6.6 Requisitos de Integración del Sistema
 Estos requisitos deben identificar aquellos servicios disponibles en el entorno tecnológico de producción o componentes software (por ejemplo, librerías enlazables) cuya funcionalidad sea relevante para el sistema a desarrollar y deban ser consumidos por el mismo.
-
+ - El sistema deberá utilizar el servicio @firma para todos los aspectos relacionados con validación y firma electrónica.
