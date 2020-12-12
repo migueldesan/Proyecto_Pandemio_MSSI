@@ -33,18 +33,78 @@ Esta sección debe contener la especificación de los requisitos generales del s
 
 
 
+
+
+
+
 ### 6.2.2 Especificación de Actores del Sistema
 ### 6.2.3 Especificación de Casos de Uso del Sistema
 
-| ID | Nombre |
+| CU_06 | Ver citas médicas propias |
 | :--: | :----- |
-|**Precondición**| |
-|**Descripción**| |
-|**Secuencia Normal**| |
-|**Postcondición**| |
-|**Excepciones**| |
-|**Importancia**| |
-|**Prioridad**| |
+|**Precondición**| Un usuario está pendiente de acudir a una cita médica. |
+|**Descripción**| Un usuario de la aplicación de Pandemio puede ver la fecha, hora y lugar de la cita médica que tiene asignada. |
+|**Secuencia Normal**| 1. El usuario abre la aplicación. <br> 2. El usuario elige la opción “Ver citas médicas propias”. <br> 3. La aplicación muestra la fecha, hora y lugar donde debe acudir a la cita médica. |
+|**Postcondición**| Ninguna. |
+|**Excepciones**| 3a. Si el usuario no tiene que cumplir ninguna cita médica asignada se muestra un mensaje avisándole.  <br> 3b. Si el usuario ha informado de un caso cercano positivo sin móvil, el sistema especificará en el mensaje quién debe acudir a la cita médica. |
+|**Importancia**| Alta. |
+|**Prioridad**| Alta. |
+
+
+| CU_07 | Ver cuarentena establecida |
+| :--: | :----- |
+|**Precondición**| Un usuario está pendiente de realizarse pruebas médicas o se le ha establecido una cuarentena sanitaria. |
+|**Descripción**| Un usuario de la aplicación de Pandemio puede ver cuantos días de cuarentena tiene que realizar. |
+|**Secuencia Normal**| 1. El usuario abre la aplicación. <br> 2. El usuario elige la opción “Ver cuarentena establecida”. <br> 3. La aplicación muestra el número de días que quedan de cuarentena y la fecha en la que termina. |
+|**Postcondición**| Ninguna. |
+|**Excepciones**| 3a. Si el usuario no tiene que cumplir ninguna cuarentena se muestra un mensaje avisándole.  <br> 3b. Si el usuario ha informado de un caso cercano positivo sin móvil, el sistema especificará en el aviso quién debe cumplir la cuarentena establecida y hasta que fecha. |
+|**Importancia**| Alta. |
+|**Prioridad**| Alta. |
+
+
+
+| CU_08 | Informar de caso cercano positivo sin móvil |
+| :--: | :----- |
+|**Precondición**| Un usuario tiene a su cargo a una persona que no dispone de teléfono móvil. |
+|**Descripción**| Un usuario de la aplicación de Pandemio puede informar de un caso positivo para una persona que no dispone de teléfono móvil. |
+|**Secuencia Normal**| 1. El usuario abre la aplicación. <br> 2. El usuario elige la opción “Informar de caso cercano positivo sin móvil”. <br> 3. El usuario rellena los datos que pide la aplicación. <br> 4. El usuario envía el formulario. <br> 5. La aplicación comprueba que los datos introducidos son correctos. <br> 6. La aplicación procesa el formulario y genera una cita médica. <br> 7. La aplicación muestra un mensaje con la cita médica creada. |
+|**Postcondición**| Se ha creado una cita médica que se puede ver en la opción “Ver citas médicas propias”. |
+|**Excepciones**| 6. El formulario está mal rellenado o contiene algún error. <br> &nbsp;&nbsp;&nbsp; 6.1. La aplicación muestra un mensaje de error con el motivo del fallo. <br> &nbsp;&nbsp;&nbsp; 6.2. Volver al paso 3. |
+|**Importancia**| Media. |
+|**Prioridad**| Baja. |
+
+| CU_09 | Informar de síntomas compatibles |
+| :--: | :----- |
+|**Precondición**| Un usuario comienza a tener síntomas compatibles con la nueva pandemia. |
+|**Descripción**| Un usuario de la aplicación de Pandemio puede informar de que comienza a desarrollar síntomas compatibles con la nueva enfermedad. |
+|**Secuencia Normal**| 1. El usuario abre la aplicación. <br> 2. El usuario elige la opción “Informar de síntomas compatibles”. <br> 3. El usuario rellena los datos que pide la aplicación. <br> 4. El usuario envía el formulario. <br> 5. La aplicación comprueba que los datos introducidos son correctos. <br> 6. La aplicación procesa el formulario y genera una cita médica. <br> 7. La aplicación muestra un mensaje con la cita médica creada. |
+|**Postcondición**| Se ha creado una cita médica que se puede ver en la opción “Ver citas médicas propias”. |
+|**Excepciones**| 6. El formulario está mal rellenado o contiene algún error. <br> &nbsp;&nbsp;&nbsp; 6.1. La aplicación muestra un mensaje de error con el motivo del fallo. <br>&nbsp;&nbsp;&nbsp; 6.2. Volver al paso 3. |
+|**Importancia**| Media. |
+|**Prioridad**| Baja. |
+
+| CU_10 | Ver mapa calor |
+| :--: | :----- |
+|**Precondición**| Ninguna. |
+|**Descripción**| Un usuario de la aplicación de Pandemio puede ver un mapa de calor con para ver las zonas donde ha habido un gran número de casos positivos y así evitar esas zonas. |
+|**Secuencia Normal**| 1. El usuario abre la aplicación. <br> 2. El usuario elige la opción “Ver mapa de calor”. <br> 3. El sistema muestra un mapa de calor de la zona donde se encuentra el usuario acompañado con una leyenda de colores para ver el impacto de la nueva pandemia en la zona. |
+|**Postcondición**| Ninguna.  |
+|**Excepciones**| Ninguna. |
+|**Importancia**| Media. |
+|**Prioridad**| Media. |
+
+
+| CU_11 | Enviar ubicación |
+| :--: | :----- |
+|**Precondición**| Un sanitario o rastreador solicita a un usuario que mande la ubicación donde se encuentra. |
+|**Descripción**| Un usuario de la aplicación de Pandemio debe mandar la ubicación donde se encuentra para confirmar que está cumpliendo la cuarentena si un sanitario o rastreador se lo pide. |
+|**Secuencia Normal**| 1. El usuario abre la aplicación. <br> 2. El usuario elige la opción “Enviar ubicación”. <br> 3. El usuario coloca su huella en el sensor de huellas del teléfono móvil. <br> 4. La aplicación valida la huella colocada. <br> 5. La aplicación envía la ubicación del teléfono móvil al sanitario o rastreador correspondiente.  |
+|**Postcondición**| Ubicación enviada correctamente.  |
+|**Excepciones**| 3. El usuario utiliza el reconocimiento facial de su teléfono móvil. <br> &nbsp;&nbsp;&nbsp; 3.1. La aplicación valida la cara reconocida. <br> &nbsp;&nbsp;&nbsp; 3.2. La aplicación envía la ubicación del teléfono móvil al sanitario o rastreador correspondiente. <br> 4. La huella o la cara introducidas no se corresponden con el usuario que ha solicitado el sanitario. <br>&nbsp;&nbsp;&nbsp;4.1. La aplicación muestra un mensaje de error con el motivo del fallo. <br> &nbs 4.2. Volver al paso 3. |
+|**Importancia**| Alta. |
+|**Prioridad**| Alta. |
+
+
 
 ## 6.3 Requisitos Funcionales del Sistema
 Esta sección debe contener los requisitos funcionales del sistema que se hayan identificado a partir de los requisitos generales.
