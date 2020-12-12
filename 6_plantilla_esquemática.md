@@ -136,53 +136,52 @@ Esta sección contiene todos los requisitos funcionales del sistema que se han i
 ### 6.3.1 Requisitos de Información del Sistema
 Estos requisitos especifican qué información debe almacenar el sistema para poder ofrecer la funcionalidad descrita en los casos de uso del sistema o en otros requisitos.
 
-  - El sistema almacenará el historial de ubicación de cada teléfono móvil el número de días que establezcan los criterios estrictamente epidemiológicos.
-  - El sistema almacenará la ubicación obtenida por medio de la triangulación de antenas móviles si se puede conseguir un margen de error de menos de 5 metros, en cualquier otro caso almacenará la obtenida por medio del GPS.
-  - Cuando el teléfono móvil esté en modo avión solo almacenará la ubicación obtenida por medio del GPS.
-
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RI-01**| | |
-
+|**RI_01**| | El sistema almacenará el historial de ubicación de cada teléfono móvil el número de días que establezcan los criterios estrictamente epidemiológicos. |
+|**RI_02**| | El sistema almacenará el historial de ubicación de cada teléfono móvil el número de días que establezcan los criterios estrictamente epidemiológicos.El sistema almacenará la ubicación obtenida por medio de la triangulación de antenas móviles si se puede conseguir un margen de error de menos de 5 metros, en cualquier otro caso almacenará la obtenida por medio del GPS. |
+|**RI_03**| | El sistema solo almacenará la ubicación obtenida por GPS si el teléfono móvil está en modo avión. |
  
 ### 6.3.2 Requisitos de Reglas de Negocio del Sistema
 Estos requisitos especifican qué reglas de negocio, políticas y restricciones debe respetar el sistema, evitando que se incumplan durante su funcionamiento.
 
-  - El nuevo sistema debe cumplir con las leyes y reglamentos establecidos por cada comunidad autónoma para la protección de datos.
-  - El nuevo sistema se acogerá a las leyes generales públicas.
-  - Solo los usuarios logueados podrán acceder a los datos. Para ello, las personas encargadas de la gestión de la pandemia en el Gobierno de España, todos los sanitarios y rastreadores, y todos el personal de las fuerzas del orden deberán registrarse en la aplicación.
-  - La validación de los nuevos registros solo la realizarán los superadministradores del Gobierno de España.
-  - Cada CCAA tendrá 3 copias de todos los datos y usará 3 servidores de datos diferentes para almacenar cada copia de los datos.
-  - Cada comunidad autónoma gestionará sus propias bases de datos.
-  - El sistema solo revelará los datos imprescindibles a los usuarios logueados.
-  - Los sanitarios podrán acceder al historial médico de los pacientes.
-  - El sistema permitirá a los sanitarios y rastreadores avisar a las fuerzas del orden de ser necesario.
-  - Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no acude a una cita médica.
-  - Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no cumple la cuarentena asignada.
-  - Los sanitarios y rastreadores deberán comprobar que los casos diagnosticados como positivos cumplen la cuarentena establecida.
-  - Las fuerzas del orden deberán investigar y sancionar a los usuarios que no acudan a una cita médica o incumplan la cuarentena impuesta.
-  - El Ministerio de Sanidad deberá crear campañas publicitarias para fomentar que las personas con dispositivos móviles informen de casos positivos en las personas dependientes que tengan a su cargo que no dispongan de teléfono móvil o si comienzan a desarrollar algún síntoma.
-  -	El sistema utilizará localización por triangulación de antenas móviles si puede garantizar una "cercanía" de distancia menor a 5 metros, si no utlilizará la localización por GPS.
-  - La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen.
-
+| **ID** | **Nombre** | **Descripción** |
+| :--: | :----- |:----- |
+|**RN_01**| | El nuevo sistema debe cumplir con las leyes y reglamentos establecidos por cada comunidad autónoma para la protección de datos. |
+|**RN_02**| | El nuevo sistema se acogerá a las leyes generales públicas. |
+|**RN_03**| | Solo los usuarios logueados podrán acceder a los datos. Para ello, las personas encargadas de la gestión de la pandemia en el Gobierno de España, todos los sanitarios y rastreadores, y todos el personal de las fuerzas del orden deberán registrarse en la aplicación. |
+|**RN_04**| | La validación de los nuevos registros solo la realizarán los superadministradores del Gobierno de España. |
+|**RN_05**| | Cada CCAA tendrá 3 copias de todos los datos y usará 3 servidores de datos diferentes para almacenar cada copia de los datos. |
+|**RN_06**| | Cada comunidad autónoma gestionará sus propias bases de datos. |
+|**RN_07**| | El sistema solo revelará los datos imprescindibles a los usuarios logueados. |
+|**RN_08**| | Los sanitarios podrán acceder al historial médico de los pacientes. |
+|**RN_09**| | El sistema permitirá a los sanitarios y rastreadores avisar a las fuerzas del orden de ser necesario. |
+|**RN_10**| | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no acude a una cita médica. |
+|**RN_11**| | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no cumple la cuarentena asignada. |
+|**RN_12**| | Los sanitarios y rastreadores deberán comprobar que los casos diagnosticados como positivos cumplen la cuarentena establecida. |
+|**RN_13**| | El Ministerio de Sanidad deberá crear campañas publicitarias para fomentar que las personas con dispositivos móviles informen de casos positivos en las personas dependientes que tengan a su cargo que no dispongan de teléfono móvil o si comienzan a desarrollar algún síntoma. |
+|**RN_14**| | El sistema utilizará localización por triangulación de antenas móviles si puede garantizar una "cercanía" de distancia menor a 5 metros, si no utlilizará la localización por GPS. |
+|**RN_15**| | La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen. |
 
 ### 6.3.3 Requisitos de Conducta del Sistema
 Estos requisitos especifican cualquier otro comportamiento deseado del sistema que no se haya especificado mediante los casos de uso del sistema, como generación de informes, funcionalidades transversales a varios casos de uso del sistema, etc. También describen los servicios que debe ofrecer el sistema para que los usuarios u otros sistemas puedan realizar sus tareas de negocio:
 
-  - El sistema generará citas médicas automáticas para el centro de salud más cercano cuando una persona haya estado en contacto con un positivo, o se informe de un positivo de un caso cercano sin teléfono móvil o se informe de síntomas compatibles.
-  - El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si ha estado en contacto con un caso positivo.
-  - El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si informa de un positivo de un caso cercano sin teléfono móvil o si informa de síntomas compatibles.
-  - El sistema enviará una notificación PUSH a los usuarios que deban realizar la cuarentena informándoles del número de días de cuarentena que deben cumplir. 
-  - El sistema generará un mapa de calor con los datos de usuarios que hayan sido diagnosticados como positivos.
-  - El mapa de calor se actualizará cada hora.
-  - El número mínimo de personas contagiadas que deben pasar por una zona para que está aparezca coloreada en el mapa de calor será de 5 personas.
-  - El mapa de calor se coloreará con colores que vayan desde el amarillo hasta el rojo en función del número de casos positivos que haya en la zona.
-  - El sistema validará automáticamente los formularios emitidos por el usuario cuando avise de casos positivos cercanos y no dejará enviarlos en caso de que exista algún error.
-  - El sistema notificará a las CCAA si un caso positivo se ha movido entre comunidades.
-  - El sistema generará un informe con los casos positivos que hayan salido del país para comunicárselo lo antes posible.
-  - El sistema generará un informe con los datos detallados obtenidos por el mapa de calor y solo podrá acceder a él el Gobierno.
-  - El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario está incumplimiento la cuerentena.
-  - El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario no ha acudido a una cita médica.
+| **ID** | **Nombre** | **Descripción** |
+| :--: | :----- |:----- |
+|**RC_01**| | El sistema generará citas médicas automáticas para el centro de salud más cercano cuando una persona haya estado en contacto con un positivo, o se informe de un positivo de un caso cercano sin teléfono móvil o se informe de síntomas compatibles. |
+|**RC_02**| | El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si ha estado en contacto con un caso positivo. |
+|**RC_03**| | El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si informa de un positivo de un caso cercano sin teléfono móvil o si informa de síntomas compatibles. |
+|**RC_04**| | El sistema enviará una notificación PUSH a los usuarios que deban realizar la cuarentena informándoles del número de días de cuarentena que deben cumplir. |
+|**RC_05**| | El sistema generará un mapa de calor con los datos de usuarios que hayan sido diagnosticados como positivos. |
+|**RC_06**| | El mapa de calor se actualizará cada hora. |
+|**RC_07**| | El número mínimo de personas contagiadas que deben pasar por una zona para que está aparezca coloreada en el mapa de calor será de 5 personas. |
+|**RC_08**| | El mapa de calor se coloreará con colores que vayan desde el amarillo hasta el rojo en función del número de casos positivos que haya en la zona. |
+|**RC_09**| | El sistema validará automáticamente los formularios emitidos por el usuario cuando avise de casos positivos cercanos y no dejará enviarlos en caso de que exista algún error. |
+|**RC_10**| | El sistema notificará a las CCAA si un caso positivo se ha movido entre comunidades. |
+|**RC_11**| | El sistema generará un informe con los casos positivos que hayan salido del país para comunicárselo lo antes posible. |
+|**RC_12**| | El sistema generará un informe con los datos detallados obtenidos por el mapa de calor y solo podrá acceder a él el Gobierno. |
+|**RC_13**| | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario está incumplimiento la cuerentena. |
+|**RC_14**| | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario no ha acudido a una cita médica. |
 
 <br>
 
