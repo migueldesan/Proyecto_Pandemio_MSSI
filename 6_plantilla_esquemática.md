@@ -194,10 +194,10 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
 |**RFI_01**| | Disponibilidad de al menos el 99,99% de las veces. |
-|**RFI_01**| | El tiempo de inicio o reinicio del sistema debe ser inferior a dos minutos. |
-|**RFI_01**| | La probabilidad de fallo será inferior al 3%. |
-|**RFI_01**| | Cada CCAA tendrá 3 copias de todos los datos y usará 3 servidores de datos diferentes para almacenar cada copia de los datos. |
-|**RFI_01**| | Se sincronizarán los datos de los 3 servidores cada 5 minutos. |
+|**RFI_02**| | El tiempo de inicio o reinicio del sistema debe ser inferior a dos minutos. |
+|**RFI_03**| | La probabilidad de fallo será inferior al 3%. |
+|**RFI_04**| | Cada CCAA tendrá 3 copias de todos los datos y usará 3 servidores de datos diferentes para almacenar cada copia de los datos. |
+|**RFI_05**| | Se sincronizarán los datos de los 3 servidores cada 5 minutos. |
 
 
 ### 6.4.2 Requisitos de Usabilidad
@@ -206,10 +206,10 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
 |**RUS_01**| | El tiempo de aprendizaje del sistema debe ser inferior a 2 horas. |
-|**RUS_01**| | El sistema debe contar con manuales de usuario y ayuda online. |
-|**RUS_01**| | El sistema proporcionará errores claros y concisos. |
-|**RUS_01**| | Los usuarios podrán cambiar el dialecto o el idioma de la aplicación pudiendo elegir entre español, catalán, valenciano, gallego, euskera e inglés. |
-|**RUS_01**| | El sistema deberá permitir en el 80% de las veces que con un máximo de 5 clicks sea suficiente para llegar a la información deseada. |
+|**RUS_02**| | El sistema debe contar con manuales de usuario y ayuda online. |
+|**RUS_03**| | El sistema proporcionará errores claros y concisos. |
+|**RUS_04**| | Los usuarios podrán cambiar el dialecto o el idioma de la aplicación pudiendo elegir entre español, catalán, valenciano, gallego, euskera e inglés. |
+|**RUS_05**| | El sistema deberá permitir en el 80% de las veces que con un máximo de 5 clicks sea suficiente para llegar a la información deseada. |
 
 ### 6.4.3 Requisitos de Eficiencia
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como tiempo de respuesta:
