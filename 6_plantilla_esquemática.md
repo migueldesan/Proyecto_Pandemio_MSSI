@@ -45,7 +45,7 @@ A continuación, se especifican todos los casos de uso que se han identificado e
 |**Precondición**| El sanitario ha avisado previamente a las fuerzas del orden para informarles de un caso que no está cumpliendo la cuarentena o no ha asistido a una cita médica. Además, el sanitario debe estar logueado en la aplicación. |
 |**Descripción**| Un sanitario/rastreador puede ver los avisos que han emitido las fuerzas del orden sobre un caso que ha abierto el sanitario previamente. |
 |**Secuencia Normal**| 1. El sanitario abre la aplicación. <br> 2. El sanitario elige la opción “Ver avisos fuerzas del orden”. <br> 3. La aplicación muestra todos los avisos que hayan emitido las fuerzas del orden sobre casos abiertos previamente por el sanitario. <br> 4. El sanitario abre un aviso para ver los detalles y las nuevas noticias sobre el caso. |
-|**Postcondición**| EL sanitario visualiza los detalles de uno de los casos que tiene abiertos. |
+|**Postcondición**| El sanitario visualiza los detalles de uno de los casos que tiene abiertos. |
 |**Excepciones**| 3a. Si el sanitario no tiene ningún caso abierto se muestra una lista vacía.  |
 |**Importancia**| Alta. |
 |**Prioridad**| Alta. |
