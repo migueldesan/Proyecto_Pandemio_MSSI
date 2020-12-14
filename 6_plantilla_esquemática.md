@@ -379,5 +379,5 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 | **ID** | **Nombre** | **Criterios de aceptación** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: | :-----: | :-----: | :-----: | :-----: | :-----: |
- | **RIN_01** |  | Siempre que sea necesario usar la firma electrónica se usa el servicio @firma | Medio | Medio | OB_01,OB_03,OB_14 |
+ | **RIN_01** |  | Siempre que sea necesario usar la firma electrónica se usará el servicio @firma | Medio | Medio | OB_01,OB_03,OB_14 |
  
