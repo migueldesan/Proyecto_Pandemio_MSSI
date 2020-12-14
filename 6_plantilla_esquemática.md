@@ -282,6 +282,7 @@ Estos requisitos identifican aquellos servicios disponibles en el entorno tecnol
    | **ID** | **Nombre** | **Descripción** |
    | :--: | :----- |:----- |
    |**RIN_01**| | El sistema deberá utilizar el servicio @firma para todos los aspectos relacionados con validación y firma electrónica. |
+   |**RIN_02**| | El sistema deberá utilizar el servicio 'Dni electrónico' para todos los aspectos relacionados con la validación del DNI. |
    
 <br>
 
@@ -380,4 +381,4 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 | **ID** | **Nombre** | **Criterios de aceptación** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: | :-----: | :-----: | :-----: | :-----: | :-----: |
  | **RIN_01** |  | Siempre que sea necesario usar la firma electrónica se usará el servicio @firma | Medio | Medio | OB_01,OB_03,OB_14 |
- 
+ | **RIN_02** |  | Se hará uso del Dni electrónico siempre que sea necesario verificar un DNI | Medio | Medio | OB_01,OB_03,OB_14 |
