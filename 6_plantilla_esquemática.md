@@ -252,6 +252,7 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
   - Los usuarios accederán al sistema con un nombre de usuario y contraseña.
   - El sistema enviará una alerta a los administradores del sistema cuando ocurra alguno de los siguientes eventos: entrada al sistema por parte de un usuario, 2 o más intentos fallidos al introducir la contraseña de usuario y cambio de contraseña de usuario.
   - El sistema deberá ser capaz de evitar ataques de inyección de SQL sistemáticos.
+  - Las contraseñas serán almacenadas en las bases de datos usando un algoritmo criptográfico para que no sean visibles a simple vista.
 
 
 ### 6.4.7 Otros Requisitos No Funcionales
@@ -285,6 +286,7 @@ Estos requisitos identifican aquellos servicios disponibles en el entorno tecnol
 Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado oportunas para identificar las relaciones entre los requisitos identificados:
 
 > Matriz de trazabilidad de Requisitos Generales frente a Objetivos de Negocio.
+
 
 >	Matriz de trazabilidad de Casos de Uso frente a Requisitos Generales.
 
