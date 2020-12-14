@@ -268,7 +268,7 @@ Esta sección contiene las restricciones técnicas que se imponen al sistema sof
   | **ID** | **Nombre** | **Descripción** |
   | :--: | :----- |:----- |
   |**RT_01**| | El motor de la base de datos donde se almacenará toda la información será MySQL. |
-  |**RT_02**| | El código de la aplicación estará escrito Kotlin y XML para la parte de cliente, y Java para la parte de servidor. |
+  |**RT_02**| | El código de la aplicación estará escrito en Kotlin y XML para la parte de cliente, y Java para la parte de servidor. |
   |**RT_03**| | El sistema utilizará la ubicación por GPS y/o por triangulación de antenas móviles. |
   |**RT_04**| | Cualquier intercambio de datos vía Internet que realice el software se realizará por medio del protocolo encriptado HTTPS. |
   |**RT_05**| | Los servidores usados para almacenar datos serán MySQL server, PostgreSQL server y MongoDB server. |
