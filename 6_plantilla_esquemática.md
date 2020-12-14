@@ -272,8 +272,7 @@ Esta sección contiene las restricciones técnicas que se imponen al sistema sof
   |**RT_03**| | El sistema utilizará la ubicación por GPS y/o por triangulación de antenas móviles. |
   |**RT_04**| | Cualquier intercambio de datos vía Internet que realice el software se realizará por medio del protocolo encriptado HTTPS. |
   |**RT_05**| | Los servidores usados para almacenar datos serán MySQL server, PostgreSQL server y MongoDB server. |
-  |**RT_06**| | La aplicación será compatible en todos los SO de los teléfonos móviles y en cualquier navegador. |
-  |**RT_07**| | El software podrá ser utilizado en los sistemas operativos Windows, Linux, Android, iOS y HarmonyOS. |
+  |**RT_06**| | La aplicación será compatible en todos los SO de los teléfonos móviles (Android, iOS, HarmonyOS, etc.) y en cualquier navegador (Windows, Linux, etc.). |
   
 <br>  
   
@@ -365,5 +364,20 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 >	Matriz de trazabilidad de Restricciones Técnicas frente a Requisitos Generales.
 
+ | **ID** | **Nombre** |  **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
+ | :--: | :-----: |  :-----: | :-----: | :-----: |
+ | **RT_01** |  | Medio | Alto | OB_04 |  
+ | **RT_02** |  | Medio | Alto | OB_01 |  
+ | **RT_03** |  | Alto | Alto | OB_12,OB_13,OB_14 |    
+ | **RT_04** |  | Medio | Alto | OB_01,OB_04,OB_05 |  
+ | **RT_05** |  | Medio | Alto | OB_04 |   
+ | **RT_06** |  | Alto | Alto | OB_01 |    
+ 
+ <br>
+
 >	Matriz de trazabilidad de Requisitos de Integración frente a Requisitos Generales.
 
+| **ID** | **Nombre** | **Criterios de aceptación** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
+ | :--: | :-----: | :-----: | :-----: | :-----: | :-----: |
+ | **RIN_01** |  | Siempre que sea necesario usar la firma electrónica se usa el servicio @firma | Medio | Medio | OB_01,OB_03,OB_14 |
+ 
