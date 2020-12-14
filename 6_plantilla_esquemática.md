@@ -40,6 +40,16 @@ Todas las especificaciones de los actores que se han identificado en los casos d
 ### 6.2.3 Especificación de Casos de Uso del Sistema
 A continuación, se especifican todos los casos de uso que se han identificado en el apartado "6.2.1 Diagramas de Casos de Uso del Sistema":
 
+| CU_01 | Comprobar cuarentena |
+| :--: | :----- |
+|**Precondición**| Una persona debe permanecer en cuarentena y se le asigna a un sanitario su seguimiento.  |
+|**Descripción**| Un sanitario/rastreador puede ver las personas que deben realizar cuarentena. |
+|**Secuencia Normal**| 1. El sanitario abre la aplicación. <br> 2. El sanitario elige la opción “Comprobar cuarentena”. <br> 3. La aplicación muestra una lista de personas en cuarentena. <br> 4. El sanitario puede buscar personas y comprobar el estado de su cuarentena. <br> 5. Posibilidad de generar un aviso a las fuerzas del orden en caso de incumplimiento.|
+|**Postcondición**|  |
+|**Excepciones**| 3a. Si el sanitario no tiene ningún paciente en cuarentena se muestra una lista vacía.  |
+|**Importancia**| Alta. |
+|**Prioridad**| Alta. |
+
 | CU_02 | Ver avisos fuerzas del orden |
 | :--: | :----- |
 |**Precondición**| El sanitario ha avisado previamente a las fuerzas del orden para informarles de un caso que no está cumpliendo la cuarentena o no ha asistido a una cita médica. Además, el sanitario debe estar logueado en la aplicación. |
@@ -50,6 +60,25 @@ A continuación, se especifican todos los casos de uso que se han identificado e
 |**Importancia**| Alta. |
 |**Prioridad**| Alta. |
 
+| CU_03 | Ver citas médicas |
+| :--: | :----- |
+|**Precondición**| Un sanitario tiene citas médicas fijadas con pacientes. |
+|**Descripción**| Un sanitario/rastreador puede ver la fecha, hora e historial médico del paciente de las citas que tiene programadas. |
+|**Secuencia Normal**| 1. El sanitario abre la aplicación. <br> 2. El sanitario elige la opción “Ver citas médicas”. <br> 3. La aplicación muestra fecha, hora y nombre del paciente de las citas programadas. <br> 4. Posibilidad de seleccionar un paciente con cita y ver su historial médico. <br> 5. Posibilidad de generar un aviso a las fuerzas del orden en caso de que el paciente no se presente. |
+|**Postcondición**| El sanitario visualiza la agenda de citas programadas. |
+|**Excepciones**| 3a. Si el sanitario no tiene ninguna cita programada se muestra una lista vacía.  |
+|**Importancia**| Media. |
+|**Prioridad**| Media. |
+
+| CU_04 | Ver avisos |
+| :--: | :----- |
+|**Precondición**| El usuario de las fuerzas del orden debe estar logueado. |
+|**Descripción**| El usuario de las fuerzas del orden accede a una lista con los avisos de los sanitarios sobre personas que o bien no cumplen cuarentena o bien no han acudido a su cita médica. |
+|**Secuencia Normal**| 1. El usuario de las fuerzas del orden abre la aplicación. <br> 2. Elige la opción “Ver avisos”. <br> 3. La aplicación muestra todos los avisos que hayan emitido los sanitarios. <br> 4. Tiene la posibilidad de realizar actualizaciones en la situación de algún aviso y de cerrar el caso. |
+|**Postcondición**| El usuario de las fuerzas del orden visualiza los avisos realizados por los sanitarios. |
+|**Excepciones**| 3a. Si no hubiera ningún aviso sanitario se muestra una lista vacía.  |
+|**Importancia**| Media. |
+|**Prioridad**| Baja. |
 
 | CU_05 | Revisar incidencia |
 | :--: | :----- |
