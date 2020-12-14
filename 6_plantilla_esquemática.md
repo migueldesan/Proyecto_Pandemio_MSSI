@@ -286,6 +286,8 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 > Matriz de trazabilidad de Requisitos Generales frente a Objetivos de Negocio.
 
+>	Matriz de trazabilidad de Casos de Uso frente a Objetivos del negocio.
+
 | **ID** | **Nombre** | **Criterios de aceptación** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: | :-----: | :-----: | :-----: | :-----: | :-----: |
  | **CU_01** | Comprobar cuarentena | | | | OB_10,OB_11 |
@@ -300,13 +302,59 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
  | **CU_10** | Ver mapa calor | | Alto | Medio | OB_02,OB_04,OB_05,OB_06,OB_13 |
  | **CU_11** | Enviar ubicación | | Medio | Alto  | OB_02, OB_03 |
 
->	Matriz de trazabilidad de Casos de Uso frente a Requisitos Generales.
+<br>
 
->	Matriz de trazabilidad de Requisitos de Información frente a Requisitos Generales.
+>	Matriz de trazabilidad de Requisitos de Información frente a Objetivos del negocio.
 
->	Matriz de trazabilidad de Reglas de Negocio frente  a Requisitos Generales.
+ | **ID** | **Nombre**  | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
+ | :--: | :-----: | :-----: | :-----: | :-----: |
+ | **RI_01** |  | Alto | Alto | OB_04 |  
+ | **RI_02** |  | Alto | Alto | OB_04 |  
+ | **RI_03** |  | Alto | Alto | OB_04 | 
+ 
+ <br>
 
->	Matriz de trazabilidad de Requisitos de Conducta frente a Requisitos Generales.
+>	Matriz de trazabilidad de Reglas de Negocio frente a Objetivos del negocio.
+
+| **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
+ | :--: | :-----:  | :-----: | :-----: | :-----: |
+ | **RN_01** |  | Medio | Alto | OB_04 |
+ | **RN_02** |  | Medio | Alto | OB_04 |  
+ | **RN_03** |  | Alto | Alto | OB_04,OB_05 |     
+ | **RN_04** |  | Alto | Alto | OB_05 |  
+ | **RN_05** |  | Alto | Medio | OB_04 |  
+ | **RN_06** |  | Medio | Medio | OB_04,OB_14 |    
+ | **RN_07** |  | Alto | Alto | OB_04 |  
+ | **RN_08** |  | Medio | Medio | OB_04,OB_05 |  
+ | **RN_09** |  | Medio | Alto | OB_09 |     
+ | **RN_10** |  | Medio | Alto | OB_10 |
+ | **RN_11** |  | Alto | Medio | OB_11|  
+ | **RN_12** |  | Bajo| Bajo | OB_03,OB_06|    
+ | **RN_13** |  | Alto | Alto | OB_04|  
+ | **RN_14** |  | Alto | Alto | OB_02 | 
+
+<br>
+
+>	Matriz de trazabilidad de Requisitos de Conducta frente a Objetivos del negocio.
+
+ | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
+ | :--: |  :-----: | :-----: | :-----: | :-----: |
+ | **RC_01** |  | Alto | Alto | OB_03,OB_07,OB_08,OB_12 |  
+ | **RC_02** |  | Bajo | Medio | OB_08,OB_12 |  
+ | **RC_03** |  | Bajo | Medio | OB_07,OB_12 |    
+ | **RC_04** |  | Bajo | Medio | OB_08 |  
+ | **RC_05** |  | Alto | Bajo | OB_13 |  
+ | **RC_06** |  | Medio | Bajo | OB_13 |     
+ | **RC_07** |  | Alto | Bajo | OB_13 |   
+ | **RC_08** |  | Bajo | Bajo | OB_13 |  
+ | **RC_09** |  | Medio | Medio | OB_07 |     
+ | **RC_10** |  | Alto | Alto | OB_14 |  
+ | **RC_11** |  | Bajo | Alto | OB_14 |  
+ | **RC_12** |  | Alto | Alto | OB_14 |     
+ | **RC_13** |  | Bajo | Alto | OB_10 |  
+ | **RC_14** |  | Bajo | Alto | OB_09 |   
+
+<br>
 
 >	Matriz de trazabilidad de Requisitos no Funcionales frente a Requisitos Generales.
 
