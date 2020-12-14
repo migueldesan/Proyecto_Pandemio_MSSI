@@ -324,10 +324,10 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 | **ID** | **Nombre** | **Criterios de aceptación** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: | :-----: | :-----: | :-----: | :-----: | :-----: |
- | **CU_01** | Comprobar cuarentena | | | | OB_10,OB_11 |
+ | **CU_01** | Comprobar cuarentena | Alto | | Alto | OB_10,OB_11 |
  | **CU_02** | Ver avisos fuerzas del orden| | Medio | Alto | OB_09,OB_10 |
- | **CU_03** | Ver citas médicas | | | | OB_09 |
- | **CU_04** | Ver avisos | | | | OB_09,OB_10 |
+ | **CU_03** | Ver citas médicas | Medio | | Medio | OB_09 |
+ | **CU_04** | Ver avisos | Medio | | Bajo | OB_09,OB_10 |
  | **CU_05** | Revisar incidencia| | Alto | Alto | OB_06,OB_13,OB_14 |
  | **CU_06** | Ver citas médicas propias | | Bajo | Alto | OB_02, OB_03,OB_07,OB_08|
  | **CU_07** | Ver cuarentena establecida| | Bajo | Alto | OB_02, OB_03|
