@@ -139,7 +139,7 @@ Estos requisitos especifican qué información debe almacenar el sistema para po
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
 |**RI_01**| | El sistema almacenará el historial de ubicación de cada teléfono móvil el número de días que establezcan los criterios estrictamente epidemiológicos. |
-|**RI_02**| | El sistema almacenará el historial de ubicación de cada teléfono móvil el número de días que establezcan los criterios estrictamente epidemiológicos.El sistema almacenará la ubicación obtenida por medio de la triangulación de antenas móviles si se puede conseguir un margen de error de menos de 5 metros, en cualquier otro caso almacenará la obtenida por medio del GPS. |
+|**RI_02**| | El sistema almacenará la ubicación obtenida por medio de la triangulación de antenas móviles si se puede conseguir un margen de error de menos de 5 metros, en cualquier otro caso almacenará la obtenida por medio del GPS. |
 |**RI_03**| | El sistema solo almacenará la ubicación obtenida por GPS si el teléfono móvil está en modo avión. |
  
 ### 6.3.2 Requisitos de Reglas de Negocio del Sistema
@@ -155,13 +155,12 @@ Estos requisitos especifican qué reglas de negocio, políticas y restricciones 
 |**RN_06**| | Cada comunidad autónoma gestionará sus propias bases de datos. |
 |**RN_07**| | El sistema solo revelará los datos imprescindibles a los usuarios logueados. |
 |**RN_08**| | Los sanitarios podrán acceder al historial médico de los pacientes. |
-|**RN_09**| | El sistema permitirá a los sanitarios y rastreadores avisar a las fuerzas del orden de ser necesario. |
-|**RN_10**| | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no acude a una cita médica. |
-|**RN_11**| | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no cumple la cuarentena asignada. |
-|**RN_12**| | Los sanitarios y rastreadores deberán comprobar que los casos diagnosticados como positivos cumplen la cuarentena establecida. |
-|**RN_13**| | El Ministerio de Sanidad deberá crear campañas publicitarias para fomentar que las personas con dispositivos móviles informen de casos positivos en las personas dependientes que tengan a su cargo que no dispongan de teléfono móvil o si comienzan a desarrollar algún síntoma. |
-|**RN_14**| | El sistema utilizará localización por triangulación de antenas móviles si puede garantizar una "cercanía" de distancia menor a 5 metros, si no utlilizará la localización por GPS. |
-|**RN_15**| | La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen. |
+|**RN_09**| | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no acude a una cita médica. |
+|**RN_10**| | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no cumple la cuarentena asignada. |
+|**RN_11**| | Los sanitarios y rastreadores deberán comprobar que los casos diagnosticados como positivos cumplen la cuarentena establecida. |
+|**RN_12**| | El Ministerio de Sanidad deberá crear campañas publicitarias para fomentar que las personas con dispositivos móviles informen de casos positivos en las personas dependientes que tengan a su cargo que no dispongan de teléfono móvil o si comienzan a desarrollar algún síntoma. |
+|**RN_13**| | El sistema utilizará localización por triangulación de antenas móviles si puede garantizar una "cercanía" de distancia menor a 5 metros, si no utlilizará la localización por GPS. |
+|**RN_14**| | La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen. |
 
 ### 6.3.3 Requisitos de Conducta del Sistema
 Estos requisitos especifican cualquier otro comportamiento deseado del sistema que no se haya especificado mediante los casos de uso del sistema, como generación de informes, funcionalidades transversales a varios casos de uso del sistema, etc. También describen los servicios que debe ofrecer el sistema para que los usuarios u otros sistemas puedan realizar sus tareas de negocio:
