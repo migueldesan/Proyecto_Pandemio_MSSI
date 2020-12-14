@@ -265,20 +265,25 @@ Esta sección contiene otros requisitos no funcionales que se han identificado y
 ## 6.5 Restricciones Técnicas del Sistema
 Esta sección contiene las restricciones técnicas que se imponen al sistema software a desarrollar (tecnología a usar, protocolos de comunicaciones, compatibilidad con navegadores, etc.):
 
-  - El motor de la base de datos donde se almacenará toda la información será MySQL.
-  - El código de la aplicación estará escrito Kotlin y XML para la parte de cliente, y Java para la parte de servidor.
-  - El sistema utilizará la ubicación por GPS y/o por triangulación de antenas móviles.
-  - Cualquier intercambio de datos vía Internet que realice el software se realizará por medio del protocolo encriptado HTTPS.
-  - Los servidores usados para almacenar datos serán MySQL server, PostgreSQL server y MongoDB server.
-  - La aplicación será compatible en todos los SO de los teléfonos móviles y en cualquier navegador.
-  - El software podrá ser utilizado en los sistemas operativos Windows, Linux, Android, iOS y HarmonyOS.
+  | **ID** | **Nombre** | **Descripción** |
+  | :--: | :----- |:----- |
+  |**RT_01**| | El motor de la base de datos donde se almacenará toda la información será MySQL. |
+  |**RT_02**| | El código de la aplicación estará escrito Kotlin y XML para la parte de cliente, y Java para la parte de servidor. |
+  |**RT_03**| | El sistema utilizará la ubicación por GPS y/o por triangulación de antenas móviles. |
+  |**RT_04**| | Cualquier intercambio de datos vía Internet que realice el software se realizará por medio del protocolo encriptado HTTPS. |
+  |**RT_05**| | Los servidores usados para almacenar datos serán MySQL server, PostgreSQL server y MongoDB server. |
+  |**RT_06**| | La aplicación será compatible en todos los SO de los teléfonos móviles y en cualquier navegador. |
+  |**RT_07**| | El software podrá ser utilizado en los sistemas operativos Windows, Linux, Android, iOS y HarmonyOS. |
   
 <br>  
   
 ## 6.6 Requisitos de Integración del Sistema
 Estos requisitos identifican aquellos servicios disponibles en el entorno tecnológico de producción o componentes software cuya funcionalidad es relevante para el sistema a desarrollar y deben ser consumidos por el mismo:
-  - El sistema deberá utilizar el servicio @firma para todos los aspectos relacionados con validación y firma electrónica.
- 
+  
+   | **ID** | **Nombre** | **Descripción** |
+   | :--: | :----- |:----- |
+   |**RIN_01**| | El sistema deberá utilizar el servicio @firma para todos los aspectos relacionados con validación y firma electrónica. |
+   
 <br>
 
 ## 6.7 Información Sobre Trazabilidad
