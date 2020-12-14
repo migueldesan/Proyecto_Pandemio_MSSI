@@ -179,7 +179,7 @@ Estos requisitos especifican cualquier otro comportamiento deseado del sistema q
 |**RC_10**| | El sistema notificará a las CCAA si un caso positivo se ha movido entre comunidades. |
 |**RC_11**| | El sistema generará un informe con los casos positivos que hayan salido del país para comunicárselo lo antes posible. |
 |**RC_12**| | El sistema generará un informe con los datos detallados obtenidos por el mapa de calor y solo podrá acceder a él el Gobierno. |
-|**RC_13**| | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario está incumplimiento la cuerentena. |
+|**RC_13**| | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario está incumplimiento la cuarentena. |
 |**RC_14**| | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario no ha acudido a una cita médica. |
 
 <br>
