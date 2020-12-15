@@ -166,29 +166,29 @@ Estos requisitos especifican qué información debe almacenar el sistema para po
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RFI_01**| | El sistema almacenará el historial de ubicación de cada teléfono móvil el número de días que establezcan los criterios estrictamente epidemiológicos. |
-|**RFI_02**| | El sistema almacenará el historial médico de todos los pacientes. |
+|**RFI_01**| Historial de ubicación | El sistema almacenará el historial de ubicación de cada teléfono móvil el número de días que establezcan los criterios estrictamente epidemiológicos. |
+|**RFI_02**| Historial médico | El sistema almacenará el historial médico de todos los pacientes. |
  
 ### 6.3.2 Requisitos de Reglas de Negocio del Sistema
 Estos requisitos especifican qué reglas de negocio, políticas y restricciones debe respetar el sistema, evitando que se incumplan durante su funcionamiento.
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RFN_01**| | El nuevo sistema debe cumplir con las leyes y reglamentos establecidos por cada comunidad autónoma para la protección de datos. |
-|**RFN_02**| | El nuevo sistema se acogerá a las leyes generales públicas. |
-|**RFN_03**| | Solo los usuarios logueados podrán acceder a los datos. Para ello, las personas encargadas de la gestión de la pandemia en el Gobierno de España, todos los sanitarios y rastreadores, y todos el personal de las fuerzas del orden deberán registrarse en la aplicación. |
-|**RFN_04**| | La validación de los nuevos registros solo la realizarán los superadministradores del Gobierno de España. |
-|**RFN_05**| | Cada CCAA tendrá 3 copias de todos los datos y usará 3 servidores de datos diferentes para almacenar cada copia de los datos. |
-|**RFN_06**| | Cada comunidad autónoma gestionará sus propias bases de datos. |
-|**RFN_07**| | El sistema solo revelará los datos imprescindibles a los usuarios logueados. |
+|**RFN_01**| Leyes autonómicas | El nuevo sistema debe cumplir con las leyes y reglamentos establecidos por cada comunidad autónoma para la protección de datos. |
+|**RFN_02**| Leyes generales | El nuevo sistema se acogerá a las leyes generales públicas. |
+|**RFN_03**| Login | Solo los usuarios logueados podrán acceder a los datos. Para ello, las personas encargadas de la gestión de la pandemia en el Gobierno de España, todos los sanitarios y rastreadores, y todos el personal de las fuerzas del orden deberán registrarse en la aplicación. |
+|**RFN_04**| Validación de registros| La validación de los nuevos registros solo la realizarán los superadministradores del Gobierno de España. |
+|**RFN_05**| Almacenamiento de datos | Cada CCAA tendrá 3 copias de todos los datos y usará 3 servidores de datos diferentes para almacenar cada copia de los datos. |
+|**RFN_06**| Gestión propia de datos | Cada comunidad autónoma gestionará sus propias bases de datos. |
+|**RFN_07**| Re | El sistema solo revelará los datos imprescindibles a los usuarios logueados. |
 |**RFN_08**| | Los sanitarios podrán acceder al historial médico de los pacientes. |
-|**RFN_09**| | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no acude a una cita médica. |
-|**RFN_10**| | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no cumple la cuarentena asignada. |
-|**RFN_11**| | Los sanitarios y rastreadores deberán comprobar que los casos diagnosticados como positivos cumplen la cuarentena establecida. |
-|**RFN_12**| | El Ministerio de Sanidad deberá crear campañas publicitarias para fomentar que las personas con dispositivos móviles informen de casos positivos en las personas dependientes que tengan a su cargo que no dispongan de teléfono móvil o si comienzan a desarrollar algún síntoma. |
-|**RN_13**| | El sistema utilizará localización por triangulación de antenas móviles si puede garantizar una "cercanía" de distancia menor a 5 metros, si no utlilizará la localización por GPS. |
-|**RFN_14**| | El sistema solo almacenará la ubicación obtenida por GPS si el teléfono móvil está en modo avión. |
-|**RFN_15**| | La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen. |
+|**RFN_09**| Aviso incumplimiento cita médica | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no acude a una cita médica. |
+|**RFN_10**| Aviso incumplimiento cuarentena | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no cumple la cuarentena asignada. |
+|**RFN_11**| Comprobar cuarentena | Los sanitarios y rastreadores deberán comprobar que los casos diagnosticados como positivos cumplen la cuarentena establecida. |
+|**RFN_12**| Campañas publicitarias | El Ministerio de Sanidad deberá crear campañas publicitarias para fomentar que las personas con dispositivos móviles informen de casos positivos en las personas dependientes que tengan a su cargo que no dispongan de teléfono móvil o si comienzan a desarrollar algún síntoma. |
+|**RN_13**| Localización por triangulación de antenas móviles | El sistema utilizará localización por triangulación de antenas móviles si puede garantizar una "cercanía" de distancia menor a 5 metros, si no utlilizará la localización por GPS. |
+|**RFN_14**| Ubicación GPS en modo avión| El sistema solo almacenará la ubicación obtenida por GPS si el teléfono móvil está en modo avión. |
+|**RFN_15**| Instalación automática | La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen. |
 
 
 ### 6.3.3 Requisitos de Conducta del Sistema
@@ -196,20 +196,20 @@ Estos requisitos especifican cualquier otro comportamiento deseado del sistema q
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RFC_01**| | El sistema generará citas médicas automáticas para el centro de salud más cercano cuando una persona haya estado en contacto con un positivo, o se informe de un positivo de un caso cercano sin teléfono móvil o se informe de síntomas compatibles. |
-|**RFC_02**| | El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si ha estado en contacto con un caso positivo. |
-|**RFC_03**| | El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si informa de un positivo de un caso cercano sin teléfono móvil o si informa de síntomas compatibles. |
-|**RFC_04**| | El sistema enviará una notificación PUSH a los usuarios que deban realizar la cuarentena informándoles del número de días de cuarentena que deben cumplir. |
-|**RFC_05**| | El sistema generará un mapa de calor con los datos de usuarios que hayan sido diagnosticados como positivos. |
-|**RFC_06**| | El mapa de calor se actualizará cada hora. |
+|**RFC_01**| Automatización de citas médicas | El sistema generará citas médicas automáticas para el centro de salud más cercano cuando una persona haya estado en contacto con un positivo, o se informe de un positivo de un caso cercano sin teléfono móvil o se informe de síntomas compatibles. |
+|**RFC_02**| Notificación cita médica | El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si ha estado en contacto con un caso positivo. |
+|**RFC_03**| Notificación cita médica | El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si informa de un positivo de un caso cercano sin teléfono móvil o si informa de síntomas compatibles. |
+|**RFC_04**| Notificación días de cuarentena | El sistema enviará una notificación PUSH a los usuarios que deban realizar la cuarentena informándoles del número de días de cuarentena que deben cumplir. |
+|**RFC_05**| Mapa de calor | El sistema generará un mapa de calor con los datos de usuarios que hayan sido diagnosticados como positivos. |
+|**RFC_06**| Actualización del mapa de calor | El mapa de calor se actualizará cada hora. |
 |**RFC_07**| | El número mínimo de personas contagiadas que deben pasar por una zona para que está aparezca coloreada en el mapa de calor será de 5 personas. |
 |**RFC_08**| | El mapa de calor se coloreará con colores que vayan desde el amarillo hasta el rojo en función del número de casos positivos que haya en la zona. |
-|**RFC_09**| | El sistema validará automáticamente los formularios emitidos por el usuario cuando avise de casos positivos cercanos y no dejará enviarlos en caso de que exista algún error. |
-|**RFC_10**| | El sistema notificará a las CCAA si un caso positivo se ha movido entre comunidades. |
-|**RFC_11**| | El sistema generará un informe con los casos positivos que hayan salido del país para comunicárselo lo antes posible. |
-|**RFC_12**| | El sistema generará un informe con los datos detallados obtenidos por el mapa de calor y solo podrá acceder a él el Gobierno. |
-|**RFC_13**| | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario está incumplimiento la cuarentena. |
-|**RFC_14**| | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario no ha acudido a una cita médica. |
+|**RFC_09**| Validación automática de formularios | El sistema validará automáticamente los formularios emitidos por el usuario cuando avise de casos positivos cercanos y no dejará enviarlos en caso de que exista algún error. |
+|**RFC_10**| Notificación entre comunidades | El sistema notificará a las CCAA si un caso positivo se ha movido entre comunidades. |
+|**RFC_11**| Informe casos positivos | El sistema generará un informe con los casos positivos que hayan salido del país para comunicárselo lo antes posible. |
+|**RFC_12**| Informe datos mapa de calor | El sistema generará un informe con los datos detallados obtenidos por el mapa de calor y solo podrá acceder a él el Gobierno. |
+|**RFC_13**| Notificación incumplimiento de la cuarentena | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario está incumplimiento la cuarentena. |
+|**RFC_14**| Notificación incumplimiento de la cuarentena | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario no ha acudido a una cita médica. |
 
 <br>
 
@@ -221,11 +221,11 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RNFF_01**| | Disponibilidad de al menos el 99,99% de las veces. |
-|**RNFF_02**| | El tiempo de inicio o reinicio del sistema debe ser inferior a dos minutos. |
-|**RNFF_03**| | La probabilidad de fallo será inferior al 3%. |
-|**RNFF_04**| | Cada CCAA tendrá 3 copias de todos los datos y usará 3 servidores de datos diferentes para almacenar cada copia de los datos. |
-|**RNFF_05**| | Se sincronizarán los datos de los 3 servidores cada 5 minutos. |
+|**RNFF_01**| Alta disponibilidad | Disponibilidad de al menos el 99,99% de las veces. |
+|**RNFF_02**| Tiempo de inicio | El tiempo de inicio o reinicio del sistema debe ser inferior a dos minutos. |
+|**RNFF_03**| Baja probabilidad de fallo | La probabilidad de fallo será inferior al 3%. |
+|**RNFF_04**| Copia de los datos | Cada CCAA tendrá 3 copias de todos los datos y usará 3 servidores de datos diferentes para almacenar cada copia de los datos. |
+|**RNFF_05**| Sincronización de datos | Se sincronizarán los datos de los 3 servidores cada 5 minutos. |
 
 
 ### 6.4.2 Requisitos de Usabilidad
@@ -233,10 +233,10 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RNFU_01**| | El tiempo de aprendizaje del sistema debe ser inferior a 2 horas. |
-|**RNFU_02**| | El sistema debe contar con manuales de usuario y ayuda online. |
-|**RNFU_03**| | El sistema proporcionará errores claros y concisos. |
-|**RNFU_04**| | Los usuarios podrán cambiar el dialecto o el idioma de la aplicación pudiendo elegir entre español, catalán, valenciano, gallego, euskera e inglés. |
+|**RNFU_01**| Tiempo de aprendizaje bajo| El tiempo de aprendizaje del sistema debe ser inferior a 2 horas. |
+|**RNFU_02**| Manuales de usuario | El sistema debe contar con manuales de usuario y ayuda online. |
+|**RNFU_03**| Clarificación de erroes| El sistema proporcionará errores claros y concisos. |
+|**RNFU_04**| Múltiples idiomas | Los usuarios podrán cambiar el dialecto o el idioma de la aplicación pudiendo elegir entre español, catalán, valenciano, gallego, euskera e inglés. |
 |**RNFU_05**| | El sistema deberá permitir en el 80% de las veces que con un máximo de 5 clicks sea suficiente para llegar a la información deseada. |
 
 ### 6.4.3 Requisitos de Eficiencia
@@ -244,7 +244,7 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RNFE_01**| | El sistema debe ser capaz de procesar 15 millones de transacciones por minuto. |
+|**RNFE_01**| Multiples transacciones | El sistema debe ser capaz de procesar 15 millones de transacciones por minuto. |
 |**RNFE_02**| | Toda transacción debe responder al usuario en menos de 10 segundos. |
 |**RNFE_03**| | El sistema debe soportar 5 millones de conexiones simultáneas. |
 |**RNFE_04**| | El sistema deberá tener un tiempo máximo de respuesta de 5 segundos para cualquier operación de consulta. |
