@@ -166,29 +166,29 @@ Estos requisitos especifican qué información debe almacenar el sistema para po
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RI_01**| | El sistema almacenará el historial de ubicación de cada teléfono móvil el número de días que establezcan los criterios estrictamente epidemiológicos. |
-|**RI_02**| | El sistema almacenará el historial médico de todos los pacientes. |
+|**RFI_01**| | El sistema almacenará el historial de ubicación de cada teléfono móvil el número de días que establezcan los criterios estrictamente epidemiológicos. |
+|**RFI_02**| | El sistema almacenará el historial médico de todos los pacientes. |
  
 ### 6.3.2 Requisitos de Reglas de Negocio del Sistema
 Estos requisitos especifican qué reglas de negocio, políticas y restricciones debe respetar el sistema, evitando que se incumplan durante su funcionamiento.
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RN_01**| | El nuevo sistema debe cumplir con las leyes y reglamentos establecidos por cada comunidad autónoma para la protección de datos. |
-|**RN_02**| | El nuevo sistema se acogerá a las leyes generales públicas. |
-|**RN_03**| | Solo los usuarios logueados podrán acceder a los datos. Para ello, las personas encargadas de la gestión de la pandemia en el Gobierno de España, todos los sanitarios y rastreadores, y todos el personal de las fuerzas del orden deberán registrarse en la aplicación. |
-|**RN_04**| | La validación de los nuevos registros solo la realizarán los superadministradores del Gobierno de España. |
-|**RN_05**| | Cada CCAA tendrá 3 copias de todos los datos y usará 3 servidores de datos diferentes para almacenar cada copia de los datos. |
-|**RN_06**| | Cada comunidad autónoma gestionará sus propias bases de datos. |
-|**RN_07**| | El sistema solo revelará los datos imprescindibles a los usuarios logueados. |
-|**RN_08**| | Los sanitarios podrán acceder al historial médico de los pacientes. |
-|**RN_09**| | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no acude a una cita médica. |
-|**RN_10**| | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no cumple la cuarentena asignada. |
-|**RN_11**| | Los sanitarios y rastreadores deberán comprobar que los casos diagnosticados como positivos cumplen la cuarentena establecida. |
-|**RN_12**| | El Ministerio de Sanidad deberá crear campañas publicitarias para fomentar que las personas con dispositivos móviles informen de casos positivos en las personas dependientes que tengan a su cargo que no dispongan de teléfono móvil o si comienzan a desarrollar algún síntoma. |
+|**RFN_01**| | El nuevo sistema debe cumplir con las leyes y reglamentos establecidos por cada comunidad autónoma para la protección de datos. |
+|**RFN_02**| | El nuevo sistema se acogerá a las leyes generales públicas. |
+|**RFN_03**| | Solo los usuarios logueados podrán acceder a los datos. Para ello, las personas encargadas de la gestión de la pandemia en el Gobierno de España, todos los sanitarios y rastreadores, y todos el personal de las fuerzas del orden deberán registrarse en la aplicación. |
+|**RFN_04**| | La validación de los nuevos registros solo la realizarán los superadministradores del Gobierno de España. |
+|**RFN_05**| | Cada CCAA tendrá 3 copias de todos los datos y usará 3 servidores de datos diferentes para almacenar cada copia de los datos. |
+|**RFN_06**| | Cada comunidad autónoma gestionará sus propias bases de datos. |
+|**RFN_07**| | El sistema solo revelará los datos imprescindibles a los usuarios logueados. |
+|**RFN_08**| | Los sanitarios podrán acceder al historial médico de los pacientes. |
+|**RFN_09**| | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no acude a una cita médica. |
+|**RFN_10**| | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no cumple la cuarentena asignada. |
+|**RFN_11**| | Los sanitarios y rastreadores deberán comprobar que los casos diagnosticados como positivos cumplen la cuarentena establecida. |
+|**RFN_12**| | El Ministerio de Sanidad deberá crear campañas publicitarias para fomentar que las personas con dispositivos móviles informen de casos positivos en las personas dependientes que tengan a su cargo que no dispongan de teléfono móvil o si comienzan a desarrollar algún síntoma. |
 |**RN_13**| | El sistema utilizará localización por triangulación de antenas móviles si puede garantizar una "cercanía" de distancia menor a 5 metros, si no utlilizará la localización por GPS. |
-|**RN_14**| | El sistema solo almacenará la ubicación obtenida por GPS si el teléfono móvil está en modo avión. |
-|**RN_15**| | La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen. |
+|**RFN_14**| | El sistema solo almacenará la ubicación obtenida por GPS si el teléfono móvil está en modo avión. |
+|**RFN_15**| | La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen. |
 
 
 ### 6.3.3 Requisitos de Conducta del Sistema
@@ -196,20 +196,20 @@ Estos requisitos especifican cualquier otro comportamiento deseado del sistema q
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RC_01**| | El sistema generará citas médicas automáticas para el centro de salud más cercano cuando una persona haya estado en contacto con un positivo, o se informe de un positivo de un caso cercano sin teléfono móvil o se informe de síntomas compatibles. |
-|**RC_02**| | El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si ha estado en contacto con un caso positivo. |
-|**RC_03**| | El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si informa de un positivo de un caso cercano sin teléfono móvil o si informa de síntomas compatibles. |
-|**RC_04**| | El sistema enviará una notificación PUSH a los usuarios que deban realizar la cuarentena informándoles del número de días de cuarentena que deben cumplir. |
-|**RC_05**| | El sistema generará un mapa de calor con los datos de usuarios que hayan sido diagnosticados como positivos. |
-|**RC_06**| | El mapa de calor se actualizará cada hora. |
-|**RC_07**| | El número mínimo de personas contagiadas que deben pasar por una zona para que está aparezca coloreada en el mapa de calor será de 5 personas. |
-|**RC_08**| | El mapa de calor se coloreará con colores que vayan desde el amarillo hasta el rojo en función del número de casos positivos que haya en la zona. |
-|**RC_09**| | El sistema validará automáticamente los formularios emitidos por el usuario cuando avise de casos positivos cercanos y no dejará enviarlos en caso de que exista algún error. |
-|**RC_10**| | El sistema notificará a las CCAA si un caso positivo se ha movido entre comunidades. |
-|**RC_11**| | El sistema generará un informe con los casos positivos que hayan salido del país para comunicárselo lo antes posible. |
-|**RC_12**| | El sistema generará un informe con los datos detallados obtenidos por el mapa de calor y solo podrá acceder a él el Gobierno. |
-|**RC_13**| | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario está incumplimiento la cuarentena. |
-|**RC_14**| | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario no ha acudido a una cita médica. |
+|**RFC_01**| | El sistema generará citas médicas automáticas para el centro de salud más cercano cuando una persona haya estado en contacto con un positivo, o se informe de un positivo de un caso cercano sin teléfono móvil o se informe de síntomas compatibles. |
+|**RFC_02**| | El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si ha estado en contacto con un caso positivo. |
+|**RFC_03**| | El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si informa de un positivo de un caso cercano sin teléfono móvil o si informa de síntomas compatibles. |
+|**RFC_04**| | El sistema enviará una notificación PUSH a los usuarios que deban realizar la cuarentena informándoles del número de días de cuarentena que deben cumplir. |
+|**RFC_05**| | El sistema generará un mapa de calor con los datos de usuarios que hayan sido diagnosticados como positivos. |
+|**RFC_06**| | El mapa de calor se actualizará cada hora. |
+|**RFC_07**| | El número mínimo de personas contagiadas que deben pasar por una zona para que está aparezca coloreada en el mapa de calor será de 5 personas. |
+|**RFC_08**| | El mapa de calor se coloreará con colores que vayan desde el amarillo hasta el rojo en función del número de casos positivos que haya en la zona. |
+|**RFC_09**| | El sistema validará automáticamente los formularios emitidos por el usuario cuando avise de casos positivos cercanos y no dejará enviarlos en caso de que exista algún error. |
+|**RFC_10**| | El sistema notificará a las CCAA si un caso positivo se ha movido entre comunidades. |
+|**RFC_11**| | El sistema generará un informe con los casos positivos que hayan salido del país para comunicárselo lo antes posible. |
+|**RFC_12**| | El sistema generará un informe con los datos detallados obtenidos por el mapa de calor y solo podrá acceder a él el Gobierno. |
+|**RFC_13**| | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario está incumplimiento la cuarentena. |
+|**RFC_14**| | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario no ha acudido a una cita médica. |
 
 <br>
 
@@ -221,11 +221,11 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RFI_01**| | Disponibilidad de al menos el 99,99% de las veces. |
-|**RFI_02**| | El tiempo de inicio o reinicio del sistema debe ser inferior a dos minutos. |
-|**RFI_03**| | La probabilidad de fallo será inferior al 3%. |
-|**RFI_04**| | Cada CCAA tendrá 3 copias de todos los datos y usará 3 servidores de datos diferentes para almacenar cada copia de los datos. |
-|**RFI_05**| | Se sincronizarán los datos de los 3 servidores cada 5 minutos. |
+|**RNFF_01**| | Disponibilidad de al menos el 99,99% de las veces. |
+|**RNFF_02**| | El tiempo de inicio o reinicio del sistema debe ser inferior a dos minutos. |
+|**RNFF_03**| | La probabilidad de fallo será inferior al 3%. |
+|**RNFF_04**| | Cada CCAA tendrá 3 copias de todos los datos y usará 3 servidores de datos diferentes para almacenar cada copia de los datos. |
+|**RNFF_05**| | Se sincronizarán los datos de los 3 servidores cada 5 minutos. |
 
 
 ### 6.4.2 Requisitos de Usabilidad
@@ -233,61 +233,64 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RUS_01**| | El tiempo de aprendizaje del sistema debe ser inferior a 2 horas. |
-|**RUS_02**| | El sistema debe contar con manuales de usuario y ayuda online. |
-|**RUS_03**| | El sistema proporcionará errores claros y concisos. |
-|**RUS_04**| | Los usuarios podrán cambiar el dialecto o el idioma de la aplicación pudiendo elegir entre español, catalán, valenciano, gallego, euskera e inglés. |
-|**RUS_05**| | El sistema deberá permitir en el 80% de las veces que con un máximo de 5 clicks sea suficiente para llegar a la información deseada. |
+|**RNFU_01**| | El tiempo de aprendizaje del sistema debe ser inferior a 2 horas. |
+|**RNFU_02**| | El sistema debe contar con manuales de usuario y ayuda online. |
+|**RNFU_03**| | El sistema proporcionará errores claros y concisos. |
+|**RNFU_04**| | Los usuarios podrán cambiar el dialecto o el idioma de la aplicación pudiendo elegir entre español, catalán, valenciano, gallego, euskera e inglés. |
+|**RNFU_05**| | El sistema deberá permitir en el 80% de las veces que con un máximo de 5 clicks sea suficiente para llegar a la información deseada. |
 
 ### 6.4.3 Requisitos de Eficiencia
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como tiempo de respuesta:
 
-  - El sistema debe ser capaz de procesar 15 millones de transacciones por minuto.
-  - Toda transacción debe responder al usuario en menos de 10 segundos.
-  - El sistema debe soportar 5 millones de conexiones simultáneas.
-  - El sistema deberá tener un tiempo máximo de respuesta de 5 segundos para cualquier operación de consulta.
-
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RE_01**| |  |
+|**RNFE_01**| | El sistema debe ser capaz de procesar 15 millones de transacciones por minuto. |
+|**RNFE_02**| | Toda transacción debe responder al usuario en menos de 10 segundos. |
+|**RNFE_03**| | El sistema debe soportar 5 millones de conexiones simultáneas. |
+|**RNFE_04**| | El sistema deberá tener un tiempo máximo de respuesta de 5 segundos para cualquier operación de consulta. |
 
 ### 6.4.4 Requisitos de Mantenibilidad
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como estabilidad, facilidad de análisis, facilidad de cambio, facilidad de pruebas:
 
-  - El código de la aplicación será publicado en GitHub y sin patentes para que cualquier usuario pueda buscar fallos en la aplicación y ayudar a su mejora.
-  - Se forzará la actualización de la aplicación si se identifica algún bug que pueda afectar al sistema.
-  - El código fuente que se implemente en JAVA deberá cumplir las recomendaciones de Code Conventions for the Java Programming Language.
-  
+| **ID** | **Nombre** | **Descripción** |
+| :--: | :----- |:----- |
+|**RNFM_01**| | El código de la aplicación será publicado en GitHub y sin patentes para que cualquier usuario pueda buscar fallos en la aplicación y ayudar a su mejora. |
+|**RNFM_01**| | Se forzará la actualización de la aplicación si se identifica algún bug que pueda afectar al sistema. |
+|**RNFM_01**| | El código fuente que se implemente en JAVA deberá cumplir las recomendaciones de Code Conventions for the Java Programming Language. |
 
 ### 6.4.5 Requisitos de Portabilidad
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos relacionados con la escalabilidad (capacidad de instalación, capacidad de sustitución, adaptabilidad, coexistencia, compatibilidad con hardware o software, etc):
 
-  - La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen.
-  - La aplicación se instalará en todos los ordenadores de los centros de salud y coexistirá con las aplicaciones sanitarias propias de cada CCAA.
-  - El uso de está aplicación es compatible con el uso de cualquier otra aplicación.
-  - El sistema deberá evitar el uso de extensiones propietarias al estándar SQL-92 en el sistema de gestión de bases de datos que utilice.
-
+| **ID** | **Nombre** | **Descripción** |
+| :--: | :----- |:----- |
+|**RNFP_01**| | La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen.|
+|**RNFP_02**| | La aplicación se instalará en todos los ordenadores de los centros de salud y coexistirá con las aplicaciones sanitarias propias de cada CCAA.|
+|**RNFP_03**| | El uso de está aplicación es compatible con el uso de cualquier otra aplicación.|
+|**RNFP_04**| | El sistema deberá evitar el uso de extensiones propietarias al estándar SQL-92 en el sistema de gestión de bases de datos que utilice.|
 
 ### 6.4.6 Requisitos de Seguridad
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como accesos al sistema, identificación y autenticación, protección de datos y privacidad:
 
-  - Los permisos de acceso solo pueden ser modificados por los administradores.
-  - La validación de los nuevos registros solo la realizarán los superadministradores del Gobierno de España.
-  - El sistema debe seguir patrones de seguridad que incrementen la seguridad.
-  - El sistema debe sincronizar los datos de los 3 servidores cada 5 minutos.
-  - El sistema debe asegurar que los datos están protegidos de accesos no autorizados.
-  - El sistema controlará el acceso y lo permitirá solamente a usuarios autorizados.
-  - Los usuarios accederán al sistema con un nombre de usuario y contraseña.
-  - El sistema enviará una alerta a los administradores del sistema cuando ocurra alguno de los siguientes eventos: entrada al sistema por parte de un usuario, 2 o más intentos fallidos al introducir la contraseña de usuario y cambio de contraseña de usuario.
-  - El sistema deberá ser capaz de evitar ataques de inyección de SQL sistemáticos.
-  - Las contraseñas serán almacenadas en las bases de datos usando un algoritmo criptográfico para que no sean visibles a simple vista.
-
+| **ID** | **Nombre** | **Descripción** |
+| :--: | :----- |:----- |
+|**RNFS_01**| | Los permisos de acceso solo pueden ser modificados por los administradores.|
+|**RNFS_02**| | La validación de los nuevos registros solo la realizarán los superadministradores del Gobierno de España.|
+|**RNFS_03**| | El sistema debe seguir patrones de seguridad que incrementen la seguridad.|
+|**RNFS_04**| | El sistema debe sincronizar los datos de los 3 servidores cada 5 minutos.|
+|**RNFS_05**| | El sistema debe asegurar que los datos están protegidos de accesos no autorizados.|
+|**RNFS_06**| | El sistema controlará el acceso y lo permitirá solamente a usuarios autorizados.|
+|**RNFS_07**| | Los usuarios accederán al sistema con un nombre de usuario y contraseña.|
+|**RNFS_08**| | El sistema enviará una alerta a los administradores del sistema cuando ocurra alguno de los siguientes eventos: entrada al sistema por parte de un usuario, 2 o más intentos fallidos al introducir la contraseña de usuario y cambio de contraseña de usuario.|
+|**RNFS_09**| | El sistema deberá ser capaz de evitar ataques de inyección de SQL sistemáticos.|
+|**RNFS_10**| | Las contraseñas serán almacenadas en las bases de datos usando un algoritmo criptográfico para que no sean visibles a simple vista.|
 
 ### 6.4.7 Otros Requisitos No Funcionales
 Esta sección contiene otros requisitos no funcionales que se han identificado y que no pertenecen a ninguna de las categorías anteriores: 
-  
-  - No será necesario tener la aplicación abierta en los dispositivos móviles para que funcione correctamente.
-  - La aplicación debe contar con dos formularios, uno para informar de un caso positivo cercano de una persona dependiente, y otro para informar de síntomas compatibles. Estos formularios no se podrán enviar si contienen algún error y será el propio sistema el encargado de validarlos y gestionarlos.
+
+| **ID** | **Nombre** | **Descripción** |
+| :--: | :----- |:----- |
+|**RNFO_01**| | No será necesario tener la aplicación abierta en los dispositivos móviles para que funcione correctamente.|
+|**RNFO_02**| | La aplicación debe contar con dos formularios, uno para informar de un caso positivo cercano de una persona dependiente, y otro para informar de síntomas compatibles. Estos formularios no se podrán enviar si contienen algún error y será el propio sistema el encargado de validarlos y gestionarlos.|
 
 <br>
   
@@ -310,8 +313,8 @@ Estos requisitos identifican aquellos servicios disponibles en el entorno tecnol
   
    | **ID** | **Nombre** | **Descripción** |
    | :--: | :----- |:----- |
-   |**RIN_01**| | El sistema deberá utilizar el servicio @firma para todos los aspectos relacionados con validación y firma electrónica. |
-   |**RIN_02**| | El sistema deberá utilizar el servicio 'Dni electrónico' para todos los aspectos relacionados con la validación del DNI. |
+   |**RI_01**| | El sistema deberá utilizar el servicio @firma para todos los aspectos relacionados con validación y firma electrónica. |
+   |**RI_02**| | El sistema deberá utilizar el servicio 'Dni electrónico' para todos los aspectos relacionados con la validación del DNI. |
    
 <br>
 
@@ -342,8 +345,8 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
  | **ID** | **Nombre**  | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: | :-----: | :-----: | :-----: | :-----: |
- | **RI_01** |  | Alto | Alto | OB_04 |  
- | **RI_02** |  | Alto | Alto | OB_04, OB_07 |  
+ | **RFI_01** |  | Alto | Alto | OB_04 |  
+ | **RFI_02** |  | Alto | Alto | OB_04, OB_07 |  
  
  <br>
 
@@ -351,21 +354,21 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: | :-----:  | :-----: | :-----: | :-----: |
- | **RN_01** |  | Medio | Alto | OB_04 |
- | **RN_02** |  | Medio | Alto | OB_04 |  
- | **RN_03** |  | Alto | Alto | OB_04,OB_05 |     
- | **RN_04** |  | Alto | Alto | OB_05 |  
- | **RN_05** |  | Alto | Medio | OB_04 |  
- | **RN_06** |  | Medio | Medio | OB_04,OB_14 |    
- | **RN_07** |  | Alto | Alto | OB_04 |  
- | **RN_08** |  | Medio | Medio | OB_04,OB_05 |  
- | **RN_09** |  | Medio | Alto | OB_09 |     
- | **RN_10** |  | Medio | Alto | OB_10 |
- | **RN_11** |  | Alto | Medio | OB_11|  
- | **RN_12** |  | Bajo| Bajo | OB_03,OB_06|    
- | **RN_13** |  | Alto | Alto | OB_02,OB_04|  
- | **RN_14** |  | Alto | Alto | OB_02,OB_04 | 
- | **RN_15** |  | Alto | Alto | OB_02 | 
+ | **RFN_01** |  | Medio | Alto | OB_04 |
+ | **RFN_02** |  | Medio | Alto | OB_04 |  
+ | **RFN_03** |  | Alto | Alto | OB_04,OB_05 |     
+ | **RFN_04** |  | Alto | Alto | OB_05 |  
+ | **RFN_05** |  | Alto | Medio | OB_04 |  
+ | **RFN_06** |  | Medio | Medio | OB_04,OB_14 |    
+ | **RFN_07** |  | Alto | Alto | OB_04 |  
+ | **RFN_08** |  | Medio | Medio | OB_04,OB_05 |  
+ | **RFN_09** |  | Medio | Alto | OB_09 |     
+ | **RFN_10** |  | Medio | Alto | OB_10 |
+ | **RFN_11** |  | Alto | Medio | OB_11|  
+ | **RFN_12** |  | Bajo| Bajo | OB_03,OB_06|    
+ | **RFN_13** |  | Alto | Alto | OB_02,OB_04|  
+ | **RFN_14** |  | Alto | Alto | OB_02,OB_04 | 
+ | **RFN_15** |  | Alto | Alto | OB_02 | 
 
 <br>
 
@@ -373,24 +376,62 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
  | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: |  :-----: | :-----: | :-----: | :-----: |
- | **RC_01** |  | Alto | Alto | OB_03,OB_07,OB_08,OB_12 |  
- | **RC_02** |  | Bajo | Medio | OB_08,OB_12 |  
- | **RC_03** |  | Bajo | Medio | OB_07,OB_12 |    
- | **RC_04** |  | Bajo | Medio | OB_08 |  
- | **RC_05** |  | Alto | Bajo | OB_13 |  
- | **RC_06** |  | Medio | Bajo | OB_13 |     
- | **RC_07** |  | Alto | Bajo | OB_13 |   
- | **RC_08** |  | Bajo | Bajo | OB_13 |  
- | **RC_09** |  | Medio | Medio | OB_07 |     
- | **RC_10** |  | Alto | Alto | OB_14 |  
- | **RC_11** |  | Bajo | Alto | OB_14 |  
- | **RC_12** |  | Alto | Alto | OB_14 |     
- | **RC_13** |  | Bajo | Alto | OB_10 |  
- | **RC_14** |  | Bajo | Alto | OB_09 |   
+ | **RFC_01** |  | Alto | Alto | OB_03,OB_07,OB_08,OB_12 |  
+ | **RFC_02** |  | Bajo | Medio | OB_08,OB_12 |  
+ | **RFC_03** |  | Bajo | Medio | OB_07,OB_12 |    
+ | **RFC_04** |  | Bajo | Medio | OB_08 |  
+ | **RFC_05** |  | Alto | Bajo | OB_13 |  
+ | **RFC_06** |  | Medio | Bajo | OB_13 |     
+ | **RFC_07** |  | Alto | Bajo | OB_13 |   
+ | **RFC_08** |  | Bajo | Bajo | OB_13 |  
+ | **RFC_09** |  | Medio | Medio | OB_07 |     
+ | **RFC_10** |  | Alto | Alto | OB_14 |  
+ | **RFC_11** |  | Bajo | Alto | OB_14 |  
+ | **RFC_12** |  | Alto | Alto | OB_14 |     
+ | **RFC_13** |  | Bajo | Alto | OB_10 |  
+ | **RFC_14** |  | Bajo | Alto | OB_09 |   
 
 <br>
 
 >	Matriz de trazabilidad de Requisitos no Funcionales frente a Requisitos Generales.
+
+ | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
+ | :--: |  :-----: | :-----: | :-----: | :-----: |
+ | **RNFF_01** |  |  |  |  |  
+ | **RNFF_02** |  |  |  |  |  
+ | **RNFF_03** |  |  |  |  |    
+ | **RNFF_04** |  |  |  |  |  
+ | **RNFF_05** |  |  |  |  |  
+ | **RNFU_01** |  |  |  |  |     
+ | **RNFU_02** |  |  |  |  |   
+ | **RNFU_03** |  |  |  |  |  
+ | **RNFU_04** |  |  |  |  |     
+ | **RNFU_05** |  |  |  |  |  
+ | **RNFE_01** |  |  |  |  |  
+ | **RNFE_02** |  |  |  |  |     
+ | **RNFE_03** |  |  |  |  |  
+ | **RNFE_04** |  |  |  |  |
+ | **RNFM_01** |  |  |  |  |  
+ | **RNFM_02** |  |  |  |  |  
+ | **RNFM_03** |  |  |  |  |    
+ | **RNFM_04** |  |  |  |  |  
+ | **RNFP_01** |  |  |  |  |  
+ | **RNFP_02** |  |  |  |  |     
+ | **RNFP_03** |  |  |  |  |   
+ | **RNFP_04** |  |  |  |  |  
+ | **RNFS_01** |  |  |  |  |     
+ | **RNFS_02** |  |  |  |  |  
+ | **RNFS_03** |  |  |  |  |  
+ | **RNFS_04** |  |  |  |  |     
+ | **RNFS_05** |  |  |  |  |  
+ | **RNFS_06** |  |  |  |  |
+ | **RNFS_07** |  |  |  |  |  
+ | **RNFS_08** |  |  |  |  |  
+ | **RNFS_09** |  |  |  |  |    
+ | **RNFS_10** |  |  |  |  |  
+ | **RNFO_01** |  |  |  |  | 
+ | **RNFO_02** |  |  |  |  | 
+
 
 >	Matriz de trazabilidad de Restricciones Técnicas frente a Requisitos Generales.
 
@@ -409,5 +450,5 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 | **ID** | **Nombre** | **Criterios de aceptación** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: | :-----: | :-----: | :-----: | :-----: | :-----: |
- | **RIN_01** |  | Siempre que sea necesario usar la firma electrónica se usará el servicio @firma | Medio | Medio | OB_01,OB_03,OB_14 |
- | **RIN_02** |  | Se hará uso del Dni electrónico siempre que sea necesario verificar un DNI | Medio | Medio | OB_01,OB_03,OB_14 |
+ | **RI_01** |  | Siempre que sea necesario usar la firma electrónica se usará el servicio @firma | Medio | Medio | OB_01,OB_03,OB_14 |
+ | **RI_02** |  | Se hará uso del Dni electrónico siempre que sea necesario verificar un DNI | Medio | Medio | OB_01,OB_03,OB_14 |
