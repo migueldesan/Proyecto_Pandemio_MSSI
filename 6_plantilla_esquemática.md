@@ -4,6 +4,7 @@
 ## 6.1 Requisitos Generales del Sistema
 Esta sección debe contener la especificación de los requisitos generales del sistema, también denominados características del sistema (system features) u objetivos del sistema.
 
+Los objetivos anteriormente comentados son los objetivos de negocio que ya se han especificado anteriormente en el punto 4.1 del documento, en este mismo puntos se hace también referencia a sus subobjetivos.
 <br>
 
 ## 6.2 Casos de uso del Sistema 
