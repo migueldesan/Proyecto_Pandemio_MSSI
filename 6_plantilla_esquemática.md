@@ -351,7 +351,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
  | **RFI_02** | Historial médico | Medio | Bajo | OB_04, OB_07 |  
  | **RFI_03** | Personas en cuarentena | Medio | Alto | OB_10, OB_11 |  
  | **RFI_04** | Pendientes cita médica | Medio | Alto | OB_07, OB_08, OB_09 |  
- | **RFI_05** | Historial usuario | Alto | Bajo | OB_04, OB_05 | 
+ | **RFI_05** | Historial usuario | Medio | Bajo | OB_04, OB_05 | 
  
  
  <br>
