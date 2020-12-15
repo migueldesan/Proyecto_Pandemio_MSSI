@@ -238,9 +238,9 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 | :--: | :----- |:----- |
 |**RNFU_01**| Tiempo de aprendizaje bajo| El tiempo de aprendizaje del sistema debe ser inferior a 2 horas. |
 |**RNFU_02**| Manuales de usuario | El sistema debe contar con manuales de usuario y ayuda online. |
-|**RNFU_03**| Clarificación de erroes| El sistema proporcionará errores claros y concisos. |
+|**RNFU_03**| Clarificación de errores| El sistema proporcionará errores claros y concisos. |
 |**RNFU_04**| Múltiples idiomas | Los usuarios podrán cambiar el dialecto o el idioma de la aplicación pudiendo elegir entre español, catalán, valenciano, gallego, euskera e inglés. |
-|**RNFU_05**| | El sistema deberá permitir en el 80% de las veces que con un máximo de 5 clicks sea suficiente para llegar a la información deseada. |
+|**RNFU_05**| Fácil acceso a la información deseada | El sistema deberá permitir en el 80% de las veces que con un máximo de 5 clicks sea suficiente para llegar a la información deseada. |
 
 ### 6.4.3 Requisitos de Eficiencia
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como tiempo de respuesta:
@@ -248,43 +248,43 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
 |**RNFE_01**| Multiples transacciones | El sistema debe ser capaz de procesar 15 millones de transacciones por minuto. |
-|**RNFE_02**| | Toda transacción debe responder al usuario en menos de 10 segundos. |
-|**RNFE_03**| | El sistema debe soportar 5 millones de conexiones simultáneas. |
-|**RNFE_04**| | El sistema deberá tener un tiempo máximo de respuesta de 5 segundos para cualquier operación de consulta. |
+|**RNFE_02**| Respuesta rápida| Toda transacción debe responder al usuario en menos de 10 segundos. |
+|**RNFE_03**| Conexiones simulténeas | El sistema debe soportar 5 millones de conexiones simultáneas. |
+|**RNFE_04**| Tiempo de respuesta rápido | El sistema deberá tener un tiempo máximo de respuesta de 5 segundos para cualquier operación de consulta. |
 
 ### 6.4.4 Requisitos de Mantenibilidad
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como estabilidad, facilidad de análisis, facilidad de cambio, facilidad de pruebas:
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RNFM_01**| | El código de la aplicación será publicado en GitHub y sin patentes para que cualquier usuario pueda buscar fallos en la aplicación y ayudar a su mejora. |
-|**RNFM_02**| | Se forzará la actualización de la aplicación si se identifica algún bug que pueda afectar al sistema. |
-|**RNFM_03**| | El código fuente que se implemente en JAVA deberá cumplir las recomendaciones de Code Conventions for the Java Programming Language. |
+|**RNFM_01**| Código fuente público | El código de la aplicación será publicado en GitHub y sin patentes para que cualquier usuario pueda buscar fallos en la aplicación y ayudar a su mejora. |
+|**RNFM_02**| Actualizaciones forzadas | Se forzará la actualización de la aplicación si se identifica algún bug que pueda afectar al sistema. |
+|**RNFM_03**| Lenguaje  Java | El código fuente que se implemente en JAVA deberá cumplir las recomendaciones de Code Conventions for the Java Programming Language. |
 
 ### 6.4.5 Requisitos de Portabilidad
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos relacionados con la escalabilidad (capacidad de instalación, capacidad de sustitución, adaptabilidad, coexistencia, compatibilidad con hardware o software, etc):
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RNFP_01**| | La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen.|
-|**RNFP_02**| | La aplicación se instalará en todos los ordenadores de los centros de salud y coexistirá con las aplicaciones sanitarias propias de cada CCAA.|
-|**RNFP_03**| | El uso de está aplicación es compatible con el uso de cualquier otra aplicación.|
-|**RNFP_04**| | El sistema deberá evitar el uso de extensiones propietarias al estándar SQL-92 en el sistema de gestión de bases de datos que utilice.|
+|**RNFP_01**| Instalación automática | La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen.|
+|**RNFP_02**| Impa¡lantación en centros de salud| La aplicación se instalará en todos los ordenadores de los centros de salud y coexistirá con las aplicaciones sanitarias propias de cada CCAA.|
+|**RNFP_03**| Compatibilidad entre sistemas | El uso de está aplicación es compatible con el uso de cualquier otra aplicación.|
+|**RNFP_04**| Evitar uso de extensiones | El sistema deberá evitar el uso de extensiones propietarias al estándar SQL-92 en el sistema de gestión de bases de datos que utilice.|
 
 ### 6.4.6 Requisitos de Seguridad
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como accesos al sistema, identificación y autenticación, protección de datos y privacidad:
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RNFS_01**| | Los permisos de acceso solo pueden ser modificados por los administradores.|
-|**RNFS_02**| | La validación de los nuevos registros solo la realizarán los superadministradores del Gobierno de España.|
-|**RNFS_03**| | El sistema debe seguir patrones de seguridad que incrementen la seguridad.|
-|**RNFS_04**| | El sistema debe asegurar que los datos están protegidos de accesos no autorizados.|
-|**RNFS_05**| | El sistema controlará el acceso y lo permitirá solamente a usuarios autorizados.|
-|**RNFS_06**| | Los usuarios accederán al sistema con un nombre de usuario y contraseña.|
-|**RNFS_07**| | El sistema enviará una alerta a los administradores del sistema cuando ocurra alguno de los siguientes eventos: entrada al sistema por parte de un usuario, 2 o más intentos fallidos al introducir la contraseña de usuario y cambio de contraseña de usuario.|
-|**RNFS_08**| | El sistema deberá ser capaz de evitar ataques de inyección de SQL sistemáticos.|
-|**RNFS_09**| | Las contraseñas serán almacenadas en las bases de datos usando un algoritmo criptográfico para que no sean visibles a simple vista.|
+|**RNFS_01**| Modificación de permisos | Los permisos de acceso solo pueden ser modificados por los administradores.|
+|**RNFS_02**| Validación de nuevos registros | La validación de los nuevos registros solo la realizarán los superadministradores del Gobierno de España.|
+|**RNFS_03**| Patrones de seguridad| El sistema debe seguir patrones de seguridad que incrementen la seguridad.|
+|**RNFS_04**| Protección a accesos no autorizados | El sistema debe asegurar que los datos están protegidos de accesos no autorizados.|
+|**RNFS_05**| Control de acceso | El sistema controlará el acceso y lo permitirá solamente a usuarios autorizados.|
+|**RNFS_06**| Credenciales de acceso | Los usuarios accederán al sistema con un nombre de usuario y contraseña.|
+|**RNFS_07**| Alertas| El sistema enviará una alerta a los administradores del sistema cuando ocurra alguno de los siguientes eventos: entrada al sistema por parte de un usuario, 2 o más intentos fallidos al introducir la contraseña de usuario y cambio de contraseña de usuario.|
+|**RNFS_08**| Evitar ataques inyección SQL| El sistema deberá ser capaz de evitar ataques de inyección de SQL sistemáticos.|
+|**RNFS_09**| Codificación de contraseñas | Las contraseñas serán almacenadas en las bases de datos usando un algoritmo criptográfico para que no sean visibles a simple vista.|
 
 ### 6.4.7 Otros Requisitos No Funcionales
 Esta sección contiene otros requisitos no funcionales que se han identificado y que no pertenecen a ninguna de las categorías anteriores: 
@@ -292,7 +292,7 @@ Esta sección contiene otros requisitos no funcionales que se han identificado y
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
 |**RNFO_01**| | No será necesario tener la aplicación abierta en los dispositivos móviles para que funcione correctamente.|
-|**RNFO_02**| | La aplicación debe contar con dos formularios, uno para informar de un caso positivo cercano de una persona dependiente, y otro para informar de síntomas compatibles. Estos formularios no se podrán enviar si contienen algún error y será el propio sistema el encargado de validarlos y gestionarlos.|
+|**RNFO_02**| Dos tipos de formularios | La aplicación debe contar con dos formularios, uno para informar de un caso positivo cercano de una persona dependiente, y otro para informar de síntomas compatibles. Estos formularios no se podrán enviar si contienen algún error y será el propio sistema el encargado de validarlos y gestionarlos.|
 
 <br>
   
@@ -301,12 +301,12 @@ Esta sección contiene las restricciones técnicas que se imponen al sistema sof
 
   | **ID** | **Nombre** | **Descripción** |
   | :--: | :----- |:----- |
-  |**RT_01**| | El motor de la base de datos donde se almacenará toda la información será MySQL. |
-  |**RT_02**| | El código de la aplicación estará escrito en Kotlin y XML para la parte de cliente, y Java para la parte de servidor. |
-  |**RT_03**| | El sistema utilizará la ubicación por GPS y/o por triangulación de antenas móviles. |
-  |**RT_04**| | Cualquier intercambio de datos vía Internet que realice el software se realizará por medio del protocolo encriptado HTTPS. |
-  |**RT_05**| | Los servidores usados para almacenar datos serán MySQL server, PostgreSQL server y MongoDB server. |
-  |**RT_06**| | La aplicación será compatible en todos los SO de los teléfonos móviles (Android, iOS, HarmonyOS, etc.) y en cualquier navegador (Windows, Linux, etc.). |
+  |**RT_01**| MySQL  | El motor de la base de datos donde se almacenará toda la información será MySQL. |
+  |**RT_02**| Kotlin, XML y Java | El código de la aplicación estará escrito en Kotlin y XML para la parte de cliente, y Java para la parte de servidor. |
+  |**RT_03**| GPY  y triagulación por antenas móviles | El sistema utilizará la ubicación por GPS y/o por triangulación de antenas móviles. |
+  |**RT_04**| Protocolo HTTPS | Cualquier intercambio de datos vía Internet que realice el software se realizará por medio del protocolo encriptado HTTPS. |
+  |**RT_05**| MYSQL server, PortgreSQL server y MongoDB | Los servidores usados para almacenar datos serán MySQL server, PostgreSQL server y MongoDB server. |
+  |**RT_06**| Compatibilidad de SO | La aplicación será compatible en todos los SO de los teléfonos móviles (Android, iOS, HarmonyOS, etc.) y en cualquier navegador (Windows, Linux, etc.). |
   
 <br>  
   
@@ -315,8 +315,8 @@ Estos requisitos identifican aquellos servicios disponibles en el entorno tecnol
   
    | **ID** | **Nombre** | **Descripción** |
    | :--: | :----- |:----- |
-   |**RI_01**| | El sistema deberá utilizar el servicio @firma para todos los aspectos relacionados con validación y firma electrónica. |
-   |**RI_02**| | El sistema deberá utilizar el servicio 'Dni electrónico' para todos los aspectos relacionados con la validación del DNI. |
+   |**RI_01**| servicio @firma | El sistema deberá utilizar el servicio @firma para todos los aspectos relacionados con validación y firma electrónica. |
+   |**RI_02**| servicio 'Dni electrónico | El sistema deberá utilizar el servicio 'Dni electrónico' para todos los aspectos relacionados con la validación del DNI. |
    
 <br>
 
