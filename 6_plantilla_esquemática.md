@@ -245,8 +245,8 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
 |**RNFE_01**| Multiples transacciones | El sistema debe ser capaz de procesar 15 millones de transacciones por minuto. |
-|**RNFE_02**| | Toda transacción debe responder al usuario en menos de 10 segundos. |
-|**RNFE_03**| | El sistema debe soportar 5 millones de conexiones simultáneas. |
+|**RNFE_02**| Respuesta rápida | Toda transacción debe responder al usuario en menos de 10 segundos. |
+|**RNFE_03**| Múltiples conexiones | El sistema debe soportar 5 millones de conexiones simultáneas. |
 |**RNFE_04**| | El sistema deberá tener un tiempo máximo de respuesta de 5 segundos para cualquier operación de consulta. |
 
 ### 6.4.4 Requisitos de Mantenibilidad
@@ -254,9 +254,9 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RNFM_01**| | El código de la aplicación será publicado en GitHub y sin patentes para que cualquier usuario pueda buscar fallos en la aplicación y ayudar a su mejora. |
-|**RNFM_02**| | Se forzará la actualización de la aplicación si se identifica algún bug que pueda afectar al sistema. |
-|**RNFM_03**| | El código fuente que se implemente en JAVA deberá cumplir las recomendaciones de Code Conventions for the Java Programming Language. |
+|**RNFM_01**| Código público| El código de la aplicación será publicado en GitHub y sin patentes para que cualquier usuario pueda buscar fallos en la aplicación y ayudar a su mejora. |
+|**RNFM_02**| Forzado de actualizaciones | Se forzará la actualización de la aplicación si se identifica algún bug que pueda afectar al sistema. |
+|**RNFM_03**| Lenguaje JAVA | El código fuente que se implemente en JAVA deberá cumplir las recomendaciones de Code Conventions for the Java Programming Language. |
 
 ### 6.4.5 Requisitos de Portabilidad
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos relacionados con la escalabilidad (capacidad de instalación, capacidad de sustitución, adaptabilidad, coexistencia, compatibilidad con hardware o software, etc):
