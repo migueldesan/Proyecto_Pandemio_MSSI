@@ -168,6 +168,9 @@ Estos requisitos especifican qué información debe almacenar el sistema para po
 | :--: | :----- |:----- |
 |**RFI_01**| Historial de ubicación | El sistema almacenará el historial de ubicación de cada teléfono móvil el número de días que establezcan los criterios estrictamente epidemiológicos. |
 |**RFI_02**| Historial médico | El sistema almacenará el historial médico de todos los pacientes. |
+|**RFI_03**| Personas en cuarentena | El sistema almacenará un listado de los pacientes en cuarentena. |
+|**RFI_04**| Pendientes cita médica | El sistema almacenará un listado de personas con cita médica. |
+|**RFI_05**| Historial usuario | El sistema almacenará un historial de los datos a los que ha accedido cada usuario. |
  
 ### 6.3.2 Requisitos de Reglas de Negocio del Sistema
 Estos requisitos especifican qué reglas de negocio, políticas y restricciones debe respetar el sistema, evitando que se incumplan durante su funcionamiento.
@@ -245,8 +248,8 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
 |**RNFE_01**| Multiples transacciones | El sistema debe ser capaz de procesar 15 millones de transacciones por minuto. |
-|**RNFE_02**| Respuesta rápida | Toda transacción debe responder al usuario en menos de 10 segundos. |
-|**RNFE_03**| Múltiples conexiones | El sistema debe soportar 5 millones de conexiones simultáneas. |
+|**RNFE_02**| | Toda transacción debe responder al usuario en menos de 10 segundos. |
+|**RNFE_03**| | El sistema debe soportar 5 millones de conexiones simultáneas. |
 |**RNFE_04**| | El sistema deberá tener un tiempo máximo de respuesta de 5 segundos para cualquier operación de consulta. |
 
 ### 6.4.4 Requisitos de Mantenibilidad
@@ -254,9 +257,9 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RNFM_01**| Código público| El código de la aplicación será publicado en GitHub y sin patentes para que cualquier usuario pueda buscar fallos en la aplicación y ayudar a su mejora. |
-|**RNFM_02**| Forzado de actualizaciones | Se forzará la actualización de la aplicación si se identifica algún bug que pueda afectar al sistema. |
-|**RNFM_03**| Lenguaje JAVA | El código fuente que se implemente en JAVA deberá cumplir las recomendaciones de Code Conventions for the Java Programming Language. |
+|**RNFM_01**| | El código de la aplicación será publicado en GitHub y sin patentes para que cualquier usuario pueda buscar fallos en la aplicación y ayudar a su mejora. |
+|**RNFM_02**| | Se forzará la actualización de la aplicación si se identifica algún bug que pueda afectar al sistema. |
+|**RNFM_03**| | El código fuente que se implemente en JAVA deberá cumplir las recomendaciones de Code Conventions for the Java Programming Language. |
 
 ### 6.4.5 Requisitos de Portabilidad
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos relacionados con la escalabilidad (capacidad de instalación, capacidad de sustitución, adaptabilidad, coexistencia, compatibilidad con hardware o software, etc):
@@ -344,8 +347,12 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
  | **ID** | **Nombre**  | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: | :-----: | :-----: | :-----: | :-----: |
- | **RFI_01** |  | Alto | Alto | OB_04 |  
- | **RFI_02** |  | Alto | Alto | OB_04, OB_07 |  
+ | **RFI_01** | Historial de ubicación | Alto | Alto | OB_04 |  
+ | **RFI_02** | Historial médico | Alto | Alto | OB_04, OB_07 |  
+ | **RFI_03** | Personas en cuarentena | Alto | Alto | OB_10, OB_11 |  
+ | **RFI_04** | Pendientes cita médica | Alto | Alto | OB_07, OB_08, OB_09 |  
+ | **RFI_05** | Historial usuario | Alto | Alto | OB_04, OB_05 | 
+ 
  
  <br>
 
