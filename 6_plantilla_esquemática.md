@@ -42,11 +42,11 @@ A continuación, se especifican todos los casos de uso que se han identificado e
 
 | CU_01 | Comprobar cuarentena |
 | :--: | :----- |
-|**Precondición**| Una persona debe permanecer en cuarentena y se le asigna a un sanitario su seguimiento.  |
-|**Descripción**| Un sanitario/rastreador puede ver las personas que deben realizar cuarentena. |
-|**Secuencia Normal**| 1. El sanitario abre la aplicación. <br> 2. El sanitario elige la opción “Comprobar cuarentena”. <br> 3. La aplicación muestra una lista de personas en cuarentena. <br> 4. El sanitario puede buscar personas y comprobar el estado de su cuarentena. <br> 5. Posibilidad de generar un aviso a las fuerzas del orden en caso de incumplimiento.|
-|**Postcondición**|  |
-|**Excepciones**| 3a. Si el sanitario no tiene ningún paciente en cuarentena se muestra una lista vacía.  |
+|**Precondición**| Una persona debe permanecer en cuarentena y se le asigna a un sanitario su seguimiento. Además, el sanitario/rastreador debe estar logueado en la aplicación. |
+|**Descripción**| Un sanitario/rastreador puede ver las personas que deben realizar cuarentena y comprobar que la están realizando. |
+|**Secuencia Normal**| 1. El sanitario abre la aplicación. <br> 2. El sanitario elige la opción “Comprobar cuarentena”. <br> 3. La aplicación muestra una lista de personas en cuarentena. <br> 4. El sanitario busca en la lista a una persona. <br> 5. El sanitario entra a ver los detalles de esa persona. <br> 6. El sanitario solicita a esa persona que verifique su ubicación actual (CU_11).|
+|**Postcondición**| El usuario ha verificado su ubicación actual y queda reflejado en el sistema |
+|**Excepciones**| 3a. Si el sanitario no tiene ningún paciente en cuarentena se muestra una lista vacía. <br> 6a. El usuario no verifica su ubicación actual. <br> &nbsp;&nbsp;&nbsp; 6a.1. El sanitario escoge la opción "Avisar incumplimiento cuarentena". <br> &nbsp;&nbsp;&nbsp; 6a.2.El sanitario añade comentarios si es necesario. <br> &nbsp;&nbsp;&nbsp; 6a.3. El sanitario envía el aviso a las fuerzas del orden. <br> 6b. El usuario verifica su ubicación actual pero no está cumpliendo la cuarentena impuesta. <br> &nbsp;&nbsp;&nbsp; 6b.1. El sanitario escoge la opción "Avisar incumplimiento cuarentena". <br> &nbsp;&nbsp;&nbsp; 6b.2.El sanitario añade comentarios si es necesario. <br> &nbsp;&nbsp;&nbsp; 6b.3. El sanitario envía el aviso a las fuerzas del orden. |
 |**Importancia**| Alta. |
 |**Prioridad**| Alta. |
 
@@ -57,39 +57,38 @@ A continuación, se especifican todos los casos de uso que se han identificado e
 |**Secuencia Normal**| 1. El sanitario abre la aplicación. <br> 2. El sanitario elige la opción “Ver avisos fuerzas del orden”. <br> 3. La aplicación muestra todos los avisos que hayan emitido las fuerzas del orden sobre casos abiertos previamente por el sanitario. <br> 4. El sanitario abre un aviso para ver los detalles y las nuevas noticias sobre el caso. |
 |**Postcondición**| El sanitario visualiza los detalles de uno de los casos que tiene abiertos. |
 |**Excepciones**| 3a. Si el sanitario no tiene ningún caso abierto se muestra una lista vacía.  |
-|**Importancia**| Alta. |
-|**Prioridad**| Alta. |
+|**Importancia**| Media. |
+|**Prioridad**| Media. |
 
 | CU_03 | Ver citas médicas |
 | :--: | :----- |
-|**Precondición**| Un sanitario tiene citas médicas fijadas con pacientes. |
+|**Precondición**| El sanitario debe estar previamente logueado y tiene citas médicas fijadas con pacientes.  |
 |**Descripción**| Un sanitario/rastreador puede ver la fecha, hora e historial médico del paciente de las citas que tiene programadas. |
-|**Secuencia Normal**| 1. El sanitario abre la aplicación. <br> 2. El sanitario elige la opción “Ver citas médicas”. <br> 3. La aplicación muestra fecha, hora y nombre del paciente de las citas programadas. <br> 4. Posibilidad de seleccionar un paciente con cita y ver su historial médico. <br> 5. Posibilidad de generar un aviso a las fuerzas del orden en caso de que el paciente no se presente. |
-|**Postcondición**| El sanitario visualiza la agenda de citas programadas. |
-|**Excepciones**| 3a. Si el sanitario no tiene ninguna cita programada se muestra una lista vacía.  |
-|**Importancia**| Media. |
-|**Prioridad**| Media. |
+|**Secuencia Normal**| 1. El sanitario abre la aplicación. <br> 2. El sanitario elige la opción “Ver citas médicas”. <br> 3. La aplicación muestra fecha, hora y nombre de los usuarios con citas programadas.  <br> 4. Un usuario acude a su cita médica.  <br> 5. El sanitario entra a ver los detalles de ese usuario. <br> 6. El sanitario actualiza el historial médico del usuario. |
+|**Postcondición**| El sanitario visualiza la agenda de citas programadas y actualiza cada una de ellas. |
+|**Excepciones**| 3a. Si el sanitario no tiene ninguna cita programada se muestra una lista vacía.  <br> 4a. El usuario no acude a la cita médica que tiene programada. <br> &nbsp;&nbsp;&nbsp; 4a.1. El sanitario escoge la opción "Avisar incumplimiento cita médica". <br> &nbsp;&nbsp;&nbsp; 4a.2.El sanitario añade comentarios si es necesario. <br> &nbsp;&nbsp;&nbsp; 4a.3. El sanitario envía el aviso a las fuerzas del orden. |
+|**Importancia**| Alta. |
+|**Prioridad**| Alta. |
 
 | CU_04 | Ver avisos |
 | :--: | :----- |
 |**Precondición**| El usuario de las fuerzas del orden debe estar logueado. |
 |**Descripción**| El usuario de las fuerzas del orden accede a una lista con los avisos de los sanitarios sobre personas que o bien no cumplen cuarentena o bien no han acudido a su cita médica. |
-|**Secuencia Normal**| 1. El usuario de las fuerzas del orden abre la aplicación. <br> 2. Elige la opción “Ver avisos”. <br> 3. La aplicación muestra todos los avisos que hayan emitido los sanitarios. <br> 4. Tiene la posibilidad de realizar actualizaciones en la situación de algún aviso y de cerrar el caso. |
+|**Secuencia Normal**| 1. El usuario de las fuerzas del orden abre la aplicación. <br> 2. Elige la opción “Ver avisos”. <br> 3. La aplicación muestra todos los avisos que hayan emitido los sanitarios. <br> 4. El usuario de las fuerzas del orden abre un caso <br> 5.El usuario de las fuerzas del orden investiga el caso. <br> 6. El usuario de las fuerzas del orden actualiza el caso. <br> 7. El usuario de las fuerzas del orden cierra el caso. |
 |**Postcondición**| El usuario de las fuerzas del orden visualiza los avisos realizados por los sanitarios. |
 |**Excepciones**| 3a. Si no hubiera ningún aviso sanitario se muestra una lista vacía.  |
-|**Importancia**| Media. |
-|**Prioridad**| Baja. |
+|**Importancia**| Alta. |
+|**Prioridad**| Alta. |
 
 | CU_05 | Revisar incidencia |
 | :--: | :----- |
 |**Precondición**| Es necesario estar logueado en la aplicación. |
-|**Descripción**| El Gobierno de España puede ver estadísticas generales y por zonas, además de un mapa de calor, para ver que zonas están más afectadas y tomar las medidas necesarias en función de esos datos. |
+|**Descripción**| El Gobierno de España puede ver estadísticas generales y por zonas, además de un mapa de calor, para ver qué zonas están más afectadas y tomar las medidas necesarias en función de esos datos. |
 |**Secuencia Normal**| 1. El Gobierno abre la aplicación. <br> 2. Elige la opción “Revisar incidencia”. <br> 3. La aplicación muestra estadísticas generales y de las zonas más afectadas.  |
 |**Postcondición**| En función de los datos obtenidos, se toman las medidas necesarias para reducir el impacto de la nueva pandemia en la población. |
-|**Excepciones**| Ninguna.  |
+|**Excepciones**| Ninguna. |
 |**Importancia**| Alta. |
-|**Prioridad**| Alta. |
-
+|**Prioridad**| Media. |
 
 | CU_06 | Ver citas médicas propias |
 | :--: | :----- |
@@ -188,8 +187,9 @@ Estos requisitos especifican qué reglas de negocio, políticas y restricciones 
 |**RN_11**| | Los sanitarios y rastreadores deberán comprobar que los casos diagnosticados como positivos cumplen la cuarentena establecida. |
 |**RN_12**| | El Ministerio de Sanidad deberá crear campañas publicitarias para fomentar que las personas con dispositivos móviles informen de casos positivos en las personas dependientes que tengan a su cargo que no dispongan de teléfono móvil o si comienzan a desarrollar algún síntoma. |
 |**RN_13**| | El sistema utilizará localización por triangulación de antenas móviles si puede garantizar una "cercanía" de distancia menor a 5 metros, si no utlilizará la localización por GPS. |
-|**RN_14**| | La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen. |
-|**RN_15**| | El sistema solo almacenará la ubicación obtenida por GPS si el teléfono móvil está en modo avión. |
+|**RN_14**| | El sistema solo almacenará la ubicación obtenida por GPS si el teléfono móvil está en modo avión. |
+|**RN_15**| | La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen. |
+
 
 ### 6.3.3 Requisitos de Conducta del Sistema
 Estos requisitos especifican cualquier otro comportamiento deseado del sistema que no se haya especificado mediante los casos de uso del sistema, como generación de informes, funcionalidades transversales a varios casos de uso del sistema, etc. También describen los servicios que debe ofrecer el sistema para que los usuarios u otros sistemas puedan realizar sus tareas de negocio:
@@ -325,10 +325,10 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 | **ID** | **Nombre** | **Criterios de aceptación** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: | :-----: | :-----: | :-----: | :-----: | :-----: |
  | **CU_01** | Comprobar cuarentena | | Alto | Alto | OB_10,OB_11 |
- | **CU_02** | Ver avisos fuerzas del orden| | Medio | Alto | OB_09,OB_10 |
- | **CU_03** | Ver citas médicas | | Medio | Medio | OB_09 |
- | **CU_04** | Ver avisos | | Medio | Bajo | OB_09,OB_10 |
- | **CU_05** | Revisar incidencia| | Alto | Alto | OB_06,OB_13,OB_14 |
+ | **CU_02** | Ver avisos fuerzas del orden| | Medio | Medio | OB_09,OB_10 |
+ | **CU_03** | Ver citas médicas | | Medio | Alto | OB_09 |
+ | **CU_04** | Ver avisos | | Medio | Alto | OB_09,OB_10 |
+ | **CU_05** | Revisar incidencia| | Alto | Medio | OB_06,OB_13,OB_14 |
  | **CU_06** | Ver citas médicas propias | | Bajo | Alto | OB_02, OB_03,OB_07,OB_08|
  | **CU_07** | Ver cuarentena establecida| | Bajo | Alto | OB_02, OB_03|
  | **CU_08** | Informar de caso cercano positivo sin móvil | | Bajo | Bajo | OB_02, OB_03,OB_04,OB_05,OB_07,OB_08 |
@@ -363,8 +363,8 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
  | **RN_10** |  | Medio | Alto | OB_10 |
  | **RN_11** |  | Alto | Medio | OB_11|  
  | **RN_12** |  | Bajo| Bajo | OB_03,OB_06|    
- | **RN_13** |  | Alto | Alto | OB_04|  
- | **RN_14** |  | Alto | Alto | OB_02 | 
+ | **RN_13** |  | Alto | Alto | OB_02,OB_04|  
+ | **RN_14** |  | Alto | Alto | OB_02,OB_04 | 
  | **RN_15** |  | Alto | Alto | OB_02 | 
 
 <br>
