@@ -255,8 +255,8 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
 |**RNFM_01**| | El código de la aplicación será publicado en GitHub y sin patentes para que cualquier usuario pueda buscar fallos en la aplicación y ayudar a su mejora. |
-|**RNFM_01**| | Se forzará la actualización de la aplicación si se identifica algún bug que pueda afectar al sistema. |
-|**RNFM_01**| | El código fuente que se implemente en JAVA deberá cumplir las recomendaciones de Code Conventions for the Java Programming Language. |
+|**RNFM_02**| | Se forzará la actualización de la aplicación si se identifica algún bug que pueda afectar al sistema. |
+|**RNFM_03**| | El código fuente que se implemente en JAVA deberá cumplir las recomendaciones de Code Conventions for the Java Programming Language. |
 
 ### 6.4.5 Requisitos de Portabilidad
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos relacionados con la escalabilidad (capacidad de instalación, capacidad de sustitución, adaptabilidad, coexistencia, compatibilidad con hardware o software, etc):
@@ -276,13 +276,12 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 |**RNFS_01**| | Los permisos de acceso solo pueden ser modificados por los administradores.|
 |**RNFS_02**| | La validación de los nuevos registros solo la realizarán los superadministradores del Gobierno de España.|
 |**RNFS_03**| | El sistema debe seguir patrones de seguridad que incrementen la seguridad.|
-|**RNFS_04**| | El sistema debe sincronizar los datos de los 3 servidores cada 5 minutos.|
-|**RNFS_05**| | El sistema debe asegurar que los datos están protegidos de accesos no autorizados.|
-|**RNFS_06**| | El sistema controlará el acceso y lo permitirá solamente a usuarios autorizados.|
-|**RNFS_07**| | Los usuarios accederán al sistema con un nombre de usuario y contraseña.|
-|**RNFS_08**| | El sistema enviará una alerta a los administradores del sistema cuando ocurra alguno de los siguientes eventos: entrada al sistema por parte de un usuario, 2 o más intentos fallidos al introducir la contraseña de usuario y cambio de contraseña de usuario.|
-|**RNFS_09**| | El sistema deberá ser capaz de evitar ataques de inyección de SQL sistemáticos.|
-|**RNFS_10**| | Las contraseñas serán almacenadas en las bases de datos usando un algoritmo criptográfico para que no sean visibles a simple vista.|
+|**RNFS_04**| | El sistema debe asegurar que los datos están protegidos de accesos no autorizados.|
+|**RNFS_05**| | El sistema controlará el acceso y lo permitirá solamente a usuarios autorizados.|
+|**RNFS_06**| | Los usuarios accederán al sistema con un nombre de usuario y contraseña.|
+|**RNFS_07**| | El sistema enviará una alerta a los administradores del sistema cuando ocurra alguno de los siguientes eventos: entrada al sistema por parte de un usuario, 2 o más intentos fallidos al introducir la contraseña de usuario y cambio de contraseña de usuario.|
+|**RNFS_08**| | El sistema deberá ser capaz de evitar ataques de inyección de SQL sistemáticos.|
+|**RNFS_09**| | Las contraseñas serán almacenadas en las bases de datos usando un algoritmo criptográfico para que no sean visibles a simple vista.|
 
 ### 6.4.7 Otros Requisitos No Funcionales
 Esta sección contiene otros requisitos no funcionales que se han identificado y que no pertenecen a ninguna de las categorías anteriores: 
@@ -393,44 +392,43 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 <br>
 
->	Matriz de trazabilidad de Requisitos no Funcionales frente a Requisitos Generales.
+>	Matriz de trazabilidad de Requisitos no Funcionales frente a Objetivos del negocio.
 
  | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: |  :-----: | :-----: | :-----: | :-----: |
- | **RNFF_01** |  |  |  |  |  
- | **RNFF_02** |  |  |  |  |  
- | **RNFF_03** |  |  |  |  |    
- | **RNFF_04** |  |  |  |  |  
- | **RNFF_05** |  |  |  |  |  
- | **RNFU_01** |  |  |  |  |     
- | **RNFU_02** |  |  |  |  |   
- | **RNFU_03** |  |  |  |  |  
- | **RNFU_04** |  |  |  |  |     
- | **RNFU_05** |  |  |  |  |  
- | **RNFE_01** |  |  |  |  |  
- | **RNFE_02** |  |  |  |  |     
- | **RNFE_03** |  |  |  |  |  
- | **RNFE_04** |  |  |  |  |
- | **RNFM_01** |  |  |  |  |  
- | **RNFM_02** |  |  |  |  |  
- | **RNFM_03** |  |  |  |  |    
- | **RNFM_04** |  |  |  |  |  
- | **RNFP_01** |  |  |  |  |  
- | **RNFP_02** |  |  |  |  |     
- | **RNFP_03** |  |  |  |  |   
- | **RNFP_04** |  |  |  |  |  
- | **RNFS_01** |  |  |  |  |     
- | **RNFS_02** |  |  |  |  |  
- | **RNFS_03** |  |  |  |  |  
- | **RNFS_04** |  |  |  |  |     
- | **RNFS_05** |  |  |  |  |  
- | **RNFS_06** |  |  |  |  |
- | **RNFS_07** |  |  |  |  |  
- | **RNFS_08** |  |  |  |  |  
- | **RNFS_09** |  |  |  |  |    
- | **RNFS_10** |  |  |  |  |  
- | **RNFO_01** |  |  |  |  | 
- | **RNFO_02** |  |  |  |  | 
+ | **RNFF_01** |  | Alto | Alto | OB_01,OB_02,OB_06 |  
+ | **RNFF_02** |  | Alto | Medio | OB_01,OB_06 |  
+ | **RNFF_03** |  | Alto | Alto | OB_01,OB_06 |    
+ | **RNFF_04** |  | Alto | Medio | OB_01,OB_06,OB_14 |  
+ | **RNFF_05** |  | Alto | Alto | OB_01,OB_04,OB_06,OB_14 |  
+ | **RNFU_01** |  | Bajo | Bajo | OB_01,OB_02 |     
+ | **RNFU_02** |  | Medio | Alto | OB_01,OB_02 |   
+ | **RNFU_03** |  | Alto | Alto | OB_01,OB_02 |  
+ | **RNFU_04** |  | Bajo | Bajo | OB_01,OB_02 |     
+ | **RNFU_05** |  | Medio | Bajo | OB_01,OB_02 |  
+ | **RNFE_01** |  | Alto | Alto | OB_01 |  
+ | **RNFE_02** |  | Alto | Medio | OB_01 |     
+ | **RNFE_03** |  | Alto | Alto | OB_01 |  
+ | **RNFE_04** |  | Alto | Medio | OB_01 |
+ | **RNFM_01** |  | Bajo | Bajo | OB_01,OB_06 |  
+ | **RNFM_02** |  | Bajo | Medio | OB_01,OB_06 |  
+ | **RNFM_03** |  | Medio | Medio | OB_01 |      
+ | **RNFP_01** |  | Alto | Alto | OB_01,OB_02,OB_06 |  
+ | **RNFP_02** |  | Alto | Alto | OB_01,OB_06 |     
+ | **RNFP_03** |  | Alto | Alto | OB_01,OB_06 |   
+ | **RNFP_04** |  | Bajo | Bajo | OB_01,OB_02,OB_06 |  
+ | **RNFS_01** |  | Bajo | Alto | OB_01,OB_05 |     
+ | **RNFS_02** |  | Bajo | Alto | OB_01,OB_05 |  
+ | **RNFS_03** |  | Medio | Alto | OB_01,OB_05 |  
+ | **RNFS_04** |  | Bajo | Alto | OB_05 |     
+ | **RNFS_05** |  | Bajo | Alto | OB_05 |  
+ | **RNFS_06** |  | Medio | Alto | OB_05 |
+ | **RNFS_07** |  | Medio | Medio | OB_05 |  
+ | **RNFS_08** |  | Alto | Alto | OB_01,OB_05 |  
+ | **RNFS_09** |  | Medio | Alto | OB_05 |      
+ | **RNFO_01** |  | Alto | Alto | OB_01,OB_02 | 
+ | **RNFO_02** |  | Medio | Bajo | OB_02,OB_03,OB_12 | 
+
 
 
 >	Matriz de trazabilidad de Restricciones Técnicas frente a Requisitos Generales.
