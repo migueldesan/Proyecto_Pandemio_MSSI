@@ -178,7 +178,7 @@ Estos requisitos especifican qué reglas de negocio, políticas y restricciones 
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RFN_01**| Leyes autonómicas | El nuevo sistema debe cumplir con las leyes y reglamentos establecidos por cada comunidad autónoma para la protección de datos. |
+|**RFN_01**| Protección de datos | El nuevo sistema debe cumplir con las leyes y reglamentos establecidos por cada comunidad autónoma para la protección de datos. |
 |**RFN_02**| Leyes generales | El nuevo sistema se acogerá a las leyes generales públicas. |
 |**RFN_03**| Acceso restringido a datos sensibles | Solo los usuarios logueados podrán acceder a los datos sensibles que almacena el sistema. Para ello, las personas encargadas de la gestión de la pandemia en el Gobierno de España, todos los sanitarios y rastreadores, y todos el personal de las fuerzas del orden deberán registrarse en la aplicación. |
 |**RFN_04**| Validación de nuevos registros | La validación de los nuevos registros solo la realizarán los superadministradores del Gobierno de España. |
@@ -210,7 +210,7 @@ Estos requisitos especifican cualquier otro comportamiento deseado del sistema q
 |**RFC_08**| Colores leyenda mapa de calor | El mapa de calor se coloreará con colores que vayan desde el amarillo hasta el rojo en función del número de casos positivos que haya en la zona. |
 |**RFC_09**| Validación automática de formularios | El sistema validará automáticamente los formularios emitidos por el usuario cuando avise de casos positivos cercanos y no dejará enviarlos en caso de que exista algún error. |
 |**RFC_10**| Notificación entre CCAA | El sistema notificará a las CCAA si un caso positivo se ha movido entre comunidades. |
-|**RFC_11**| Informe casos positivos | El sistema generará un informe con los casos positivos que hayan salido del país para comunicárselo lo antes posible. |
+|**RFC_11**| Informe casos positivos desplazados | El sistema generará un informe con los casos positivos que hayan salido del país para comunicárselo lo antes posible. |
 |**RFC_12**| Informe datos mapa de calor | El sistema generará un informe con los datos detallados obtenidos en el mapa de calor y solo podrá acceder a él el Gobierno. |
 |**RFC_13**| Notificación incumplimiento de la cuarentena | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario está incumplimiento la cuarentena. |
 |**RFC_14**| Notificación incumplimiento de la cita médica | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario no ha acudido a una cita médica. |
@@ -359,7 +359,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: | :-----:  | :-----: | :-----: | :-----: |
- | **RFN_01** | Leyes autonómicas | Medio | Alto | OB_04 |
+ | **RFN_01** | Protección de datos | Medio | Alto | OB_04 |
  | **RFN_02** | Leyes generales| Medio | Alto | OB_04 |  
  | **RFN_03** | Acceso restringido a datos sensibles | Alto | Alto | OB_04,OB_05 |     
  | **RFN_04** | Validación de nuevos registros | Alto | Alto | OB_05 |  
@@ -391,7 +391,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
  | **RFC_08** | Colores leyenda mapa de calor | Bajo | Bajo | OB_13 |  
  | **RFC_09** | Validación automática de formularios | Medio | Medio | OB_07 |     
  | **RFC_10** | Notificación entre CCAA | Alto | Alto | OB_14 |  
- | **RFC_11** |	Informe casos positivos  | Bajo | Alto | OB_14 |  
+ | **RFC_11** |	Informe casos positivos desplazados  | Bajo | Alto | OB_14 |  
  | **RFC_12** | Informe datos mapa de calor | Alto | Alto | OB_14 |     
  | **RFC_13** | Notificación incumplimiento de la cuarentena | Bajo | Alto | OB_10 |  
  | **RFC_14** | Notificación incumplimiento de la cita médica | Bajo | Alto | OB_09 |   
