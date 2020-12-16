@@ -326,9 +326,9 @@ Estos requisitos identifican aquellos servicios disponibles en el entorno tecnol
 ## 6.7 Información Sobre Trazabilidad
 Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado oportunas para identificar las relaciones entre los requisitos identificados:
 
->	Matriz de trazabilidad de Casos de Uso frente a Objetivos del negocio.
+>	Matriz de trazabilidad de Casos de Uso frente a Objetivos de Negocio.
 
- | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
+ | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos de Negocio** |
  | :--: | :----- | :-----: | :-----: | :----- |
  | **CU_01** | Comprobar cuarentena | Alto | Alto | OB_10,OB_11 |
  | **CU_02** | Ver avisos fuerzas del orden| Medio | Medio | OB_09,OB_10 |
@@ -344,9 +344,9 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 <br>
 
->	Matriz de trazabilidad de Requisitos de Información frente a Objetivos del negocio.
+>	Matriz de trazabilidad de Requisitos de Información frente a Objetivos de Negocio.
 
- | **ID** | **Nombre**  | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
+ | **ID** | **Nombre**  | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos de Negocio** |
  | :--: | :----- | :-----: | :-----: | :----- |
  | **RFI_01** | Historial de ubicación | Alto | Alto | OB_04 |  
  | **RFI_02** | Historial médico | Medio | Bajo | OB_04,OB_07 |  
@@ -358,9 +358,9 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
  
  <br>
 
->	Matriz de trazabilidad de Reglas de Negocio frente a Objetivos del negocio.
+>	Matriz de trazabilidad de Reglas de Negocio frente a Objetivos de Negocio.
 
-| **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
+| **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos de Negocio** |
  | :--: | :-----  | :-----: | :-----: | :----- |
  | **RFN_01** | Protección de datos | Medio | Alto | OB_04 |
  | **RFN_02** | Leyes generales| Medio | Alto | OB_04 |  
@@ -380,9 +380,9 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 <br>
 
->	Matriz de trazabilidad de Requisitos de Conducta frente a Objetivos del negocio.
+>	Matriz de trazabilidad de Requisitos de Conducta frente a Objetivos de Negocio.
 
- | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
+ | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos de Negocio** |
  | :--: |  :----- | :-----: | :-----: | :-----|
  | **RFC_01** | Automatización de citas médicas | Alto | Alto | OB_03,OB_07,OB_08,OB_12 |  
  | **RFC_02** | Notificación cita médica caso cercano | Bajo | Medio | OB_08,OB_12 |  
@@ -401,9 +401,9 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 <br>
 
->	Matriz de trazabilidad de Requisitos no Funcionales frente a Objetivos del negocio.
+>	Matriz de trazabilidad de Requisitos no Funcionales frente a Objetivos de Negocio.
 
- | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
+ | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos de Negocio** |
  | :--: |  :----- | :-----: | :-----: | :----- |
  | **RNFF_01** | Alta disponibilidad | Alto | Alto | OB_01,OB_02,OB_06 |  
  | **RNFF_02** | Tiempo de inicio | Alto | Medio | OB_01,OB_06 |  
@@ -440,9 +440,9 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 <br>
 
->	Matriz de trazabilidad de Restricciones Técnicas frente a Objetivos del negocio.
+>	Matriz de trazabilidad de Restricciones Técnicas frente a Objetivos de Negocio.
 
- | **ID** | **Nombre** |  **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
+ | **ID** | **Nombre** |  **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos de Negocio** |
  | :--: | :----- |  :-----: | :-----: | :----- |
  | **RT_01** | Motor de la base de datos | Medio | Alto | OB_04 |  
  | **RT_02** | Código de la aplicación | Medio | Alto | OB_01 |  
@@ -453,9 +453,9 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
  
  <br>
 
->	Matriz de trazabilidad de Requisitos de Integración frente a Objetivos del negocio.
+>	Matriz de trazabilidad de Requisitos de Integración frente a Objetivos de Negocio.
 
-| **ID** | **Nombre** | **Criterios de aceptación** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
+| **ID** | **Nombre** | **Criterios de aceptación** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos de Negocio** |
  | :--: | :----- | :-----: | :-----: | :-----: | :----- |
  | **RI_01** | Servicio @firma | Siempre que sea necesario usar la firma electrónica se usará el servicio @firma | Medio | Medio | OB_01,OB_03,OB_14 |
  | **RI_02** | Servicio 'Dni electrónico' | Se hará uso del Dni electrónico siempre que sea necesario verificar un DNI | Medio | Medio | OB_01,OB_03,OB_14 |
