@@ -45,16 +45,16 @@ A continuación, se especifican todos los casos de uso que se han identificado e
 | :--: | :----- |
 |**Precondición**| Una persona debe permanecer en cuarentena y se le asigna a un sanitario su seguimiento. Además, el sanitario/rastreador debe estar logueado en la aplicación. |
 |**Descripción**| Un sanitario/rastreador puede ver las personas que deben realizar cuarentena y comprobar que la están realizando. |
-|**Secuencia Normal**| 1. El sanitario abre la aplicación. <br> 2. El sanitario elige la opción “Comprobar cuarentena”. <br> 3. La aplicación muestra una lista de personas en cuarentena. <br> 4. El sanitario busca en la lista a una persona. <br> 5. El sanitario entra a ver los detalles de esa persona. <br> 6. El sanitario solicita a esa persona que verifique su ubicación actual (CU_11).|
-|**Postcondición**| El usuario ha verificado su ubicación actual y queda reflejado en el sistema |
-|**Excepciones**| 3a. Si el sanitario no tiene ningún paciente en cuarentena se muestra una lista vacía. <br> 6a. El usuario no verifica su ubicación actual. <br> &nbsp;&nbsp;&nbsp; 6a.1. El sanitario escoge la opción "Avisar incumplimiento cuarentena". <br> &nbsp;&nbsp;&nbsp; 6a.2.El sanitario añade comentarios si es necesario. <br> &nbsp;&nbsp;&nbsp; 6a.3. El sanitario envía el aviso a las fuerzas del orden. <br> 6b. El usuario verifica su ubicación actual pero no está cumpliendo la cuarentena impuesta. <br> &nbsp;&nbsp;&nbsp; 6b.1. El sanitario escoge la opción "Avisar incumplimiento cuarentena". <br> &nbsp;&nbsp;&nbsp; 6b.2.El sanitario añade comentarios si es necesario. <br> &nbsp;&nbsp;&nbsp; 6b.3. El sanitario envía el aviso a las fuerzas del orden. |
+|**Secuencia Normal**| 1. El sanitario abre la aplicación. <br> 2. El sanitario elige la opción “Comprobar cuarentena”. <br> 3. La aplicación muestra una lista de personas en cuarentena. <br> 4. El sanitario busca en la lista a una persona. <br> 5. El sanitario entra a ver los detalles de esa persona. <br> 6. El sanitario solicita a esa persona que verifique su ubicación actual (CU_11). <br> 7. El sistema muestra la ubicación que ha enviado la persona. <br> 8. El sanitario comprueba la ubicación para verificar que la persona está cumpliendo la cuarentena. |
+|**Postcondición**| La persona ha verificado su ubicación actual y queda reflejado en el sistema. |
+|**Excepciones**| 3a. Si el sanitario no tiene ningún paciente en cuarentena se muestra una lista vacía. <br> 6a. La persona no verifica su ubicación actual. <br> &nbsp;&nbsp;&nbsp; 6a.1. El sanitario escoge la opción "Avisar incumplimiento cuarentena". <br> &nbsp;&nbsp;&nbsp; 6a.2.El sanitario añade comentarios si es necesario. <br> &nbsp;&nbsp;&nbsp; 6a.3. El sanitario envía el aviso a las fuerzas del orden. <br> 8a. La persona verifica su ubicación actual pero no está cumpliendo la cuarentena impuesta. <br> &nbsp;&nbsp;&nbsp; 8a.1. El sanitario escoge la opción "Avisar incumplimiento cuarentena". <br> &nbsp;&nbsp;&nbsp; 8a.2.El sanitario añade comentarios si es necesario. <br> &nbsp;&nbsp;&nbsp; 6b.3. El sanitario envía el aviso a las fuerzas del orden. |
 |**Importancia**| Alta. |
 |**Prioridad**| Alta. |
 
 | CU_02 | Ver avisos fuerzas del orden |
 | :--: | :----- |
 |**Precondición**| El sanitario ha avisado previamente a las fuerzas del orden para informarles de un caso que no está cumpliendo la cuarentena o no ha asistido a una cita médica. Además, el sanitario debe estar logueado en la aplicación. |
-|**Descripción**| Un sanitario/rastreador puede ver los avisos que han emitido las fuerzas del orden sobre un caso que ha abierto el sanitario previamente. |
+|**Descripción**| Un sanitario/rastreador puede ver los avisos que han emitido las fuerzas del orden sobre un caso que ha abierto ese sanitario previamente. |
 |**Secuencia Normal**| 1. El sanitario abre la aplicación. <br> 2. El sanitario elige la opción “Ver avisos fuerzas del orden”. <br> 3. La aplicación muestra todos los avisos que hayan emitido las fuerzas del orden sobre casos abiertos previamente por el sanitario. <br> 4. El sanitario abre un aviso para ver los detalles y las nuevas noticias sobre el caso. |
 |**Postcondición**| El sanitario visualiza los detalles de uno de los casos que tiene abiertos. |
 |**Excepciones**| 3a. Si el sanitario no tiene ningún caso abierto se muestra una lista vacía.  |
@@ -116,10 +116,10 @@ A continuación, se especifican todos los casos de uso que se han identificado e
 | CU_08 | Informar de caso cercano positivo sin móvil |
 | :--: | :----- |
 |**Precondición**| Un usuario tiene a su cargo a una persona que no dispone de teléfono móvil. |
-|**Descripción**| Un usuario de la aplicación de Pandemio puede informar de un caso positivo para una persona que no dispone de teléfono móvil. |
+|**Descripción**| Un usuario de la aplicación de Pandemio puede informar de un caso positivo para una persona dependiente que no dispone de teléfono móvil. |
 |**Secuencia Normal**| 1. El usuario abre la aplicación. <br> 2. El usuario elige la opción “Informar de caso cercano positivo sin móvil”. <br> 3. El usuario rellena los datos que pide la aplicación. <br> 4. El usuario envía el formulario. <br> 5. La aplicación comprueba que los datos introducidos son correctos. <br> 6. La aplicación procesa el formulario y genera una cita médica. <br> 7. La aplicación muestra un mensaje con la cita médica creada. |
-|**Postcondición**| Se ha creado una cita médica que se puede ver en ese momento o después en la opción “Ver citas médicas propias”. |
-|**Excepciones**| 6. El formulario está mal rellenado o contiene algún error. <br> &nbsp;&nbsp;&nbsp; 6.1. La aplicación muestra un mensaje de error con el motivo del fallo. <br> &nbsp;&nbsp;&nbsp; 6.2. Volver al paso 3. |
+|**Postcondición**| Se ha creado una cita médica que se puede ver en ese momento o después en la opción “Ver citas médicas propias” (CU_06). |
+|**Excepciones**| 5a. El formulario está mal rellenado o contiene algún error. <br> &nbsp;&nbsp;&nbsp; 5a.1. La aplicación muestra un mensaje de error con el motivo del fallo. <br> &nbsp;&nbsp;&nbsp; 5a.2. Volver al paso 3. |
 |**Importancia**| Media. |
 |**Prioridad**| Baja. |
 
@@ -129,8 +129,8 @@ A continuación, se especifican todos los casos de uso que se han identificado e
 |**Precondición**| Un usuario comienza a tener síntomas compatibles con la nueva pandemia. |
 |**Descripción**| Un usuario de la aplicación de Pandemio puede informar de que comienza a desarrollar síntomas compatibles con la nueva enfermedad. |
 |**Secuencia Normal**| 1. El usuario abre la aplicación. <br> 2. El usuario elige la opción “Informar de síntomas compatibles”. <br> 3. El usuario rellena los datos que pide la aplicación. <br> 4. El usuario envía el formulario. <br> 5. La aplicación comprueba que los datos introducidos son correctos. <br> 6. La aplicación procesa el formulario y genera una cita médica. <br> 7. La aplicación muestra un mensaje con la cita médica creada. |
-|**Postcondición**| Se ha creado una cita médica que se puede ver en ese momento o después en la opción “Ver citas médicas propias”. |
-|**Excepciones**| 6. El formulario está mal rellenado o contiene algún error. <br> &nbsp;&nbsp;&nbsp; 6.1. La aplicación muestra un mensaje de error con el motivo del fallo. <br>&nbsp;&nbsp;&nbsp; 6.2. Volver al paso 3. |
+|**Postcondición**| Se ha creado una cita médica que se puede ver en ese momento o después en la opción “Ver citas médicas propias” (CU_06). |
+|**Excepciones**| 5a. El formulario está mal rellenado o contiene algún error. <br> &nbsp;&nbsp;&nbsp; 5a.1. La aplicación muestra un mensaje de error con el motivo del fallo. <br>&nbsp;&nbsp;&nbsp; 5a.2. Volver al paso 3. |
 |**Importancia**| Media. |
 |**Prioridad**| Baja. |
 
@@ -138,7 +138,7 @@ A continuación, se especifican todos los casos de uso que se han identificado e
 | CU_10 | Ver mapa calor |
 | :--: | :----- |
 |**Precondición**| Ninguna. |
-|**Descripción**| Un usuario de la aplicación de Pandemio puede ver un mapa de calor con para ver las zonas donde ha habido un gran número de casos positivos y así evitar esas zonas. |
+|**Descripción**| Un usuario de la aplicación de Pandemio puede ver un mapa de calor para ver las zonas donde ha habido un gran número de casos positivos y así evitar esas zonas. |
 |**Secuencia Normal**| 1. El usuario abre la aplicación. <br> 2. El usuario elige la opción “Ver mapa de calor”. <br> 3. El sistema muestra un mapa de calor de la zona donde se encuentra el usuario acompañado con una leyenda de colores para ver el impacto de la nueva pandemia en la zona. |
 |**Postcondición**| El usuario ve el mapa de calor de la zona donde se encuentra.  |
 |**Excepciones**| Ninguna. |
@@ -150,9 +150,9 @@ A continuación, se especifican todos los casos de uso que se han identificado e
 | :--: | :----- |
 |**Precondición**| Un sanitario o rastreador solicita a un usuario que mande la ubicación donde se encuentra. |
 |**Descripción**| Un usuario de la aplicación de Pandemio debe mandar la ubicación donde se encuentra para confirmar que está cumpliendo la cuarentena si un sanitario o rastreador se lo pide. |
-|**Secuencia Normal**| 1. El usuario abre la aplicación. <br> 2. El usuario elige la opción “Enviar ubicación”. <br> 3. El usuario coloca su huella en el sensor de huellas del teléfono móvil. <br> 4. La aplicación valida la huella colocada. <br> 5. La aplicación envía la ubicación del teléfono móvil al sanitario o rastreador correspondiente.  |
+|**Secuencia Normal**| 1. El usuario abre la aplicación. <br> 2. El usuario elige la opción “Enviar ubicación”. <br> 3. El usuario coloca su huella en el sensor de huellas del teléfono móvil. <br> 4. La aplicación valida la huella colocada. <br> 5. La aplicación envía la ubicación del teléfono móvil al sanitario o rastreador correspondiente para que verifique si es correcta o no.  |
 |**Postcondición**| Ubicación enviada correctamente.  |
-|**Excepciones**| 3. El usuario utiliza el reconocimiento facial de su teléfono móvil. <br> &nbsp;&nbsp;&nbsp; 3.1. La aplicación valida la cara reconocida. <br> &nbsp;&nbsp;&nbsp; 3.2. La aplicación envía la ubicación del teléfono móvil al sanitario o rastreador correspondiente. <br> 4. La huella o la cara introducidas no se corresponden con el usuario que ha solicitado el sanitario. <br> &nbsp;&nbsp;&nbsp; 4.1. La aplicación muestra un mensaje de error con el motivo del fallo. <br> &nbsp;&nbsp;&nbsp; 4.2. Volver al paso 3. |
+|**Excepciones**| 3a. El usuario utiliza el reconocimiento facial de su teléfono móvil. <br> &nbsp;&nbsp;&nbsp; 3a.1. La aplicación valida la cara reconocida. <br> &nbsp;&nbsp;&nbsp; 3a.2. La aplicación envía la ubicación del teléfono móvil al sanitario o rastreador correspondiente. <br> 4a. La huella o la cara introducidas no se corresponden con el usuario que ha solicitado el sanitario. <br> &nbsp;&nbsp;&nbsp; 4a.1. La aplicación muestra un mensaje de error con el motivo del fallo. <br> &nbsp;&nbsp;&nbsp; 4a.2. Volver al paso 3. |
 |**Importancia**| Alta. |
 |**Prioridad**| Alta. |
 
@@ -327,7 +327,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 >	Matriz de trazabilidad de Casos de Uso frente a Objetivos del negocio.
 
 | **ID** | **Nombre**  **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
- | :--: | :-----: | :-----: | :-----: | :-----: | :-----: |
+ | :--: | :-----: | :-----: | :-----: | :-----: |
  | **CU_01** | Comprobar cuarentena | Alto | Alto | OB_10,OB_11 |
  | **CU_02** | Ver avisos fuerzas del orden| Medio | Medio | OB_09,OB_10 |
  | **CU_03** | Ver citas médicas | Medio | Alto | OB_09 |
