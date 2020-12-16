@@ -65,9 +65,9 @@ A continuación, se especifican todos los casos de uso que se han identificado e
 | :--: | :----- |
 |**Precondición**| El sanitario debe estar previamente logueado y tiene citas médicas fijadas con pacientes.  |
 |**Descripción**| Un sanitario/rastreador puede ver la fecha, hora e historial médico del paciente de las citas que tiene programadas. |
-|**Secuencia Normal**| 1. El sanitario abre la aplicación. <br> 2. El sanitario elige la opción “Ver citas médicas”. <br> 3. La aplicación muestra fecha, hora y nombre de los usuarios con citas programadas.  <br> 4. Un usuario acude a su cita médica.  <br> 5. El sanitario entra a ver los detalles de ese usuario. <br> 6. El sanitario actualiza el historial médico del usuario. |
+|**Secuencia Normal**| 1. El sanitario abre la aplicación. <br> 2. El sanitario elige la opción “Ver citas médicas”. <br> 3. La aplicación muestra fecha, hora y nombre de los pacientes con citas programadas.  <br> 4. Un paciente acude a su cita médica.  <br> 5. El sanitario entra a ver los detalles de ese paciente. <br> 6. El sanitario actualiza el historial médico del paciente. |
 |**Postcondición**| El sanitario visualiza la agenda de citas programadas y actualiza cada una de ellas. |
-|**Excepciones**| 3a. Si el sanitario no tiene ninguna cita programada se muestra una lista vacía.  <br> 4a. El usuario no acude a la cita médica que tiene programada. <br> &nbsp;&nbsp;&nbsp; 4a.1. El sanitario escoge la opción "Avisar incumplimiento cita médica". <br> &nbsp;&nbsp;&nbsp; 4a.2.El sanitario añade comentarios si es necesario. <br> &nbsp;&nbsp;&nbsp; 4a.3. El sanitario envía el aviso a las fuerzas del orden. |
+|**Excepciones**| 3a. Si el sanitario no tiene ninguna cita programada se muestra una lista vacía.  <br> 4a. El paciente no acude a la cita médica que tiene programada. <br> &nbsp;&nbsp;&nbsp; 4a.1. El sanitario escoge la opción "Avisar incumplimiento cita médica". <br> &nbsp;&nbsp;&nbsp; 4a.2.El sanitario añade comentarios si es necesario. <br> &nbsp;&nbsp;&nbsp; 4a.3. El sanitario envía el aviso a las fuerzas del orden. |
 |**Importancia**| Alta. |
 |**Prioridad**| Alta. |
 
@@ -76,7 +76,7 @@ A continuación, se especifican todos los casos de uso que se han identificado e
 |**Precondición**| El usuario de las fuerzas del orden debe estar logueado. |
 |**Descripción**| El usuario de las fuerzas del orden accede a una lista con los avisos de los sanitarios sobre personas que o bien no cumplen cuarentena o bien no han acudido a su cita médica. |
 |**Secuencia Normal**| 1. El usuario de las fuerzas del orden abre la aplicación. <br> 2. Elige la opción “Ver avisos”. <br> 3. La aplicación muestra todos los avisos que hayan emitido los sanitarios. <br> 4. El usuario de las fuerzas del orden abre un caso <br> 5.El usuario de las fuerzas del orden investiga el caso. <br> 6. El usuario de las fuerzas del orden actualiza el caso. <br> 7. El usuario de las fuerzas del orden cierra el caso. |
-|**Postcondición**| El usuario de las fuerzas del orden visualiza los avisos realizados por los sanitarios. |
+|**Postcondición**| El usuario de las fuerzas del orden visualiza los avisos realizados por los sanitarios y los actualiza. |
 |**Excepciones**| 3a. Si no hubiera ningún aviso sanitario se muestra una lista vacía.  |
 |**Importancia**| Alta. |
 |**Prioridad**| Alta. |
@@ -97,7 +97,7 @@ A continuación, se especifican todos los casos de uso que se han identificado e
 |**Descripción**| Un usuario de la aplicación de Pandemio puede ver la fecha, hora y lugar de la cita médica que tiene asignada. |
 |**Secuencia Normal**| 1. El usuario abre la aplicación. <br> 2. El usuario elige la opción “Ver citas médicas propias”. <br> 3. La aplicación muestra la fecha, hora y lugar donde debe acudir a la cita médica. |
 |**Postcondición**| El usuario ve la fecha, hora y lugar de la cita médica que tiene asignada. |
-|**Excepciones**| 3a. Si el usuario no tiene que cumplir ninguna cita médica asignada se muestra un mensaje avisándole.  <br> 3b. Si el usuario ha informado de un caso cercano positivo sin móvil, el sistema especificará en el mensaje quién debe acudir a la cita médica. |
+|**Excepciones**| 3a. Si el usuario no tiene que cumplir ninguna cita médica asignada se muestra un mensaje avisándole.  <br> 3b. Si el usuario ha informado de un caso cercano positivo sin móvil, el sistema especificará en el aviso quién debe acudir a la cita médica. |
 |**Importancia**| Alta. |
 |**Prioridad**| Alta. |
 
@@ -108,7 +108,7 @@ A continuación, se especifican todos los casos de uso que se han identificado e
 |**Descripción**| Un usuario de la aplicación de Pandemio puede ver cuantos días de cuarentena tiene que realizar. |
 |**Secuencia Normal**| 1. El usuario abre la aplicación. <br> 2. El usuario elige la opción “Ver cuarentena establecida”. <br> 3. La aplicación muestra el número de días que quedan de cuarentena y la fecha en la que termina. |
 |**Postcondición**| El usuario ve el número de días que le quedan para cumplir la cuarentena. |
-|**Excepciones**| 3a. Si el usuario no tiene que cumplir ninguna cuarentena se muestra un mensaje avisándole.  <br> 3b. Si el usuario ha informado de un caso cercano positivo sin móvil, el sistema especificará en el aviso quién debe cumplir la cuarentena establecida y hasta que fecha. |
+|**Excepciones**| 3a. Si el usuario no tiene que cumplir ninguna cuarentena se muestra un mensaje avisándole.  <br> 3b. Si el usuario ha informado de un caso cercano positivo sin móvil, el sistema especificará en el aviso quién debe cumplir la cuarentena establecida y hasta qué fecha. |
 |**Importancia**| Alta. |
 |**Prioridad**| Alta. |
 
