@@ -315,7 +315,7 @@ En la lucha contra el Covid-19 intervienen gran cantidad de actores ya que cada 
 
 Los principales actores de negocio que intervienen en la actualidad en la lucha contra el Covid-19 son: 
 
-| **ID** | **Nombre** | **Descripción** |
+| **ID** | **NOMBRE** | **DESCRIPCIÓNNOMBRE** |
 | :---: | :--- | :--- |
 | **AC_01** | Gobierno de España | Es el órgano que se encarga de decidir en última instancia el confinamiento domiciliario de una localidad o del país. Además, se encargó de que Radar Covid se comenzará a utilizar en España así como de permitir e impulsar su uso. |
 | **AC_02** | Secretaría de Estado de Digitalización e Inteligencia Artificial del Gobierno de España | Esta secretaría, dependiente del Ministerio de Asuntos Económicos y Transformación Digital, es la encargada de personalizar la aplicación de Radar Covid para España (ya que es una aplicación que se usa en toda Europa y tiene su origen fuera de España) e integrarla en los servicios sanitarios de cada comunidad autónoma. Además, es la encargada de impulsar la aplicación en España y subsanar cualquier brecha de seguridad que pudiera surgir. |
@@ -550,7 +550,7 @@ Con el fin de cumplir todos los objetivos expuestos anteriormente, y sobre todo 
 
 Los principales actores de negocio que cambiarán sus funciones una vez terminado el proyecto son los siguientes:  
 
-| **ID** | **Nombre** | **Descripción** |
+| **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :---: | :--- | :--- |
 | **ACI_01** | Gobierno de España | Es el órgano que se encargará de tomar las decisiones que afecten a todo el país como es la implantación de Pandemio en todos los dispositivos móviles o el confinamiento domiciliario de una localidad o del país. También se encargará de impulsar las nuevas medidas que se tomen y de crear algunos de los protocolos que puedan utilizar las CCAA. |
 | **ACI_02** | Secretaría de Estado de Digitalización e Inteligencia Artificial del Gobierno de España | Esta secretaría, dependiente del Ministerio de Asuntos Económicos y Transformación Digital, será la encargada de gestionar todo lo que tenga que ver con la aplicación de Pandemio. Esto incluirá la gestión de la aplicación y la subsanación de cualquier brecha de seguridad que pudiera surgir. |
@@ -834,7 +834,7 @@ Esta sección contiene todos los requisitos funcionales del sistema que se han i
 ### 6.3.1 Requisitos de Información del Sistema
 Estos requisitos especifican qué información debe almacenar el sistema para poder ofrecer la funcionalidad descrita en los casos de uso del sistema o en otros requisitos:
 
-| **ID** | **Nombre** | **Descripción** |
+| **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :--: | :----- |:----- |
 |**RFI_01**| Historial de ubicación | El sistema almacenará el historial de ubicación de cada teléfono móvil el número de días que establezcan los criterios estrictamente epidemiológicos. |
 |**RFI_02**| Historial médico | El sistema almacenará el historial médico de todos los ciudadanos que viven en España. |
@@ -847,11 +847,11 @@ Estos requisitos especifican qué información debe almacenar el sistema para po
 ### 6.3.2 Requisitos de Reglas de Negocio del Sistema
 Estos requisitos especifican qué reglas de negocio, políticas y restricciones debe respetar el sistema, evitando que se incumplan durante su funcionamiento:
 
-| **ID** | **Nombre** | **Descripción** |
+| **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :--: | :----- |:----- |
 |**RFN_01**| Protección de datos | El nuevo sistema debe cumplir con las leyes y reglamentos establecidos por cada comunidad autónoma para la protección de datos. |
 |**RFN_02**| Leyes generales | El nuevo sistema se acogerá a las leyes generales públicas. |
-|**RFN_03**| Acceso restringido a datos sensibles | Solo los usuarios logueados podrán acceder a los datos sensibles que almacena el sistema. Para ello, las personas encargadas de la gestión de la pandemia en el Gobierno de España, todos los sanitarios y rastreadores, y todos el personal de las fuerzas del orden deberán registrarse en la aplicación. |
+|**RFN_03**| Acceso restringido a datos sensibles | Solo los usuarios logueados podrán acceder a los datos sensibles que almacena el sistema. Para ello, las personas encargadas de la gestión de la pandemia en el Gobierno de España, todos los sanitarios y rastreadores, y todo el personal de las fuerzas del orden deberán registrarse en la aplicación. |
 |**RFN_04**| Validación de nuevos registros | La validación de los nuevos registros solo la realizarán los superadministradores del Gobierno de España. |
 |**RFN_05**| Almacenamiento triplicado de los datos | Cada CCAA tendrá 3 copias de todos los datos y usará 3 servidores de datos diferentes para almacenar cada copia de los datos. |
 |**RFN_06**| Gestión propia de bases de datos | Cada comunidad autónoma gestionará sus propias bases de datos. |
@@ -861,15 +861,15 @@ Estos requisitos especifican qué reglas de negocio, políticas y restricciones 
 |**RFN_10**| Aviso incumplimiento cuarentena | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no cumple la cuarentena asignada. |
 |**RFN_11**| Comprobación cuarentena | Los sanitarios y rastreadores deberán comprobar que los casos diagnosticados como positivos cumplen la cuarentena establecida. |
 |**RFN_12**| Campañas publicitarias | El Ministerio de Sanidad deberá crear campañas publicitarias para fomentar que las personas con dispositivos móviles informen de casos positivos (de las personas dependientes que tengan a su cargo que no dispongan de teléfono móvil) o si comienzan a desarrollar algún síntoma. |
-|**RN_13**| Geolocalización | El sistema utilizará localización por triangulación de antenas móviles si puede garantizar una "cercanía" de distancia menor a 5 metros, si no utlilizará la localización por GPS. |
+|**RFN_13**| Geolocalización | El sistema utilizará localización por triangulación de antenas móviles si puede garantizar una "cercanía" de distancia menor a 5 metros, si no utilizará la localización por GPS. |
 |**RFN_14**| Geolocalización en modo avión | El sistema solo almacenará la ubicación obtenida por GPS si el teléfono móvil está en modo avión. |
-|**RFN_15**| Instalación automática | La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen. |
+|**RFN_15**| Instalación automática | La aplicación se instalará automáticamente en todos los teléfonos móviles independientemente del sistema operativo que utilicen. |
 
 
 ### 6.3.3 Requisitos de Conducta del Sistema
 Estos requisitos especifican cualquier otro comportamiento deseado del sistema que no se haya especificado mediante los casos de uso del sistema, como generación de informes, funcionalidades transversales a varios casos de uso del sistema, etc. También describen los servicios que debe ofrecer el sistema para que los usuarios u otros sistemas puedan realizar sus tareas de negocio:
 
-| **ID** | **Nombre** | **Descripción** |
+| **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :--: | :----- |:----- |
 |**RFC_01**| Automatización de citas médicas | El sistema generará citas médicas automáticas para el centro de salud más cercano cuando una persona haya estado en contacto con un positivo, o se informe de un positivo de un caso cercano sin teléfono móvil, o se informe de síntomas compatibles. |
 |**RFC_02**| Notificación cita médica caso cercano | El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si ha estado en contacto con un caso positivo. |
@@ -894,7 +894,7 @@ Esta sección contiene todos los requisitos no funcionales del sistema que se ha
 ### 6.4.1 Requisitos de Fiabilidad
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como recuperabilidad y tolerancia a fallos: 
 
-| **ID** | **Nombre** | **Descripción** |
+| **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :--: | :----- |:----- |
 |**RNFF_01**| Alta disponibilidad | Disponibilidad de al menos el 99,99% de las veces. |
 |**RNFF_02**| Tiempo de inicio | El tiempo de inicio o reinicio del sistema debe ser inferior a dos minutos. |
@@ -906,18 +906,18 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 ### 6.4.2 Requisitos de Usabilidad
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como facilidad de aprendizaje, comprensión, operatividad y atractividad:
 
-| **ID** | **Nombre** | **Descripción** |
+| **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :--: | :----- |:----- |
 |**RNFU_01**| Bajo tiempo de aprendizaje | El tiempo de aprendizaje del sistema debe ser inferior a 2 horas. |
 |**RNFU_02**| Manuales de usuario | El sistema debe contar con manuales de usuario y ayuda online. |
 |**RNFU_03**| Clarificación de errores | El sistema proporcionará errores claros y concisos. |
 |**RNFU_04**| Múltiples idiomas | Los usuarios podrán cambiar el dialecto o el idioma de la aplicación pudiendo elegir entre español, catalán, valenciano, gallego, euskera e inglés. |
-|**RNFU_05**| Fácil acceso a la información deseada | El sistema deberá permitir en el 80% de las veces que, con un máximo de 5 clicks, se pueda llegar a la información deseada. |
+|**RNFU_05**| Fácil acceso a la información deseada | El sistema deberá permitir en el 80% de las veces que, con un máximo de 5 clics, se pueda llegar a la información deseada. |
 
 ### 6.4.3 Requisitos de Eficiencia
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como tiempo de respuesta:
 
-| **ID** | **Nombre** | **Descripción** |
+| **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :--: | :----- |:----- |
 |**RNFE_01**| Transacciones múltiples | El sistema debe ser capaz de procesar 15 millones de transacciones por minuto. |
 |**RNFE_02**| Rápida respuesta | Toda transacción debe responder al usuario en menos de 10 segundos. |
@@ -927,26 +927,26 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 ### 6.4.4 Requisitos de Mantenibilidad
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como estabilidad, facilidad de análisis, facilidad de cambio, facilidad de pruebas:
 
-| **ID** | **Nombre** | **Descripción** |
+| **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :--: | :----- |:----- |
 |**RNFM_01**| Código fuente público | El código de la aplicación será publicado en GitHub y sin patentes para que cualquier usuario pueda buscar fallos en la aplicación y ayudar a su mejora. |
 |**RNFM_02**| Actualizaciones forzadas | Se forzará la actualización de la aplicación si se identifica algún bug que pueda afectar al sistema. |
 |**RNFM_03**| Lenguaje Java | El código fuente que se implemente en JAVA deberá cumplir las recomendaciones de Code Conventions for the Java Programming Language. |
 
 ### 6.4.5 Requisitos de Portabilidad
-Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos relacionados con la escalabilidad (capacidad de instalación, capacidad de sustitución, adaptabilidad, coexistencia, compatibilidad con hardware o software, etc):
+Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos relacionados con la escalabilidad (capacidad de instalación, capacidad de sustitución, adaptabilidad, coexistencia, compatibilidad con hardware o software, etc.):
 
-| **ID** | **Nombre** | **Descripción** |
+| **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :--: | :----- |:----- |
-|**RNFP_01**| Instalación automática | La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen.|
+|**RNFP_01**| Instalación automática | La aplicación se instalará automáticamente en todos los teléfonos móviles independientemente del sistema operativo que utilicen.|
 |**RNFP_02**| Implantación en centros de salud | La aplicación se instalará en todos los ordenadores de los centros de salud y coexistirá con las aplicaciones sanitarias propias de cada CCAA.|
-|**RNFP_03**| Compatibilidad entre sistemas | El uso de está aplicación es compatible con el uso de cualquier otra aplicación.|
+|**RNFP_03**| Compatibilidad entre sistemas | El uso de esta aplicación es compatible con el uso de cualquier otra aplicación.|
 |**RNFP_04**| Extensiones de SQL | El sistema deberá evitar el uso de extensiones propietarias al estándar SQL-92 en el sistema de gestión de bases de datos que utilice.|
 
 ### 6.4.6 Requisitos de Seguridad
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como accesos al sistema, identificación y autenticación, protección de datos y privacidad:
 
-| **ID** | **Nombre** | **Descripción** |
+| **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :--: | :----- |:----- |
 |**RNFS_01**| Modificación de permisos | Los permisos de acceso solo pueden ser modificados por los administradores.|
 |**RNFS_02**| Validación de nuevos registros | La validación de los nuevos registros solo la realizarán los superadministradores del Gobierno de España.|
@@ -961,7 +961,7 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 ### 6.4.7 Otros Requisitos No Funcionales
 Esta sección contiene otros requisitos no funcionales que se han identificado y que no pertenecen a ninguna de las categorías anteriores: 
 
-| **ID** | **Nombre** | **Descripción** |
+| **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :--: | :----- |:----- |
 |**RNFO_01**| Aplicación en segundo plano | No será necesario tener la aplicación abierta en los dispositivos móviles para que funcione correctamente.|
 |**RNFO_02**| Tipos de formularios | La aplicación debe contar con dos formularios, uno para informar de un caso positivo cercano de una persona dependiente, y otro para informar de síntomas compatibles. Estos formularios no se podrán enviar si contienen algún error y será el propio sistema el encargado de validarlos y gestionarlos.|
@@ -971,7 +971,7 @@ Esta sección contiene otros requisitos no funcionales que se han identificado y
 ## 6.5 Restricciones Técnicas del Sistema
 Esta sección contiene las restricciones técnicas que se imponen al sistema software a desarrollar (tecnología a usar, protocolos de comunicaciones, compatibilidad con navegadores, etc.):
 
-  | **ID** | **Nombre** | **Descripción** |
+  | **ID** | **NOMBRE** | **DESCRIPCIÓN** |
   | :--: | :----- |:----- |
   |**RT_01**| Motor de la base de datos | El motor de la base de datos donde se almacenará toda la información será MySQL. |
   |**RT_02**| Código de la aplicación | El código de la aplicación estará escrito en Kotlin y XML para la parte de cliente, y Java para la parte de servidor. |
@@ -985,10 +985,10 @@ Esta sección contiene las restricciones técnicas que se imponen al sistema sof
 ## 6.6 Requisitos de Integración del Sistema
 Estos requisitos identifican aquellos servicios disponibles en el entorno tecnológico de producción o componentes software cuya funcionalidad es relevante para el sistema a desarrollar y deben ser consumidos por el mismo:
   
-   | **ID** | **Nombre** | **Descripción** |
+   | **ID** | **NOMBRE** | **DESCRIPCIÓN** |
    | :--: | :----- |:----- |
    |**RI_01**| Servicio @firma | El sistema deberá utilizar el servicio @firma para todos los aspectos relacionados con validación y firma electrónica. |
-   |**RI_02**| Servicio 'Dni electrónico' | El sistema deberá utilizar el servicio 'Dni electrónico' para todos los aspectos relacionados con la validación del DNI. |
+   |**RI_02**| Servicio 'DNI electrónico' | El sistema deberá utilizar el servicio 'DNI electrónico' para todos los aspectos relacionados con la validación del DNI. |
    
 <br>
 
@@ -997,7 +997,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 >	Matriz de trazabilidad de Casos de Uso frente a Objetivos de Negocio.
 
- | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos de Negocio** |
+ | **ID** | **NOMBRE** | **NIVEL DE COMPLEJIDAD** | **NIVEL DE PRIORIDAD** | **OBJETIVOS DE NEGOCIO** |
  | :--: | :----- | :-----: | :-----: | :----- |
  | **CU_01** | Comprobar cuarentena | Alto | Alto | OB_10,OB_11 |
  | **CU_02** | Ver avisos fuerzas del orden| Medio | Medio | OB_09,OB_10 |
@@ -1015,7 +1015,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 >	Matriz de trazabilidad de Requisitos de Información frente a Objetivos de Negocio.
 
- | **ID** | **Nombre**  | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos de Negocio** |
+ | **ID** | **NOMBRE**  | **NIVEL DE COMPLEJIDAD** | **NIVEL DE PRIORIDAD** | **OBJETIVOS DE NEGOCIO** |
  | :--: | :----- | :-----: | :-----: | :----- |
  | **RFI_01** | Historial de ubicación | Alto | Alto | OB_04 |  
  | **RFI_02** | Historial médico | Medio | Bajo | OB_04,OB_07 |  
@@ -1029,7 +1029,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 >	Matriz de trazabilidad de Reglas de Negocio frente a Objetivos de Negocio.
 
-| **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos de Negocio** |
+| **ID** | **NOMBRE** | **NIVEL DE COMPLEJIDAD** | **NIVEL DE PRIORIDAD** | **OBJETIVOS DE NEGOCIO** |
  | :--: | :-----  | :-----: | :-----: | :----- |
  | **RFN_01** | Protección de datos | Medio | Alto | OB_04 |
  | **RFN_02** | Leyes generales| Medio | Alto | OB_04 |  
@@ -1051,7 +1051,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 >	Matriz de trazabilidad de Requisitos de Conducta frente a Objetivos de Negocio.
 
- | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos de Negocio** |
+ | **ID** | **NOMBRE** | **NIVEL DE COMPLEJIDAD** | **NIVEL DE PRIORIDAD** | **OBJETIVOS DE NEGOCIO** |
  | :--: |  :----- | :-----: | :-----: | :-----|
  | **RFC_01** | Automatización de citas médicas | Alto | Alto | OB_03,OB_07,OB_08,OB_12 |  
  | **RFC_02** | Notificación cita médica caso cercano | Bajo | Medio | OB_08,OB_12 |  
@@ -1072,7 +1072,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 >	Matriz de trazabilidad de Requisitos no Funcionales frente a Objetivos de Negocio.
 
- | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos de Negocio** |
+ | **ID** | **NOMBRE** | **NIVEL DE COMPLEJIDAD** | **NIVEL DE PRIORIDAD** | **OBJETIVOS DE NEGOCIO** |
  | :--: |  :----- | :-----: | :-----: | :----- |
  | **RNFF_01** | Alta disponibilidad | Alto | Alto | OB_01,OB_02,OB_06 |  
  | **RNFF_02** | Tiempo de inicio | Alto | Medio | OB_01,OB_06 |  
@@ -1111,7 +1111,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 >	Matriz de trazabilidad de Restricciones Técnicas frente a Objetivos de Negocio.
 
- | **ID** | **Nombre** |  **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos de Negocio** |
+ | **ID** | **NOMBRE** |  **NIVEL DE COMPLEJIDAD** | **NIVEL DE PRIORIDAD** | **OBJETIVOS DE NEGOCIO** |
  | :--: | :----- |  :-----: | :-----: | :----- |
  | **RT_01** | Motor de la base de datos | Medio | Alto | OB_04 |  
  | **RT_02** | Código de la aplicación | Medio | Alto | OB_01 |  
@@ -1124,7 +1124,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 >	Matriz de trazabilidad de Requisitos de Integración frente a Objetivos de Negocio.
 
-| **ID** | **Nombre** | **Criterios de aceptación** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos de Negocio** |
+| **ID** | **NOMBRE** | **CRITERIOS DE ACEPTACIÓN** | **NIVEL DE COMPLEJIDAD** | **NIVEL DE PRIORIDAD** | **OBJETIVOS DE NEGOCIO** |
  | :--: | :----- | :----- | :-----: | :-----: | :----- |
  | **RI_01** | Servicio @firma | Siempre que sea necesario usar la firma electrónica se usará el servicio @firma | Medio | Medio | OB_01,OB_03,OB_14 |
- | **RI_02** | Servicio 'Dni electrónico' | Se hará uso del Dni electrónico siempre que sea necesario verificar un DNI | Medio | Medio | OB_01,OB_03,OB_14 |
+ | **RI_02** | Servicio 'DNI electrónico' | Se hará uso del Dni electrónico siempre que sea necesario verificar un DNI | Medio | Medio | OB_01,OB_03,OB_14 |
