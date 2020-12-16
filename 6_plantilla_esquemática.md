@@ -2,7 +2,7 @@
 # 6 CATÁLOGO DE REQUISITOS DEL SISTEMA A DESARROLLAR
 
 ## 6.1 Requisitos Generales del Sistema
-Esta sección debería contener la especificación de los requisitos generales del sistema, también denominados características del sistema (system features) u objetivos del sistema. Sin embargo, ya que en clase no hemos diferenciado los objetivos del sistema de los objetivos de negocio, no entraremos en más detalle en esta sección y para cualquier referencia a los objetivos deberemos acudir al punto 4.1 del documento donde ya se especificaron todos los objetivos y subobjetivos de Pandemio.
+Esta sección debería contener la especificación de los requisitos generales del sistema, también denominados características del sistema (system features) u objetivos del sistema. Sin embargo, ya que en clase no hemos diferenciado los objetivos del sistema de los objetivos de negocio, no entraremos en más detalle en esta sección y para cualquier referencia a los objetivos deberemos acudir al apartado "4.1 Objetivos de Negocio" donde ya se especificaron todos los objetivos y subobjetivos de Pandemio.
 
 
 <br>
