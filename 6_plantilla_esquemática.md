@@ -2,13 +2,13 @@
 # 6 CATÁLOGO DE REQUISITOS DEL SISTEMA A DESARROLLAR
 
 ## 6.1 Requisitos Generales del Sistema
-Esta sección debe contener la especificación de los requisitos generales del sistema, también denominados características del sistema (system features) u objetivos del sistema.
+Esta sección debería contener la especificación de los requisitos generales del sistema, también denominados características del sistema (system features) u objetivos del sistema. Sin embargo, ya que en clase no hemos diferenciado los objetivos del sistema de los objetivos de negocio, no entraremos en más detalle en esta sección y para cualquier referencia a los objetivos deberemos acudir al punto 4.1 del documento donde ya se especificaron todos los objetivos y subobjetivos de Pandemio.
 
-Los objetivos anteriormente comentados son los objetivos de negocio que ya se han especificado anteriormente en el punto 4.1 del documento, en este mismo puntos se hace también referencia a sus subobjetivos.
+
 <br>
 
 ## 6.2 Casos de uso del Sistema 
-Los casos de uso describen cómo utilizarán el sistema a desarrollar los futuros usuarios de Pandemio para realizar sus procesos de negocio. Esta sección se divide en las secciones que se describen a continuación.
+Los casos de uso describen cómo utilizarán el sistema a desarrollar los futuros usuarios de Pandemio para realizar sus procesos de negocio. Esta sección se divide en las secciones que se describen a continuación:
 
 ### 6.2.1 Diagramas de Casos de Uso del Sistema
 Los principales casos de uso que realizarán los futuros usuarios de Pandemio son los siguientes:
@@ -36,7 +36,7 @@ Los principales casos de uso que realizarán los futuros usuarios de Pandemio so
 
 
 ### 6.2.2 Especificación de Actores del Sistema
-Todas las especificaciones de los actores que se han identificado en los casos de uso las encontramos en el apartado "4.2.1 Descripción de los Actores de Negocio a Implantar". 
+Todas las especificaciones de los actores que se han identificado en los casos de uso las encontramos en el apartado "4.2.1 Descripción de los Actores de Negocio a Implantar", por lo que no entraremos en más detalle en esta sección. 
 
 ### 6.2.3 Especificación de Casos de Uso del Sistema
 A continuación, se especifican todos los casos de uso que se han identificado en el apartado "6.2.1 Diagramas de Casos de Uso del Sistema":
@@ -160,38 +160,38 @@ A continuación, se especifican todos los casos de uso que se han identificado e
 <br>
 
 ## 6.3 Requisitos Funcionales del Sistema
-Esta sección contiene todos los requisitos funcionales del sistema que se han identificado a partir de los requisitos generales.
+Esta sección contiene todos los requisitos funcionales del sistema que se han identificado a partir de los objetivos de negocio.
 
 ### 6.3.1 Requisitos de Información del Sistema
-Estos requisitos especifican qué información debe almacenar el sistema para poder ofrecer la funcionalidad descrita en los casos de uso del sistema o en otros requisitos.
+Estos requisitos especifican qué información debe almacenar el sistema para poder ofrecer la funcionalidad descrita en los casos de uso del sistema o en otros requisitos:
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
 |**RFI_01**| Historial de ubicación | El sistema almacenará el historial de ubicación de cada teléfono móvil el número de días que establezcan los criterios estrictamente epidemiológicos. |
-|**RFI_02**| Historial médico | El sistema almacenará el historial médico de todos los pacientes. |
-|**RFI_03**| Personas en cuarentena | El sistema almacenará un listado de los pacientes en cuarentena. |
-|**RFI_04**| Pendientes cita médica | El sistema almacenará un listado de personas con cita médica. |
-|**RFI_05**| Historial usuario | El sistema almacenará un historial de los datos a los que ha accedido cada usuario. |
+|**RFI_02**| Historial médico | El sistema almacenará el historial médico de todos los ciudadanos que viven en España. |
+|**RFI_03**| Listado personas en cuarentena | El sistema almacenará un listado de todas las personas que estén en cuarentena. |
+|**RFI_04**| Listado personas pendientes de cita médica | El sistema almacenará un listado de todas las personas que tengan una cita médica pendiente. |
+|**RFI_05**| Historial usuario | El sistema almacenará un historial de los datos a los que ha accedido cada usuario registrado en el sistema. |
  
 ### 6.3.2 Requisitos de Reglas de Negocio del Sistema
-Estos requisitos especifican qué reglas de negocio, políticas y restricciones debe respetar el sistema, evitando que se incumplan durante su funcionamiento.
+Estos requisitos especifican qué reglas de negocio, políticas y restricciones debe respetar el sistema, evitando que se incumplan durante su funcionamiento:
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
 |**RFN_01**| Leyes autonómicas | El nuevo sistema debe cumplir con las leyes y reglamentos establecidos por cada comunidad autónoma para la protección de datos. |
 |**RFN_02**| Leyes generales | El nuevo sistema se acogerá a las leyes generales públicas. |
-|**RFN_03**| Login | Solo los usuarios logueados podrán acceder a los datos. Para ello, las personas encargadas de la gestión de la pandemia en el Gobierno de España, todos los sanitarios y rastreadores, y todos el personal de las fuerzas del orden deberán registrarse en la aplicación. |
-|**RFN_04**| Validación de registros| La validación de los nuevos registros solo la realizarán los superadministradores del Gobierno de España. |
-|**RFN_05**| Almacenamiento de datos | Cada CCAA tendrá 3 copias de todos los datos y usará 3 servidores de datos diferentes para almacenar cada copia de los datos. |
-|**RFN_06**| Gestión propia de datos | Cada comunidad autónoma gestionará sus propias bases de datos. |
-|**RFN_07**| Re | El sistema solo revelará los datos imprescindibles a los usuarios logueados. |
-|**RFN_08**| | Los sanitarios podrán acceder al historial médico de los pacientes. |
+|**RFN_03**| Acceso restringido a datos sensibles | Solo los usuarios logueados podrán acceder a los datos sensibles que almacena el sistema. Para ello, las personas encargadas de la gestión de la pandemia en el Gobierno de España, todos los sanitarios y rastreadores, y todos el personal de las fuerzas del orden deberán registrarse en la aplicación. |
+|**RFN_04**| Validación de nuevos registros | La validación de los nuevos registros solo la realizarán los superadministradores del Gobierno de España. |
+|**RFN_05**| Almacenamiento triplicado de los datos | Cada CCAA tendrá 3 copias de todos los datos y usará 3 servidores de datos diferentes para almacenar cada copia de los datos. |
+|**RFN_06**| Gestión propia de bases de datos | Cada comunidad autónoma gestionará sus propias bases de datos. |
+|**RFN_07**| Revelación datos sensibles | El sistema solo revelará los datos sensibles imprescindibles a los usuarios logueados. |
+|**RFN_08**| Acceso al historial médico | Los sanitarios podrán acceder al historial médico de los pacientes. |
 |**RFN_09**| Aviso incumplimiento cita médica | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no acude a una cita médica. |
 |**RFN_10**| Aviso incumplimiento cuarentena | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no cumple la cuarentena asignada. |
-|**RFN_11**| Comprobar cuarentena | Los sanitarios y rastreadores deberán comprobar que los casos diagnosticados como positivos cumplen la cuarentena establecida. |
-|**RFN_12**| Campañas publicitarias | El Ministerio de Sanidad deberá crear campañas publicitarias para fomentar que las personas con dispositivos móviles informen de casos positivos en las personas dependientes que tengan a su cargo que no dispongan de teléfono móvil o si comienzan a desarrollar algún síntoma. |
-|**RN_13**| Localización por triangulación de antenas móviles | El sistema utilizará localización por triangulación de antenas móviles si puede garantizar una "cercanía" de distancia menor a 5 metros, si no utlilizará la localización por GPS. |
-|**RFN_14**| Ubicación GPS en modo avión| El sistema solo almacenará la ubicación obtenida por GPS si el teléfono móvil está en modo avión. |
+|**RFN_11**| Comprobación cuarentena | Los sanitarios y rastreadores deberán comprobar que los casos diagnosticados como positivos cumplen la cuarentena establecida. |
+|**RFN_12**| Campañas publicitarias | El Ministerio de Sanidad deberá crear campañas publicitarias para fomentar que las personas con dispositivos móviles informen de casos positivos (de las personas dependientes que tengan a su cargo que no dispongan de teléfono móvil) o si comienzan a desarrollar algún síntoma. |
+|**RN_13**| Geolocalización | El sistema utilizará localización por triangulación de antenas móviles si puede garantizar una "cercanía" de distancia menor a 5 metros, si no utlilizará la localización por GPS. |
+|**RFN_14**| Geolocalización en modo avión | El sistema solo almacenará la ubicación obtenida por GPS si el teléfono móvil está en modo avión. |
 |**RFN_15**| Instalación automática | La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen. |
 
 
@@ -200,25 +200,25 @@ Estos requisitos especifican cualquier otro comportamiento deseado del sistema q
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RFC_01**| Automatización de citas médicas | El sistema generará citas médicas automáticas para el centro de salud más cercano cuando una persona haya estado en contacto con un positivo, o se informe de un positivo de un caso cercano sin teléfono móvil o se informe de síntomas compatibles. |
-|**RFC_02**| Notificación cita médica | El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si ha estado en contacto con un caso positivo. |
-|**RFC_03**| Notificación cita médica | El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si informa de un positivo de un caso cercano sin teléfono móvil o si informa de síntomas compatibles. |
+|**RFC_01**| Automatización de citas médicas | El sistema generará citas médicas automáticas para el centro de salud más cercano cuando una persona haya estado en contacto con un positivo, o se informe de un positivo de un caso cercano sin teléfono móvil, o se informe de síntomas compatibles. |
+|**RFC_02**| Notificación cita médica caso cercano | El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si ha estado en contacto con un caso positivo. |
+|**RFC_03**| Notificación cita médica mediante formulario | El sistema enviará una notificación PUSH al usuario para que acuda a realizarse pruebas médicas si informa de un positivo de un caso cercano sin teléfono móvil o si informa de síntomas compatibles. |
 |**RFC_04**| Notificación días de cuarentena | El sistema enviará una notificación PUSH a los usuarios que deban realizar la cuarentena informándoles del número de días de cuarentena que deben cumplir. |
 |**RFC_05**| Mapa de calor | El sistema generará un mapa de calor con los datos de usuarios que hayan sido diagnosticados como positivos. |
 |**RFC_06**| Actualización del mapa de calor | El mapa de calor se actualizará cada hora. |
-|**RFC_07**| | El número mínimo de personas contagiadas que deben pasar por una zona para que está aparezca coloreada en el mapa de calor será de 5 personas. |
-|**RFC_08**| | El mapa de calor se coloreará con colores que vayan desde el amarillo hasta el rojo en función del número de casos positivos que haya en la zona. |
+|**RFC_07**| Valor mínimo mapa de calor | El número mínimo de personas contagiadas que deben pasar por una zona para que esta aparezca coloreada en el mapa de calor será de 5 personas. |
+|**RFC_08**| Colores leyenda mapa de calor | El mapa de calor se coloreará con colores que vayan desde el amarillo hasta el rojo en función del número de casos positivos que haya en la zona. |
 |**RFC_09**| Validación automática de formularios | El sistema validará automáticamente los formularios emitidos por el usuario cuando avise de casos positivos cercanos y no dejará enviarlos en caso de que exista algún error. |
-|**RFC_10**| Notificación entre comunidades | El sistema notificará a las CCAA si un caso positivo se ha movido entre comunidades. |
+|**RFC_10**| Notificación entre CCAA | El sistema notificará a las CCAA si un caso positivo se ha movido entre comunidades. |
 |**RFC_11**| Informe casos positivos | El sistema generará un informe con los casos positivos que hayan salido del país para comunicárselo lo antes posible. |
-|**RFC_12**| Informe datos mapa de calor | El sistema generará un informe con los datos detallados obtenidos por el mapa de calor y solo podrá acceder a él el Gobierno. |
+|**RFC_12**| Informe datos mapa de calor | El sistema generará un informe con los datos detallados obtenidos en el mapa de calor y solo podrá acceder a él el Gobierno. |
 |**RFC_13**| Notificación incumplimiento de la cuarentena | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario está incumplimiento la cuarentena. |
-|**RFC_14**| Notificación incumplimiento de la cuarentena | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario no ha acudido a una cita médica. |
+|**RFC_14**| Notificación incumplimiento de la cita médica | El sistema enviará una notificación PUSH a las fuerzas del orden si un sanitario avisa de que un usuario no ha acudido a una cita médica. |
 
 <br>
 
 ## 6.4 Requisitos No Funcionales del Sistema
-Esta sección contiene todos los requisitos no funcionales del sistema que se han identificado y que hemos clasificado de la siguiente forma:
+Esta sección contiene todos los requisitos no funcionales del sistema que se han identificado a partir de los objetivos de negocio.
 
 ### 6.4.1 Requisitos de Fiabilidad
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como recuperabilidad y tolerancia a fallos: 
@@ -229,7 +229,7 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 |**RNFF_02**| Tiempo de inicio | El tiempo de inicio o reinicio del sistema debe ser inferior a dos minutos. |
 |**RNFF_03**| Baja probabilidad de fallo | La probabilidad de fallo será inferior al 3%. |
 |**RNFF_04**| Copia de los datos | Cada CCAA tendrá 3 copias de todos los datos y usará 3 servidores de datos diferentes para almacenar cada copia de los datos. |
-|**RNFF_05**| Sincronización de datos | Se sincronizarán los datos de los 3 servidores cada 5 minutos. |
+|**RNFF_05**| Sincronización de datos | Se sincronizarán los datos de todos los servidores cada 5 minutos. |
 
 
 ### 6.4.2 Requisitos de Usabilidad
@@ -237,21 +237,21 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RNFU_01**| Tiempo de aprendizaje bajo| El tiempo de aprendizaje del sistema debe ser inferior a 2 horas. |
+|**RNFU_01**| Bajo tiempo de aprendizaje | El tiempo de aprendizaje del sistema debe ser inferior a 2 horas. |
 |**RNFU_02**| Manuales de usuario | El sistema debe contar con manuales de usuario y ayuda online. |
-|**RNFU_03**| Clarificación de errores| El sistema proporcionará errores claros y concisos. |
+|**RNFU_03**| Clarificación de errores | El sistema proporcionará errores claros y concisos. |
 |**RNFU_04**| Múltiples idiomas | Los usuarios podrán cambiar el dialecto o el idioma de la aplicación pudiendo elegir entre español, catalán, valenciano, gallego, euskera e inglés. |
-|**RNFU_05**| Fácil acceso a la información deseada | El sistema deberá permitir en el 80% de las veces que con un máximo de 5 clicks sea suficiente para llegar a la información deseada. |
+|**RNFU_05**| Fácil acceso a la información deseada | El sistema deberá permitir en el 80% de las veces que, con un máximo de 5 clicks, se pueda llegar a la información deseada. |
 
 ### 6.4.3 Requisitos de Eficiencia
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como tiempo de respuesta:
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RNFE_01**| Multiples transacciones | El sistema debe ser capaz de procesar 15 millones de transacciones por minuto. |
-|**RNFE_02**| Respuesta rápida| Toda transacción debe responder al usuario en menos de 10 segundos. |
-|**RNFE_03**| Conexiones simulténeas | El sistema debe soportar 5 millones de conexiones simultáneas. |
-|**RNFE_04**| Tiempo de respuesta rápido | El sistema deberá tener un tiempo máximo de respuesta de 5 segundos para cualquier operación de consulta. |
+|**RNFE_01**| Transacciones múltiples | El sistema debe ser capaz de procesar 15 millones de transacciones por minuto. |
+|**RNFE_02**| Rápida respuesta | Toda transacción debe responder al usuario en menos de 10 segundos. |
+|**RNFE_03**| Conexiones simultáneas | El sistema debe soportar 5 millones de conexiones simultáneas. |
+|**RNFE_04**| Máximo tiempo de respuesta | El sistema deberá tener un tiempo máximo de respuesta de 5 segundos para cualquier operación de consulta. |
 
 ### 6.4.4 Requisitos de Mantenibilidad
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como estabilidad, facilidad de análisis, facilidad de cambio, facilidad de pruebas:
@@ -260,7 +260,7 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 | :--: | :----- |:----- |
 |**RNFM_01**| Código fuente público | El código de la aplicación será publicado en GitHub y sin patentes para que cualquier usuario pueda buscar fallos en la aplicación y ayudar a su mejora. |
 |**RNFM_02**| Actualizaciones forzadas | Se forzará la actualización de la aplicación si se identifica algún bug que pueda afectar al sistema. |
-|**RNFM_03**| Lenguaje  Java | El código fuente que se implemente en JAVA deberá cumplir las recomendaciones de Code Conventions for the Java Programming Language. |
+|**RNFM_03**| Lenguaje Java | El código fuente que se implemente en JAVA deberá cumplir las recomendaciones de Code Conventions for the Java Programming Language. |
 
 ### 6.4.5 Requisitos de Portabilidad
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos relacionados con la escalabilidad (capacidad de instalación, capacidad de sustitución, adaptabilidad, coexistencia, compatibilidad con hardware o software, etc):
@@ -268,9 +268,9 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
 |**RNFP_01**| Instalación automática | La aplicación se instalará automaticamente en todos los teléfono móviles independientemente del sistema operativo que utilicen.|
-|**RNFP_02**| Impa¡lantación en centros de salud| La aplicación se instalará en todos los ordenadores de los centros de salud y coexistirá con las aplicaciones sanitarias propias de cada CCAA.|
+|**RNFP_02**| Implantación en centros de salud | La aplicación se instalará en todos los ordenadores de los centros de salud y coexistirá con las aplicaciones sanitarias propias de cada CCAA.|
 |**RNFP_03**| Compatibilidad entre sistemas | El uso de está aplicación es compatible con el uso de cualquier otra aplicación.|
-|**RNFP_04**| Evitar uso de extensiones | El sistema deberá evitar el uso de extensiones propietarias al estándar SQL-92 en el sistema de gestión de bases de datos que utilice.|
+|**RNFP_04**| Extensiones de SQL | El sistema deberá evitar el uso de extensiones propietarias al estándar SQL-92 en el sistema de gestión de bases de datos que utilice.|
 
 ### 6.4.6 Requisitos de Seguridad
 Estos requisitos establecen, de la manera más objetiva y medible posible, los niveles que debe cumplir el sistema a desarrollar en aspectos como accesos al sistema, identificación y autenticación, protección de datos y privacidad:
@@ -279,12 +279,12 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 | :--: | :----- |:----- |
 |**RNFS_01**| Modificación de permisos | Los permisos de acceso solo pueden ser modificados por los administradores.|
 |**RNFS_02**| Validación de nuevos registros | La validación de los nuevos registros solo la realizarán los superadministradores del Gobierno de España.|
-|**RNFS_03**| Patrones de seguridad| El sistema debe seguir patrones de seguridad que incrementen la seguridad.|
-|**RNFS_04**| Protección a accesos no autorizados | El sistema debe asegurar que los datos están protegidos de accesos no autorizados.|
+|**RNFS_03**| Patrones de seguridad | El sistema debe seguir patrones de seguridad que incrementen la seguridad.|
+|**RNFS_04**| Protección frente a accesos no autorizados | El sistema debe asegurar que los datos están protegidos de accesos no autorizados.|
 |**RNFS_05**| Control de acceso | El sistema controlará el acceso y lo permitirá solamente a usuarios autorizados.|
 |**RNFS_06**| Credenciales de acceso | Los usuarios accederán al sistema con un nombre de usuario y contraseña.|
-|**RNFS_07**| Alertas| El sistema enviará una alerta a los administradores del sistema cuando ocurra alguno de los siguientes eventos: entrada al sistema por parte de un usuario, 2 o más intentos fallidos al introducir la contraseña de usuario y cambio de contraseña de usuario.|
-|**RNFS_08**| Evitar ataques inyección SQL| El sistema deberá ser capaz de evitar ataques de inyección de SQL sistemáticos.|
+|**RNFS_07**| Alertas | El sistema enviará una alerta a los administradores del sistema cuando ocurra alguno de los siguientes eventos: entrada al sistema por parte de un usuario, 2 o más intentos fallidos al introducir la contraseña de usuario y cambio de contraseña de usuario.|
+|**RNFS_08**| Ataques por inyección de SQL | El sistema deberá ser capaz de evitar ataques de inyección de SQL sistemáticos.|
 |**RNFS_09**| Codificación de contraseñas | Las contraseñas serán almacenadas en las bases de datos usando un algoritmo criptográfico para que no sean visibles a simple vista.|
 
 ### 6.4.7 Otros Requisitos No Funcionales
@@ -292,8 +292,8 @@ Esta sección contiene otros requisitos no funcionales que se han identificado y
 
 | **ID** | **Nombre** | **Descripción** |
 | :--: | :----- |:----- |
-|**RNFO_01**| | No será necesario tener la aplicación abierta en los dispositivos móviles para que funcione correctamente.|
-|**RNFO_02**| Dos tipos de formularios | La aplicación debe contar con dos formularios, uno para informar de un caso positivo cercano de una persona dependiente, y otro para informar de síntomas compatibles. Estos formularios no se podrán enviar si contienen algún error y será el propio sistema el encargado de validarlos y gestionarlos.|
+|**RNFO_01**| Aplicación en segundo plano | No será necesario tener la aplicación abierta en los dispositivos móviles para que funcione correctamente.|
+|**RNFO_02**| Tipos de formularios | La aplicación debe contar con dos formularios, uno para informar de un caso positivo cercano de una persona dependiente, y otro para informar de síntomas compatibles. Estos formularios no se podrán enviar si contienen algún error y será el propio sistema el encargado de validarlos y gestionarlos.|
 
 <br>
   
@@ -302,11 +302,11 @@ Esta sección contiene las restricciones técnicas que se imponen al sistema sof
 
   | **ID** | **Nombre** | **Descripción** |
   | :--: | :----- |:----- |
-  |**RT_01**| MySQL  | El motor de la base de datos donde se almacenará toda la información será MySQL. |
-  |**RT_02**| Kotlin, XML y Java | El código de la aplicación estará escrito en Kotlin y XML para la parte de cliente, y Java para la parte de servidor. |
-  |**RT_03**| GPY  y triagulación por antenas móviles | El sistema utilizará la ubicación por GPS y/o por triangulación de antenas móviles. |
-  |**RT_04**| Protocolo HTTPS | Cualquier intercambio de datos vía Internet que realice el software se realizará por medio del protocolo encriptado HTTPS. |
-  |**RT_05**| MYSQL server, PortgreSQL server y MongoDB | Los servidores usados para almacenar datos serán MySQL server, PostgreSQL server y MongoDB server. |
+  |**RT_01**| Motor de la base de datos | El motor de la base de datos donde se almacenará toda la información será MySQL. |
+  |**RT_02**| Código de la aplicación | El código de la aplicación estará escrito en Kotlin y XML para la parte de cliente, y Java para la parte de servidor. |
+  |**RT_03**| Geolocalización | El sistema utilizará la ubicación por GPS y/o por triangulación de antenas móviles. |
+  |**RT_04**| Intercambio de datos vía Internet | Cualquier intercambio de datos vía Internet que realice el software se realizará por medio del protocolo encriptado HTTPS. |
+  |**RT_05**| Servidores | Los servidores usados para almacenar datos serán MySQL server, PostgreSQL server y MongoDB server. |
   |**RT_06**| Compatibilidad de SO | La aplicación será compatible en todos los SO de los teléfonos móviles (Android, iOS, HarmonyOS, etc.) y en cualquier navegador (Windows, Linux, etc.). |
   
 <br>  
@@ -316,15 +316,13 @@ Estos requisitos identifican aquellos servicios disponibles en el entorno tecnol
   
    | **ID** | **Nombre** | **Descripción** |
    | :--: | :----- |:----- |
-   |**RI_01**| servicio @firma | El sistema deberá utilizar el servicio @firma para todos los aspectos relacionados con validación y firma electrónica. |
-   |**RI_02**| servicio 'Dni electrónico | El sistema deberá utilizar el servicio 'Dni electrónico' para todos los aspectos relacionados con la validación del DNI. |
+   |**RI_01**| Servicio @firma | El sistema deberá utilizar el servicio @firma para todos los aspectos relacionados con validación y firma electrónica. |
+   |**RI_02**| Servicio 'Dni electrónico | El sistema deberá utilizar el servicio 'Dni electrónico' para todos los aspectos relacionados con la validación del DNI. |
    
 <br>
 
 ## 6.7 Información Sobre Trazabilidad
 Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado oportunas para identificar las relaciones entre los requisitos identificados:
-
-> Matriz de trazabilidad de Requisitos Generales frente a Objetivos de Negocio.
 
 >	Matriz de trazabilidad de Casos de Uso frente a Objetivos del negocio.
 
