@@ -304,7 +304,7 @@ Esta sección contiene las restricciones técnicas que se imponen al sistema sof
   | :--: | :----- |:----- |
   |**RT_01**| Motor de la base de datos | El motor de la base de datos donde se almacenará toda la información será MySQL. |
   |**RT_02**| Código de la aplicación | El código de la aplicación estará escrito en Kotlin y XML para la parte de cliente, y Java para la parte de servidor. |
-  |**RT_03**| Geolocalización | El sistema utilizará la ubicación por GPS y/o por triangulación de antenas móviles. |
+  |**RT_03**| Formas geolocalización | El sistema utilizará la ubicación por GPS y/o por triangulación de antenas móviles. |
   |**RT_04**| Intercambio de datos vía Internet | Cualquier intercambio de datos vía Internet que realice el software se realizará por medio del protocolo encriptado HTTPS. |
   |**RT_05**| Servidores | Los servidores usados para almacenar datos serán MySQL server, PostgreSQL server y MongoDB server. |
   |**RT_06**| Compatibilidad de SO | La aplicación será compatible en todos los SO de los teléfonos móviles (Android, iOS, HarmonyOS, etc.) y en cualquier navegador (Windows, Linux, etc.). |
@@ -317,7 +317,7 @@ Estos requisitos identifican aquellos servicios disponibles en el entorno tecnol
    | **ID** | **Nombre** | **Descripción** |
    | :--: | :----- |:----- |
    |**RI_01**| Servicio @firma | El sistema deberá utilizar el servicio @firma para todos los aspectos relacionados con validación y firma electrónica. |
-   |**RI_02**| Servicio 'Dni electrónico | El sistema deberá utilizar el servicio 'Dni electrónico' para todos los aspectos relacionados con la validación del DNI. |
+   |**RI_02**| Servicio 'Dni electrónico' | El sistema deberá utilizar el servicio 'Dni electrónico' para todos los aspectos relacionados con la validación del DNI. |
    
 <br>
 
@@ -326,19 +326,19 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 >	Matriz de trazabilidad de Casos de Uso frente a Objetivos del negocio.
 
-| **ID** | **Nombre** | **Criterios de aceptación** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
+| **ID** | **Nombre**  **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: | :-----: | :-----: | :-----: | :-----: | :-----: |
- | **CU_01** | Comprobar cuarentena | | Alto | Alto | OB_10,OB_11 |
- | **CU_02** | Ver avisos fuerzas del orden| | Medio | Medio | OB_09,OB_10 |
- | **CU_03** | Ver citas médicas | | Medio | Alto | OB_09 |
- | **CU_04** | Ver avisos | | Medio | Alto | OB_09,OB_10 |
- | **CU_05** | Revisar incidencia| | Alto | Medio | OB_06,OB_13,OB_14 |
- | **CU_06** | Ver citas médicas propias | | Bajo | Alto | OB_02, OB_03,OB_07,OB_08|
- | **CU_07** | Ver cuarentena establecida| | Bajo | Alto | OB_02, OB_03|
- | **CU_08** | Informar de caso cercano positivo sin móvil | | Bajo | Bajo | OB_02, OB_03,OB_04,OB_05,OB_07,OB_08 |
- | **CU_09** | Informar de síntomas compatibles | | Bajo | Bajo | OB_02, OB_03,OB_04,OB_05,OB_07,OB_08|
- | **CU_10** | Ver mapa calor | | Alto | Medio | OB_02,OB_04,OB_05,OB_06,OB_13 |
- | **CU_11** | Enviar ubicación | | Medio | Alto  | OB_02, OB_03 |
+ | **CU_01** | Comprobar cuarentena | Alto | Alto | OB_10,OB_11 |
+ | **CU_02** | Ver avisos fuerzas del orden| Medio | Medio | OB_09,OB_10 |
+ | **CU_03** | Ver citas médicas | Medio | Alto | OB_09 |
+ | **CU_04** | Ver avisos | Medio | Alto | OB_09,OB_10 |
+ | **CU_05** | Revisar incidencia| Alto | Medio | OB_06,OB_13,OB_14 |
+ | **CU_06** | Ver citas médicas propias | Bajo | Alto | OB_02, OB_03,OB_07,OB_08|
+ | **CU_07** | Ver cuarentena establecida| Bajo | Alto | OB_02, OB_03|
+ | **CU_08** | Informar de caso cercano positivo sin móvil | Bajo | Bajo | OB_02, OB_03,OB_04,OB_05,OB_07,OB_08 |
+ | **CU_09** | Informar de síntomas compatibles | Bajo | Bajo | OB_02, OB_03,OB_04,OB_05,OB_07,OB_08|
+ | **CU_10** | Ver mapa calor | Alto | Medio | OB_02,OB_04,OB_05,OB_06,OB_13 |
+ | **CU_11** | Enviar ubicación | Medio | Alto  | OB_02, OB_03 |
 
 <br>
 
@@ -348,8 +348,8 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
  | :--: | :-----: | :-----: | :-----: | :-----: |
  | **RFI_01** | Historial de ubicación | Alto | Alto | OB_04 |  
  | **RFI_02** | Historial médico | Medio | Bajo | OB_04, OB_07 |  
- | **RFI_03** | Personas en cuarentena | Medio | Alto | OB_10, OB_11 |  
- | **RFI_04** | Pendientes cita médica | Medio | Alto | OB_07, OB_08, OB_09 |  
+ | **RFI_03** | Listado personas en cuarentena | Medio | Alto | OB_10, OB_11 |  
+ | **RFI_04** | Listado personas pendientes de cita médica | Medio | Alto | OB_07, OB_08, OB_09 |  
  | **RFI_05** | Historial usuario | Medio | Bajo | OB_04, OB_05 | 
  
  
@@ -359,21 +359,21 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: | :-----:  | :-----: | :-----: | :-----: |
- | **RFN_01** |  | Medio | Alto | OB_04 |
- | **RFN_02** |  | Medio | Alto | OB_04 |  
- | **RFN_03** |  | Alto | Alto | OB_04,OB_05 |     
- | **RFN_04** |  | Alto | Alto | OB_05 |  
- | **RFN_05** |  | Alto | Medio | OB_04 |  
- | **RFN_06** |  | Medio | Medio | OB_04,OB_14 |    
- | **RFN_07** |  | Alto | Alto | OB_04 |  
- | **RFN_08** |  | Medio | Medio | OB_04,OB_05 |  
- | **RFN_09** |  | Medio | Alto | OB_09 |     
- | **RFN_10** |  | Medio | Alto | OB_10 |
- | **RFN_11** |  | Alto | Medio | OB_11|  
- | **RFN_12** |  | Bajo| Bajo | OB_03,OB_06|    
- | **RFN_13** |  | Alto | Alto | OB_02,OB_04|  
- | **RFN_14** |  | Alto | Alto | OB_02,OB_04 | 
- | **RFN_15** |  | Alto | Alto | OB_02 | 
+ | **RFN_01** | Leyes autonómicas | Medio | Alto | OB_04 |
+ | **RFN_02** | Leyes generales| Medio | Alto | OB_04 |  
+ | **RFN_03** | Acceso restringido a datos sensibles | Alto | Alto | OB_04,OB_05 |     
+ | **RFN_04** | Validación de nuevos registros | Alto | Alto | OB_05 |  
+ | **RFN_05** | Almacenamiento triplicado de los datos | Alto | Medio | OB_04 |  
+ | **RFN_06** | Gestión propia de bases de datos | Medio | Medio | OB_04,OB_14 |    
+ | **RFN_07** | Revelación datos sensibles | Alto | Alto | OB_04 |  
+ | **RFN_08** | Acceso al historial médico | Medio | Medio | OB_04,OB_05 |  
+ | **RFN_09** | Aviso incumplimiento cita médica | Medio | Alto | OB_09 |     
+ | **RFN_10** | Aviso incumplimiento cuarentena | Medio | Alto | OB_10 |
+ | **RFN_11** | Comprobación cuarentena | Alto | Medio | OB_11|  
+ | **RFN_12** | Campañas publicitarias | Bajo| Bajo | OB_03,OB_06|    
+ | **RFN_13** | Geolocalización | Alto | Alto | OB_02,OB_04|  
+ | **RFN_14** | Geolocalización en modo avión | Alto | Alto | OB_02,OB_04 | 
+ | **RFN_15** | Instalación automática | Alto | Alto | OB_02 | 
 
 <br>
 
@@ -381,20 +381,20 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
  | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: |  :-----: | :-----: | :-----: | :-----: |
- | **RFC_01** |  | Alto | Alto | OB_03,OB_07,OB_08,OB_12 |  
- | **RFC_02** |  | Bajo | Medio | OB_08,OB_12 |  
- | **RFC_03** |  | Bajo | Medio | OB_07,OB_12 |    
- | **RFC_04** |  | Bajo | Medio | OB_08 |  
- | **RFC_05** |  | Alto | Bajo | OB_13 |  
- | **RFC_06** |  | Medio | Bajo | OB_13 |     
- | **RFC_07** |  | Alto | Bajo | OB_13 |   
- | **RFC_08** |  | Bajo | Bajo | OB_13 |  
- | **RFC_09** |  | Medio | Medio | OB_07 |     
- | **RFC_10** |  | Alto | Alto | OB_14 |  
- | **RFC_11** |  | Bajo | Alto | OB_14 |  
- | **RFC_12** |  | Alto | Alto | OB_14 |     
- | **RFC_13** |  | Bajo | Alto | OB_10 |  
- | **RFC_14** |  | Bajo | Alto | OB_09 |   
+ | **RFC_01** | Automatización de citas médicas | Alto | Alto | OB_03,OB_07,OB_08,OB_12 |  
+ | **RFC_02** | Notificación cita médica caso cercano | Bajo | Medio | OB_08,OB_12 |  
+ | **RFC_03** | Notificación cita médica mediante formulario | Bajo | Medio | OB_07,OB_12 | 
+ | **RFC_04** | Notificación días de cuarentena | Bajo | Medio | OB_08 |  
+ | **RFC_05** | Mapa de calor | Alto | Bajo | OB_13 |  
+ | **RFC_06** | Actualización del mapa de calor | Medio | Bajo | OB_13 |     
+ | **RFC_07** | Valor mínimo mapa de calor | Alto | Bajo | OB_13 |   
+ | **RFC_08** | Colores leyenda mapa de calor | Bajo | Bajo | OB_13 |  
+ | **RFC_09** | Validación automática de formularios | Medio | Medio | OB_07 |     
+ | **RFC_10** | Notificación entre CCAA | Alto | Alto | OB_14 |  
+ | **RFC_11** |	Informe casos positivos  | Bajo | Alto | OB_14 |  
+ | **RFC_12** | Informe datos mapa de calor | Alto | Alto | OB_14 |     
+ | **RFC_13** | Notificación incumplimiento de la cuarentena | Bajo | Alto | OB_10 |  
+ | **RFC_14** | Notificación incumplimiento de la cita médica | Bajo | Alto | OB_09 |   
 
 <br>
 
@@ -402,57 +402,57 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
  | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: |  :-----: | :-----: | :-----: | :-----: |
- | **RNFF_01** |  | Alto | Alto | OB_01,OB_02,OB_06 |  
- | **RNFF_02** |  | Alto | Medio | OB_01,OB_06 |  
- | **RNFF_03** |  | Alto | Alto | OB_01,OB_06 |    
- | **RNFF_04** |  | Alto | Medio | OB_01,OB_06,OB_14 |  
- | **RNFF_05** |  | Alto | Alto | OB_01,OB_04,OB_06,OB_14 |  
- | **RNFU_01** |  | Bajo | Bajo | OB_01,OB_02 |     
- | **RNFU_02** |  | Medio | Alto | OB_01,OB_02 |   
- | **RNFU_03** |  | Alto | Alto | OB_01,OB_02 |  
- | **RNFU_04** |  | Bajo | Bajo | OB_01,OB_02 |     
- | **RNFU_05** |  | Medio | Bajo | OB_01,OB_02 |  
- | **RNFE_01** |  | Alto | Alto | OB_01 |  
- | **RNFE_02** |  | Alto | Medio | OB_01 |     
- | **RNFE_03** |  | Alto | Alto | OB_01 |  
- | **RNFE_04** |  | Alto | Medio | OB_01 |
- | **RNFM_01** |  | Bajo | Bajo | OB_01,OB_06 |  
- | **RNFM_02** |  | Bajo | Medio | OB_01,OB_06 |  
- | **RNFM_03** |  | Medio | Medio | OB_01 |      
- | **RNFP_01** |  | Alto | Alto | OB_01,OB_02,OB_06 |  
- | **RNFP_02** |  | Alto | Alto | OB_01,OB_06 |     
- | **RNFP_03** |  | Alto | Alto | OB_01,OB_06 |   
- | **RNFP_04** |  | Bajo | Bajo | OB_01,OB_02,OB_06 |  
- | **RNFS_01** |  | Bajo | Alto | OB_01,OB_05 |     
- | **RNFS_02** |  | Bajo | Alto | OB_01,OB_05 |  
- | **RNFS_03** |  | Medio | Alto | OB_01,OB_05 |  
- | **RNFS_04** |  | Bajo | Alto | OB_05 |     
- | **RNFS_05** |  | Bajo | Alto | OB_05 |  
- | **RNFS_06** |  | Medio | Alto | OB_05 |
- | **RNFS_07** |  | Medio | Medio | OB_05 |  
- | **RNFS_08** |  | Alto | Alto | OB_01,OB_05 |  
- | **RNFS_09** |  | Medio | Alto | OB_05 |      
- | **RNFO_01** |  | Alto | Alto | OB_01,OB_02 | 
- | **RNFO_02** |  | Medio | Bajo | OB_02,OB_03,OB_12 | 
+ | **RNFF_01** | Alta disponibilidad | Alto | Alto | OB_01,OB_02,OB_06 |  
+ | **RNFF_02** | Tiempo de inicio | Alto | Medio | OB_01,OB_06 |  
+ | **RNFF_03** | Baja probabilidad de fallo | Alto | Alto | OB_01,OB_06 |    
+ | **RNFF_04** | Copia de los datos | Alto | Medio | OB_01,OB_06,OB_14 |  
+ | **RNFF_05** | Sincronización de datos | Alto | Alto | OB_01,OB_04,OB_06,OB_14 |  
+ | **RNFU_01** | Bajo tiempo de aprendizaje | Bajo | Bajo | OB_01,OB_02 |     
+ | **RNFU_02** | Manuales de usuario | Medio | Alto | OB_01,OB_02 |   
+ | **RNFU_03** | Clarificación de errores| Alto | Alto | OB_01,OB_02 |  
+ | **RNFU_04** | Múltiples idiomas| Bajo | Bajo | OB_01,OB_02 |     
+ | **RNFU_05** | Fácil acceso a la información deseada | Medio | Bajo | OB_01,OB_02 |  
+ | **RNFE_01** | Transacciones múltiples | Alto | Alto | OB_01 |  
+ | **RNFE_02** | Rápida respuesta | Alto | Medio | OB_01 |     
+ | **RNFE_03** | Conexiones simultáneas | Alto | Alto | OB_01 |  
+ | **RNFE_04** | Máximo tiempo de respuesta | Alto | Medio | OB_01 |
+ | **RNFM_01** | Código fuente público | Bajo | Bajo | OB_01,OB_06 |  
+ | **RNFM_02** | Actualizaciones forzadas | Bajo | Medio | OB_01,OB_06 |  
+ | **RNFM_03** | Lenguaje Java | Medio | Medio | OB_01 |      
+ | **RNFP_01** | Instalación automática | Alto | Alto | OB_01,OB_02,OB_06 |  
+ | **RNFP_02** | Implantación en centros de salud | Alto | Alto | OB_01,OB_06 |     
+ | **RNFP_03** | Compatibilidad entre sistemas | Alto | Alto | OB_01,OB_06 |   
+ | **RNFP_04** | Extensiones de SQL | Bajo | Bajo | OB_01,OB_02,OB_06 |  
+ | **RNFS_01** | Modificación de permisos | Bajo | Alto | OB_01,OB_05 |     
+ | **RNFS_02** | Validación de nuevos registros | Bajo | Alto | OB_01,OB_05 |  
+ | **RNFS_03** | Patrones de seguridad | Medio | Alto | OB_01,OB_05 |  
+ | **RNFS_04** | Protección frente a accesos no autorizados | Bajo | Alto | OB_05 |     
+ | **RNFS_05** | Control de acceso | Bajo | Alto | OB_05 |  
+ | **RNFS_06** | Credenciales de acceso | Medio | Alto | OB_05 |
+ | **RNFS_07** | Alertas | Medio | Medio | OB_05 |  
+ | **RNFS_08** | Ataques por inyección de SQL | Alto | Alto | OB_01,OB_05 |  
+ | **RNFS_09** | Codificación de contraseñas | Medio | Alto | OB_05 |      
+ | **RNFO_01** | Aplicación en segundo plano | Alto | Alto | OB_01,OB_02 | 
+ | **RNFO_02** | Tipos de formularios | Medio | Bajo | OB_02,OB_03,OB_12 | 
 
 
 
->	Matriz de trazabilidad de Restricciones Técnicas frente a Requisitos Generales.
+>	Matriz de trazabilidad de Restricciones Técnicas frente a Objetivos del negocio.
 
  | **ID** | **Nombre** |  **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: | :-----: |  :-----: | :-----: | :-----: |
- | **RT_01** |  | Medio | Alto | OB_04 |  
- | **RT_02** |  | Medio | Alto | OB_01 |  
- | **RT_03** |  | Alto | Alto | OB_12,OB_13,OB_14 |    
- | **RT_04** |  | Medio | Alto | OB_01,OB_04,OB_05 |  
- | **RT_05** |  | Medio | Alto | OB_04 |   
- | **RT_06** |  | Alto | Alto | OB_01 |    
+ | **RT_01** | Motor de la base de datos | Medio | Alto | OB_04 |  
+ | **RT_02** | Código de la aplicación | Medio | Alto | OB_01 |  
+ | **RT_03** | Formas geolocalización | Alto | Alto | OB_12,OB_13,OB_14 |    
+ | **RT_04** | Intercambio de datos vía Internet | Medio | Alto | OB_01,OB_04,OB_05 |  
+ | **RT_05** | Servidores | Medio | Alto | OB_04 |   
+ | **RT_06** | Compatibilidad de SO | Alto | Alto | OB_01 |    
  
  <br>
 
->	Matriz de trazabilidad de Requisitos de Integración frente a Requisitos Generales.
+>	Matriz de trazabilidad de Requisitos de Integración frente a Objetivos del negocio.
 
 | **ID** | **Nombre** | **Criterios de aceptación** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: | :-----: | :-----: | :-----: | :-----: | :-----: |
- | **RI_01** |  | Siempre que sea necesario usar la firma electrónica se usará el servicio @firma | Medio | Medio | OB_01,OB_03,OB_14 |
- | **RI_02** |  | Se hará uso del Dni electrónico siempre que sea necesario verificar un DNI | Medio | Medio | OB_01,OB_03,OB_14 |
+ | **RI_01** | Servicio @firma | Siempre que sea necesario usar la firma electrónica se usará el servicio @firma | Medio | Medio | OB_01,OB_03,OB_14 |
+ | **RI_02** | Servicio 'Dni electrónico' | Se hará uso del Dni electrónico siempre que sea necesario verificar un DNI | Medio | Medio | OB_01,OB_03,OB_14 |
