@@ -326,7 +326,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 
 >	Matriz de trazabilidad de Casos de Uso frente a Objetivos del negocio.
 
-| **ID** | **Nombre**  **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
+ | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
  | :--: | :-----: | :-----: | :-----: | :-----: |
  | **CU_01** | Comprobar cuarentena | Alto | Alto | OB_10,OB_11 |
  | **CU_02** | Ver avisos fuerzas del orden| Medio | Medio | OB_09,OB_10 |
