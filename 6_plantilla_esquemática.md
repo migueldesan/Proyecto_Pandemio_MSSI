@@ -435,7 +435,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
  | **RNFO_01** | Aplicación en segundo plano | Alto | Alto | OB_01,OB_02 | 
  | **RNFO_02** | Tipos de formularios | Medio | Bajo | OB_02,OB_03,OB_12 | 
 
-
+<br>
 
 >	Matriz de trazabilidad de Restricciones Técnicas frente a Objetivos del negocio.
 
