@@ -250,6 +250,7 @@ Los principales aspectos positivos que podemos destacar de la situación actual 
 
 
 Algunos de los aspectos positivos que posee Radar Covid y que convendría mantenerlos en Pandemio para una mejor gestión de una futura pandemia son:
+
 | **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :-----: | :----- | :----- |
 | **FO_06.1** | Anonimato | La aplicación funciona sin revelar la identidad del usuario ni la del teléfono móvil. Además, no registra datos personales ni de geolocalización. |
