@@ -47,7 +47,7 @@ A continuación, se especifican todos los casos de uso que se han identificado e
 |**Descripción**| Un sanitario/rastreador puede ver las personas que deben realizar cuarentena y comprobar que la están realizando. |
 |**Secuencia Normal**| 1. El sanitario abre la aplicación. <br> 2. El sanitario elige la opción “Comprobar cuarentena”. <br> 3. La aplicación muestra una lista de personas en cuarentena. <br> 4. El sanitario busca en la lista a una persona. <br> 5. El sanitario entra a ver los detalles de esa persona. <br> 6. El sanitario solicita a esa persona que verifique su ubicación actual (CU_11). <br> 7. El sistema muestra la ubicación que ha enviado la persona. <br> 8. El sanitario comprueba la ubicación para verificar que la persona está cumpliendo la cuarentena. |
 |**Postcondición**| La persona ha verificado su ubicación actual y queda reflejado en el sistema. |
-|**Excepciones**| 3a. Si el sanitario no tiene ningún paciente en cuarentena se muestra una lista vacía. <br> 6a. La persona no verifica su ubicación actual. <br> &nbsp;&nbsp;&nbsp; 6a.1. El sanitario escoge la opción "Avisar incumplimiento cuarentena". <br> &nbsp;&nbsp;&nbsp; 6a.2.El sanitario añade comentarios si es necesario. <br> &nbsp;&nbsp;&nbsp; 6a.3. El sanitario envía el aviso a las fuerzas del orden. <br> 8a. La persona verifica su ubicación actual pero no está cumpliendo la cuarentena impuesta. <br> &nbsp;&nbsp;&nbsp; 8a.1. El sanitario escoge la opción "Avisar incumplimiento cuarentena". <br> &nbsp;&nbsp;&nbsp; 8a.2.El sanitario añade comentarios si es necesario. <br> &nbsp;&nbsp;&nbsp; 6b.3. El sanitario envía el aviso a las fuerzas del orden. |
+|**Excepciones**| 3a. Si el sanitario no tiene ningún paciente en cuarentena se muestra una lista vacía. <br> 6a. La persona no verifica su ubicación actual. <br> &nbsp;&nbsp;&nbsp; 6a.1. El sanitario escoge la opción "Avisar incumplimiento cuarentena". <br> &nbsp;&nbsp;&nbsp; 6a.2.El sanitario añade comentarios si es necesario. <br> &nbsp;&nbsp;&nbsp; 6a.3. El sanitario envía el aviso a las fuerzas del orden. <br> 6b. La persona no dispone de teléfono móvil. <br> &nbsp;&nbsp;&nbsp; 6b.1. El sanitario escoge la opción "Avisar incumplimiento cuarentena". <br> &nbsp;&nbsp;&nbsp; 6b.2.El sanitario añade un comentario explicando que la persona no dispone de teléfono móvil. <br> &nbsp;&nbsp;&nbsp; 6b.3. El sanitario envía el aviso a las fuerzas del orden. <br> 8a. La persona verifica su ubicación actual pero no está cumpliendo la cuarentena impuesta. <br> &nbsp;&nbsp;&nbsp; 8a.1. El sanitario escoge la opción "Avisar incumplimiento cuarentena". <br> &nbsp;&nbsp;&nbsp; 8a.2.El sanitario añade comentarios si es necesario. <br> &nbsp;&nbsp;&nbsp; 6b.3. El sanitario envía el aviso a las fuerzas del orden. |
 |**Importancia**| Alta. |
 |**Prioridad**| Alta. |
 
@@ -172,6 +172,9 @@ Estos requisitos especifican qué información debe almacenar el sistema para po
 |**RFI_03**| Listado personas en cuarentena | El sistema almacenará un listado de todas las personas que estén en cuarentena. |
 |**RFI_04**| Listado personas pendientes de cita médica | El sistema almacenará un listado de todas las personas que tengan una cita médica pendiente. |
 |**RFI_05**| Historial usuario | El sistema almacenará un historial de los datos a los que ha accedido cada usuario registrado en el sistema. |
+|**RFI_06**| Historial de seguridad | El sistema almacenará un registro cuando ocurra alguno de los siguientes eventos: entrada al sistema por parte de un usuario, 2 o más intentos fallidos al introducir la contraseña de usuario, y cambio de contraseña de usuario. | 
+ 
+El sistema guardará un registro en una lista cada vez que ocurra alguno de los siguientes eventos: entrada al sistema por parte de un usuario, 2 o más intentos fallidos al introducir la contraseña de usuario, y cambio de contraseña de usuario. 
  
 ### 6.3.2 Requisitos de Reglas de Negocio del Sistema
 Estos requisitos especifican qué reglas de negocio, políticas y restricciones debe respetar el sistema, evitando que se incumplan durante su funcionamiento:
@@ -283,7 +286,7 @@ Estos requisitos establecen, de la manera más objetiva y medible posible, los n
 |**RNFS_04**| Protección frente a accesos no autorizados | El sistema debe asegurar que los datos están protegidos de accesos no autorizados.|
 |**RNFS_05**| Control de acceso | El sistema controlará el acceso y lo permitirá solamente a usuarios autorizados.|
 |**RNFS_06**| Credenciales de acceso | Los usuarios accederán al sistema con un nombre de usuario y contraseña.|
-|**RNFS_07**| Alertas | El sistema enviará una alerta a los administradores del sistema cuando ocurra alguno de los siguientes eventos: entrada al sistema por parte de un usuario, 2 o más intentos fallidos al introducir la contraseña de usuario y cambio de contraseña de usuario.|
+|**RNFS_07**| Registro en lista de seguridad | El sistema guardará un registro en una lista cada vez que ocurra alguno de los siguientes eventos: entrada al sistema por parte de un usuario, 2 o más intentos fallidos al introducir la contraseña de usuario, y cambio de contraseña de usuario.|
 |**RNFS_08**| Ataques por inyección de SQL | El sistema deberá ser capaz de evitar ataques de inyección de SQL sistemáticos.|
 |**RNFS_09**| Codificación de contraseñas | Las contraseñas serán almacenadas en las bases de datos usando un algoritmo criptográfico para que no sean visibles a simple vista.|
 
@@ -327,30 +330,31 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 >	Matriz de trazabilidad de Casos de Uso frente a Objetivos del negocio.
 
  | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
- | :--: | :-----: | :-----: | :-----: | :-----: |
+ | :--: | :----- | :-----: | :-----: | :----- |
  | **CU_01** | Comprobar cuarentena | Alto | Alto | OB_10,OB_11 |
  | **CU_02** | Ver avisos fuerzas del orden| Medio | Medio | OB_09,OB_10 |
  | **CU_03** | Ver citas médicas | Medio | Alto | OB_09 |
  | **CU_04** | Ver avisos | Medio | Alto | OB_09,OB_10 |
  | **CU_05** | Revisar incidencia| Alto | Medio | OB_06,OB_13,OB_14 |
- | **CU_06** | Ver citas médicas propias | Bajo | Alto | OB_02, OB_03,OB_07,OB_08|
- | **CU_07** | Ver cuarentena establecida| Bajo | Alto | OB_02, OB_03|
- | **CU_08** | Informar de caso cercano positivo sin móvil | Bajo | Bajo | OB_02, OB_03,OB_04,OB_05,OB_07,OB_08 |
- | **CU_09** | Informar de síntomas compatibles | Bajo | Bajo | OB_02, OB_03,OB_04,OB_05,OB_07,OB_08|
+ | **CU_06** | Ver citas médicas propias | Bajo | Alto | OB_02,OB_03,OB_07,OB_08|
+ | **CU_07** | Ver cuarentena establecida| Bajo | Alto | OB_02,OB_03|
+ | **CU_08** | Informar de caso cercano positivo sin móvil | Bajo | Bajo | OB_02,OB_03,OB_04,OB_05,OB_07,OB_08 |
+ | **CU_09** | Informar de síntomas compatibles | Bajo | Bajo | OB_02,OB_03,OB_04,OB_05,OB_07,OB_08|
  | **CU_10** | Ver mapa calor | Alto | Medio | OB_02,OB_04,OB_05,OB_06,OB_13 |
- | **CU_11** | Enviar ubicación | Medio | Alto  | OB_02, OB_03 |
+ | **CU_11** | Enviar ubicación | Medio | Alto  | OB_02,OB_03 |
 
 <br>
 
 >	Matriz de trazabilidad de Requisitos de Información frente a Objetivos del negocio.
 
  | **ID** | **Nombre**  | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
- | :--: | :-----: | :-----: | :-----: | :-----: |
+ | :--: | :----- | :-----: | :-----: | :----- |
  | **RFI_01** | Historial de ubicación | Alto | Alto | OB_04 |  
- | **RFI_02** | Historial médico | Medio | Bajo | OB_04, OB_07 |  
- | **RFI_03** | Listado personas en cuarentena | Medio | Alto | OB_10, OB_11 |  
- | **RFI_04** | Listado personas pendientes de cita médica | Medio | Alto | OB_07, OB_08, OB_09 |  
- | **RFI_05** | Historial usuario | Medio | Bajo | OB_04, OB_05 | 
+ | **RFI_02** | Historial médico | Medio | Bajo | OB_04,OB_07 |  
+ | **RFI_03** | Listado personas en cuarentena | Medio | Alto | OB_10,OB_11 |  
+ | **RFI_04** | Listado personas pendientes de cita médica | Medio | Alto | OB_07,OB_08,OB_09 |  
+ | **RFI_05** | Historial usuario | Medio | Bajo | OB_04,OB_05 | 
+ |**RFI_06**| Historial de seguridad | Medio | Alto | OB_05 |
  
  
  <br>
@@ -358,7 +362,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 >	Matriz de trazabilidad de Reglas de Negocio frente a Objetivos del negocio.
 
 | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
- | :--: | :-----:  | :-----: | :-----: | :-----: |
+ | :--: | :-----  | :-----: | :-----: | :----- |
  | **RFN_01** | Protección de datos | Medio | Alto | OB_04 |
  | **RFN_02** | Leyes generales| Medio | Alto | OB_04 |  
  | **RFN_03** | Acceso restringido a datos sensibles | Alto | Alto | OB_04,OB_05 |     
@@ -380,7 +384,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 >	Matriz de trazabilidad de Requisitos de Conducta frente a Objetivos del negocio.
 
  | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
- | :--: |  :-----: | :-----: | :-----: | :-----: |
+ | :--: |  :----- | :-----: | :-----: | :-----|
  | **RFC_01** | Automatización de citas médicas | Alto | Alto | OB_03,OB_07,OB_08,OB_12 |  
  | **RFC_02** | Notificación cita médica caso cercano | Bajo | Medio | OB_08,OB_12 |  
  | **RFC_03** | Notificación cita médica mediante formulario | Bajo | Medio | OB_07,OB_12 | 
@@ -401,7 +405,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 >	Matriz de trazabilidad de Requisitos no Funcionales frente a Objetivos del negocio.
 
  | **ID** | **Nombre** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
- | :--: |  :-----: | :-----: | :-----: | :-----: |
+ | :--: |  :----- | :-----: | :-----: | :----- |
  | **RNFF_01** | Alta disponibilidad | Alto | Alto | OB_01,OB_02,OB_06 |  
  | **RNFF_02** | Tiempo de inicio | Alto | Medio | OB_01,OB_06 |  
  | **RNFF_03** | Baja probabilidad de fallo | Alto | Alto | OB_01,OB_06 |    
@@ -429,7 +433,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
  | **RNFS_04** | Protección frente a accesos no autorizados | Bajo | Alto | OB_05 |     
  | **RNFS_05** | Control de acceso | Bajo | Alto | OB_05 |  
  | **RNFS_06** | Credenciales de acceso | Medio | Alto | OB_05 |
- | **RNFS_07** | Alertas | Medio | Medio | OB_05 |  
+ | **RNFS_07** | Registro en lista de seguridad | Medio | Alto | OB_05 |  
  | **RNFS_08** | Ataques por inyección de SQL | Alto | Alto | OB_01,OB_05 |  
  | **RNFS_09** | Codificación de contraseñas | Medio | Alto | OB_05 |      
  | **RNFO_01** | Aplicación en segundo plano | Alto | Alto | OB_01,OB_02 | 
@@ -440,7 +444,7 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 >	Matriz de trazabilidad de Restricciones Técnicas frente a Objetivos del negocio.
 
  | **ID** | **Nombre** |  **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
- | :--: | :-----: |  :-----: | :-----: | :-----: |
+ | :--: | :----- |  :-----: | :-----: | :----- |
  | **RT_01** | Motor de la base de datos | Medio | Alto | OB_04 |  
  | **RT_02** | Código de la aplicación | Medio | Alto | OB_01 |  
  | **RT_03** | Formas geolocalización | Alto | Alto | OB_12,OB_13,OB_14 |    
@@ -453,6 +457,6 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 >	Matriz de trazabilidad de Requisitos de Integración frente a Objetivos del negocio.
 
 | **ID** | **Nombre** | **Criterios de aceptación** | **Nivel de complejidad** | **Nivel de prioridad** | **Objetivos del negocio** |
- | :--: | :-----: | :-----: | :-----: | :-----: | :-----: |
+ | :--: | :----- | :-----: | :-----: | :-----: | :----- |
  | **RI_01** | Servicio @firma | Siempre que sea necesario usar la firma electrónica se usará el servicio @firma | Medio | Medio | OB_01,OB_03,OB_14 |
  | **RI_02** | Servicio 'Dni electrónico' | Se hará uso del Dni electrónico siempre que sea necesario verificar un DNI | Medio | Medio | OB_01,OB_03,OB_14 |
