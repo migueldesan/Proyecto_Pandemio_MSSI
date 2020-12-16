@@ -458,4 +458,4 @@ Finalmente, se muestran todas las matrices de trazabilidad que hemos considerado
 | **ID** | **NOMBRE** | **CRITERIOS DE ACEPTACIÓN** | **NIVEL DE COMPLEJIDAD** | **NIVEL DE PRIORIDAD** | **OBJETIVOS DE NEGOCIO** |
  | :--: | :----- | :----- | :-----: | :-----: | :----- |
  | **RI_01** | Servicio @firma | Siempre que sea necesario usar la firma electrónica se usará el servicio @firma | Medio | Medio | OB_01,OB_03,OB_14 |
- | **RI_02** | Servicio 'DNI electrónico' | Se hará uso del Dni electrónico siempre que sea necesario verificar un DNI | Medio | Medio | OB_01,OB_03,OB_14 |
+ | **RI_02** | Servicio 'DNI electrónico' | Se hará uso del DNI electrónico siempre que sea necesario verificar un DNI | Medio | Medio | OB_01,OB_03,OB_14 |
