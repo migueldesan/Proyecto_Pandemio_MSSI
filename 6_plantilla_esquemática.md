@@ -174,7 +174,6 @@ Estos requisitos especifican qué información debe almacenar el sistema para po
 |**RFI_05**| Historial usuario | El sistema almacenará un historial de los datos a los que ha accedido cada usuario registrado en el sistema. |
 |**RFI_06**| Historial de seguridad | El sistema almacenará un registro cuando ocurra alguno de los siguientes eventos: entrada al sistema por parte de un usuario, 2 o más intentos fallidos al introducir la contraseña de usuario, y cambio de contraseña de usuario. | 
  
-El sistema guardará un registro en una lista cada vez que ocurra alguno de los siguientes eventos: entrada al sistema por parte de un usuario, 2 o más intentos fallidos al introducir la contraseña de usuario, y cambio de contraseña de usuario. 
  
 ### 6.3.2 Requisitos de Reglas de Negocio del Sistema
 Estos requisitos especifican qué reglas de negocio, políticas y restricciones debe respetar el sistema, evitando que se incumplan durante su funcionamiento:
