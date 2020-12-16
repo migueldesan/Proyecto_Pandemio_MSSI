@@ -561,7 +561,7 @@ Los principales actores de negocio que cambiarán sus funciones una vez terminad
 
 Además, debemos destacar la presencia de un nuevo actor de negocio que en la actualidad casi no tiene peso en la lucha contra el Covid-19 pero que deberá asumir más tareas en una futura pandemia a pesar de que la Sanidad este transferida (y en caso de no estarlo, desarrollar todas las funciones de ACI_03):
 
-| **ID** | **Nombre** | **Descripción** |
+| **ID** | **NOMBRE** | **DESCRIPCIÓN** |
 | :---: | :--- | :--- |
 | **ACI_07** | Ministerio de Sanidad | Será el encargado de impulsar el uso de Pandemio por medio de campañas publicitarias para que los usuarios que tengan a su cargo a personas sin teléfonos móviles informen de casos sospechosos o positivos. |
 
