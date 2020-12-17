@@ -861,7 +861,7 @@ Estos requisitos especifican qué reglas de negocio, políticas y restricciones 
 |**RFN_10**| Aviso incumplimiento cuarentena | Los sanitarios y rastreadores deberán avisar a las fuerzas del orden si una persona no cumple la cuarentena asignada. |
 |**RFN_11**| Comprobación cuarentena | Los sanitarios y rastreadores deberán comprobar que los casos diagnosticados como positivos cumplen la cuarentena establecida. |
 |**RFN_12**| Campañas publicitarias | El Ministerio de Sanidad deberá crear campañas publicitarias para fomentar que las personas con dispositivos móviles informen de casos positivos (de las personas dependientes que tengan a su cargo que no dispongan de teléfono móvil) o si comienzan a desarrollar algún síntoma. |
-|**RFN_13**| Geolocalización | El sistema utilizará localización por triangulación de antenas móviles si puede garantizar una "cercanía" de distancia menor a 5 metros, si no utilizará la localización por GPS. |
+|**RFN_13**| Geolocalización | El sistema utilizará localización por triangulación de antenas móviles si puede garantizar una "precisión" de distancia menor a 5 metros, si no utilizará la localización por GPS. |
 |**RFN_14**| Geolocalización en modo avión | El sistema solo almacenará la ubicación obtenida por GPS si el teléfono móvil está en modo avión. |
 |**RFN_15**| Instalación automática | La aplicación se instalará automáticamente en todos los teléfonos móviles independientemente del sistema operativo que utilicen. |
 
